@@ -1,0 +1,85 @@
+\doxysection{wrimsv2.\+wreslparser.\+elements.\+Study\+Parser Class Reference}
+\hypertarget{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser}{}\label{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser}\index{wrimsv2.wreslparser.elements.StudyParser@{wrimsv2.wreslparser.elements.StudyParser}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_af009b5972435e6487f62701f9889b23d}\label{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_af009b5972435e6487f62701f9889b23d} 
+static void {\bfseries reset} ()
+\item 
+\Hypertarget{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_ab9c823ae1d73e32e4845203e7133587f}\label{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_ab9c823ae1d73e32e4845203e7133587f} 
+static \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set}{Study\+Data\+Set}} {\bfseries write\+Wresl\+Data} (\mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config}{Study\+Config}} sc, \mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_temp_data}{Temp\+Data}} td)
+\item 
+static \mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config}{Study\+Config}} \mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_ac441d145948c7215b31df5bddeead3e8}{process\+Main\+File\+Into\+Study\+Config}} (String relative\+Main\+File\+Path)  throws Recognition\+Exception, IOException 
+\item 
+static \mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config}{Study\+Config}} \mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a708bfb5a2c1129b850423172d0560303}{process\+Main\+File\+Into\+Study\+Config}} (String relative\+Main\+File\+Path, boolean show\+Tree)  throws Recognition\+Exception, IOException   
+\item 
+\Hypertarget{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_ad24eb9b113e4ee0de99684fb57b8937b}\label{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_ad24eb9b113e4ee0de99684fb57b8937b} 
+static Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set}{Simulation\+Data\+Set}} $>$ {\bfseries parse\+Models} (\mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config}{Study\+Config}} sc, \mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_temp_data}{Temp\+Data}} td)  throws Recognition\+Exception, IOException   
+\item 
+static Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set}{Simulation\+Data\+Set}} $>$ \mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a7df2c6815971c3a15abc8dd086865179}{parse\+Models}} (\mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config}{Study\+Config}} sc, \mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_temp_data}{Temp\+Data}} td, boolean rewrite\+\_\+list\+\_\+based\+\_\+on\+\_\+dependency, boolean send\+\_\+all\+\_\+alias\+\_\+to\+\_\+dvar)  throws Recognition\+Exception, IOException   
+\item 
+static void \mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a9034cef8fa93963dd880607258e2a629}{analyze\+Var\+Needed\+From\+Cycles}} (\mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config}{Study\+Config}} sc, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set}{Study\+Data\+Set}} sd)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_adae4490c32410f9c93a5962269fed45b}\label{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_adae4490c32410f9c93a5962269fed45b} 
+static int {\bfseries total\+\_\+errors} = 0
+\item 
+\Hypertarget{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a6de0e430483a1830497ca4672817e394}\label{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a6de0e430483a1830497ca4672817e394} 
+static Array\+List$<$ String $>$ {\bfseries error\+\_\+summary} = new Array\+List$<$String$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a4bcc245c4c541c4234046d21fa4d06ff}\label{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a4bcc245c4c541c4234046d21fa4d06ff} 
+static int {\bfseries total\+\_\+warnings} = 0
+\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a9034cef8fa93963dd880607258e2a629}\index{wrimsv2.wreslparser.elements.StudyParser@{wrimsv2.wreslparser.elements.StudyParser}!analyzeVarNeededFromCycles@{analyzeVarNeededFromCycles}}
+\index{analyzeVarNeededFromCycles@{analyzeVarNeededFromCycles}!wrimsv2.wreslparser.elements.StudyParser@{wrimsv2.wreslparser.elements.StudyParser}}
+\doxysubsubsection{\texorpdfstring{analyzeVarNeededFromCycles()}{analyzeVarNeededFromCycles()}}
+{\footnotesize\ttfamily \label{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a9034cef8fa93963dd880607258e2a629} 
+void wrimsv2.\+wreslparser.\+elements.\+Study\+Parser.\+analyze\+Var\+Needed\+From\+Cycles (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config}{Study\+Config}}}]{sc}{, }\item[{\mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set}{Study\+Data\+Set}}}]{sd}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+create map for var and var\+Type\Hypertarget{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a7df2c6815971c3a15abc8dd086865179}\index{wrimsv2.wreslparser.elements.StudyParser@{wrimsv2.wreslparser.elements.StudyParser}!parseModels@{parseModels}}
+\index{parseModels@{parseModels}!wrimsv2.wreslparser.elements.StudyParser@{wrimsv2.wreslparser.elements.StudyParser}}
+\doxysubsubsection{\texorpdfstring{parseModels()}{parseModels()}}
+{\footnotesize\ttfamily \label{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a7df2c6815971c3a15abc8dd086865179} 
+Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set}{Simulation\+Data\+Set}} $>$ wrimsv2.\+wreslparser.\+elements.\+Study\+Parser.\+parse\+Models (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config}{Study\+Config}}}]{sc}{, }\item[{\mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_temp_data}{Temp\+Data}}}]{td}{, }\item[{boolean}]{rewrite\+\_\+list\+\_\+based\+\_\+on\+\_\+dependency}{, }\item[{boolean}]{send\+\_\+all\+\_\+alias\+\_\+to\+\_\+dvar}{}\end{DoxyParamCaption}) throws Recognition\+Exception, IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+check for redefined weight // TODO\+: what to do?
+
+check for redefined file
+
+check for redefined globals ~\newline
+
+
+add previous globals
+
+finish adding globals
+
+check if goal dependents are defined
+
+check if weight var is defined in dvar set
+
+check if alias is used in goal\textquotesingle{}s constraint expression.
+
+check if var size \texorpdfstring{$>$}{>} 100\Hypertarget{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_ac441d145948c7215b31df5bddeead3e8}\index{wrimsv2.wreslparser.elements.StudyParser@{wrimsv2.wreslparser.elements.StudyParser}!processMainFileIntoStudyConfig@{processMainFileIntoStudyConfig}}
+\index{processMainFileIntoStudyConfig@{processMainFileIntoStudyConfig}!wrimsv2.wreslparser.elements.StudyParser@{wrimsv2.wreslparser.elements.StudyParser}}
+\doxysubsubsection{\texorpdfstring{processMainFileIntoStudyConfig()}{processMainFileIntoStudyConfig()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_ac441d145948c7215b31df5bddeead3e8} 
+\mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config}{Study\+Config}} wrimsv2.\+wreslparser.\+elements.\+Study\+Parser.\+process\+Main\+File\+Into\+Study\+Config (\begin{DoxyParamCaption}\item[{String}]{relative\+Main\+File\+Path}{}\end{DoxyParamCaption}) throws Recognition\+Exception, IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+reset total errors\Hypertarget{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a708bfb5a2c1129b850423172d0560303}\index{wrimsv2.wreslparser.elements.StudyParser@{wrimsv2.wreslparser.elements.StudyParser}!processMainFileIntoStudyConfig@{processMainFileIntoStudyConfig}}
+\index{processMainFileIntoStudyConfig@{processMainFileIntoStudyConfig}!wrimsv2.wreslparser.elements.StudyParser@{wrimsv2.wreslparser.elements.StudyParser}}
+\doxysubsubsection{\texorpdfstring{processMainFileIntoStudyConfig()}{processMainFileIntoStudyConfig()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser_a708bfb5a2c1129b850423172d0560303} 
+\mbox{\hyperlink{classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config}{Study\+Config}} wrimsv2.\+wreslparser.\+elements.\+Study\+Parser.\+process\+Main\+File\+Into\+Study\+Config (\begin{DoxyParamCaption}\item[{String}]{relative\+Main\+File\+Path}{, }\item[{boolean}]{show\+Tree}{}\end{DoxyParamCaption}) throws Recognition\+Exception, IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+\doxylink{classwrimsv2_1_1wreslparser_1_1elements_1_1_sort}{Sort} sequence order
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+wrims-\/core/src/main/java/wrimsv2/wreslparser/elements/Study\+Parser.\+java\end{DoxyCompactItemize}

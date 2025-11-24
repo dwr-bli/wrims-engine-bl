@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.parallel.ProcessWeight Class Reference</title>
+<title>Wrims-engine: wrimsv2.parallel.ProcessWeight Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -100,18 +100,320 @@ Inheritance diagram for wrimsv2.parallel.ProcessWeight:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aeaddb24a658ea8eac4e2dbc72127363c" id="r_aeaddb24a658ea8eac4e2dbc72127363c"><td class="memItemLeft" align="right" valign="top"><a id="aeaddb24a658ea8eac4e2dbc72127363c" name="aeaddb24a658ea8eac4e2dbc72127363c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessWeight</b> (ArrayList&lt; String &gt; wtList, Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt; wtMap, ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt; solverWtMap, ArrayList&lt; String &gt; wtTimeArrayList, int start, int end)</td></tr>
+<tr class="memitem:aeaddb24a658ea8eac4e2dbc72127363c" id="r_aeaddb24a658ea8eac4e2dbc72127363c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaddb24a658ea8eac4e2dbc72127363c">ProcessWeight</a> (ArrayList&lt; String &gt; <a class="el" href="#a585fa16891720b4f1ea54e4d70053539">wtList</a>, Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt; <a class="el" href="#a0b09d43d99d209ff8c1ca16a1abd220f">wtMap</a>, ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt; <a class="el" href="#ac77642882aa4e429485b4179d54ad1e8">solverWtMap</a>, ArrayList&lt; String &gt; <a class="el" href="#a6abcc87a56439149bba244e299029fef">wtTimeArrayList</a>, int <a class="el" href="#ade2496efb605032327a2f6bebd4834e2">start</a>, int <a class="el" href="#a633e1f699a8b35965f0fd742cd16a262">end</a>)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a2e4ce5d8af8a874887905c2e9434e1c2" id="r_a2e4ce5d8af8a874887905c2e9434e1c2"><td class="memItemLeft" align="right" valign="top"><a id="a2e4ce5d8af8a874887905c2e9434e1c2" name="a2e4ce5d8af8a874887905c2e9434e1c2"></a>
-Integer&#160;</td><td class="memItemRight" valign="bottom"><b>compute</b> ()</td></tr>
-<tr class="memitem:ae6e4c916c139963e8875abd54620fc1d" id="r_ae6e4c916c139963e8875abd54620fc1d"><td class="memItemLeft" align="right" valign="top"><a id="ae6e4c916c139963e8875abd54620fc1d" name="ae6e4c916c139963e8875abd54620fc1d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>computeDirectly</b> ()</td></tr>
+<tr class="memitem:a2e4ce5d8af8a874887905c2e9434e1c2" id="r_a2e4ce5d8af8a874887905c2e9434e1c2"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e4ce5d8af8a874887905c2e9434e1c2">compute</a> ()</td></tr>
+<tr class="memitem:ae6e4c916c139963e8875abd54620fc1d" id="r_ae6e4c916c139963e8875abd54620fc1d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6e4c916c139963e8875abd54620fc1d">computeDirectly</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a633e1f699a8b35965f0fd742cd16a262" id="r_a633e1f699a8b35965f0fd742cd16a262"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a633e1f699a8b35965f0fd742cd16a262">end</a></td></tr>
+<tr class="memitem:ac77642882aa4e429485b4179d54ad1e8" id="r_ac77642882aa4e429485b4179d54ad1e8"><td class="memItemLeft" align="right" valign="top">ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac77642882aa4e429485b4179d54ad1e8">solverWtMap</a></td></tr>
+<tr class="memitem:ade2496efb605032327a2f6bebd4834e2" id="r_ade2496efb605032327a2f6bebd4834e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade2496efb605032327a2f6bebd4834e2">start</a></td></tr>
+<tr class="memitem:ad0debacdfa7796e638a352e34babb5d8" id="r_ad0debacdfa7796e638a352e34babb5d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0debacdfa7796e638a352e34babb5d8">threshold</a></td></tr>
+<tr class="memitem:a585fa16891720b4f1ea54e4d70053539" id="r_a585fa16891720b4f1ea54e4d70053539"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a585fa16891720b4f1ea54e4d70053539">wtList</a></td></tr>
+<tr class="memitem:a0b09d43d99d209ff8c1ca16a1abd220f" id="r_a0b09d43d99d209ff8c1ca16a1abd220f"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b09d43d99d209ff8c1ca16a1abd220f">wtMap</a></td></tr>
+<tr class="memitem:a6abcc87a56439149bba244e299029fef" id="r_a6abcc87a56439149bba244e299029fef"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6abcc87a56439149bba244e299029fef">wtTimeArrayList</a></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_process_weight_8java_source.html#l00025">25</a> of file <a class="el" href="_process_weight_8java_source.html">ProcessWeight.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aeaddb24a658ea8eac4e2dbc72127363c" name="aeaddb24a658ea8eac4e2dbc72127363c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaddb24a658ea8eac4e2dbc72127363c">&#9670;&#160;</a></span>ProcessWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.parallel.ProcessWeight.ProcessWeight </td>
+          <td>(</td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>wtList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>wtMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>solverWtMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>wtTimeArrayList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_8java_source.html#l00035">35</a> of file <a class="el" href="_process_weight_8java_source.html">ProcessWeight.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_process_weight_8java_source.html#l00029">end</a>, <a class="el" href="_control_data_8java_source.html#l00187">wrimsv2.components.ControlData.nThreads</a>, <a class="el" href="_process_weight_8java_source.html#l00032">solverWtMap</a>, <a class="el" href="_process_weight_8java_source.html#l00028">start</a>, <a class="el" href="_process_weight_8java_source.html#l00027">threshold</a>, <a class="el" href="_process_weight_8java_source.html#l00030">wtList</a>, <a class="el" href="_process_weight_8java_source.html#l00031">wtMap</a>, and <a class="el" href="_process_weight_8java_source.html#l00033">wtTimeArrayList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_8java_source.html#l00046">compute()</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a2e4ce5d8af8a874887905c2e9434e1c2" name="a2e4ce5d8af8a874887905c2e9434e1c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e4ce5d8af8a874887905c2e9434e1c2">&#9670;&#160;</a></span>compute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer wrimsv2.parallel.ProcessWeight.compute </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_8java_source.html#l00046">46</a> of file <a class="el" href="_process_weight_8java_source.html">ProcessWeight.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_process_weight_8java_source.html#l00035">ProcessWeight()</a>, <a class="el" href="_process_weight_8java_source.html#l00078">computeDirectly()</a>, <a class="el" href="_process_weight_8java_source.html#l00029">end</a>, <a class="el" href="_control_data_8java_source.html#l00187">wrimsv2.components.ControlData.nThreads</a>, <a class="el" href="_process_weight_8java_source.html#l00032">solverWtMap</a>, <a class="el" href="_process_weight_8java_source.html#l00028">start</a>, <a class="el" href="_process_weight_8java_source.html#l00027">threshold</a>, <a class="el" href="_process_weight_8java_source.html#l00030">wtList</a>, <a class="el" href="_process_weight_8java_source.html#l00031">wtMap</a>, and <a class="el" href="_process_weight_8java_source.html#l00033">wtTimeArrayList</a>.</p>
+
+</div>
+</div>
+<a id="ae6e4c916c139963e8875abd54620fc1d" name="ae6e4c916c139963e8875abd54620fc1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6e4c916c139963e8875abd54620fc1d">&#9670;&#160;</a></span>computeDirectly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessWeight.computeDirectly </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_8java_source.html#l00078">78</a> of file <a class="el" href="_process_weight_8java_source.html">ProcessWeight.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00149">wrimsv2.components.Error.addEvaluationError()</a>, <a class="el" href="_weight_eval_8java_source.html#l00408">wrimsv2.evaluator.WeightEval.collectWtRT()</a>, <a class="el" href="_control_data_8java_source.html#l00054">wrimsv2.components.ControlData.currEvalName</a>, <a class="el" href="_process_weight_8java_source.html#l00029">end</a>, <a class="el" href="_time_array_8java_source.html#l00010">wrimsv2.commondata.wresldata.TimeArray.getTimeArraySize()</a>, <a class="el" href="_weight_element_8java_source.html#l00035">wrimsv2.commondata.wresldata.WeightElement.setValue()</a>, <a class="el" href="_control_data_8java_source.html#l00100">wrimsv2.components.ControlData.showRunTimeMessage</a>, <a class="el" href="_process_weight_8java_source.html#l00032">solverWtMap</a>, <a class="el" href="_process_weight_8java_source.html#l00028">start</a>, <a class="el" href="_parallel_vars_8java_source.html#l00007">wrimsv2.parallel.ParallelVars.timeArrayIndex</a>, <a class="el" href="_weight_element_8java_source.html#l00020">wrimsv2.commondata.wresldata.WeightElement.timeArraySizeParser</a>, <a class="el" href="_weight_element_8java_source.html#l00012">wrimsv2.commondata.wresldata.WeightElement.weightParser</a>, <a class="el" href="_process_weight_8java_source.html#l00030">wtList</a>, <a class="el" href="_process_weight_8java_source.html#l00031">wtMap</a>, and <a class="el" href="_process_weight_8java_source.html#l00033">wtTimeArrayList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_8java_source.html#l00046">compute()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a633e1f699a8b35965f0fd742cd16a262" name="a633e1f699a8b35965f0fd742cd16a262"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a633e1f699a8b35965f0fd742cd16a262">&#9670;&#160;</a></span>end</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessWeight.end</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_8java_source.html#l00029">29</a> of file <a class="el" href="_process_weight_8java_source.html">ProcessWeight.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_8java_source.html#l00035">ProcessWeight()</a>, <a class="el" href="_process_weight_8java_source.html#l00046">compute()</a>, and <a class="el" href="_process_weight_8java_source.html#l00078">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="ac77642882aa4e429485b4179d54ad1e8" name="ac77642882aa4e429485b4179d54ad1e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac77642882aa4e429485b4179d54ad1e8">&#9670;&#160;</a></span>solverWtMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt; wrimsv2.parallel.ProcessWeight.solverWtMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_8java_source.html#l00032">32</a> of file <a class="el" href="_process_weight_8java_source.html">ProcessWeight.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_8java_source.html#l00035">ProcessWeight()</a>, <a class="el" href="_process_weight_8java_source.html#l00046">compute()</a>, and <a class="el" href="_process_weight_8java_source.html#l00078">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="ade2496efb605032327a2f6bebd4834e2" name="ade2496efb605032327a2f6bebd4834e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade2496efb605032327a2f6bebd4834e2">&#9670;&#160;</a></span>start</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessWeight.start</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_8java_source.html#l00028">28</a> of file <a class="el" href="_process_weight_8java_source.html">ProcessWeight.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_8java_source.html#l00035">ProcessWeight()</a>, <a class="el" href="_process_weight_8java_source.html#l00046">compute()</a>, and <a class="el" href="_process_weight_8java_source.html#l00078">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="ad0debacdfa7796e638a352e34babb5d8" name="ad0debacdfa7796e638a352e34babb5d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0debacdfa7796e638a352e34babb5d8">&#9670;&#160;</a></span>threshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessWeight.threshold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_8java_source.html#l00027">27</a> of file <a class="el" href="_process_weight_8java_source.html">ProcessWeight.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_8java_source.html#l00035">ProcessWeight()</a>, and <a class="el" href="_process_weight_8java_source.html#l00046">compute()</a>.</p>
+
+</div>
+</div>
+<a id="a585fa16891720b4f1ea54e4d70053539" name="a585fa16891720b4f1ea54e4d70053539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a585fa16891720b4f1ea54e4d70053539">&#9670;&#160;</a></span>wtList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.parallel.ProcessWeight.wtList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_8java_source.html#l00030">30</a> of file <a class="el" href="_process_weight_8java_source.html">ProcessWeight.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_8java_source.html#l00035">ProcessWeight()</a>, <a class="el" href="_process_weight_8java_source.html#l00046">compute()</a>, and <a class="el" href="_process_weight_8java_source.html#l00078">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a0b09d43d99d209ff8c1ca16a1abd220f" name="a0b09d43d99d209ff8c1ca16a1abd220f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b09d43d99d209ff8c1ca16a1abd220f">&#9670;&#160;</a></span>wtMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt; wrimsv2.parallel.ProcessWeight.wtMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_8java_source.html#l00031">31</a> of file <a class="el" href="_process_weight_8java_source.html">ProcessWeight.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_8java_source.html#l00035">ProcessWeight()</a>, <a class="el" href="_process_weight_8java_source.html#l00046">compute()</a>, and <a class="el" href="_process_weight_8java_source.html#l00078">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a6abcc87a56439149bba244e299029fef" name="a6abcc87a56439149bba244e299029fef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6abcc87a56439149bba244e299029fef">&#9670;&#160;</a></span>wtTimeArrayList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.parallel.ProcessWeight.wtTimeArrayList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_8java_source.html#l00033">33</a> of file <a class="el" href="_process_weight_8java_source.html">ProcessWeight.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_8java_source.html#l00035">ProcessWeight()</a>, <a class="el" href="_process_weight_8java_source.html#l00046">compute()</a>, and <a class="el" href="_process_weight_8java_source.html#l00078">computeDirectly()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/parallel/<b>ProcessWeight.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/parallel/<a class="el" href="_process_weight_8java_source.html">ProcessWeight.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -126,7 +428,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>computeDirectly</b> ()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>parallel</b></li><li class="navelem"><a href="classwrimsv2_1_1parallel_1_1_process_weight.html">ProcessWeight</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1parallel.html">parallel</a></li><li class="navelem"><a href="classwrimsv2_1_1parallel_1_1_process_weight.html">ProcessWeight</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

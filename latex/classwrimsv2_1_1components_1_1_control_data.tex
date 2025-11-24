@@ -1,0 +1,532 @@
+\doxysection{wrimsv2.\+components.\+Control\+Data Class Reference}
+\hypertarget{classwrimsv2_1_1components_1_1_control_data}{}\label{classwrimsv2_1_1components_1_1_control_data}\index{wrimsv2.components.ControlData@{wrimsv2.components.ControlData}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a93fae7c37e9fbd15d08267aa9db1e90b}\label{classwrimsv2_1_1components_1_1_control_data_a93fae7c37e9fbd15d08267aa9db1e90b} 
+static String {\bfseries get\+PartE} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aa660599de72360017dee1088632415aa}\label{classwrimsv2_1_1components_1_1_control_data_aa660599de72360017dee1088632415aa} 
+static Array\+List$<$ Integer $>$ {\bfseries curr\+Time\+Step}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ab62c50e0b2e3323b027d8716a82aafea}\label{classwrimsv2_1_1components_1_1_control_data_ab62c50e0b2e3323b027d8716a82aafea} 
+static \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set}{Study\+Data\+Set}} {\bfseries curr\+Study\+Data\+Set} =new \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set}{Study\+Data\+Set}}()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aaf9aac9f612b70d4eae4b0a0384e62a3}\label{classwrimsv2_1_1components_1_1_control_data_aaf9aac9f612b70d4eae4b0a0384e62a3} 
+static \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set}{Model\+Data\+Set}} {\bfseries curr\+Model\+Data\+Set} =new \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set}{Model\+Data\+Set}}()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a85005721ad88a8aa03ca771d8ba75252}\label{classwrimsv2_1_1components_1_1_control_data_a85005721ad88a8aa03ca771d8ba75252} 
+static Linked\+Hash\+Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_svar}{Svar}} $>$ {\bfseries parameter\+Map} =new Linked\+Hash\+Map$<$String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_svar}{Svar}}$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a7edbe4fcc6cfba5a690eb1329ad8b656}\label{classwrimsv2_1_1components_1_1_control_data_a7edbe4fcc6cfba5a690eb1329ad8b656} 
+static Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_svar}{Svar}} $>$ {\bfseries curr\+Sv\+Map} =new Hash\+Map$<$String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_svar}{Svar}}$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aedc17f62d3eb1c7a5b5c9496ab54e696}\label{classwrimsv2_1_1components_1_1_control_data_aedc17f62d3eb1c7a5b5c9496ab54e696} 
+static Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_svar}{Svar}} $>$ {\bfseries curr\+Sv\+Fut\+Map} =new Hash\+Map$<$String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_svar}{Svar}}$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a3095768c8ed660a22bce8f5e7cc3f756}\label{classwrimsv2_1_1components_1_1_control_data_a3095768c8ed660a22bce8f5e7cc3f756} 
+static Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_timeseries}{Timeseries}} $>$ {\bfseries curr\+Ts\+Map} =new Hash\+Map$<$String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_timeseries}{Timeseries}}$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a8ac2bbd822a4d5d243044afa98c7da63}\label{classwrimsv2_1_1components_1_1_control_data_a8ac2bbd822a4d5d243044afa98c7da63} 
+static Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar}{Dvar}} $>$ {\bfseries curr\+Dv\+Map} =new Hash\+Map$<$String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar}{Dvar}}$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a6435052f97e5c0df30e07ef31b24c72a}\label{classwrimsv2_1_1components_1_1_control_data_a6435052f97e5c0df30e07ef31b24c72a} 
+static Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar}{Dvar}} $>$ {\bfseries curr\+Dv\+Slack\+Surplus\+Map} =new Hash\+Map$<$String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar}{Dvar}}$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a269afa6ef79278b551a66376da24a4cb}\label{classwrimsv2_1_1components_1_1_control_data_a269afa6ef79278b551a66376da24a4cb} 
+static Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_alias}{Alias}} $>$ {\bfseries curr\+Alias\+Map} =new Hash\+Map$<$String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_alias}{Alias}}$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a03725b8ea88c96e4cff7370dfc6939fc}\label{classwrimsv2_1_1components_1_1_control_data_a03725b8ea88c96e4cff7370dfc6939fc} 
+static Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_goal}{Goal}} $>$ {\bfseries curr\+Goal\+Map} =new Hash\+Map$<$String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_goal}{Goal}}$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aeb90072b2c0d31d4496f8d4534765926}\label{classwrimsv2_1_1components_1_1_control_data_aeb90072b2c0d31d4496f8d4534765926} 
+static Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_external}{External}} $>$ {\bfseries curr\+Ex\+Map} = new Hash\+Map$<$String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_external}{External}}$>$ ()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a2bc975e83eac90f55e04c77dbc0b4a93}\label{classwrimsv2_1_1components_1_1_control_data_a2bc975e83eac90f55e04c77dbc0b4a93} 
+static Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_timeseries}{Timeseries}} $>$ {\bfseries all\+Ts\+Map} =new Hash\+Map$<$String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_timeseries}{Timeseries}}$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aff6144a63185fff147010288d8cc49ed}\label{classwrimsv2_1_1components_1_1_control_data_aff6144a63185fff147010288d8cc49ed} 
+static Map$<$ String, String $>$ {\bfseries all\+External\+Function} = new Hash\+Map$<$String, String$>$ ()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_abb769ed5fccbfd9206120f273f158351}\label{classwrimsv2_1_1components_1_1_control_data_abb769ed5fccbfd9206120f273f158351} 
+static Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1external_1_1_external_function}{External\+Function}} $>$ {\bfseries all\+External\+Function\+Map} = new Hash\+Map$<$String, \mbox{\hyperlink{classwrimsv2_1_1external_1_1_external_function}{External\+Function}}$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a5d01afb919b7b1456cb6ce146b9693fe}\label{classwrimsv2_1_1components_1_1_control_data_a5d01afb919b7b1456cb6ce146b9693fe} 
+static Array\+List$<$ String $>$ {\bfseries all\+Dll} = new Array\+List$<$String$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ad850c503df947dd6c161cf0d0ceb25a4}\label{classwrimsv2_1_1components_1_1_control_data_ad850c503df947dd6c161cf0d0ceb25a4} 
+static String {\bfseries curr\+Cycle\+Name}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a480c14216318ab98065cd0bcde894cc0}\label{classwrimsv2_1_1components_1_1_control_data_a480c14216318ab98065cd0bcde894cc0} 
+static int {\bfseries curr\+Cycle\+Index}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a0cfc3fcc03bdc3ac1ea3cafd3f5a0497}\label{classwrimsv2_1_1components_1_1_control_data_a0cfc3fcc03bdc3ac1ea3cafd3f5a0497} 
+static int {\bfseries curr\+Eval\+Type\+Index}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a4536756575b1c86168d22b09a6bbe8ff}\label{classwrimsv2_1_1components_1_1_control_data_a4536756575b1c86168d22b09a6bbe8ff} 
+static String {\bfseries curr\+Eval\+Name}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a7a8463b155b9a461e493a1cb8f8ca4fc}\label{classwrimsv2_1_1components_1_1_control_data_a7a8463b155b9a461e493a1cb8f8ca4fc} 
+static int {\bfseries curr\+Day} =1
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a9672cc73a325b678c7164a5248437e22}\label{classwrimsv2_1_1components_1_1_control_data_a9672cc73a325b678c7164a5248437e22} 
+static int {\bfseries curr\+Month}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a8fa517adb1d5166a74a58cf44b823d1f}\label{classwrimsv2_1_1components_1_1_control_data_a8fa517adb1d5166a74a58cf44b823d1f} 
+static int {\bfseries curr\+Year}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a98540c4bdee154a81208b17202d366d3}\label{classwrimsv2_1_1components_1_1_control_data_a98540c4bdee154a81208b17202d366d3} 
+static String {\bfseries default\+Time\+Step} ="{}1MON"{}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a439725066d3c95c37c5d0bbfd28f6216}\label{classwrimsv2_1_1components_1_1_control_data_a439725066d3c95c37c5d0bbfd28f6216} 
+static String {\bfseries time\+Step} ="{}1MON"{}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a84de33448fd487cfca87a01a4609f075}\label{classwrimsv2_1_1components_1_1_control_data_a84de33448fd487cfca87a01a4609f075} 
+static String {\bfseries partE} ="{}1MON"{}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_af048b15f87fb4f17f7f527d61f0ff529}\label{classwrimsv2_1_1components_1_1_control_data_af048b15f87fb4f17f7f527d61f0ff529} 
+static int {\bfseries start\+Year}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aebce0c63b7fc3c19d6dafbc0277d074d}\label{classwrimsv2_1_1components_1_1_control_data_aebce0c63b7fc3c19d6dafbc0277d074d} 
+static int {\bfseries start\+Month}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ada14d3318d44555d985ea9720086fdf5}\label{classwrimsv2_1_1components_1_1_control_data_ada14d3318d44555d985ea9720086fdf5} 
+static int {\bfseries start\+Day}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a0df8796c8c43f6dac006cd21a53648ce}\label{classwrimsv2_1_1components_1_1_control_data_a0df8796c8c43f6dac006cd21a53648ce} 
+static int {\bfseries end\+Year}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a0964f4a2c7dfa4ad6961d5d9a84b6b9b}\label{classwrimsv2_1_1components_1_1_control_data_a0964f4a2c7dfa4ad6961d5d9a84b6b9b} 
+static int {\bfseries end\+Month}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a9b0937a460d7e8ac4ed11c2068950448}\label{classwrimsv2_1_1components_1_1_control_data_a9b0937a460d7e8ac4ed11c2068950448} 
+static int {\bfseries end\+Day}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a5fda7a5151044875a62c859c7954413f}\label{classwrimsv2_1_1components_1_1_control_data_a5fda7a5151044875a62c859c7954413f} 
+static int {\bfseries cycle\+Start\+Day}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aeb6e2d7eec827877415dd4052b659e40}\label{classwrimsv2_1_1components_1_1_control_data_aeb6e2d7eec827877415dd4052b659e40} 
+static int {\bfseries cycle\+Start\+Month}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ac0d9a547128cbd3db3180629a959bba4}\label{classwrimsv2_1_1components_1_1_control_data_ac0d9a547128cbd3db3180629a959bba4} 
+static int {\bfseries cycle\+Start\+Year}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a9c0f8b0846929c5ee374e8b1b208b6a6}\label{classwrimsv2_1_1components_1_1_control_data_a9c0f8b0846929c5ee374e8b1b208b6a6} 
+static int {\bfseries cycle\+End\+Day}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a91690ea91ea30a3f6abf10b8ed768073}\label{classwrimsv2_1_1components_1_1_control_data_a91690ea91ea30a3f6abf10b8ed768073} 
+static int {\bfseries cycle\+End\+Month}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a7f81f9f9a36c725b88790e58205f1266}\label{classwrimsv2_1_1components_1_1_control_data_a7f81f9f9a36c725b88790e58205f1266} 
+static int {\bfseries cycle\+End\+Year}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a5b13f6496e191b965a28f0888aeda402}\label{classwrimsv2_1_1components_1_1_control_data_a5b13f6496e191b965a28f0888aeda402} 
+static double {\bfseries cycle\+Time\+Step\+Priority} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a66ffdaa29ab6a1f2e71072db9188b7fa}\label{classwrimsv2_1_1components_1_1_control_data_a66ffdaa29ab6a1f2e71072db9188b7fa} 
+static Array\+List$<$ Integer $>$ {\bfseries total\+Time\+Step}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a1b842a49336e8959fef73531bada26fe}\label{classwrimsv2_1_1components_1_1_control_data_a1b842a49336e8959fef73531bada26fe} 
+static Date {\bfseries monthly\+Start\+Time}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a53a51221e8476321d0c7709db272813a}\label{classwrimsv2_1_1components_1_1_control_data_a53a51221e8476321d0c7709db272813a} 
+static Date {\bfseries daily\+Start\+Time}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ae693f7e0d7c39718c67f1da5e086e12e}\label{classwrimsv2_1_1components_1_1_control_data_ae693f7e0d7c39718c67f1da5e086e12e} 
+static String {\bfseries simulation\+Time\+Frame}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a107e85d1e49d079ea58ba653fb7d85d4}\label{classwrimsv2_1_1components_1_1_control_data_a107e85d1e49d079ea58ba653fb7d85d4} 
+static String {\bfseries partA} ="{}"{}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a774ce85b26f796fa4576af92a0047bc7}\label{classwrimsv2_1_1components_1_1_control_data_a774ce85b26f796fa4576af92a0047bc7} 
+static String {\bfseries sv\+Dv\+PartF} ="{}"{}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a3a9caf334c1f4047a13343cb2299b28c}\label{classwrimsv2_1_1components_1_1_control_data_a3a9caf334c1f4047a13343cb2299b28c} 
+static String {\bfseries init\+PartF}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ab3c7783adc41428f49307defd13af38d}\label{classwrimsv2_1_1components_1_1_control_data_ab3c7783adc41428f49307defd13af38d} 
+static Condensed\+Reference\+Cache {\bfseries cache\+Init}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a028a267343053cc942bb7bfbc374c0d3}\label{classwrimsv2_1_1components_1_1_control_data_a028a267343053cc942bb7bfbc374c0d3} 
+static Condensed\+Reference\+Cache {\bfseries cache\+Svar}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a1c6bf8a9518c048a8020be8bd28f83fd}\label{classwrimsv2_1_1components_1_1_control_data_a1c6bf8a9518c048a8020be8bd28f83fd} 
+static Condensed\+Reference\+Cache {\bfseries cache\+Svar2}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a3faa3576f3fc8894a6a45cf33327479e}\label{classwrimsv2_1_1components_1_1_control_data_a3faa3576f3fc8894a6a45cf33327479e} 
+static Hec\+Dss {\bfseries dv\+Dss}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a6632214e71e52cce62e2e9691308f432}\label{classwrimsv2_1_1components_1_1_control_data_a6632214e71e52cce62e2e9691308f432} 
+static String {\bfseries solver\+Name} ="{}cbc\textquotesingle{}"{}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aafcdde65a6779e9f5fb7b6d03d7860c5}\label{classwrimsv2_1_1components_1_1_control_data_aafcdde65a6779e9f5fb7b6d03d7860c5} 
+static Optimizer {\bfseries xasolver}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a2308851df60d7afc7df558cd788fab9c}\label{classwrimsv2_1_1components_1_1_control_data_a2308851df60d7afc7df558cd788fab9c} 
+static \mbox{\hyperlink{classwrimsv2_1_1solver_1_1ortools_1_1_or_tools_solver}{Or\+Tools\+Solver}} {\bfseries otsolver}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a590c77c2b30094c4ba68aa686f8f626f}\label{classwrimsv2_1_1components_1_1_control_data_a590c77c2b30094c4ba68aa686f8f626f} 
+static Double {\bfseries clp\+\_\+cbc\+\_\+objective}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ad0a267f97283141d0ba2bdc3300b6f1d}\label{classwrimsv2_1_1components_1_1_control_data_ad0a267f97283141d0ba2bdc3300b6f1d} 
+static String {\bfseries clp\+\_\+cbc\+\_\+note} ="{}"{}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_af390ebb834d0ad922796daf5a1da6d22}\label{classwrimsv2_1_1components_1_1_control_data_af390ebb834d0ad922796daf5a1da6d22} 
+static double {\bfseries lpsolve\+\_\+objective}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a3d3dcb9cae540409a276f33ecc96c4d6}\label{classwrimsv2_1_1components_1_1_control_data_a3d3dcb9cae540409a276f33ecc96c4d6} 
+static double {\bfseries gurobi\+\_\+objective}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_af825184e774f3ef2c02359f8de8e2273}\label{classwrimsv2_1_1components_1_1_control_data_af825184e774f3ef2c02359f8de8e2273} 
+static boolean {\bfseries is\+Post\+Processing} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a02e9901784f641c700ca67a3ad1967a9}\label{classwrimsv2_1_1components_1_1_control_data_a02e9901784f641c700ca67a3ad1967a9} 
+static boolean {\bfseries send\+Alias\+To\+Dvar} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a0b92412616e2a8c02841478e38ea466a}\label{classwrimsv2_1_1components_1_1_control_data_a0b92412616e2a8c02841478e38ea466a} 
+static boolean {\bfseries output\+Wresl\+CSV} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a4c3756835d8d8ff3c042458d5fcdc33d}\label{classwrimsv2_1_1components_1_1_control_data_a4c3756835d8d8ff3c042458d5fcdc33d} 
+static boolean {\bfseries show\+Run\+Time\+Message} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a303c56c729715265a737597f720255fd}\label{classwrimsv2_1_1components_1_1_control_data_a303c56c729715265a737597f720255fd} 
+static boolean {\bfseries show\+Wresl\+Log} =true
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a7fa912272097ffe6bcdd5f6105b77f62}\label{classwrimsv2_1_1components_1_1_control_data_a7fa912272097ffe6bcdd5f6105b77f62} 
+static boolean {\bfseries write\+Init\+To\+DVOutput} =true
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a5aa29221229287209b6c926bbb49ed9c}\label{classwrimsv2_1_1components_1_1_control_data_a5aa29221229287209b6c926bbb49ed9c} 
+static int {\bfseries solver\+Type}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a29c216c3ed4382aa6c33183c10550bd3}\label{classwrimsv2_1_1components_1_1_control_data_a29c216c3ed4382aa6c33183c10550bd3} 
+static boolean {\bfseries is\+Parse\+Study} =true
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_abb13d5a7a464b6a4c25f3ee4fb0fd48a}\label{classwrimsv2_1_1components_1_1_control_data_abb13d5a7a464b6a4c25f3ee4fb0fd48a} 
+static boolean {\bfseries ignore\+Error} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aa92888dae794e8f25e2927b278697d43}\label{classwrimsv2_1_1components_1_1_control_data_aa92888dae794e8f25e2927b278697d43} 
+static boolean {\bfseries allow\+Sv\+Ts\+Init} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ae68aafb4ee71a1f58226da62749c45b6}\label{classwrimsv2_1_1components_1_1_control_data_ae68aafb4ee71a1f58226da62749c45b6} 
+static boolean {\bfseries all\+Restart\+Files} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a48a5c1aae1791d2b348ef2801da506bd}\label{classwrimsv2_1_1components_1_1_control_data_a48a5c1aae1791d2b348ef2801da506bd} 
+static int {\bfseries number\+Restart\+Files} =12
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a31361b47b3cbdfd9c387ec3eb6a5fef7}\label{classwrimsv2_1_1components_1_1_control_data_a31361b47b3cbdfd9c387ec3eb6a5fef7} 
+static int {\bfseries v\+Hec\+Lib} =6
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a91723f01d8a8d56b8fba084d5cc1e440}\label{classwrimsv2_1_1components_1_1_control_data_a91723f01d8a8d56b8fba084d5cc1e440} 
+static int {\bfseries output\+Type} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a0e2d512f93e7fc5ab2846257a568dbb5}\label{classwrimsv2_1_1components_1_1_control_data_a0e2d512f93e7fc5ab2846257a568dbb5} 
+static boolean {\bfseries is\+Output\+Cycle} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a2e063a178cd1710a55860b19ceaeae63}\label{classwrimsv2_1_1components_1_1_control_data_a2e063a178cd1710a55860b19ceaeae63} 
+static boolean {\bfseries output\+All\+Cycles} =true
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a9b98a8d2bacaf987b63366ec6bc5c4a9}\label{classwrimsv2_1_1components_1_1_control_data_a9b98a8d2bacaf987b63366ec6bc5c4a9} 
+static String {\bfseries selected\+Cycle\+Output} ="{}\textbackslash{}\textquotesingle{}\textbackslash{}\textquotesingle{}"{}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_af0e16d5bc07ace522409cd161a11a079}\label{classwrimsv2_1_1components_1_1_control_data_af0e16d5bc07ace522409cd161a11a079} 
+static String\mbox{[}$\,$\mbox{]} {\bfseries selected\+Cycles} =new String\mbox{[}0\mbox{]}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a85666495686728815842f832b8a9553a}\label{classwrimsv2_1_1components_1_1_control_data_a85666495686728815842f832b8a9553a} 
+static boolean {\bfseries init\+HDF5} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ade1ee541359865cd84f786dbd43fa32f}\label{classwrimsv2_1_1components_1_1_control_data_ade1ee541359865cd84f786dbd43fa32f} 
+static double {\bfseries solver\+Time\+\_\+xa} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aab455f8c58e9f406c715cd16facea5cb}\label{classwrimsv2_1_1components_1_1_control_data_aab455f8c58e9f406c715cd16facea5cb} 
+static double {\bfseries solver\+Time\+\_\+xa\+\_\+this} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a907dddcd5c7c61a91aa5932879d263f5}\label{classwrimsv2_1_1components_1_1_control_data_a907dddcd5c7c61a91aa5932879d263f5} 
+static double {\bfseries solver\+Time\+\_\+cbc} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a24777f519b7958fce267b62253d2044a}\label{classwrimsv2_1_1components_1_1_control_data_a24777f519b7958fce267b62253d2044a} 
+static double {\bfseries solver\+Time\+\_\+cbc\+\_\+this} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a438331e8c4ef5845898204924290893f}\label{classwrimsv2_1_1components_1_1_control_data_a438331e8c4ef5845898204924290893f} 
+static double {\bfseries solver\+Creation\+Time\+\_\+cbc} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a7e6faeb6cb8adc1efe64875ab7acb493}\label{classwrimsv2_1_1components_1_1_control_data_a7e6faeb6cb8adc1efe64875ab7acb493} 
+static double {\bfseries solver\+Creation\+Time\+\_\+xa} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a955a8376b45f989f4d128ba3bc51ee42}\label{classwrimsv2_1_1components_1_1_control_data_a955a8376b45f989f4d128ba3bc51ee42} 
+static double {\bfseries lp\+File\+Writing\+Time} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a1957c76b11fe773a74a0da3f81e68135}\label{classwrimsv2_1_1components_1_1_control_data_a1957c76b11fe773a74a0da3f81e68135} 
+static double {\bfseries cd\+Time} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a40789b321f393d352dac772a0b0ed865}\label{classwrimsv2_1_1components_1_1_control_data_a40789b321f393d352dac772a0b0ed865} 
+static double {\bfseries ad\+Time} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ac9a2f55041e93a747e2235eb2632c56d}\label{classwrimsv2_1_1components_1_1_control_data_ac9a2f55041e93a747e2235eb2632c56d} 
+static boolean {\bfseries use\+Cplex\+Lp\+String} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a5ff2e4119ea02ffeded11cfbc1f863f7}\label{classwrimsv2_1_1components_1_1_control_data_a5ff2e4119ea02ffeded11cfbc1f863f7} 
+static boolean {\bfseries save\+Cplex\+Lp\+String\+To\+File} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a77427200cd2a646ae8f9721de92a5fbd}\label{classwrimsv2_1_1components_1_1_control_data_a77427200cd2a646ae8f9721de92a5fbd} 
+static boolean {\bfseries use\+Cbc\+Warm\+Start} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a647c40594c16c6a90ca487e853723f60}\label{classwrimsv2_1_1components_1_1_control_data_a647c40594c16c6a90ca487e853723f60} 
+static boolean {\bfseries cbc\+Check\+Int\+Err} =true
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a8d8d0f95060ba2a9d52c84a4b5971053}\label{classwrimsv2_1_1components_1_1_control_data_a8d8d0f95060ba2a9d52c84a4b5971053} 
+static boolean {\bfseries cbc\+Log\+Native\+Lp} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a621f7acb4c112eb290a9bc87a255d0a6}\label{classwrimsv2_1_1components_1_1_control_data_a621f7acb4c112eb290a9bc87a255d0a6} 
+static boolean {\bfseries write\+Cbc\+Solving\+Time} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a2837ec766094af16e8dd6d043b0ed045}\label{classwrimsv2_1_1components_1_1_control_data_a2837ec766094af16e8dd6d043b0ed045} 
+static boolean {\bfseries is\+Name\+Sorting} = false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a558a03a7bdb8f050f117d1768afef773}\label{classwrimsv2_1_1components_1_1_control_data_a558a03a7bdb8f050f117d1768afef773} 
+static Array\+List$<$ Integer $>$ {\bfseries cyc\+Warm\+Start}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_adc0747930ce581a3492da7b5d43d991a}\label{classwrimsv2_1_1components_1_1_control_data_adc0747930ce581a3492da7b5d43d991a} 
+static Array\+List$<$ Integer $>$ {\bfseries cyc\+Warm\+Stop}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a02a7e369711e81b609e6f44f743a7686}\label{classwrimsv2_1_1components_1_1_control_data_a02a7e369711e81b609e6f44f743a7686} 
+static Array\+List$<$ Integer $>$ {\bfseries cyc\+Warm\+Use}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aa347d1b6496e0f9fffec3282485e9214}\label{classwrimsv2_1_1components_1_1_control_data_aa347d1b6496e0f9fffec3282485e9214} 
+static boolean {\bfseries cbc\+\_\+debug\+\_\+route\+XA} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a781f81fb4bf4d258356b99926504a672}\label{classwrimsv2_1_1components_1_1_control_data_a781f81fb4bf4d258356b99926504a672} 
+static boolean {\bfseries cbc\+\_\+debug\+\_\+route\+Cbc} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a98cbcc5482c6ea37dd2d15f7ff5afe9f}\label{classwrimsv2_1_1components_1_1_control_data_a98cbcc5482c6ea37dd2d15f7ff5afe9f} 
+static String\mbox{[}$\,$\mbox{]} {\bfseries watch\+List} =\{\}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aa5bac089391b497701f7d1aee4d65523}\label{classwrimsv2_1_1components_1_1_control_data_aa5bac089391b497701f7d1aee4d65523} 
+static double {\bfseries watch\+List\+\_\+tolerance} = 1e99
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a1b88357223fc177a6ac3ca30405017e8}\label{classwrimsv2_1_1components_1_1_control_data_a1b88357223fc177a6ac3ca30405017e8} 
+static double {\bfseries zero\+Tolerance} = 1e-\/11
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_af2d00e3ea63c1f0f2aede7872d71838f}\label{classwrimsv2_1_1components_1_1_control_data_af2d00e3ea63c1f0f2aede7872d71838f} 
+static double {\bfseries relation\+Tolerance}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a7a06506c48cd449911174482f900ba9e}\label{classwrimsv2_1_1components_1_1_control_data_a7a06506c48cd449911174482f900ba9e} 
+static Double {\bfseries xa\+IntegerT} = null
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a984be694b0e30d585769bfe6b71a2ac2}\label{classwrimsv2_1_1components_1_1_control_data_a984be694b0e30d585769bfe6b71a2ac2} 
+static String {\bfseries xa\+Sort} = null
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a4d80ed73e30712040129f33cac5255c0}\label{classwrimsv2_1_1components_1_1_control_data_a4d80ed73e30712040129f33cac5255c0} 
+static boolean {\bfseries resim\+Date} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_abea59653441f5ae1d6166b19c7ab5f08}\label{classwrimsv2_1_1components_1_1_control_data_abea59653441f5ae1d6166b19c7ab5f08} 
+static boolean {\bfseries resim\+Groundwater} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a9675cba4dc798e5080ecc1b29556714a}\label{classwrimsv2_1_1components_1_1_control_data_a9675cba4dc798e5080ecc1b29556714a} 
+static int {\bfseries resim\+Year}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ab615279cab5bf759f74272866436be0a}\label{classwrimsv2_1_1components_1_1_control_data_ab615279cab5bf759f74272866436be0a} 
+static int {\bfseries resim\+Month}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aa6eab64c9138257218e986db59eabb60}\label{classwrimsv2_1_1components_1_1_control_data_aa6eab64c9138257218e986db59eabb60} 
+static int {\bfseries resim\+Day}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_af573062dce0d39d82f81d4ed7df558d8}\label{classwrimsv2_1_1components_1_1_control_data_af573062dce0d39d82f81d4ed7df558d8} 
+static int {\bfseries cycle\+Data\+Start\+Year}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a3522706edef6a4db686677b5cee44159}\label{classwrimsv2_1_1components_1_1_control_data_a3522706edef6a4db686677b5cee44159} 
+static int {\bfseries cycle\+Data\+Start\+Month}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a6e87ac97315535861806571083eab336}\label{classwrimsv2_1_1components_1_1_control_data_a6e87ac97315535861806571083eab336} 
+static int {\bfseries cycle\+Data\+Start\+Day}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aed714095d569744dd1689657554132a1}\label{classwrimsv2_1_1components_1_1_control_data_aed714095d569744dd1689657554132a1} 
+static String {\bfseries USER}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a02c1c7d4684fba4ba1274fc5ba2b7871}\label{classwrimsv2_1_1components_1_1_control_data_a02c1c7d4684fba4ba1274fc5ba2b7871} 
+static String {\bfseries PASS}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a0028643b0bf57aa0544b5185458ea92a}\label{classwrimsv2_1_1components_1_1_control_data_a0028643b0bf57aa0544b5185458ea92a} 
+static String {\bfseries database\+URL}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ac8eeab848bfaabe35920eb85ced81769}\label{classwrimsv2_1_1components_1_1_control_data_ac8eeab848bfaabe35920eb85ced81769} 
+static String {\bfseries sql\+Group} ="{}calsim"{}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a25b429a4f6964f9dcff7e794de41810c}\label{classwrimsv2_1_1components_1_1_control_data_a25b429a4f6964f9dcff7e794de41810c} 
+static int {\bfseries ov\+Option} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_affffa475187f02988eabf32a4d9fe189}\label{classwrimsv2_1_1components_1_1_control_data_affffa475187f02988eabf32a4d9fe189} 
+static String {\bfseries ov\+File} ="{}"{}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aa7731cfd5a7d7dff01b17d3854fba813}\label{classwrimsv2_1_1components_1_1_control_data_aa7731cfd5a7d7dff01b17d3854fba813} 
+static Map$<$ String, String $>$ {\bfseries ov\+Part\+BC} =new Hash\+Map$<$String, String$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a13faebe788c9170b056702ff1a9a6079}\label{classwrimsv2_1_1components_1_1_control_data_a13faebe788c9170b056702ff1a9a6079} 
+static boolean {\bfseries is\+Sim\+Output} = true
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a578c59e996b2711a990572af6e22f3ea}\label{classwrimsv2_1_1components_1_1_control_data_a578c59e996b2711a990572af6e22f3ea} 
+static boolean {\bfseries enable\+Progress\+Log} = false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a0281769763fd158e51c7fa01a25a6460}\label{classwrimsv2_1_1components_1_1_control_data_a0281769763fd158e51c7fa01a25a6460} 
+static Local\+Date\+Time {\bfseries ldt} = Local\+Date\+Time.\+now()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a196d3a599fb730765eaa5dc9bcb2e980}\label{classwrimsv2_1_1components_1_1_control_data_a196d3a599fb730765eaa5dc9bcb2e980} 
+static String {\bfseries date\+Time\+Append} = Date\+Time\+Formatter.\+of\+Pattern("{}yyyy-\/MM-\/dd-\/HH-\/mm"{}, Locale.\+ENGLISH).format(ldt)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a19d6f845e7d00fc926dab446abce0a3b}\label{classwrimsv2_1_1components_1_1_control_data_a19d6f845e7d00fc926dab446abce0a3b} 
+static boolean {\bfseries print\+GWFunc\+Calls} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a7f1a92cb1a78aaa74bb521a9fe5b9456}\label{classwrimsv2_1_1components_1_1_control_data_a7f1a92cb1a78aaa74bb521a9fe5b9456} 
+static int {\bfseries year\+Output\+Section} =-\/1
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a66ebc8ba9653e3a4295f08714e02d2b3}\label{classwrimsv2_1_1components_1_1_control_data_a66ebc8ba9653e3a4295f08714e02d2b3} 
+static int {\bfseries mon\+Mem\+Section} =-\/1
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a469d83913dde88cddb6a9bf8e57b95cc}\label{classwrimsv2_1_1components_1_1_control_data_a469d83913dde88cddb6a9bf8e57b95cc} 
+static int {\bfseries output\+Year}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a535a3fb1d5ee96f35b5355fabb59a65f}\label{classwrimsv2_1_1components_1_1_control_data_a535a3fb1d5ee96f35b5355fabb59a65f} 
+static int {\bfseries output\+Month}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a33fd699c1d7e91e55e9ea962edbcc5d9}\label{classwrimsv2_1_1components_1_1_control_data_a33fd699c1d7e91e55e9ea962edbcc5d9} 
+static int {\bfseries output\+Day}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ad7f5085ce569d7433ceda1bc82501483}\label{classwrimsv2_1_1components_1_1_control_data_ad7f5085ce569d7433ceda1bc82501483} 
+static int {\bfseries mem\+Start\+Year}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a0b58abcf37838dddccbc14476f7bd19e}\label{classwrimsv2_1_1components_1_1_control_data_a0b58abcf37838dddccbc14476f7bd19e} 
+static int {\bfseries mem\+Start\+Month}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a7244d96bad003c591ced84ea063ab82c}\label{classwrimsv2_1_1components_1_1_control_data_a7244d96bad003c591ced84ea063ab82c} 
+static int {\bfseries mem\+Start\+Day}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a457e12653cd1c007af109ff5ab5a2a7e}\label{classwrimsv2_1_1components_1_1_control_data_a457e12653cd1c007af109ff5ab5a2a7e} 
+static int {\bfseries prev\+Mem\+Year}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a5d97f3e5f9c1059788abc8a8c450e53b}\label{classwrimsv2_1_1components_1_1_control_data_a5d97f3e5f9c1059788abc8a8c450e53b} 
+static int {\bfseries prev\+Mem\+Month}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a1fa538cab81b998005b81c7a3ff94133}\label{classwrimsv2_1_1components_1_1_control_data_a1fa538cab81b998005b81c7a3ff94133} 
+static int {\bfseries prev\+Mem\+Day}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aa0b83d1eb6b89b93b6b4aa491b755aa1}\label{classwrimsv2_1_1components_1_1_control_data_aa0b83d1eb6b89b93b6b4aa491b755aa1} 
+static int {\bfseries prev\+Output\+Year}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ae11b6414bdebac13b4af3465a51f5b67}\label{classwrimsv2_1_1components_1_1_control_data_ae11b6414bdebac13b4af3465a51f5b67} 
+static int {\bfseries prev\+Output\+Month}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a11364fba60059f1460564e197d4f7363}\label{classwrimsv2_1_1components_1_1_control_data_a11364fba60059f1460564e197d4f7363} 
+static int {\bfseries prev\+Output\+Day}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a8308b0f96d2be428ed47297fdd1b5c56}\label{classwrimsv2_1_1components_1_1_control_data_a8308b0f96d2be428ed47297fdd1b5c56} 
+static Date {\bfseries prev\+Mem\+Date}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_af4387e251283d329222b15bd1082ab62}\label{classwrimsv2_1_1components_1_1_control_data_af4387e251283d329222b15bd1082ab62} 
+static Date {\bfseries mem\+Start\+Date}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a778b4484f95af7f6cc5ff94837fc3320}\label{classwrimsv2_1_1components_1_1_control_data_a778b4484f95af7f6cc5ff94837fc3320} 
+static Date {\bfseries prev\+Output\+Date}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a50d2d5c4798139ba51a51828701c9335}\label{classwrimsv2_1_1components_1_1_control_data_a50d2d5c4798139ba51a51828701c9335} 
+static int {\bfseries n\+Threads} =1
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a2610c60fdc8afc7094e15b69d283eed8}\label{classwrimsv2_1_1components_1_1_control_data_a2610c60fdc8afc7094e15b69d283eed8} 
+static boolean {\bfseries unchange\+GWRestart} =false
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a319e5f3b0da2091814d1ff704dac89cd}\label{classwrimsv2_1_1components_1_1_control_data_a319e5f3b0da2091814d1ff704dac89cd} 
+static boolean {\bfseries gen\+SVCatalog} =true
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ab8f0724df2b16c92eed615554f04aa7d}\label{classwrimsv2_1_1components_1_1_control_data_ab8f0724df2b16c92eed615554f04aa7d} 
+static boolean {\bfseries show\+Time\+Usage} =true
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a1b730a362aed1b7e898fcfeb908ae02c}\label{classwrimsv2_1_1components_1_1_control_data_a1b730a362aed1b7e898fcfeb908ae02c} 
+static int {\bfseries t\+\_\+cbc} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a2692dab9b0dd42a1ac07c1600a119152}\label{classwrimsv2_1_1components_1_1_control_data_a2692dab9b0dd42a1ac07c1600a119152} 
+static int {\bfseries t\+\_\+xa} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a6ebc9f55dc0eb024980c5de43b6f74ea}\label{classwrimsv2_1_1components_1_1_control_data_a6ebc9f55dc0eb024980c5de43b6f74ea} 
+static int {\bfseries t\+\_\+ts} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_adc31f4bd8bd97fb5037312af1dee0c59}\label{classwrimsv2_1_1components_1_1_control_data_adc31f4bd8bd97fb5037312af1dee0c59} 
+static int {\bfseries t\+\_\+svar} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a897b5627dcdd89f3ad45fc6063ce0eb7}\label{classwrimsv2_1_1components_1_1_control_data_a897b5627dcdd89f3ad45fc6063ce0eb7} 
+static int {\bfseries t\+\_\+dvar} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a4bd64b2532e3aa518bb52b27b2992c44}\label{classwrimsv2_1_1components_1_1_control_data_a4bd64b2532e3aa518bb52b27b2992c44} 
+static int {\bfseries t\+\_\+goal} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a92fd605114c426a0e4cdfe990c83959f}\label{classwrimsv2_1_1components_1_1_control_data_a92fd605114c426a0e4cdfe990c83959f} 
+static int {\bfseries t\+\_\+wt} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a5a0458cbdd82c9092e4ed994d5712a09}\label{classwrimsv2_1_1components_1_1_control_data_a5a0458cbdd82c9092e4ed994d5712a09} 
+static int {\bfseries t\+\_\+wtss} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a1f53409005643523110f2622d4a1bfa0}\label{classwrimsv2_1_1components_1_1_control_data_a1f53409005643523110f2622d4a1bfa0} 
+static int {\bfseries t\+\_\+as} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aeb87eaff634e3165a758700ead44fb70}\label{classwrimsv2_1_1components_1_1_control_data_aeb87eaff634e3165a758700ead44fb70} 
+static int {\bfseries t\+\_\+read\+Ts} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a019194a2827bed96d7d3526f83749b7a}\label{classwrimsv2_1_1components_1_1_control_data_a019194a2827bed96d7d3526f83749b7a} 
+static int {\bfseries t\+\_\+write\+Dss} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aa972c6d8ab1f293e07ab45187ee43d51}\label{classwrimsv2_1_1components_1_1_control_data_aa972c6d8ab1f293e07ab45187ee43d51} 
+static int {\bfseries t\+\_\+cam} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a6c053c3b58af74eaaa503393ed74b9fc}\label{classwrimsv2_1_1components_1_1_control_data_a6c053c3b58af74eaaa503393ed74b9fc} 
+static int {\bfseries t\+\_\+parse} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a023fe3177ef4356bb4ca1c6922a80514}\label{classwrimsv2_1_1components_1_1_control_data_a023fe3177ef4356bb4ca1c6922a80514} 
+static int {\bfseries t\+\_\+ann} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a54ac1a37154379e31ecce6cd61fddf5b}\label{classwrimsv2_1_1components_1_1_control_data_a54ac1a37154379e31ecce6cd61fddf5b} 
+static int {\bfseries n\+\_\+ann} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ab4b46569bdd107ff44e2016e00a1b8ea}\label{classwrimsv2_1_1components_1_1_control_data_ab4b46569bdd107ff44e2016e00a1b8ea} 
+static int {\bfseries t\+\_\+annx2} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_af3881e6ccf5f1cd62dd948611b6086cb}\label{classwrimsv2_1_1components_1_1_control_data_af3881e6ccf5f1cd62dd948611b6086cb} 
+static int {\bfseries n\+\_\+annx2} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a2ce38d0c8d6e107383ae96376f354938}\label{classwrimsv2_1_1components_1_1_control_data_a2ce38d0c8d6e107383ae96376f354938} 
+static int {\bfseries t\+\_\+annec} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a8c96a46a17fe6b1ea8dadc4f077fb5af}\label{classwrimsv2_1_1components_1_1_control_data_a8c96a46a17fe6b1ea8dadc4f077fb5af} 
+static int {\bfseries n\+\_\+annec} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ad1039dcdc47b4e90c5c50a4a9b6b0630}\label{classwrimsv2_1_1components_1_1_control_data_ad1039dcdc47b4e90c5c50a4a9b6b0630} 
+static int {\bfseries t\+\_\+annlinegen} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aa91bb1c4f0569fcc8b060b9a9be2fa5e}\label{classwrimsv2_1_1components_1_1_control_data_aa91bb1c4f0569fcc8b060b9a9be2fa5e} 
+static int {\bfseries n\+\_\+annlinegen} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ac751f49eadb60e8637f790992d7d38c1}\label{classwrimsv2_1_1components_1_1_control_data_ac751f49eadb60e8637f790992d7d38c1} 
+static int {\bfseries t\+\_\+anngetndo\+\_\+x2} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a905a40241347a49eca4968424ecf4329}\label{classwrimsv2_1_1components_1_1_control_data_a905a40241347a49eca4968424ecf4329} 
+static int {\bfseries n\+\_\+anngetndo\+\_\+x2} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_aa63abaa58da1f219f96f45f4b37300e2}\label{classwrimsv2_1_1components_1_1_control_data_aa63abaa58da1f219f96f45f4b37300e2} 
+static int {\bfseries t\+\_\+anngetndo\+\_\+x2\+\_\+curmonndosplit} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_ac504386b4e63f6f5cbc6ab807072e7af}\label{classwrimsv2_1_1components_1_1_control_data_ac504386b4e63f6f5cbc6ab807072e7af} 
+static int {\bfseries n\+\_\+anngetndo\+\_\+x2\+\_\+curmonndosplit} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a7a85ca506dbc32593861d58c8ffbc126}\label{classwrimsv2_1_1components_1_1_control_data_a7a85ca506dbc32593861d58c8ffbc126} 
+static int {\bfseries t\+\_\+annec\+\_\+matchdsm2} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_a1448190eb1a551de58946560c06426ef}\label{classwrimsv2_1_1components_1_1_control_data_a1448190eb1a551de58946560c06426ef} 
+static int {\bfseries n\+\_\+annec\+\_\+matchdsm2} =0
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_control_data_acb8715ffbf0235a8d3826bb1f78930b3}\label{classwrimsv2_1_1components_1_1_control_data_acb8715ffbf0235a8d3826bb1f78930b3} 
+static int {\bfseries pid} =-\/1
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+wrims-\/core/src/main/java/wrimsv2/components/Control\+Data.\+java\end{DoxyCompactItemize}

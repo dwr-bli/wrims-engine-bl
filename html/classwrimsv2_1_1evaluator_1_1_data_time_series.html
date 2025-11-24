@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.evaluator.DataTimeSeries Class Reference</title>
+<title>Wrims-engine: wrimsv2.evaluator.DataTimeSeries Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,30 +94,296 @@ $(function(){initNavTree('classwrimsv2_1_1evaluator_1_1_data_time_series.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6d0f79e042f6d76aaf8a664facd5a18a" id="r_a6d0f79e042f6d76aaf8a664facd5a18a"><td class="memItemLeft" align="right" valign="top"><a id="a6d0f79e042f6d76aaf8a664facd5a18a" name="a6d0f79e042f6d76aaf8a664facd5a18a"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>saveDataToTimeSeries</b> (String dvName, String entryNameTS, double value, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> dvar)</td></tr>
-<tr class="memitem:a7c95c204c3671a1e7a319a8b96850b2d" id="r_a7c95c204c3671a1e7a319a8b96850b2d"><td class="memItemLeft" align="right" valign="top"><a id="a7c95c204c3671a1e7a319a8b96850b2d" name="a7c95c204c3671a1e7a319a8b96850b2d"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>saveDataToTimeSeries</b> (String entryNameTS, double value, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> dvar, int offset)</td></tr>
+<tr class="memitem:a6d0f79e042f6d76aaf8a664facd5a18a" id="r_a6d0f79e042f6d76aaf8a664facd5a18a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d0f79e042f6d76aaf8a664facd5a18a">saveDataToTimeSeries</a> (String dvName, String entryNameTS, double value, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> dvar)</td></tr>
+<tr class="memitem:a7c95c204c3671a1e7a319a8b96850b2d" id="r_a7c95c204c3671a1e7a319a8b96850b2d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c95c204c3671a1e7a319a8b96850b2d">saveDataToTimeSeries</a> (String entryNameTS, double value, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> dvar, int offset)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ac327949308f3bef3d5ad638663dcd4b2" id="r_ac327949308f3bef3d5ad638663dcd4b2"><td class="memItemLeft" align="right" valign="top"><a id="ac327949308f3bef3d5ad638663dcd4b2" name="ac327949308f3bef3d5ad638663dcd4b2"></a>
-static HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>svTS</b> = new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a>&gt; ()</td></tr>
-<tr class="memitem:a22b4fda27e6faa0dbc60648b28f1bba0" id="r_a22b4fda27e6faa0dbc60648b28f1bba0"><td class="memItemLeft" align="right" valign="top"><a id="a22b4fda27e6faa0dbc60648b28f1bba0" name="a22b4fda27e6faa0dbc60648b28f1bba0"></a>
-static HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>dvAliasTS</b> = new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a>&gt; ()</td></tr>
-<tr class="memitem:a56a2360dd69e01b267932f8901c4455f" id="r_a56a2360dd69e01b267932f8901c4455f"><td class="memItemLeft" align="right" valign="top"><a id="a56a2360dd69e01b267932f8901c4455f" name="a56a2360dd69e01b267932f8901c4455f"></a>
-static ArrayList&lt; HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>dvAliasTSCycles</b> = new ArrayList&lt;HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a>&gt;&gt; ()</td></tr>
-<tr class="memitem:ae07af186d596dbf9e2f5a0992bdd7dd1" id="r_ae07af186d596dbf9e2f5a0992bdd7dd1"><td class="memItemLeft" align="right" valign="top"><a id="ae07af186d596dbf9e2f5a0992bdd7dd1" name="ae07af186d596dbf9e2f5a0992bdd7dd1"></a>
-static HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>svInit</b> = new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a>&gt; ()</td></tr>
-<tr class="memitem:ad55570b65bfeb47c2da063f7aca8ccc6" id="r_ad55570b65bfeb47c2da063f7aca8ccc6"><td class="memItemLeft" align="right" valign="top"><a id="ad55570b65bfeb47c2da063f7aca8ccc6" name="ad55570b65bfeb47c2da063f7aca8ccc6"></a>
-static HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>dvAliasInit</b> = new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a>&gt; ()</td></tr>
-<tr class="memitem:a8c281953c137bd0945cb31f39af05d46" id="r_a8c281953c137bd0945cb31f39af05d46"><td class="memItemLeft" align="right" valign="top"><a id="a8c281953c137bd0945cb31f39af05d46" name="a8c281953c137bd0945cb31f39af05d46"></a>
-static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>lookSvDss</b> =new ArrayList&lt;String&gt;()</td></tr>
-<tr class="memitem:a0fa2820c1c35da2dd50a21d2f8fbb05f" id="r_a0fa2820c1c35da2dd50a21d2f8fbb05f"><td class="memItemLeft" align="right" valign="top"><a id="a0fa2820c1c35da2dd50a21d2f8fbb05f" name="a0fa2820c1c35da2dd50a21d2f8fbb05f"></a>
-static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>lookInitDss</b> =new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:ad55570b65bfeb47c2da063f7aca8ccc6" id="r_ad55570b65bfeb47c2da063f7aca8ccc6"><td class="memItemLeft" align="right" valign="top">static HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad55570b65bfeb47c2da063f7aca8ccc6">dvAliasInit</a> = new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a>&gt; ()</td></tr>
+<tr class="memitem:a22b4fda27e6faa0dbc60648b28f1bba0" id="r_a22b4fda27e6faa0dbc60648b28f1bba0"><td class="memItemLeft" align="right" valign="top">static HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22b4fda27e6faa0dbc60648b28f1bba0">dvAliasTS</a> = new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a>&gt; ()</td></tr>
+<tr class="memitem:a56a2360dd69e01b267932f8901c4455f" id="r_a56a2360dd69e01b267932f8901c4455f"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56a2360dd69e01b267932f8901c4455f">dvAliasTSCycles</a> = new ArrayList&lt;HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a>&gt;&gt; ()</td></tr>
+<tr class="memitem:a0fa2820c1c35da2dd50a21d2f8fbb05f" id="r_a0fa2820c1c35da2dd50a21d2f8fbb05f"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fa2820c1c35da2dd50a21d2f8fbb05f">lookInitDss</a> =new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:a8c281953c137bd0945cb31f39af05d46" id="r_a8c281953c137bd0945cb31f39af05d46"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c281953c137bd0945cb31f39af05d46">lookSvDss</a> =new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:ae07af186d596dbf9e2f5a0992bdd7dd1" id="r_ae07af186d596dbf9e2f5a0992bdd7dd1"><td class="memItemLeft" align="right" valign="top">static HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae07af186d596dbf9e2f5a0992bdd7dd1">svInit</a> = new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a>&gt; ()</td></tr>
+<tr class="memitem:ac327949308f3bef3d5ad638663dcd4b2" id="r_ac327949308f3bef3d5ad638663dcd4b2"><td class="memItemLeft" align="right" valign="top">static HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac327949308f3bef3d5ad638663dcd4b2">svTS</a> = new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a>&gt; ()</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_data_time_series_8java_source.html#l00010">10</a> of file <a class="el" href="_data_time_series_8java_source.html">DataTimeSeries.java</a>.</p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a6d0f79e042f6d76aaf8a664facd5a18a" name="a6d0f79e042f6d76aaf8a664facd5a18a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d0f79e042f6d76aaf8a664facd5a18a">&#9670;&#160;</a></span>saveDataToTimeSeries() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.DataTimeSeries.saveDataToTimeSeries </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>dvName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>entryNameTS</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a></td>          <td class="paramname"><span class="paramname"><em>dvar</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_data_time_series_8java_source.html#l00019">19</a> of file <a class="el" href="_data_time_series_8java_source.html">DataTimeSeries.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_dss_operation_8java_source.html#l00490">wrimsv2.evaluator.DssOperation.entryNameTS()</a>, <a class="el" href="_data_time_series_8java_source.html#l00019">saveDataToTimeSeries()</a>, and <a class="el" href="_control_data_8java_source.html#l00059">wrimsv2.components.ControlData.timeStep</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_cbc0_solver_8java_source.html#l00191">wrimsv2.solver.Cbc0Solver.assignDvar()</a>, <a class="el" href="_cbc_solver_8java_source.html#l01772">wrimsv2.solver.CbcSolver.assignDvar()</a>, <a class="el" href="_clp0_solver_8java_source.html#l00152">wrimsv2.solver.Clp0Solver.assignDvar()</a>, <a class="el" href="_clp_solver_8java_source.html#l00362">wrimsv2.solver.ClpSolver.assignDvar()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00250">wrimsv2.solver.Gurobi.GurobiSolver.assignDvar()</a>, <a class="el" href="_l_p_solve_solver_8java_source.html#l00175">wrimsv2.solver.LPSolveSolver.assignDvar()</a>, <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00101">wrimsv2.solver.ortools.Misc.assignDvar()</a>, <a class="el" href="_x_a_solver_8java_source.html#l00181">wrimsv2.solver.XASolver.assignDvar()</a>, and <a class="el" href="_data_time_series_8java_source.html#l00019">saveDataToTimeSeries()</a>.</p>
+
+</div>
+</div>
+<a id="a7c95c204c3671a1e7a319a8b96850b2d" name="a7c95c204c3671a1e7a319a8b96850b2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c95c204c3671a1e7a319a8b96850b2d">&#9670;&#160;</a></span>saveDataToTimeSeries() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.DataTimeSeries.saveDataToTimeSeries </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>entryNameTS</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a></td>          <td class="paramname"><span class="paramname"><em>dvar</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_data_time_series_8java_source.html#l00034">34</a> of file <a class="el" href="_data_time_series_8java_source.html">DataTimeSeries.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00055">wrimsv2.components.ControlData.currDay</a>, <a class="el" href="_control_data_8java_source.html#l00056">wrimsv2.components.ControlData.currMonth</a>, <a class="el" href="_control_data_8java_source.html#l00057">wrimsv2.components.ControlData.currYear</a>, <a class="el" href="_data_time_series_8java_source.html#l00012">dvAliasTS</a>, <a class="el" href="_data_time_series_8java_source.html#l00013">dvAliasTSCycles</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00029">wrimsv2.evaluator.DssDataSetFixLength.getData()</a>, <a class="el" href="_time_operation_8java_source.html#l00264">wrimsv2.evaluator.TimeOperation.getNumberOfTimestep()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00041">wrimsv2.evaluator.DssDataSetFixLength.getStartTime()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00045">wrimsv2.evaluator.DssDataSetFixLength.getTimeStep()</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00020">wrimsv2.commondata.wresldata.Dvar.kind</a>, <a class="el" href="_control_data_8java_source.html#l00185">wrimsv2.components.ControlData.memStartDate</a>, <a class="el" href="_control_data_8java_source.html#l00060">wrimsv2.components.ControlData.partE</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00065">wrimsv2.evaluator.DssDataSetFixLength.setKind()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00037">wrimsv2.evaluator.DssDataSetFixLength.setStartTime()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00033">wrimsv2.evaluator.DssDataSetFixLength.setTimeStep()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00057">wrimsv2.evaluator.DssDataSetFixLength.setUnits()</a>, <a class="el" href="_control_data_8java_source.html#l00074">wrimsv2.components.ControlData.totalTimeStep</a>, and <a class="el" href="wresldata_2_dvar_8java_source.html#l00021">wrimsv2.commondata.wresldata.Dvar.units</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ad55570b65bfeb47c2da063f7aca8ccc6" name="ad55570b65bfeb47c2da063f7aca8ccc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad55570b65bfeb47c2da063f7aca8ccc6">&#9670;&#160;</a></span>dvAliasInit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a>&gt; wrimsv2.evaluator.DataTimeSeries.dvAliasInit = new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a>&gt; ()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_data_time_series_8java_source.html#l00015">15</a> of file <a class="el" href="_data_time_series_8java_source.html">DataTimeSeries.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00116">wrimsv2.sql.DssToSQLDatabase.dssReader()</a>, <a class="el" href="_evaluation_8java_source.html#l00946">wrimsv2.evaluator.Evaluation.dvarAliasCycleTimeSeries()</a>, <a class="el" href="_value_evaluation_8java_source.html#l00655">wrimsv2.evaluator.ValueEvaluation.dvarAliasCycleTimeSeries()</a>, <a class="el" href="_evaluation_8java_source.html#l00885">wrimsv2.evaluator.Evaluation.dvarAliasTimeSeries()</a>, <a class="el" href="_evaluation_8java_source.html#l00836">wrimsv2.evaluator.Evaluation.dvarAliasTimeSeries()</a>, <a class="el" href="_value_evaluation_8java_source.html#l00580">wrimsv2.evaluator.ValueEvaluation.dvarAliasTimeSeries()</a>, <a class="el" href="_value_evaluation_8java_source.html#l00531">wrimsv2.evaluator.ValueEvaluation.dvarAliasTimeSeries()</a>, <a class="el" href="_dss_operation_8java_source.html#l00210">wrimsv2.evaluator.DssOperation.getDVAliasInitTimeseries()</a>, <a class="el" href="_h_d_f5_reader_8java_source.html#l00781">wrimsv2.hdf5.HDF5Reader.getDVAliasInitTimeseries()</a>, <a class="el" href="_csv_operation_8java_source.html#l00026">wrimsv2.evaluator.CsvOperation.ouputCSV()</a>, <a class="el" href="_evaluation_8java_source.html#l01065">wrimsv2.evaluator.Evaluation.pastTSFV()</a>, <a class="el" href="_value_evaluation_8java_source.html#l00805">wrimsv2.evaluator.ValueEvaluation.pastTSFV()</a>, <a class="el" href="_dss_operation_8java_source.html#l00539">wrimsv2.evaluator.DssOperation.saveDVInitialData()</a>, <a class="el" href="_dss_operation_8java_source.html#l00499">wrimsv2.evaluator.DssOperation.saveInitialData()</a>, and <a class="el" href="_dss_operation_8java_source.html#l00327">wrimsv2.evaluator.DssOperation.writeInitDvarAliasToDSS()</a>.</p>
+
+</div>
+</div>
+<a id="a22b4fda27e6faa0dbc60648b28f1bba0" name="a22b4fda27e6faa0dbc60648b28f1bba0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22b4fda27e6faa0dbc60648b28f1bba0">&#9670;&#160;</a></span>dvAliasTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a>&gt; wrimsv2.evaluator.DataTimeSeries.dvAliasTS = new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a>&gt; ()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_data_time_series_8java_source.html#l00012">12</a> of file <a class="el" href="_data_time_series_8java_source.html">DataTimeSeries.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_h_d_f5_writer_8java_source.html#l00279">wrimsv2.hdf5.HDF5Writer.createDvarAliasLookup()</a>, <a class="el" href="_my_s_q_l_c_writer_8java_source.html#l00117">wrimsv2.sql.MySQLCWriter.createTables()</a>, <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00116">wrimsv2.sql.DssToSQLDatabase.dssReader()</a>, <a class="el" href="_evaluation_8java_source.html#l00885">wrimsv2.evaluator.Evaluation.dvarAliasTimeSeries()</a>, <a class="el" href="_evaluation_8java_source.html#l00836">wrimsv2.evaluator.Evaluation.dvarAliasTimeSeries()</a>, <a class="el" href="_value_evaluation_8java_source.html#l00580">wrimsv2.evaluator.ValueEvaluation.dvarAliasTimeSeries()</a>, <a class="el" href="_value_evaluation_8java_source.html#l00531">wrimsv2.evaluator.ValueEvaluation.dvarAliasTimeSeries()</a>, <a class="el" href="_debug_interface_8java_source.html#l02129">wrimsv2.components.DebugInterface.getTimeseriesDetail()</a>, <a class="el" href="_pre_run_model_8java_source.html#l00159">wrimsv2.components.PreRunModel.initialDvarAliasTS()</a>, <a class="el" href="_debug_interface_8java_source.html#l02318">wrimsv2.components.DebugInterface.modifyTimeSeries()</a>, <a class="el" href="_csv_operation_8java_source.html#l00026">wrimsv2.evaluator.CsvOperation.ouputCSV()</a>, <a class="el" href="_evaluation_8java_source.html#l01065">wrimsv2.evaluator.Evaluation.pastTSFV()</a>, <a class="el" href="_value_evaluation_8java_source.html#l00805">wrimsv2.evaluator.ValueEvaluation.pastTSFV()</a>, <a class="el" href="_model_data_set_8java_source.html#l00378">wrimsv2.commondata.wresldata.ModelDataSet.processAlias()</a>, <a class="el" href="_data_time_series_8java_source.html#l00034">saveDataToTimeSeries()</a>, <a class="el" href="_dss_operation_8java_source.html#l00663">wrimsv2.evaluator.DssOperation.saveDvarData()</a>, <a class="el" href="_dss_operation_8java_source.html#l00904">wrimsv2.evaluator.DssOperation.shiftDvAliasData()</a>, <a class="el" href="_controller_debug_8java_source.html#l00641">wrimsv2.components.ControllerDebug.updateVarMonitor()</a>, <a class="el" href="_my_s_q_l_c_writer_8java_source.html#l00245">wrimsv2.sql.MySQLCWriter.writeDailyData()</a>, <a class="el" href="_h_d_f5_writer_8java_source.html#l00548">wrimsv2.hdf5.HDF5Writer.writeDailyTimestepDvarAlias()</a>, <a class="el" href="_my_s_q_l_r_writer_alt_8java_source.html#l00147">wrimsv2.sql.MySQLRWriterAlt.writeData()</a>, <a class="el" href="_s_q_l_server_r_writer_alt_8java_source.html#l00147">wrimsv2.sql.SQLServerRWriterAlt.writeData()</a>, <a class="el" href="_dss_operation_8java_source.html#l00368">wrimsv2.evaluator.DssOperation.writeDVAliasToDSS()</a>, <a class="el" href="_my_s_q_l_c_writer_8java_source.html#l00213">wrimsv2.sql.MySQLCWriter.writeMonthlyData()</a>, <a class="el" href="_h_d_f5_writer_8java_source.html#l00494">wrimsv2.hdf5.HDF5Writer.writeMonthlyTimestepDvarAlias()</a>, and <a class="el" href="_h_d_f5_writer_8java_source.html#l00424">wrimsv2.hdf5.HDF5Writer.writeMonthlyTimestepDvarAlias_deprecated()</a>.</p>
+
+</div>
+</div>
+<a id="a56a2360dd69e01b267932f8901c4455f" name="a56a2360dd69e01b267932f8901c4455f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56a2360dd69e01b267932f8901c4455f">&#9670;&#160;</a></span>dvAliasTSCycles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a>&gt; &gt; wrimsv2.evaluator.DataTimeSeries.dvAliasTSCycles = new ArrayList&lt;HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a>&gt;&gt; ()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_data_time_series_8java_source.html#l00013">13</a> of file <a class="el" href="_data_time_series_8java_source.html">DataTimeSeries.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_evaluation_8java_source.html#l00946">wrimsv2.evaluator.Evaluation.dvarAliasCycleTimeSeries()</a>, <a class="el" href="_value_evaluation_8java_source.html#l00655">wrimsv2.evaluator.ValueEvaluation.dvarAliasCycleTimeSeries()</a>, <a class="el" href="_debug_interface_8java_source.html#l02231">wrimsv2.components.DebugInterface.getCycleValueDetail()</a>, <a class="el" href="_pre_run_model_8java_source.html#l00159">wrimsv2.components.PreRunModel.initialDvarAliasTS()</a>, <a class="el" href="_model_data_set_8java_source.html#l00378">wrimsv2.commondata.wresldata.ModelDataSet.processAlias()</a>, <a class="el" href="_data_time_series_8java_source.html#l00034">saveDataToTimeSeries()</a>, <a class="el" href="_dss_operation_8java_source.html#l00732">wrimsv2.evaluator.DssOperation.saveDvarCycleData()</a>, <a class="el" href="_dss_operation_8java_source.html#l00929">wrimsv2.evaluator.DssOperation.shiftDvAliasCycleData()</a>, <a class="el" href="_h_d_f5_writer_8java_source.html#l00399">wrimsv2.hdf5.HDF5Writer.writeCyclesDvAlias()</a>, and <a class="el" href="_dss_operation_8java_source.html#l00428">wrimsv2.evaluator.DssOperation.writeDVAliasCycleDataToDSS()</a>.</p>
+
+</div>
+</div>
+<a id="a0fa2820c1c35da2dd50a21d2f8fbb05f" name="a0fa2820c1c35da2dd50a21d2f8fbb05f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fa2820c1c35da2dd50a21d2f8fbb05f">&#9670;&#160;</a></span>lookInitDss</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.DataTimeSeries.lookInitDss =new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_data_time_series_8java_source.html#l00017">17</a> of file <a class="el" href="_data_time_series_8java_source.html">DataTimeSeries.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_evaluation_8java_source.html#l00766">wrimsv2.evaluator.Evaluation.svarTimeSeries()</a>, and <a class="el" href="_value_evaluation_8java_source.html#l00461">wrimsv2.evaluator.ValueEvaluation.svarTimeSeries()</a>.</p>
+
+</div>
+</div>
+<a id="a8c281953c137bd0945cb31f39af05d46" name="a8c281953c137bd0945cb31f39af05d46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c281953c137bd0945cb31f39af05d46">&#9670;&#160;</a></span>lookSvDss</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.DataTimeSeries.lookSvDss =new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_data_time_series_8java_source.html#l00016">16</a> of file <a class="el" href="_data_time_series_8java_source.html">DataTimeSeries.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_h_d_f5_reader_8java_source.html#l00658">wrimsv2.hdf5.HDF5Reader.assignTimeseries()</a>, <a class="el" href="_pre_run_model_8java_source.html#l00134">wrimsv2.components.PreRunModel.readTimeseries()</a>, and <a class="el" href="_re_load_s_v_dss_8java_source.html#l00047">wrimsv2.debug.ReLoadSVDss.readTimeseries()</a>.</p>
+
+</div>
+</div>
+<a id="ae07af186d596dbf9e2f5a0992bdd7dd1" name="ae07af186d596dbf9e2f5a0992bdd7dd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae07af186d596dbf9e2f5a0992bdd7dd1">&#9670;&#160;</a></span>svInit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a>&gt; wrimsv2.evaluator.DataTimeSeries.svInit = new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a>&gt; ()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_data_time_series_8java_source.html#l00014">14</a> of file <a class="el" href="_data_time_series_8java_source.html">DataTimeSeries.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_operation_8java_source.html#l00121">wrimsv2.evaluator.DssOperation.getSVInitTimeseries()</a>, <a class="el" href="_h_d_f5_reader_8java_source.html#l00855">wrimsv2.hdf5.HDF5Reader.getSVInitTimeseries()</a>, <a class="el" href="_csv_operation_8java_source.html#l00026">wrimsv2.evaluator.CsvOperation.ouputCSV()</a>, <a class="el" href="_dss_operation_8java_source.html#l00580">wrimsv2.evaluator.DssOperation.saveSVInitialData()</a>, <a class="el" href="_evaluation_8java_source.html#l00766">wrimsv2.evaluator.Evaluation.svarTimeSeries()</a>, and <a class="el" href="_value_evaluation_8java_source.html#l00461">wrimsv2.evaluator.ValueEvaluation.svarTimeSeries()</a>.</p>
+
+</div>
+</div>
+<a id="ac327949308f3bef3d5ad638663dcd4b2" name="ac327949308f3bef3d5ad638663dcd4b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac327949308f3bef3d5ad638663dcd4b2">&#9670;&#160;</a></span>svTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a>&gt; wrimsv2.evaluator.DataTimeSeries.svTS = new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a>&gt; ()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_data_time_series_8java_source.html#l00011">11</a> of file <a class="el" href="_data_time_series_8java_source.html">DataTimeSeries.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00116">wrimsv2.sql.DssToSQLDatabase.dssReader()</a>, <a class="el" href="_evaluation_8java_source.html#l01624">wrimsv2.evaluator.Evaluation.exceedance()</a>, <a class="el" href="_value_evaluation_8java_source.html#l01213">wrimsv2.evaluator.ValueEvaluation.exceedance()</a>, <a class="el" href="_evaluation_8java_source.html#l01666">wrimsv2.evaluator.Evaluation.exceedance_tsi()</a>, <a class="el" href="_value_evaluation_8java_source.html#l01249">wrimsv2.evaluator.ValueEvaluation.exceedance_tsi()</a>, <a class="el" href="_dss_operation_8java_source.html#l00036">wrimsv2.evaluator.DssOperation.getSVTimeseries()</a>, <a class="el" href="_h_d_f5_reader_8java_source.html#l00688">wrimsv2.hdf5.HDF5Reader.getSVTimeseries()</a>, <a class="el" href="_debug_interface_8java_source.html#l02129">wrimsv2.components.DebugInterface.getTimeseriesDetail()</a>, <a class="el" href="_debug_interface_8java_source.html#l02318">wrimsv2.components.DebugInterface.modifyTimeSeries()</a>, <a class="el" href="_csv_operation_8java_source.html#l00026">wrimsv2.evaluator.CsvOperation.ouputCSV()</a>, <a class="el" href="_dss_operation_8java_source.html#l00797">wrimsv2.evaluator.DssOperation.saveSvarTSData()</a>, <a class="el" href="_evaluation_8java_source.html#l00766">wrimsv2.evaluator.Evaluation.svarTimeSeries()</a>, <a class="el" href="_value_evaluation_8java_source.html#l00461">wrimsv2.evaluator.ValueEvaluation.svarTimeSeries()</a>, and <a class="el" href="_controller_debug_8java_source.html#l00641">wrimsv2.components.ControllerDebug.updateVarMonitor()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/evaluator/<b>DataTimeSeries.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/evaluator/<a class="el" href="_data_time_series_8java_source.html">DataTimeSeries.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -132,7 +398,7 @@ static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bott
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>evaluator</b></li><li class="navelem"><a href="classwrimsv2_1_1evaluator_1_1_data_time_series.html">DataTimeSeries</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1evaluator.html">evaluator</a></li><li class="navelem"><a href="classwrimsv2_1_1evaluator_1_1_data_time_series.html">DataTimeSeries</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

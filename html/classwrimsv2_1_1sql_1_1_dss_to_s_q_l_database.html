@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.sql.DssToSQLDatabase Class Reference</title>
+<title>Wrims-engine: wrimsv2.sql.DssToSQLDatabase Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,33 +94,276 @@ $(function(){initNavTree('classwrimsv2_1_1sql_1_1_dss_to_s_q_l_database.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abfe1703a91af1fbd40ff274aafc42105" id="r_abfe1703a91af1fbd40ff274aafc42105"><td class="memItemLeft" align="right" valign="top"><a id="abfe1703a91af1fbd40ff274aafc42105" name="abfe1703a91af1fbd40ff274aafc42105"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DssToSQLDatabase</b> (String[] args)</td></tr>
-<tr class="memitem:af9e3238621abe27a27ff1d24207855a4" id="r_af9e3238621abe27a27ff1d24207855a4"><td class="memItemLeft" align="right" valign="top"><a id="af9e3238621abe27a27ff1d24207855a4" name="af9e3238621abe27a27ff1d24207855a4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setSQLAttr</b> (String dvFilePath)</td></tr>
-<tr class="memitem:a3f9a7a1218f59f06b641e64f907a6c24" id="r_a3f9a7a1218f59f06b641e64f907a6c24"><td class="memItemLeft" align="right" valign="top"><a id="a3f9a7a1218f59f06b641e64f907a6c24" name="a3f9a7a1218f59f06b641e64f907a6c24"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>convertData</b> ()</td></tr>
-<tr class="memitem:a307dff68d9f464836f980624768a29ce" id="r_a307dff68d9f464836f980624768a29ce"><td class="memItemLeft" align="right" valign="top"><a id="a307dff68d9f464836f980624768a29ce" name="a307dff68d9f464836f980624768a29ce"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>getDssFilePaths</b> ()</td></tr>
-<tr class="memitem:a0e9949eb2e33d25b8068a6f40c6cf76c" id="r_a0e9949eb2e33d25b8068a6f40c6cf76c"><td class="memItemLeft" align="right" valign="top"><a id="a0e9949eb2e33d25b8068a6f40c6cf76c" name="a0e9949eb2e33d25b8068a6f40c6cf76c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>dssReader</b> (String[] dssFilePaths)</td></tr>
-<tr class="memitem:a52447170afeb14572c8fbb4a7c0c76ee" id="r_a52447170afeb14572c8fbb4a7c0c76ee"><td class="memItemLeft" align="right" valign="top"><a id="a52447170afeb14572c8fbb4a7c0c76ee" name="a52447170afeb14572c8fbb4a7c0c76ee"></a>
-HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>readDssData</b> (String dssPath)</td></tr>
-<tr class="memitem:a64b6501b03693c15a8ac75bf5b8d0efe" id="r_a64b6501b03693c15a8ac75bf5b8d0efe"><td class="memItemLeft" align="right" valign="top"><a id="a64b6501b03693c15a8ac75bf5b8d0efe" name="a64b6501b03693c15a8ac75bf5b8d0efe"></a>
-HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>readDssDataFixLength</b> (String dssPath)</td></tr>
+<tr class="memitem:abfe1703a91af1fbd40ff274aafc42105" id="r_abfe1703a91af1fbd40ff274aafc42105"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfe1703a91af1fbd40ff274aafc42105">DssToSQLDatabase</a> (String[] args)</td></tr>
+<tr class="memitem:a3f9a7a1218f59f06b641e64f907a6c24" id="r_a3f9a7a1218f59f06b641e64f907a6c24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f9a7a1218f59f06b641e64f907a6c24">convertData</a> ()</td></tr>
+<tr class="memitem:a0e9949eb2e33d25b8068a6f40c6cf76c" id="r_a0e9949eb2e33d25b8068a6f40c6cf76c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e9949eb2e33d25b8068a6f40c6cf76c">dssReader</a> (String[] dssFilePaths)</td></tr>
+<tr class="memitem:a307dff68d9f464836f980624768a29ce" id="r_a307dff68d9f464836f980624768a29ce"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a307dff68d9f464836f980624768a29ce">getDssFilePaths</a> ()</td></tr>
+<tr class="memitem:a52447170afeb14572c8fbb4a7c0c76ee" id="r_a52447170afeb14572c8fbb4a7c0c76ee"><td class="memItemLeft" align="right" valign="top">HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52447170afeb14572c8fbb4a7c0c76ee">readDssData</a> (String dssPath)</td></tr>
+<tr class="memitem:a64b6501b03693c15a8ac75bf5b8d0efe" id="r_a64b6501b03693c15a8ac75bf5b8d0efe"><td class="memItemLeft" align="right" valign="top">HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64b6501b03693c15a8ac75bf5b8d0efe">readDssDataFixLength</a> (String dssPath)</td></tr>
+<tr class="memitem:af9e3238621abe27a27ff1d24207855a4" id="r_af9e3238621abe27a27ff1d24207855a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9e3238621abe27a27ff1d24207855a4">setSQLAttr</a> (String dvFilePath)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ae2376b89e95c2105a1645862f0a94807" id="r_ae2376b89e95c2105a1645862f0a94807"><td class="memItemLeft" align="right" valign="top"><a id="ae2376b89e95c2105a1645862f0a94807" name="ae2376b89e95c2105a1645862f0a94807"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (String[] args)</td></tr>
+<tr class="memitem:ae2376b89e95c2105a1645862f0a94807" id="r_ae2376b89e95c2105a1645862f0a94807"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2376b89e95c2105a1645862f0a94807">main</a> (String[] args)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a27b492888d7186cc8e43c1c71f6e66c8" id="r_a27b492888d7186cc8e43c1c71f6e66c8"><td class="memItemLeft" align="right" valign="top"><a id="a27b492888d7186cc8e43c1c71f6e66c8" name="a27b492888d7186cc8e43c1c71f6e66c8"></a>
-static String&#160;</td><td class="memItemRight" valign="bottom"><b>dssInfoFilePath</b> =&quot;&quot;</td></tr>
+<tr class="memitem:a27b492888d7186cc8e43c1c71f6e66c8" id="r_a27b492888d7186cc8e43c1c71f6e66c8"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27b492888d7186cc8e43c1c71f6e66c8">dssInfoFilePath</a> =&quot;&quot;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a4690d702fb5d6e0e99b0d5a81609db9c" id="r_a4690d702fb5d6e0e99b0d5a81609db9c"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4690d702fb5d6e0e99b0d5a81609db9c">dssFilePathArr</a> =new ArrayList&lt;String[]&gt; ()</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00036">36</a> of file <a class="el" href="_dss_to_s_q_l_database_8java_source.html">DssToSQLDatabase.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="abfe1703a91af1fbd40ff274aafc42105" name="abfe1703a91af1fbd40ff274aafc42105"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfe1703a91af1fbd40ff274aafc42105">&#9670;&#160;</a></span>DssToSQLDatabase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.sql.DssToSQLDatabase.DssToSQLDatabase </td>
+          <td>(</td>
+          <td class="paramtype">String[]</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00041">41</a> of file <a class="el" href="_dss_to_s_q_l_database_8java_source.html">DssToSQLDatabase.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00066">convertData()</a>, <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00039">dssFilePathArr</a>, <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00116">dssReader()</a>, <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00082">getDssFilePaths()</a>, and <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00058">setSQLAttr()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00054">main()</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a3f9a7a1218f59f06b641e64f907a6c24" name="a3f9a7a1218f59f06b641e64f907a6c24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f9a7a1218f59f06b641e64f907a6c24">&#9670;&#160;</a></span>convertData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.DssToSQLDatabase.convertData </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00066">66</a> of file <a class="el" href="_dss_to_s_q_l_database_8java_source.html">DssToSQLDatabase.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00156">wrimsv2.components.ControlData.databaseURL</a>, <a class="el" href="_file_paths_8java_source.html#l00014">wrimsv2.components.FilePaths.fullDvarDssPath</a>, <a class="el" href="_control_data_8java_source.html#l00161">wrimsv2.components.ControlData.isSimOutput</a>, <a class="el" href="_csv_operation_8java_source.html#l00026">wrimsv2.evaluator.CsvOperation.ouputCSV()</a>, <a class="el" href="_my_s_q_l_r_writer_8java_source.html#l00052">wrimsv2.sql.MySQLRWriter.process()</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">wrimsv2.sql.SQLServerRWriter.process()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00041">DssToSQLDatabase()</a>.</p>
+
+</div>
+</div>
+<a id="a0e9949eb2e33d25b8068a6f40c6cf76c" name="a0e9949eb2e33d25b8068a6f40c6cf76c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e9949eb2e33d25b8068a6f40c6cf76c">&#9670;&#160;</a></span>dssReader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.DssToSQLDatabase.dssReader </td>
+          <td>(</td>
+          <td class="paramtype">String[]</td>          <td class="paramname"><span class="paramname"><em>dssFilePaths</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00116">116</a> of file <a class="el" href="_dss_to_s_q_l_database_8java_source.html">DssToSQLDatabase.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_data_time_series_8java_source.html#l00015">wrimsv2.evaluator.DataTimeSeries.dvAliasInit</a>, <a class="el" href="_data_time_series_8java_source.html#l00012">wrimsv2.evaluator.DataTimeSeries.dvAliasTS</a>, <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00126">readDssData()</a>, <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00159">readDssDataFixLength()</a>, and <a class="el" href="_data_time_series_8java_source.html#l00011">wrimsv2.evaluator.DataTimeSeries.svTS</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00041">DssToSQLDatabase()</a>.</p>
+
+</div>
+</div>
+<a id="a307dff68d9f464836f980624768a29ce" name="a307dff68d9f464836f980624768a29ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a307dff68d9f464836f980624768a29ce">&#9670;&#160;</a></span>getDssFilePaths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.sql.DssToSQLDatabase.getDssFilePaths </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00082">82</a> of file <a class="el" href="_dss_to_s_q_l_database_8java_source.html">DssToSQLDatabase.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00039">dssFilePathArr</a>, <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00038">dssInfoFilePath</a>, <a class="el" href="_control_data_8java_source.html#l00078">wrimsv2.components.ControlData.partA</a>, and <a class="el" href="_control_data_8java_source.html#l00079">wrimsv2.components.ControlData.svDvPartF</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00041">DssToSQLDatabase()</a>.</p>
+
+</div>
+</div>
+<a id="ae2376b89e95c2105a1645862f0a94807" name="ae2376b89e95c2105a1645862f0a94807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2376b89e95c2105a1645862f0a94807">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.DssToSQLDatabase.main </td>
+          <td>(</td>
+          <td class="paramtype">String[]</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00054">54</a> of file <a class="el" href="_dss_to_s_q_l_database_8java_source.html">DssToSQLDatabase.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00041">DssToSQLDatabase()</a>.</p>
+
+</div>
+</div>
+<a id="a52447170afeb14572c8fbb4a7c0c76ee" name="a52447170afeb14572c8fbb4a7c0c76ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52447170afeb14572c8fbb4a7c0c76ee">&#9670;&#160;</a></span>readDssData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set.html">DssDataSet</a> &gt; wrimsv2.sql.DssToSQLDatabase.readDssData </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>dssPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00126">126</a> of file <a class="el" href="_dss_to_s_q_l_database_8java_source.html">DssToSQLDatabase.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_condensed_reference_cache_and_read_8java_source.html#l00028">wrimsv2.evaluator.CondensedReferenceCacheAndRead.createCondensedCache()</a>, <a class="el" href="_dss_operation_8java_source.html#l00490">wrimsv2.evaluator.DssOperation.entryNameTS()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00082">wrimsv2.evaluator.DssDataSet.generateStudyStartIndex()</a>, <a class="el" href="_condensed_reference_cache_and_read_8java_source.html#l00050">wrimsv2.evaluator.CondensedReferenceCacheAndRead.CondensedReferenceCache.getAllPaths()</a>, <a class="el" href="_condensed_reference_cache_and_read_8java_source.html#l00073">wrimsv2.evaluator.CondensedReferenceCacheAndRead.CondensedReferenceCache.readFullRecord()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00026">wrimsv2.evaluator.DssDataSet.setData()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00054">wrimsv2.evaluator.DssDataSet.setFromDssFile()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00074">wrimsv2.evaluator.DssDataSet.setKind()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00038">wrimsv2.evaluator.DssDataSet.setStartTime()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00034">wrimsv2.evaluator.DssDataSet.setTimeStep()</a>, and <a class="el" href="_dss_data_set_8java_source.html#l00058">wrimsv2.evaluator.DssDataSet.setUnits()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00116">dssReader()</a>.</p>
+
+</div>
+</div>
+<a id="a64b6501b03693c15a8ac75bf5b8d0efe" name="a64b6501b03693c15a8ac75bf5b8d0efe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64b6501b03693c15a8ac75bf5b8d0efe">&#9670;&#160;</a></span>readDssDataFixLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_dss_data_set_fix_length.html">DssDataSetFixLength</a> &gt; wrimsv2.sql.DssToSQLDatabase.readDssDataFixLength </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>dssPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00159">159</a> of file <a class="el" href="_dss_to_s_q_l_database_8java_source.html">DssToSQLDatabase.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_condensed_reference_cache_and_read_8java_source.html#l00028">wrimsv2.evaluator.CondensedReferenceCacheAndRead.createCondensedCache()</a>, <a class="el" href="_dss_operation_8java_source.html#l00490">wrimsv2.evaluator.DssOperation.entryNameTS()</a>, <a class="el" href="_condensed_reference_cache_and_read_8java_source.html#l00050">wrimsv2.evaluator.CondensedReferenceCacheAndRead.CondensedReferenceCache.getAllPaths()</a>, <a class="el" href="_condensed_reference_cache_and_read_8java_source.html#l00073">wrimsv2.evaluator.CondensedReferenceCacheAndRead.CondensedReferenceCache.readFullRecord()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00025">wrimsv2.evaluator.DssDataSetFixLength.setData()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00053">wrimsv2.evaluator.DssDataSetFixLength.setFromDssFile()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00065">wrimsv2.evaluator.DssDataSetFixLength.setKind()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00037">wrimsv2.evaluator.DssDataSetFixLength.setStartTime()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00033">wrimsv2.evaluator.DssDataSetFixLength.setTimeStep()</a>, and <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00057">wrimsv2.evaluator.DssDataSetFixLength.setUnits()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00116">dssReader()</a>.</p>
+
+</div>
+</div>
+<a id="af9e3238621abe27a27ff1d24207855a4" name="af9e3238621abe27a27ff1d24207855a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9e3238621abe27a27ff1d24207855a4">&#9670;&#160;</a></span>setSQLAttr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.DssToSQLDatabase.setSQLAttr </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>dvFilePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00058">58</a> of file <a class="el" href="_dss_to_s_q_l_database_8java_source.html">DssToSQLDatabase.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_file_paths_8java_source.html#l00016">wrimsv2.components.FilePaths.dvarDssDirectory</a>, <a class="el" href="_file_paths_8java_source.html#l00014">wrimsv2.components.FilePaths.fullDvarDssPath</a>, and <a class="el" href="_file_paths_8java_source.html#l00027">wrimsv2.components.FilePaths.sqlScenarioName</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00041">DssToSQLDatabase()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a4690d702fb5d6e0e99b0d5a81609db9c" name="a4690d702fb5d6e0e99b0d5a81609db9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4690d702fb5d6e0e99b0d5a81609db9c">&#9670;&#160;</a></span>dssFilePathArr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String[]&gt; wrimsv2.sql.DssToSQLDatabase.dssFilePathArr =new ArrayList&lt;String[]&gt; ()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00039">39</a> of file <a class="el" href="_dss_to_s_q_l_database_8java_source.html">DssToSQLDatabase.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00041">DssToSQLDatabase()</a>, and <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00082">getDssFilePaths()</a>.</p>
+
+</div>
+</div>
+<a id="a27b492888d7186cc8e43c1c71f6e66c8" name="a27b492888d7186cc8e43c1c71f6e66c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27b492888d7186cc8e43c1c71f6e66c8">&#9670;&#160;</a></span>dssInfoFilePath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.DssToSQLDatabase.dssInfoFilePath =&quot;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00038">38</a> of file <a class="el" href="_dss_to_s_q_l_database_8java_source.html">DssToSQLDatabase.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_data_base_profile_8java_source.html#l00016">wrimsv2.sql.DataBaseProfile.DataBaseProfile()</a>, and <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00082">getDssFilePaths()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/sql/<b>DssToSQLDatabase.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/sql/<a class="el" href="_dss_to_s_q_l_database_8java_source.html">DssToSQLDatabase.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -135,7 +378,7 @@ static String&#160;</td><td class="memItemRight" valign="bottom"><b>dssInfoFileP
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>sql</b></li><li class="navelem"><a href="classwrimsv2_1_1sql_1_1_dss_to_s_q_l_database.html">DssToSQLDatabase</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1sql.html">sql</a></li><li class="navelem"><a href="classwrimsv2_1_1sql_1_1_dss_to_s_q_l_database.html">DssToSQLDatabase</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

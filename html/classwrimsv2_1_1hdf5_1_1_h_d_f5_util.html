@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.hdf5.HDF5Util Class Reference</title>
+<title>Wrims-engine: wrimsv2.hdf5.HDF5Util Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,29 +94,417 @@ $(function(){initNavTree('classwrimsv2_1_1hdf5_1_1_h_d_f5_util.html','','classwr
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad6cf23deec9d2c0bb53248c7cb8c3828" id="r_ad6cf23deec9d2c0bb53248c7cb8c3828"><td class="memItemLeft" align="right" valign="top"><a id="ad6cf23deec9d2c0bb53248c7cb8c3828" name="ad6cf23deec9d2c0bb53248c7cb8c3828"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>locateFile</b> (String fileName)</td></tr>
-<tr class="memitem:af136abfee433b77ea63051d0e7b87fef" id="r_af136abfee433b77ea63051d0e7b87fef"><td class="memItemLeft" align="right" valign="top"><a id="af136abfee433b77ea63051d0e7b87fef" name="af136abfee433b77ea63051d0e7b87fef"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>locateGroup</b> (int id, String group)</td></tr>
-<tr class="memitem:aa1ec9e6b4d51bd7fe0181a8ecd5a787d" id="r_aa1ec9e6b4d51bd7fe0181a8ecd5a787d"><td class="memItemLeft" align="right" valign="top"><a id="aa1ec9e6b4d51bd7fe0181a8ecd5a787d" name="aa1ec9e6b4d51bd7fe0181a8ecd5a787d"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>writeStringData</b> (int did, int tid, String[] stringArray, int stringLength)</td></tr>
-<tr class="memitem:a0700cd1f6fb0d0279cd0972e82917717" id="r_a0700cd1f6fb0d0279cd0972e82917717"><td class="memItemLeft" align="right" valign="top"><a id="a0700cd1f6fb0d0279cd0972e82917717" name="a0700cd1f6fb0d0279cd0972e82917717"></a>
-static String[]&#160;</td><td class="memItemRight" valign="bottom"><b>readStringData</b> (int did, int tid, int size, int stringLength)</td></tr>
-<tr class="memitem:af49e19be4f061a205a869dde89394746" id="r_af49e19be4f061a205a869dde89394746"><td class="memItemLeft" align="right" valign="top"><a id="af49e19be4f061a205a869dde89394746" name="af49e19be4f061a205a869dde89394746"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>writeStringAttr</b> (int aid, int tid, String[] stringArray, int stringLength)</td></tr>
-<tr class="memitem:a14d394fb3f07824dfca8d1d13238a06b" id="r_a14d394fb3f07824dfca8d1d13238a06b"><td class="memItemLeft" align="right" valign="top"><a id="a14d394fb3f07824dfca8d1d13238a06b" name="a14d394fb3f07824dfca8d1d13238a06b"></a>
-static String&#160;</td><td class="memItemRight" valign="bottom"><b>readStringAttr</b> (int aid, int tid, int stringLength)</td></tr>
-<tr class="memitem:a7acf4327ed32b6b007c163466de5bf60" id="r_a7acf4327ed32b6b007c163466de5bf60"><td class="memItemLeft" align="right" valign="top"><a id="a7acf4327ed32b6b007c163466de5bf60" name="a7acf4327ed32b6b007c163466de5bf60"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>writeCycleVariableNames</b> (String[] write_data, int gid, String strCycleI)</td></tr>
-<tr class="memitem:ac289b353e59b113dee9b50e809751669" id="r_ac289b353e59b113dee9b50e809751669"><td class="memItemLeft" align="right" valign="top"><a id="ac289b353e59b113dee9b50e809751669" name="ac289b353e59b113dee9b50e809751669"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>writeCycleStaticSv</b> (int index, int size, int gid, double[][] write_data)</td></tr>
-<tr class="memitem:a1b64762ebc6b55b2fe8095ccad1eb138" id="r_a1b64762ebc6b55b2fe8095ccad1eb138"><td class="memItemLeft" align="right" valign="top"><a id="a1b64762ebc6b55b2fe8095ccad1eb138" name="a1b64762ebc6b55b2fe8095ccad1eb138"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>writeCycleStaticSvNames</b> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html">ModelDataSet</a> mds, int gid, int index)</td></tr>
-<tr class="memitem:abd417777e34389c6eef1871df363bca2" id="r_abd417777e34389c6eef1871df363bca2"><td class="memItemLeft" align="right" valign="top"><a id="abd417777e34389c6eef1871df363bca2" name="abd417777e34389c6eef1871df363bca2"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>writeCycleDynamicSv</b> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html">ModelDataSet</a> mds, int gid, String dName)</td></tr>
+<tr class="memitem:ad6cf23deec9d2c0bb53248c7cb8c3828" id="r_ad6cf23deec9d2c0bb53248c7cb8c3828"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6cf23deec9d2c0bb53248c7cb8c3828">locateFile</a> (String fileName)</td></tr>
+<tr class="memitem:af136abfee433b77ea63051d0e7b87fef" id="r_af136abfee433b77ea63051d0e7b87fef"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af136abfee433b77ea63051d0e7b87fef">locateGroup</a> (int id, String group)</td></tr>
+<tr class="memitem:a14d394fb3f07824dfca8d1d13238a06b" id="r_a14d394fb3f07824dfca8d1d13238a06b"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14d394fb3f07824dfca8d1d13238a06b">readStringAttr</a> (int aid, int tid, int stringLength)</td></tr>
+<tr class="memitem:a0700cd1f6fb0d0279cd0972e82917717" id="r_a0700cd1f6fb0d0279cd0972e82917717"><td class="memItemLeft" align="right" valign="top">static String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0700cd1f6fb0d0279cd0972e82917717">readStringData</a> (int did, int tid, int size, int stringLength)</td></tr>
+<tr class="memitem:abd417777e34389c6eef1871df363bca2" id="r_abd417777e34389c6eef1871df363bca2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd417777e34389c6eef1871df363bca2">writeCycleDynamicSv</a> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html">ModelDataSet</a> mds, int gid, String dName)</td></tr>
+<tr class="memitem:ac289b353e59b113dee9b50e809751669" id="r_ac289b353e59b113dee9b50e809751669"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac289b353e59b113dee9b50e809751669">writeCycleStaticSv</a> (int index, int size, int gid, double[][] write_data)</td></tr>
+<tr class="memitem:a1b64762ebc6b55b2fe8095ccad1eb138" id="r_a1b64762ebc6b55b2fe8095ccad1eb138"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b64762ebc6b55b2fe8095ccad1eb138">writeCycleStaticSvNames</a> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html">ModelDataSet</a> mds, int gid, int index)</td></tr>
+<tr class="memitem:a7acf4327ed32b6b007c163466de5bf60" id="r_a7acf4327ed32b6b007c163466de5bf60"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7acf4327ed32b6b007c163466de5bf60">writeCycleVariableNames</a> (String[] write_data, int gid, String strCycleI)</td></tr>
+<tr class="memitem:af49e19be4f061a205a869dde89394746" id="r_af49e19be4f061a205a869dde89394746"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af49e19be4f061a205a869dde89394746">writeStringAttr</a> (int aid, int tid, String[] stringArray, int stringLength)</td></tr>
+<tr class="memitem:aa1ec9e6b4d51bd7fe0181a8ecd5a787d" id="r_aa1ec9e6b4d51bd7fe0181a8ecd5a787d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1ec9e6b4d51bd7fe0181a8ecd5a787d">writeStringData</a> (int did, int tid, String[] stringArray, int stringLength)</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_h_d_f5_util_8java_source.html#l00021">21</a> of file <a class="el" href="_h_d_f5_util_8java_source.html">HDF5Util.java</a>.</p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ad6cf23deec9d2c0bb53248c7cb8c3828" name="ad6cf23deec9d2c0bb53248c7cb8c3828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6cf23deec9d2c0bb53248c7cb8c3828">&#9670;&#160;</a></span>locateFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.hdf5.HDF5Util.locateFile </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_h_d_f5_util_8java_source.html#l00023">23</a> of file <a class="el" href="_h_d_f5_util_8java_source.html">HDF5Util.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_h_d_f5_writer_8java_source.html#l00084">wrimsv2.hdf5.HDF5Writer.createDataStructure()</a>, <a class="el" href="_d_s_s_h_d_f5_converter_8java_source.html#l00641">wrimsv2.hdf5.DSSHDF5Converter.createInitHDF5DataStructure()</a>, and <a class="el" href="_d_s_s_h_d_f5_converter_8java_source.html#l00567">wrimsv2.hdf5.DSSHDF5Converter.createSVHDF5DataStructure()</a>.</p>
+
+</div>
+</div>
+<a id="af136abfee433b77ea63051d0e7b87fef" name="af136abfee433b77ea63051d0e7b87fef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af136abfee433b77ea63051d0e7b87fef">&#9670;&#160;</a></span>locateGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.hdf5.HDF5Util.locateGroup </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>group</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_h_d_f5_util_8java_source.html#l00042">42</a> of file <a class="el" href="_h_d_f5_util_8java_source.html">HDF5Util.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_h_d_f5_writer_8java_source.html#l00084">wrimsv2.hdf5.HDF5Writer.createDataStructure()</a>, <a class="el" href="_d_s_s_h_d_f5_converter_8java_source.html#l00641">wrimsv2.hdf5.DSSHDF5Converter.createInitHDF5DataStructure()</a>, <a class="el" href="_d_s_s_h_d_f5_converter_8java_source.html#l00567">wrimsv2.hdf5.DSSHDF5Converter.createSVHDF5DataStructure()</a>, and <a class="el" href="_h_d_f5_reader_8java_source.html#l00092">wrimsv2.hdf5.HDF5Reader.openFileAndGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a14d394fb3f07824dfca8d1d13238a06b" name="a14d394fb3f07824dfca8d1d13238a06b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14d394fb3f07824dfca8d1d13238a06b">&#9670;&#160;</a></span>readStringAttr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.hdf5.HDF5Util.readStringAttr </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>aid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>stringLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_h_d_f5_util_8java_source.html#l00148">148</a> of file <a class="el" href="_h_d_f5_util_8java_source.html">HDF5Util.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_h_d_f5_reader_8java_source.html#l00092">wrimsv2.hdf5.HDF5Reader.openFileAndGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a0700cd1f6fb0d0279cd0972e82917717" name="a0700cd1f6fb0d0279cd0972e82917717"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0700cd1f6fb0d0279cd0972e82917717">&#9670;&#160;</a></span>readStringData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String[] wrimsv2.hdf5.HDF5Util.readStringData </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>did</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>stringLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_h_d_f5_util_8java_source.html#l00101">101</a> of file <a class="el" href="_h_d_f5_util_8java_source.html">HDF5Util.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_h_d_f5_reader_8java_source.html#l00471">wrimsv2.hdf5.HDF5Reader.readDailyTimestepList()</a>, <a class="el" href="_h_d_f5_reader_8java_source.html#l00271">wrimsv2.hdf5.HDF5Reader.readLookupTable()</a>, and <a class="el" href="_h_d_f5_reader_8java_source.html#l00394">wrimsv2.hdf5.HDF5Reader.readMonthlyTimestepList()</a>.</p>
+
+</div>
+</div>
+<a id="abd417777e34389c6eef1871df363bca2" name="abd417777e34389c6eef1871df363bca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd417777e34389c6eef1871df363bca2">&#9670;&#160;</a></span>writeCycleDynamicSv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.hdf5.HDF5Util.writeCycleDynamicSv </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html">ModelDataSet</a></td>          <td class="paramname"><span class="paramname"><em>mds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>gid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>dName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_h_d_f5_util_8java_source.html#l00325">325</a> of file <a class="el" href="_h_d_f5_util_8java_source.html">HDF5Util.java</a>.</p>
+
+<p class="reference">References <a class="el" href="wresldata_2_svar_8java_source.html#l00102">wrimsv2.commondata.wresldata.Svar.getData()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_model_data_set_8java_source.html#l00076">wrimsv2.commondata.wresldata.ModelDataSet.svFutMap</a>, and <a class="el" href="_h_d_f5_util_8java_source.html#l00078">writeStringData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_h_d_f5_writer_8java_source.html#l00999">wrimsv2.hdf5.HDF5Writer.writeDailyCycleDynamicSv()</a>, and <a class="el" href="_h_d_f5_writer_8java_source.html#l00994">wrimsv2.hdf5.HDF5Writer.writeMonthlyCycleDynamicSv()</a>.</p>
+
+</div>
+</div>
+<a id="ac289b353e59b113dee9b50e809751669" name="ac289b353e59b113dee9b50e809751669"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac289b353e59b113dee9b50e809751669">&#9670;&#160;</a></span>writeCycleStaticSv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.hdf5.HDF5Util.writeCycleStaticSv </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>gid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>write_data</em></span>[][]&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_h_d_f5_util_8java_source.html#l00199">199</a> of file <a class="el" href="_h_d_f5_util_8java_source.html">HDF5Util.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00035">wrimsv2.components.ControlData.currTimeStep</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_h_d_f5_writer_8java_source.html#l01046">wrimsv2.hdf5.HDF5Writer.skipDailyCycleStaticSv()</a>, <a class="el" href="_h_d_f5_writer_8java_source.html#l01026">wrimsv2.hdf5.HDF5Writer.skipMonthlyCycleStaticSv()</a>, <a class="el" href="_h_d_f5_writer_8java_source.html#l00948">wrimsv2.hdf5.HDF5Writer.writeDailyCycleStaticSv()</a>, and <a class="el" href="_h_d_f5_writer_8java_source.html#l00903">wrimsv2.hdf5.HDF5Writer.writeMonthlyCycleStaticSv()</a>.</p>
+
+</div>
+</div>
+<a id="a1b64762ebc6b55b2fe8095ccad1eb138" name="a1b64762ebc6b55b2fe8095ccad1eb138"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b64762ebc6b55b2fe8095ccad1eb138">&#9670;&#160;</a></span>writeCycleStaticSvNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.hdf5.HDF5Util.writeCycleStaticSvNames </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html">ModelDataSet</a></td>          <td class="paramname"><span class="paramname"><em>mds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>gid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_h_d_f5_util_8java_source.html#l00261">261</a> of file <a class="el" href="_h_d_f5_util_8java_source.html">HDF5Util.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_model_data_set_8java_source.html#l00072">wrimsv2.commondata.wresldata.ModelDataSet.svList</a>, and <a class="el" href="_h_d_f5_util_8java_source.html#l00078">writeStringData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_h_d_f5_writer_8java_source.html#l00740">wrimsv2.hdf5.HDF5Writer.listCycleStaticSv()</a>.</p>
+
+</div>
+</div>
+<a id="a7acf4327ed32b6b007c163466de5bf60" name="a7acf4327ed32b6b007c163466de5bf60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7acf4327ed32b6b007c163466de5bf60">&#9670;&#160;</a></span>writeCycleVariableNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.hdf5.HDF5Util.writeCycleVariableNames </td>
+          <td>(</td>
+          <td class="paramtype">String[]</td>          <td class="paramname"><span class="paramname"><em>write_data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>gid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>strCycleI</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_h_d_f5_util_8java_source.html#l00162">162</a> of file <a class="el" href="_h_d_f5_util_8java_source.html">HDF5Util.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_h_d_f5_util_8java_source.html#l00078">writeStringData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_h_d_f5_writer_8java_source.html#l00820">wrimsv2.hdf5.HDF5Writer.listCycleDvAliasVariables()</a>.</p>
+
+</div>
+</div>
+<a id="af49e19be4f061a205a869dde89394746" name="af49e19be4f061a205a869dde89394746"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af49e19be4f061a205a869dde89394746">&#9670;&#160;</a></span>writeStringAttr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.hdf5.HDF5Util.writeStringAttr </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>aid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String[]</td>          <td class="paramname"><span class="paramname"><em>stringArray</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>stringLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_h_d_f5_util_8java_source.html#l00127">127</a> of file <a class="el" href="_h_d_f5_util_8java_source.html">HDF5Util.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_h_d_f5_writer_8java_source.html#l00084">wrimsv2.hdf5.HDF5Writer.createDataStructure()</a>, <a class="el" href="_d_s_s_h_d_f5_converter_8java_source.html#l00641">wrimsv2.hdf5.DSSHDF5Converter.createInitHDF5DataStructure()</a>, and <a class="el" href="_d_s_s_h_d_f5_converter_8java_source.html#l00567">wrimsv2.hdf5.DSSHDF5Converter.createSVHDF5DataStructure()</a>.</p>
+
+</div>
+</div>
+<a id="aa1ec9e6b4d51bd7fe0181a8ecd5a787d" name="aa1ec9e6b4d51bd7fe0181a8ecd5a787d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1ec9e6b4d51bd7fe0181a8ecd5a787d">&#9670;&#160;</a></span>writeStringData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.hdf5.HDF5Util.writeStringData </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>did</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String[]</td>          <td class="paramname"><span class="paramname"><em>stringArray</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>stringLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_h_d_f5_util_8java_source.html#l00078">78</a> of file <a class="el" href="_h_d_f5_util_8java_source.html">HDF5Util.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_h_d_f5_writer_8java_source.html#l00279">wrimsv2.hdf5.HDF5Writer.createDvarAliasLookup()</a>, <a class="el" href="_d_s_s_h_d_f5_converter_8java_source.html#l00437">wrimsv2.hdf5.DSSHDF5Converter.createInitLookup()</a>, <a class="el" href="_d_s_s_h_d_f5_converter_8java_source.html#l00355">wrimsv2.hdf5.DSSHDF5Converter.createSVLookup()</a>, <a class="el" href="_d_s_s_h_d_f5_converter_8java_source.html#l00302">wrimsv2.hdf5.DSSHDF5Converter.listDailyInitHDF5File()</a>, <a class="el" href="_d_s_s_h_d_f5_converter_8java_source.html#l00196">wrimsv2.hdf5.DSSHDF5Converter.listDailySVHDF5File()</a>, <a class="el" href="_h_d_f5_writer_8java_source.html#l00660">wrimsv2.hdf5.HDF5Writer.listDailyTimestepDvarAlias()</a>, <a class="el" href="_d_s_s_h_d_f5_converter_8java_source.html#l00249">wrimsv2.hdf5.DSSHDF5Converter.listMonthlyInitHDF5File()</a>, <a class="el" href="_d_s_s_h_d_f5_converter_8java_source.html#l00143">wrimsv2.hdf5.DSSHDF5Converter.listMonthlySVHDF5File()</a>, <a class="el" href="_h_d_f5_writer_8java_source.html#l00600">wrimsv2.hdf5.HDF5Writer.listMonthlyTimestepDvarAlias()</a>, <a class="el" href="_h_d_f5_util_8java_source.html#l00325">writeCycleDynamicSv()</a>, <a class="el" href="_h_d_f5_util_8java_source.html#l00261">writeCycleStaticSvNames()</a>, and <a class="el" href="_h_d_f5_util_8java_source.html#l00162">writeCycleVariableNames()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/hdf5/<b>HDF5Util.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/hdf5/<a class="el" href="_h_d_f5_util_8java_source.html">HDF5Util.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -131,7 +519,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>writeCycleDyna
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>hdf5</b></li><li class="navelem"><a href="classwrimsv2_1_1hdf5_1_1_h_d_f5_util.html">HDF5Util</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1hdf5.html">hdf5</a></li><li class="navelem"><a href="classwrimsv2_1_1hdf5_1_1_h_d_f5_util.html">HDF5Util</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

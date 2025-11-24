@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.components.DebugInterface Class Reference</title>
+<title>Wrims-engine: wrimsv2.components.DebugInterface Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,90 +94,1453 @@ $(function(){initNavTree('classwrimsv2_1_1components_1_1_debug_interface.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9e9f7087ef909fb8acec86d47e04dae0" id="r_a9e9f7087ef909fb8acec86d47e04dae0"><td class="memItemLeft" align="right" valign="top"><a id="a9e9f7087ef909fb8acec86d47e04dae0" name="a9e9f7087ef909fb8acec86d47e04dae0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DebugInterface</b> (int requestPort, int eventPort, String args[])</td></tr>
-<tr class="memitem:a792939b3fce943260aa11dfb8678d8b8" id="r_a792939b3fce943260aa11dfb8678d8b8"><td class="memItemLeft" align="right" valign="top"><a id="a792939b3fce943260aa11dfb8678d8b8" name="a792939b3fce943260aa11dfb8678d8b8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>handleRequest</b> (String request)</td></tr>
-<tr class="memitem:aa12c75479ded1aed09ebace9c93eebd3" id="r_aa12c75479ded1aed09ebace9c93eebd3"><td class="memItemLeft" align="right" valign="top"><a id="aa12c75479ded1aed09ebace9c93eebd3" name="aa12c75479ded1aed09ebace9c93eebd3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sendRequest</b> (String request)  throws IOException </td></tr>
-<tr class="memitem:a49ae82580c139e3a324924dce38a87bc" id="r_a49ae82580c139e3a324924dce38a87bc"><td class="memItemLeft" align="right" valign="top"><a id="a49ae82580c139e3a324924dce38a87bc" name="a49ae82580c139e3a324924dce38a87bc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sendEvent</b> (String event)  throws IOException </td></tr>
-<tr class="memitem:a32402112790336018c607873b12288a7" id="r_a32402112790336018c607873b12288a7"><td class="memItemLeft" align="right" valign="top"><a id="a32402112790336018c607873b12288a7" name="a32402112790336018c607873b12288a7"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getVariableInOneFile</b> (String fileFullPath)</td></tr>
-<tr class="memitem:afd3bbe37e0f2b995815446f5938ed484" id="r_afd3bbe37e0f2b995815446f5938ed484"><td class="memItemLeft" align="right" valign="top"><a id="afd3bbe37e0f2b995815446f5938ed484" name="afd3bbe37e0f2b995815446f5938ed484"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getVariableInOneFileWP</b> (String fileFullPath)</td></tr>
-<tr class="memitem:a9544628608a6e19eaec743653d5b9741" id="r_a9544628608a6e19eaec743653d5b9741"><td class="memItemLeft" align="right" valign="top"><a id="a9544628608a6e19eaec743653d5b9741" name="a9544628608a6e19eaec743653d5b9741"></a>
-ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getVariableIfInc</b> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a> modelTemp)</td></tr>
-<tr class="memitem:a15d04a53d8d309ba52ab72597cbdfce9" id="r_a15d04a53d8d309ba52ab72597cbdfce9"><td class="memItemLeft" align="right" valign="top"><a id="a15d04a53d8d309ba52ab72597cbdfce9" name="a15d04a53d8d309ba52ab72597cbdfce9"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getGoalInOneFile</b> (String fileFullPath)</td></tr>
-<tr class="memitem:a5d9451b8a0422d94b98df4c0accc15a1" id="r_a5d9451b8a0422d94b98df4c0accc15a1"><td class="memItemLeft" align="right" valign="top"><a id="a5d9451b8a0422d94b98df4c0accc15a1" name="a5d9451b8a0422d94b98df4c0accc15a1"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getGoalInOneFileWP</b> (String fileFullPath)</td></tr>
-<tr class="memitem:a4d011f70b0cd44c7ada8f264f8e69776" id="r_a4d011f70b0cd44c7ada8f264f8e69776"><td class="memItemLeft" align="right" valign="top"><a id="a4d011f70b0cd44c7ada8f264f8e69776" name="a4d011f70b0cd44c7ada8f264f8e69776"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getFilterGoal</b> (String fileName)</td></tr>
-<tr class="memitem:a96dcb3362c3f7b50ad403a722c3c3b3a" id="r_a96dcb3362c3f7b50ad403a722c3c3b3a"><td class="memItemLeft" align="right" valign="top"><a id="a96dcb3362c3f7b50ad403a722c3c3b3a" name="a96dcb3362c3f7b50ad403a722c3c3b3a"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>procFilterFile</b> (String filterName)</td></tr>
-<tr class="memitem:a9b51f857ea5b00d247bde50c71f4a96f" id="r_a9b51f857ea5b00d247bde50c71f4a96f"><td class="memItemLeft" align="right" valign="top"><a id="a9b51f857ea5b00d247bde50c71f4a96f" name="a9b51f857ea5b00d247bde50c71f4a96f"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getAllVariableString</b> ()</td></tr>
-<tr class="memitem:aca34be99ac03266cc42a460c5633cb0c" id="r_aca34be99ac03266cc42a460c5633cb0c"><td class="memItemLeft" align="right" valign="top"><a id="aca34be99ac03266cc42a460c5633cb0c" name="aca34be99ac03266cc42a460c5633cb0c"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getAllVariableFiles</b> ()</td></tr>
-<tr class="memitem:ae5a53b475d98dd47b2f72ba65fbee11a" id="r_ae5a53b475d98dd47b2f72ba65fbee11a"><td class="memItemLeft" align="right" valign="top"><a id="ae5a53b475d98dd47b2f72ba65fbee11a" name="ae5a53b475d98dd47b2f72ba65fbee11a"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getAllGoalString</b> ()</td></tr>
-<tr class="memitem:ae34ae571ff5b114a15cff0cb27ff5b55" id="r_ae34ae571ff5b114a15cff0cb27ff5b55"><td class="memItemLeft" align="right" valign="top"><a id="ae34ae571ff5b114a15cff0cb27ff5b55" name="ae34ae571ff5b114a15cff0cb27ff5b55"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getAllGoalFile</b> ()</td></tr>
-<tr class="memitem:a1957fd5a2f1051bdcb824333d0a8bc30" id="r_a1957fd5a2f1051bdcb824333d0a8bc30"><td class="memItemLeft" align="right" valign="top"><a id="a1957fd5a2f1051bdcb824333d0a8bc30" name="a1957fd5a2f1051bdcb824333d0a8bc30"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getWatch</b> (String vGNameString)</td></tr>
-<tr class="memitem:a773392507c3b272929b20e64d8adbf7d" id="r_a773392507c3b272929b20e64d8adbf7d"><td class="memItemLeft" align="right" valign="top"><a id="a773392507c3b272929b20e64d8adbf7d" name="a773392507c3b272929b20e64d8adbf7d"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getAllControlGoalName</b> ()</td></tr>
-<tr class="memitem:ad062faf430982f92cb0cf6b5e24b144f" id="r_ad062faf430982f92cb0cf6b5e24b144f"><td class="memItemLeft" align="right" valign="top"><a id="ad062faf430982f92cb0cf6b5e24b144f" name="ad062faf430982f92cb0cf6b5e24b144f"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getTimeseriesDetail</b> (String variableNames)</td></tr>
-<tr class="memitem:aa3b907c247a201c9b648adff38db2135" id="r_aa3b907c247a201c9b648adff38db2135"><td class="memItemLeft" align="right" valign="top"><a id="aa3b907c247a201c9b648adff38db2135" name="aa3b907c247a201c9b648adff38db2135"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getFutureValueDetail</b> (String variableName)</td></tr>
-<tr class="memitem:a7ca0a16ed9a60665f4f6756cefacc5fd" id="r_a7ca0a16ed9a60665f4f6756cefacc5fd"><td class="memItemLeft" align="right" valign="top"><a id="a7ca0a16ed9a60665f4f6756cefacc5fd" name="a7ca0a16ed9a60665f4f6756cefacc5fd"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getCycleValueDetail</b> (String variableName)</td></tr>
-<tr class="memitem:a1b4479615944e36dbe72a83ddf1f5b2f" id="r_a1b4479615944e36dbe72a83ddf1f5b2f"><td class="memItemLeft" align="right" valign="top"><a id="a1b4479615944e36dbe72a83ddf1f5b2f" name="a1b4479615944e36dbe72a83ddf1f5b2f"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>modifyTimeSeries</b> (String[] requestParts)</td></tr>
-<tr class="memitem:ad490936264f6ecff2bf6bd0fd6ae8488" id="r_ad490936264f6ecff2bf6bd0fd6ae8488"><td class="memItemLeft" align="right" valign="top"><a id="ad490936264f6ecff2bf6bd0fd6ae8488" name="ad490936264f6ecff2bf6bd0fd6ae8488"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>modifyCycle</b> (String[] requestParts)</td></tr>
-<tr class="memitem:ae56f659b5d73ce9823e536947210929c" id="r_ae56f659b5d73ce9823e536947210929c"><td class="memItemLeft" align="right" valign="top"><a id="ae56f659b5d73ce9823e536947210929c" name="ae56f659b5d73ce9823e536947210929c"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getDataString</b> ()</td></tr>
-<tr class="memitem:a670330a01de66e5f3f312d3909cc636a" id="r_a670330a01de66e5f3f312d3909cc636a"><td class="memItemLeft" align="right" valign="top"><a id="a670330a01de66e5f3f312d3909cc636a" name="a670330a01de66e5f3f312d3909cc636a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setSolverOptions</b> (String[] requestParts)</td></tr>
-<tr class="memitem:afc6a1c2ab5fed7de4ef4320a1f0b3615" id="r_afc6a1c2ab5fed7de4ef4320a1f0b3615"><td class="memItemLeft" align="right" valign="top"><a id="afc6a1c2ab5fed7de4ef4320a1f0b3615" name="afc6a1c2ab5fed7de4ef4320a1f0b3615"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>saveInitDss</b> (String fileName)</td></tr>
-<tr class="memitem:a40f3007bceccb0ad2baf78aea5e25115" id="r_a40f3007bceccb0ad2baf78aea5e25115"><td class="memItemLeft" align="right" valign="top"><a id="a40f3007bceccb0ad2baf78aea5e25115" name="a40f3007bceccb0ad2baf78aea5e25115"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>saveSvDss</b> (String fileName)</td></tr>
-<tr class="memitem:a1eb67932f7bf34c7ee6dcccb66224819" id="r_a1eb67932f7bf34c7ee6dcccb66224819"><td class="memItemLeft" align="right" valign="top"><a id="a1eb67932f7bf34c7ee6dcccb66224819" name="a1eb67932f7bf34c7ee6dcccb66224819"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>saveDvDss</b> (String fileName)</td></tr>
-<tr class="memitem:a1e33c85d310253cf8192a002ed23a637" id="r_a1e33c85d310253cf8192a002ed23a637"><td class="memItemLeft" align="right" valign="top"><a id="a1e33c85d310253cf8192a002ed23a637" name="a1e33c85d310253cf8192a002ed23a637"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setSelectedOutputCycles</b> ()</td></tr>
+<tr class="memitem:a9e9f7087ef909fb8acec86d47e04dae0" id="r_a9e9f7087ef909fb8acec86d47e04dae0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9f7087ef909fb8acec86d47e04dae0">DebugInterface</a> (int requestPort, int eventPort, String args[])</td></tr>
+<tr class="memitem:a773392507c3b272929b20e64d8adbf7d" id="r_a773392507c3b272929b20e64d8adbf7d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a773392507c3b272929b20e64d8adbf7d">getAllControlGoalName</a> ()</td></tr>
+<tr class="memitem:ae34ae571ff5b114a15cff0cb27ff5b55" id="r_ae34ae571ff5b114a15cff0cb27ff5b55"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae34ae571ff5b114a15cff0cb27ff5b55">getAllGoalFile</a> ()</td></tr>
+<tr class="memitem:ae5a53b475d98dd47b2f72ba65fbee11a" id="r_ae5a53b475d98dd47b2f72ba65fbee11a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5a53b475d98dd47b2f72ba65fbee11a">getAllGoalString</a> ()</td></tr>
+<tr class="memitem:aca34be99ac03266cc42a460c5633cb0c" id="r_aca34be99ac03266cc42a460c5633cb0c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca34be99ac03266cc42a460c5633cb0c">getAllVariableFiles</a> ()</td></tr>
+<tr class="memitem:a9b51f857ea5b00d247bde50c71f4a96f" id="r_a9b51f857ea5b00d247bde50c71f4a96f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b51f857ea5b00d247bde50c71f4a96f">getAllVariableString</a> ()</td></tr>
+<tr class="memitem:a7ca0a16ed9a60665f4f6756cefacc5fd" id="r_a7ca0a16ed9a60665f4f6756cefacc5fd"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ca0a16ed9a60665f4f6756cefacc5fd">getCycleValueDetail</a> (String variableName)</td></tr>
+<tr class="memitem:ae56f659b5d73ce9823e536947210929c" id="r_ae56f659b5d73ce9823e536947210929c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae56f659b5d73ce9823e536947210929c">getDataString</a> ()</td></tr>
+<tr class="memitem:a4d011f70b0cd44c7ada8f264f8e69776" id="r_a4d011f70b0cd44c7ada8f264f8e69776"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d011f70b0cd44c7ada8f264f8e69776">getFilterGoal</a> (String fileName)</td></tr>
+<tr class="memitem:aa3b907c247a201c9b648adff38db2135" id="r_aa3b907c247a201c9b648adff38db2135"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3b907c247a201c9b648adff38db2135">getFutureValueDetail</a> (String variableName)</td></tr>
+<tr class="memitem:a15d04a53d8d309ba52ab72597cbdfce9" id="r_a15d04a53d8d309ba52ab72597cbdfce9"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15d04a53d8d309ba52ab72597cbdfce9">getGoalInOneFile</a> (String fileFullPath)</td></tr>
+<tr class="memitem:a5d9451b8a0422d94b98df4c0accc15a1" id="r_a5d9451b8a0422d94b98df4c0accc15a1"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d9451b8a0422d94b98df4c0accc15a1">getGoalInOneFileWP</a> (String fileFullPath)</td></tr>
+<tr class="memitem:ad062faf430982f92cb0cf6b5e24b144f" id="r_ad062faf430982f92cb0cf6b5e24b144f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad062faf430982f92cb0cf6b5e24b144f">getTimeseriesDetail</a> (String variableNames)</td></tr>
+<tr class="memitem:a9544628608a6e19eaec743653d5b9741" id="r_a9544628608a6e19eaec743653d5b9741"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9544628608a6e19eaec743653d5b9741">getVariableIfInc</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a> modelTemp)</td></tr>
+<tr class="memitem:a32402112790336018c607873b12288a7" id="r_a32402112790336018c607873b12288a7"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32402112790336018c607873b12288a7">getVariableInOneFile</a> (String fileFullPath)</td></tr>
+<tr class="memitem:afd3bbe37e0f2b995815446f5938ed484" id="r_afd3bbe37e0f2b995815446f5938ed484"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd3bbe37e0f2b995815446f5938ed484">getVariableInOneFileWP</a> (String fileFullPath)</td></tr>
+<tr class="memitem:a1957fd5a2f1051bdcb824333d0a8bc30" id="r_a1957fd5a2f1051bdcb824333d0a8bc30"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1957fd5a2f1051bdcb824333d0a8bc30">getWatch</a> (String vGNameString)</td></tr>
+<tr class="memitem:a792939b3fce943260aa11dfb8678d8b8" id="r_a792939b3fce943260aa11dfb8678d8b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a792939b3fce943260aa11dfb8678d8b8">handleRequest</a> (String request)</td></tr>
+<tr class="memitem:ad490936264f6ecff2bf6bd0fd6ae8488" id="r_ad490936264f6ecff2bf6bd0fd6ae8488"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad490936264f6ecff2bf6bd0fd6ae8488">modifyCycle</a> (String[] requestParts)</td></tr>
+<tr class="memitem:a1b4479615944e36dbe72a83ddf1f5b2f" id="r_a1b4479615944e36dbe72a83ddf1f5b2f"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b4479615944e36dbe72a83ddf1f5b2f">modifyTimeSeries</a> (String[] requestParts)</td></tr>
+<tr class="memitem:a96dcb3362c3f7b50ad403a722c3c3b3a" id="r_a96dcb3362c3f7b50ad403a722c3c3b3a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96dcb3362c3f7b50ad403a722c3c3b3a">procFilterFile</a> (String filterName)</td></tr>
+<tr class="memitem:a1eb67932f7bf34c7ee6dcccb66224819" id="r_a1eb67932f7bf34c7ee6dcccb66224819"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1eb67932f7bf34c7ee6dcccb66224819">saveDvDss</a> (String fileName)</td></tr>
+<tr class="memitem:afc6a1c2ab5fed7de4ef4320a1f0b3615" id="r_afc6a1c2ab5fed7de4ef4320a1f0b3615"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc6a1c2ab5fed7de4ef4320a1f0b3615">saveInitDss</a> (String fileName)</td></tr>
+<tr class="memitem:a40f3007bceccb0ad2baf78aea5e25115" id="r_a40f3007bceccb0ad2baf78aea5e25115"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40f3007bceccb0ad2baf78aea5e25115">saveSvDss</a> (String fileName)</td></tr>
+<tr class="memitem:a49ae82580c139e3a324924dce38a87bc" id="r_a49ae82580c139e3a324924dce38a87bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49ae82580c139e3a324924dce38a87bc">sendEvent</a> (String event)  throws IOException </td></tr>
+<tr class="memitem:aa12c75479ded1aed09ebace9c93eebd3" id="r_aa12c75479ded1aed09ebace9c93eebd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa12c75479ded1aed09ebace9c93eebd3">sendRequest</a> (String request)  throws IOException </td></tr>
+<tr class="memitem:a1e33c85d310253cf8192a002ed23a637" id="r_a1e33c85d310253cf8192a002ed23a637"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e33c85d310253cf8192a002ed23a637">setSelectedOutputCycles</a> ()</td></tr>
+<tr class="memitem:a670330a01de66e5f3f312d3909cc636a" id="r_a670330a01de66e5f3f312d3909cc636a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a670330a01de66e5f3f312d3909cc636a">setSolverOptions</a> (String[] requestParts)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ac68ef6a75377594f10ec8c82235a807c" id="r_ac68ef6a75377594f10ec8c82235a807c"><td class="memItemLeft" align="right" valign="top"><a id="ac68ef6a75377594f10ec8c82235a807c" name="ac68ef6a75377594f10ec8c82235a807c"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (String[] args)</td></tr>
+<tr class="memitem:ac68ef6a75377594f10ec8c82235a807c" id="r_ac68ef6a75377594f10ec8c82235a807c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac68ef6a75377594f10ec8c82235a807c">main</a> (String[] args)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af6f9a8e86e10577ad5a39cf0a7c67e80" id="r_af6f9a8e86e10577ad5a39cf0a7c67e80"><td class="memItemLeft" align="right" valign="top"><a id="af6f9a8e86e10577ad5a39cf0a7c67e80" name="af6f9a8e86e10577ad5a39cf0a7c67e80"></a>
-ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>breakIndex</b> =new ArrayList&lt;String&gt;()</td></tr>
-<tr class="memitem:a1b199793e400d72feab2b92f66cb78ce" id="r_a1b199793e400d72feab2b92f66cb78ce"><td class="memItemLeft" align="right" valign="top"><a id="a1b199793e400d72feab2b92f66cb78ce" name="a1b199793e400d72feab2b92f66cb78ce"></a>
-ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>breakFile</b> =new ArrayList&lt;String&gt;()</td></tr>
-<tr class="memitem:a12881258a63f7710967ac65b17f63bc2" id="r_a12881258a63f7710967ac65b17f63bc2"><td class="memItemLeft" align="right" valign="top"><a id="a12881258a63f7710967ac65b17f63bc2" name="a12881258a63f7710967ac65b17f63bc2"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>isDebugging</b> =true</td></tr>
-<tr class="memitem:a54e6dae196989726bf334a5498e1ce80" id="r_a54e6dae196989726bf334a5498e1ce80"><td class="memItemLeft" align="right" valign="top"><a id="a54e6dae196989726bf334a5498e1ce80" name="a54e6dae196989726bf334a5498e1ce80"></a>
-PrintWriter&#160;</td><td class="memItemRight" valign="bottom"><b>fileOut</b></td></tr>
-<tr class="memitem:a78bf4201af4568ceaff920431c9faf13" id="r_a78bf4201af4568ceaff920431c9faf13"><td class="memItemLeft" align="right" valign="top"><a id="a78bf4201af4568ceaff920431c9faf13" name="a78bf4201af4568ceaff920431c9faf13"></a>
-DecimalFormat&#160;</td><td class="memItemRight" valign="bottom"><b>df</b> = new DecimalFormat(&quot;#.####&quot;)</td></tr>
+<tr class="memitem:a1b199793e400d72feab2b92f66cb78ce" id="r_a1b199793e400d72feab2b92f66cb78ce"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b199793e400d72feab2b92f66cb78ce">breakFile</a> =new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:af6f9a8e86e10577ad5a39cf0a7c67e80" id="r_af6f9a8e86e10577ad5a39cf0a7c67e80"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6f9a8e86e10577ad5a39cf0a7c67e80">breakIndex</a> =new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:a78bf4201af4568ceaff920431c9faf13" id="r_a78bf4201af4568ceaff920431c9faf13"><td class="memItemLeft" align="right" valign="top">DecimalFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78bf4201af4568ceaff920431c9faf13">df</a> = new DecimalFormat(&quot;#.####&quot;)</td></tr>
+<tr class="memitem:a54e6dae196989726bf334a5498e1ce80" id="r_a54e6dae196989726bf334a5498e1ce80"><td class="memItemLeft" align="right" valign="top">PrintWriter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54e6dae196989726bf334a5498e1ce80">fileOut</a></td></tr>
+<tr class="memitem:a12881258a63f7710967ac65b17f63bc2" id="r_a12881258a63f7710967ac65b17f63bc2"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12881258a63f7710967ac65b17f63bc2">isDebugging</a> =true</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a699cdc2b513615f38c235638b3841a52" id="r_a699cdc2b513615f38c235638b3841a52"><td class="memItemLeft" align="right" valign="top"><a id="a699cdc2b513615f38c235638b3841a52" name="a699cdc2b513615f38c235638b3841a52"></a>
-static String[]&#160;</td><td class="memItemRight" valign="bottom"><b>monitorVarNames</b> =new String[0]</td></tr>
-<tr class="memitem:af91ee4e4953085d248da7a98fa1f4faa" id="r_af91ee4e4953085d248da7a98fa1f4faa"><td class="memItemLeft" align="right" valign="top"><a id="af91ee4e4953085d248da7a98fa1f4faa" name="af91ee4e4953085d248da7a98fa1f4faa"></a>
-static String&#160;</td><td class="memItemRight" valign="bottom"><b>monitorVarTimeStep</b> =&quot;&quot;</td></tr>
+<tr class="memitem:a699cdc2b513615f38c235638b3841a52" id="r_a699cdc2b513615f38c235638b3841a52"><td class="memItemLeft" align="right" valign="top">static String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a699cdc2b513615f38c235638b3841a52">monitorVarNames</a> =new String[0]</td></tr>
+<tr class="memitem:af91ee4e4953085d248da7a98fa1f4faa" id="r_af91ee4e4953085d248da7a98fa1f4faa"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af91ee4e4953085d248da7a98fa1f4faa">monitorVarTimeStep</a> =&quot;&quot;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:abdd5b1de35c6dc329f27005087bac43a" id="r_abdd5b1de35c6dc329f27005087bac43a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdd5b1de35c6dc329f27005087bac43a">initOutputCycleDataToDss</a> ()</td></tr>
+<tr class="memitem:a5e90dbabdc611ba19d8efc034a063cb0" id="r_a5e90dbabdc611ba19d8efc034a063cb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e90dbabdc611ba19d8efc034a063cb0">setConditionalBreakpoint</a> (String request)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ae0f474288d60c3f1a439417cf4e98619" id="r_ae0f474288d60c3f1a439417cf4e98619"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0f474288d60c3f1a439417cf4e98619">allDebugVariables</a></td></tr>
+<tr class="memitem:a39f5bda4b8ab82135c52f01b426546b3" id="r_a39f5bda4b8ab82135c52f01b426546b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwrimsv2_1_1components_1_1_controller_debug.html">ControllerDebug</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39f5bda4b8ab82135c52f01b426546b3">controllerDebug</a></td></tr>
+<tr class="memitem:ae1eaad03f1e45da7b6b826df5391d39b" id="r_ae1eaad03f1e45da7b6b826df5391d39b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1eaad03f1e45da7b6b826df5391d39b">dataDir</a> =&quot;data&quot;</td></tr>
+<tr class="memitem:a1a3707ba26b7677320a4b07b25a80c24" id="r_a1a3707ba26b7677320a4b07b25a80c24"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a3707ba26b7677320a4b07b25a80c24">debugAlias</a></td></tr>
+<tr class="memitem:a1b04a6de915592738e2b996c5d7ed582" id="r_a1b04a6de915592738e2b996c5d7ed582"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b04a6de915592738e2b996c5d7ed582">debugDvar</a></td></tr>
+<tr class="memitem:a9aa9d6226da9c112cab93280ac24fcb6" id="r_a9aa9d6226da9c112cab93280ac24fcb6"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9aa9d6226da9c112cab93280ac24fcb6">debugSvar</a></td></tr>
+<tr class="memitem:a62679624661bc185ed9ec622983ae056" id="r_a62679624661bc185ed9ec622983ae056"><td class="memItemLeft" align="right" valign="top">Socket&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62679624661bc185ed9ec622983ae056">eventConnection</a></td></tr>
+<tr class="memitem:a07557777427f7d0a3955874bc830f4ab" id="r_a07557777427f7d0a3955874bc830f4ab"><td class="memItemLeft" align="right" valign="top">BufferedReader&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07557777427f7d0a3955874bc830f4ab">eventIn</a></td></tr>
+<tr class="memitem:a6bacf3b7a9d4db302d83b50e1e62a3ed" id="r_a6bacf3b7a9d4db302d83b50e1e62a3ed"><td class="memItemLeft" align="right" valign="top">PrintWriter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bacf3b7a9d4db302d83b50e1e62a3ed">eventOut</a></td></tr>
+<tr class="memitem:a2b20dd225bf1151f24ea401f66a2c263" id="r_a2b20dd225bf1151f24ea401f66a2c263"><td class="memItemLeft" align="right" valign="top">ServerSocket&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b20dd225bf1151f24ea401f66a2c263">eventSocket</a></td></tr>
+<tr class="memitem:aabced2ff2a566d3b9f49f3cf322dfe04" id="r_aabced2ff2a566d3b9f49f3cf322dfe04"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabced2ff2a566d3b9f49f3cf322dfe04">filterGoalNames</a> =new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:a08b389866b5060aa73a5057cfc9485a7" id="r_a08b389866b5060aa73a5057cfc9485a7"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1debug_1_1_filter_goal.html">FilterGoal</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08b389866b5060aa73a5057cfc9485a7">filterGoals</a> =new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1debug_1_1_filter_goal.html">FilterGoal</a>&gt;()</td></tr>
+<tr class="memitem:a7edc9c75a1816fe26fa248383118f02b" id="r_a7edc9c75a1816fe26fa248383118f02b"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7edc9c75a1816fe26fa248383118f02b">isStart</a> =false</td></tr>
+<tr class="memitem:ab4813e843a5b0e56665d4e0b859964b2" id="r_ab4813e843a5b0e56665d4e0b859964b2"><td class="memItemLeft" align="right" valign="top">Socket&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4813e843a5b0e56665d4e0b859964b2">requestConnection</a></td></tr>
+<tr class="memitem:a237dd44d8564d8ee975e849f5b137036" id="r_a237dd44d8564d8ee975e849f5b137036"><td class="memItemLeft" align="right" valign="top">BufferedReader&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a237dd44d8564d8ee975e849f5b137036">requestIn</a></td></tr>
+<tr class="memitem:a53196748ed3f05fdc0c977188f30429e" id="r_a53196748ed3f05fdc0c977188f30429e"><td class="memItemLeft" align="right" valign="top">PrintWriter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53196748ed3f05fdc0c977188f30429e">requestOut</a></td></tr>
+<tr class="memitem:aa1d7de598776df45d6d5ea46a797fa44" id="r_aa1d7de598776df45d6d5ea46a797fa44"><td class="memItemLeft" align="right" valign="top">ServerSocket&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1d7de598776df45d6d5ea46a797fa44">requestSocket</a></td></tr>
+<tr class="memitem:a7fce49e6aec19c273c736349e5f3a3b0" id="r_a7fce49e6aec19c273c736349e5f3a3b0"><td class="memItemLeft" align="right" valign="top">FileWriter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fce49e6aec19c273c736349e5f3a3b0">statusFile</a></td></tr>
+<tr class="memitem:add9f0a26fe62cfaaec30f2f89e010635" id="r_add9f0a26fe62cfaaec30f2f89e010635"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add9f0a26fe62cfaaec30f2f89e010635">terminateCode</a> =0</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00084">84</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9e9f7087ef909fb8acec86d47e04dae0" name="a9e9f7087ef909fb8acec86d47e04dae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9f7087ef909fb8acec86d47e04dae0">&#9670;&#160;</a></span>DebugInterface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.components.DebugInterface.DebugInterface </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>requestPort</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>eventPort</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>args</em></span>[]&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00112">112</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00096">controllerDebug</a>, <a class="el" href="_debug_interface_8java_source.html#l00088">eventConnection</a>, <a class="el" href="_debug_interface_8java_source.html#l00092">eventIn</a>, <a class="el" href="_debug_interface_8java_source.html#l00091">eventOut</a>, <a class="el" href="_debug_interface_8java_source.html#l00087">eventSocket</a>, <a class="el" href="_debug_interface_8java_source.html#l00098">fileOut</a>, <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>, <a class="el" href="_debug_interface_8java_source.html#l00095">isDebugging</a>, <a class="el" href="_debug_interface_8java_source.html#l00086">requestConnection</a>, <a class="el" href="_debug_interface_8java_source.html#l00090">requestIn</a>, <a class="el" href="_debug_interface_8java_source.html#l00089">requestOut</a>, <a class="el" href="_debug_interface_8java_source.html#l00085">requestSocket</a>, <a class="el" href="_debug_interface_8java_source.html#l00097">statusFile</a>, and <a class="el" href="_debug_interface_8java_source.html#l00110">terminateCode</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l02597">main()</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a773392507c3b272929b20e64d8adbf7d" name="a773392507c3b272929b20e64d8adbf7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a773392507c3b272929b20e64d8adbf7d">&#9670;&#160;</a></span>getAllControlGoalName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getAllControlGoalName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02091">2091</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_solver_data_8java_source.html#l00043">wrimsv2.commondata.solverdata.SolverData.getConstraintDataMap()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00015">wrimsv2.evaluator.EvalConstraint.getEvalExpression()</a>, <a class="el" href="_eval_expression_8java_source.html#l00032">wrimsv2.evaluator.EvalExpression.getMultiplier()</a>, and <a class="el" href="_eval_expression_8java_source.html#l00024">wrimsv2.evaluator.EvalExpression.getValue()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="ae34ae571ff5b114a15cff0cb27ff5b55" name="ae34ae571ff5b114a15cff0cb27ff5b55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae34ae571ff5b114a15cff0cb27ff5b55">&#9670;&#160;</a></span>getAllGoalFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getAllGoalFile </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l01882">1882</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00109">dataDir</a>, <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="_solver_data_8java_source.html#l00043">wrimsv2.commondata.solverdata.SolverData.getConstraintDataMap()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00015">wrimsv2.evaluator.EvalConstraint.getEvalExpression()</a>, <a class="el" href="_eval_expression_8java_source.html#l00032">wrimsv2.evaluator.EvalExpression.getMultiplier()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00019">wrimsv2.evaluator.EvalConstraint.getSign()</a>, and <a class="el" href="_eval_expression_8java_source.html#l00024">wrimsv2.evaluator.EvalExpression.getValue()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="ae5a53b475d98dd47b2f72ba65fbee11a" name="ae5a53b475d98dd47b2f72ba65fbee11a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5a53b475d98dd47b2f72ba65fbee11a">&#9670;&#160;</a></span>getAllGoalString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getAllGoalString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l01824">1824</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="_solver_data_8java_source.html#l00043">wrimsv2.commondata.solverdata.SolverData.getConstraintDataMap()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00015">wrimsv2.evaluator.EvalConstraint.getEvalExpression()</a>, <a class="el" href="_eval_expression_8java_source.html#l00032">wrimsv2.evaluator.EvalExpression.getMultiplier()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00019">wrimsv2.evaluator.EvalConstraint.getSign()</a>, and <a class="el" href="_eval_expression_8java_source.html#l00024">wrimsv2.evaluator.EvalExpression.getValue()</a>.</p>
+
+</div>
+</div>
+<a id="aca34be99ac03266cc42a460c5633cb0c" name="aca34be99ac03266cc42a460c5633cb0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca34be99ac03266cc42a460c5633cb0c">&#9670;&#160;</a></span>getAllVariableFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getAllVariableFiles </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l01644">1644</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_model_data_set_8java_source.html#l00095">wrimsv2.commondata.wresldata.ModelDataSet.asMap</a>, <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00037">wrimsv2.components.ControlData.currModelDataSet</a>, <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="_debug_interface_8java_source.html#l00109">dataDir</a>, <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00054">wrimsv2.commondata.wresldata.Alias.getData()</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00064">wrimsv2.commondata.wresldata.Dvar.getData()</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00102">wrimsv2.commondata.wresldata.Svar.getData()</a>, <a class="el" href="_timeseries_8java_source.html#l00036">wrimsv2.commondata.wresldata.Timeseries.getData()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00121">wrimsv2.commondata.wresldata.StudyDataSet.getModelDataSetMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00057">wrimsv2.commondata.wresldata.StudyDataSet.getParameterMap()</a>, <a class="el" href="_solver_data_8java_source.html#l00019">wrimsv2.commondata.solverdata.SolverData.getWeightMap()</a>, <a class="el" href="_solver_data_8java_source.html#l00027">wrimsv2.commondata.solverdata.SolverData.getWeightSlackSurplusMap()</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00016">wrimsv2.commondata.wresldata.Alias.kind</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00020">wrimsv2.commondata.wresldata.Dvar.kind</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00025">wrimsv2.commondata.wresldata.Svar.kind</a>, <a class="el" href="_timeseries_8java_source.html#l00014">wrimsv2.commondata.wresldata.Timeseries.kind</a>, <a class="el" href="_model_data_set_8java_source.html#l00076">wrimsv2.commondata.wresldata.ModelDataSet.svFutMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00075">wrimsv2.commondata.wresldata.ModelDataSet.svMap</a>, <a class="el" href="_control_data_8java_source.html#l00059">wrimsv2.components.ControlData.timeStep</a>, <a class="el" href="_model_data_set_8java_source.html#l00068">wrimsv2.commondata.wresldata.ModelDataSet.tsMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00043">wrimsv2.commondata.wresldata.ModelDataSet.usedWtSlackSurplusList</a>, <a class="el" href="_model_data_set_8java_source.html#l00040">wrimsv2.commondata.wresldata.ModelDataSet.wtList</a>, and <a class="el" href="_model_data_set_8java_source.html#l00041">wrimsv2.commondata.wresldata.ModelDataSet.wtTimeArrayList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a9b51f857ea5b00d247bde50c71f4a96f" name="a9b51f857ea5b00d247bde50c71f4a96f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b51f857ea5b00d247bde50c71f4a96f">&#9670;&#160;</a></span>getAllVariableString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getAllVariableString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l01484">1484</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_model_data_set_8java_source.html#l00095">wrimsv2.commondata.wresldata.ModelDataSet.asMap</a>, <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00037">wrimsv2.components.ControlData.currModelDataSet</a>, <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00054">wrimsv2.commondata.wresldata.Alias.getData()</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00064">wrimsv2.commondata.wresldata.Dvar.getData()</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00102">wrimsv2.commondata.wresldata.Svar.getData()</a>, <a class="el" href="_timeseries_8java_source.html#l00036">wrimsv2.commondata.wresldata.Timeseries.getData()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00121">wrimsv2.commondata.wresldata.StudyDataSet.getModelDataSetMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00057">wrimsv2.commondata.wresldata.StudyDataSet.getParameterMap()</a>, <a class="el" href="_solver_data_8java_source.html#l00019">wrimsv2.commondata.solverdata.SolverData.getWeightMap()</a>, <a class="el" href="_solver_data_8java_source.html#l00027">wrimsv2.commondata.solverdata.SolverData.getWeightSlackSurplusMap()</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00016">wrimsv2.commondata.wresldata.Alias.kind</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00020">wrimsv2.commondata.wresldata.Dvar.kind</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00025">wrimsv2.commondata.wresldata.Svar.kind</a>, <a class="el" href="_timeseries_8java_source.html#l00014">wrimsv2.commondata.wresldata.Timeseries.kind</a>, <a class="el" href="_model_data_set_8java_source.html#l00076">wrimsv2.commondata.wresldata.ModelDataSet.svFutMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00075">wrimsv2.commondata.wresldata.ModelDataSet.svMap</a>, <a class="el" href="_control_data_8java_source.html#l00059">wrimsv2.components.ControlData.timeStep</a>, <a class="el" href="_model_data_set_8java_source.html#l00068">wrimsv2.commondata.wresldata.ModelDataSet.tsMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00043">wrimsv2.commondata.wresldata.ModelDataSet.usedWtSlackSurplusList</a>, <a class="el" href="_model_data_set_8java_source.html#l00040">wrimsv2.commondata.wresldata.ModelDataSet.wtList</a>, and <a class="el" href="_model_data_set_8java_source.html#l00041">wrimsv2.commondata.wresldata.ModelDataSet.wtTimeArrayList</a>.</p>
+
+</div>
+</div>
+<a id="a7ca0a16ed9a60665f4f6756cefacc5fd" name="a7ca0a16ed9a60665f4f6756cefacc5fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ca0a16ed9a60665f4f6756cefacc5fd">&#9670;&#160;</a></span>getCycleValueDetail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getCycleValueDetail </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>variableName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02231">2231</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="_control_data_8java_source.html#l00035">wrimsv2.components.ControlData.currTimeStep</a>, <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="_data_time_series_8java_source.html#l00013">wrimsv2.evaluator.DataTimeSeries.dvAliasTSCycles</a>, <a class="el" href="_dss_operation_8java_source.html#l00490">wrimsv2.evaluator.DssOperation.entryNameTS()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00029">wrimsv2.evaluator.DssDataSetFixLength.getData()</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00101">wrimsv2.commondata.wresldata.StudyDataSet.getModelTimeStepList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00141">wrimsv2.commondata.wresldata.StudyDataSet.getVarCycleIndexValueMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00129">wrimsv2.commondata.wresldata.StudyDataSet.getVarCycleValueMap()</a>, and <a class="el" href="_study_data_set_8java_source.html#l00137">wrimsv2.commondata.wresldata.StudyDataSet.getVarTimeArrayCycleValueMap()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="ae56f659b5d73ce9823e536947210929c" name="ae56f659b5d73ce9823e536947210929c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae56f659b5d73ce9823e536947210929c">&#9670;&#160;</a></span>getDataString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getDataString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02372">2372</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00103">allDebugVariables</a>, <a class="el" href="_control_data_8java_source.html#l00044">wrimsv2.components.ControlData.currAliasMap</a>, <a class="el" href="_control_data_8java_source.html#l00042">wrimsv2.components.ControlData.currDvMap</a>, and <a class="el" href="_control_data_8java_source.html#l00039">wrimsv2.components.ControlData.currSvMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a4d011f70b0cd44c7ada8f264f8e69776" name="a4d011f70b0cd44c7ada8f264f8e69776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d011f70b0cd44c7ada8f264f8e69776">&#9670;&#160;</a></span>getFilterGoal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getFilterGoal </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l01355">1355</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00109">dataDir</a>, <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="_debug_interface_8java_source.html#l00104">filterGoalNames</a>, <a class="el" href="_debug_interface_8java_source.html#l00105">filterGoals</a>, <a class="el" href="_solver_data_8java_source.html#l00043">wrimsv2.commondata.solverdata.SolverData.getConstraintDataMap()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00015">wrimsv2.evaluator.EvalConstraint.getEvalExpression()</a>, <a class="el" href="_eval_expression_8java_source.html#l00032">wrimsv2.evaluator.EvalExpression.getMultiplier()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00019">wrimsv2.evaluator.EvalConstraint.getSign()</a>, <a class="el" href="_filter_goal_8java_source.html#l00017">wrimsv2.debug.FilterGoal.getTolerance()</a>, <a class="el" href="_eval_expression_8java_source.html#l00024">wrimsv2.evaluator.EvalExpression.getValue()</a>, and <a class="el" href="_debug_interface_8java_source.html#l01446">procFilterFile()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="aa3b907c247a201c9b648adff38db2135" name="aa3b907c247a201c9b648adff38db2135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3b907c247a201c9b648adff38db2135">&#9670;&#160;</a></span>getFutureValueDetail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getFutureValueDetail </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>variableName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02180">2180</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="_parallel_vars_8java_source.html#l00004">wrimsv2.parallel.ParallelVars.dataDay</a>, <a class="el" href="_parallel_vars_8java_source.html#l00005">wrimsv2.parallel.ParallelVars.dataMonth</a>, <a class="el" href="_parallel_vars_8java_source.html#l00006">wrimsv2.parallel.ParallelVars.dataYear</a>, <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="_model_data_set_8java_source.html#l00079">wrimsv2.commondata.wresldata.ModelDataSet.dvList</a>, <a class="el" href="_time_operation_8java_source.html#l00178">wrimsv2.evaluator.TimeOperation.findTime()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00121">wrimsv2.commondata.wresldata.StudyDataSet.getModelDataSetMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_model_data_set_8java_source.html#l00076">wrimsv2.commondata.wresldata.ModelDataSet.svFutMap</a>, and <a class="el" href="_model_data_set_8java_source.html#l00072">wrimsv2.commondata.wresldata.ModelDataSet.svList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a15d04a53d8d309ba52ab72597cbdfce9" name="a15d04a53d8d309ba52ab72597cbdfce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15d04a53d8d309ba52ab72597cbdfce9">&#9670;&#160;</a></span>getGoalInOneFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getGoalInOneFile </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>fileFullPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l01139">1139</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="_solver_data_8java_source.html#l00043">wrimsv2.commondata.solverdata.SolverData.getConstraintDataMap()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00015">wrimsv2.evaluator.EvalConstraint.getEvalExpression()</a>, <a class="el" href="_eval_expression_8java_source.html#l00032">wrimsv2.evaluator.EvalExpression.getMultiplier()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00019">wrimsv2.evaluator.EvalConstraint.getSign()</a>, <a class="el" href="_eval_expression_8java_source.html#l00024">wrimsv2.evaluator.EvalExpression.getValue()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00104">wrimsv2.wreslparser.elements.SimulationDataSet.gList</a>, and <a class="el" href="_file_parser_8java_source.html#l00260">wrimsv2.wreslparser.elements.FileParser.parseOneFileForDebug()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a5d9451b8a0422d94b98df4c0accc15a1" name="a5d9451b8a0422d94b98df4c0accc15a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9451b8a0422d94b98df4c0accc15a1">&#9670;&#160;</a></span>getGoalInOneFileWP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getGoalInOneFileWP </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>fileFullPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l01226">1226</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_if_inc_item_group_8java_source.html#l00027">wrimsv2.wreslplus.elements.IfIncItemGroup.conditionList</a>, <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="_proc_if_inc_item_group_8java_source.html#l00237">wrimsv2.wreslplus.elements.procedures.ProcIfIncItemGroup.evaluateConditions()</a>, <a class="el" href="_file_paths_8java_source.html#l00007">wrimsv2.components.FilePaths.fullMainPath</a>, <a class="el" href="_solver_data_8java_source.html#l00043">wrimsv2.commondata.solverdata.SolverData.getConstraintDataMap()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00015">wrimsv2.evaluator.EvalConstraint.getEvalExpression()</a>, <a class="el" href="_eval_expression_8java_source.html#l00032">wrimsv2.evaluator.EvalExpression.getMultiplier()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00019">wrimsv2.evaluator.EvalConstraint.getSign()</a>, <a class="el" href="_eval_expression_8java_source.html#l00024">wrimsv2.evaluator.EvalExpression.getValue()</a>, <a class="el" href="_model_temp_8java_source.html#l00076">wrimsv2.wreslplus.elements.ModelTemp.glList</a>, <a class="el" href="_model_temp_8java_source.html#l00053">wrimsv2.wreslplus.elements.ModelTemp.ifIncItemGroupIDList</a>, <a class="el" href="_model_temp_8java_source.html#l00054">wrimsv2.wreslplus.elements.ModelTemp.ifIncItemGroupMap</a>, <a class="el" href="_if_inc_item_group_8java_source.html#l00025">wrimsv2.wreslplus.elements.IfIncItemGroup.inc_goalComplex_map_list</a>, <a class="el" href="_if_inc_item_group_8java_source.html#l00024">wrimsv2.wreslplus.elements.IfIncItemGroup.inc_goalSimple_map_list</a>, <a class="el" href="_study_temp_8java_source.html#l00034">wrimsv2.wreslplus.elements.StudyTemp.modelList</a>, <a class="el" href="_study_temp_8java_source.html#l00035">wrimsv2.wreslplus.elements.StudyTemp.modelMap</a>, <a class="el" href="_parser_utils_8java_source.html#l00098">wrimsv2.wreslplus.elements.ParserUtils.parseWreslFile()</a>, and <a class="el" href="_parser_utils_8java_source.html#l00075">wrimsv2.wreslplus.elements.ParserUtils.parseWreslMain()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="ad062faf430982f92cb0cf6b5e24b144f" name="ad062faf430982f92cb0cf6b5e24b144f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad062faf430982f92cb0cf6b5e24b144f">&#9670;&#160;</a></span>getTimeseriesDetail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getTimeseriesDetail </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>variableNames</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02129">2129</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00096">controllerDebug</a>, <a class="el" href="_parallel_vars_8java_source.html#l00004">wrimsv2.parallel.ParallelVars.dataDay</a>, <a class="el" href="_parallel_vars_8java_source.html#l00005">wrimsv2.parallel.ParallelVars.dataMonth</a>, <a class="el" href="_parallel_vars_8java_source.html#l00006">wrimsv2.parallel.ParallelVars.dataYear</a>, <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="_data_time_series_8java_source.html#l00012">wrimsv2.evaluator.DataTimeSeries.dvAliasTS</a>, <a class="el" href="_dss_operation_8java_source.html#l00490">wrimsv2.evaluator.DssOperation.entryNameTS()</a>, <a class="el" href="_time_operation_8java_source.html#l00178">wrimsv2.evaluator.TimeOperation.findTime()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00030">wrimsv2.evaluator.DssDataSet.getData()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00029">wrimsv2.evaluator.DssDataSetFixLength.getData()</a>, <a class="el" href="_time_operation_8java_source.html#l00433">wrimsv2.evaluator.TimeOperation.isMonthlyInterval()</a>, <a class="el" href="_debug_interface_8java_source.html#l00107">monitorVarNames</a>, <a class="el" href="_debug_interface_8java_source.html#l00108">monitorVarTimeStep</a>, <a class="el" href="_data_time_series_8java_source.html#l00011">wrimsv2.evaluator.DataTimeSeries.svTS</a>, <a class="el" href="_value_evaluation_8java_source.html#l00729">wrimsv2.evaluator.ValueEvaluation.timeSeriesIndex()</a>, and <a class="el" href="_control_data_8java_source.html#l00059">wrimsv2.components.ControlData.timeStep</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a9544628608a6e19eaec743653d5b9741" name="a9544628608a6e19eaec743653d5b9741"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9544628608a6e19eaec743653d5b9741">&#9670;&#160;</a></span>getVariableIfInc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt; String &gt; wrimsv2.components.DebugInterface.getVariableIfInc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a></td>          <td class="paramname"><span class="paramname"><em>modelTemp</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l01054">1054</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_if_inc_item_group_8java_source.html#l00027">wrimsv2.wreslplus.elements.IfIncItemGroup.conditionList</a>, <a class="el" href="_alias_temp_8java_source.html#l00027">wrimsv2.wreslplus.elements.AliasTemp.dependants</a>, <a class="el" href="_dvar_temp_8java_source.html#l00026">wrimsv2.wreslplus.elements.DvarTemp.dependants</a>, <a class="el" href="_goal_temp_8java_source.html#l00028">wrimsv2.wreslplus.elements.GoalTemp.dependants</a>, <a class="el" href="_if_inc_item_group_8java_source.html#l00029">wrimsv2.wreslplus.elements.IfIncItemGroup.dependants</a>, <a class="el" href="_svar_temp_8java_source.html#l00027">wrimsv2.wreslplus.elements.SvarTemp.dependants</a>, <a class="el" href="_proc_if_inc_item_group_8java_source.html#l00237">wrimsv2.wreslplus.elements.procedures.ProcIfIncItemGroup.evaluateConditions()</a>, <a class="el" href="_model_temp_8java_source.html#l00053">wrimsv2.wreslplus.elements.ModelTemp.ifIncItemGroupIDList</a>, <a class="el" href="_model_temp_8java_source.html#l00054">wrimsv2.wreslplus.elements.ModelTemp.ifIncItemGroupMap</a>, <a class="el" href="_if_inc_item_group_8java_source.html#l00022">wrimsv2.wreslplus.elements.IfIncItemGroup.inc_alias_map_list</a>, <a class="el" href="_if_inc_item_group_8java_source.html#l00021">wrimsv2.wreslplus.elements.IfIncItemGroup.inc_dvar_map_list</a>, <a class="el" href="_if_inc_item_group_8java_source.html#l00025">wrimsv2.wreslplus.elements.IfIncItemGroup.inc_goalComplex_map_list</a>, <a class="el" href="_if_inc_item_group_8java_source.html#l00024">wrimsv2.wreslplus.elements.IfIncItemGroup.inc_goalSimple_map_list</a>, <a class="el" href="_if_inc_item_group_8java_source.html#l00020">wrimsv2.wreslplus.elements.IfIncItemGroup.inc_svar_map_list</a>, and <a class="el" href="_if_inc_item_group_8java_source.html#l00023">wrimsv2.wreslplus.elements.IfIncItemGroup.inc_timeseries_map_list</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00862">getVariableInOneFileWP()</a>.</p>
+
+</div>
+</div>
+<a id="a32402112790336018c607873b12288a7" name="a32402112790336018c607873b12288a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32402112790336018c607873b12288a7">&#9670;&#160;</a></span>getVariableInOneFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getVariableInOneFile </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>fileFullPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00754">754</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_simulation_data_set_8java_source.html#l00096">wrimsv2.wreslparser.elements.SimulationDataSet.asList</a>, <a class="el" href="_model_data_set_8java_source.html#l00095">wrimsv2.commondata.wresldata.ModelDataSet.asMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00099">wrimsv2.wreslparser.elements.SimulationDataSet.asMap</a>, <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00087">wrimsv2.wreslparser.elements.SimulationDataSet.dvList</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00054">wrimsv2.commondata.wresldata.Alias.getData()</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00064">wrimsv2.commondata.wresldata.Dvar.getData()</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00102">wrimsv2.commondata.wresldata.Svar.getData()</a>, <a class="el" href="_timeseries_8java_source.html#l00036">wrimsv2.commondata.wresldata.Timeseries.getData()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00121">wrimsv2.commondata.wresldata.StudyDataSet.getModelDataSetMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00104">wrimsv2.wreslparser.elements.SimulationDataSet.gList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00107">wrimsv2.wreslparser.elements.SimulationDataSet.gMap</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00016">wrimsv2.commondata.wresldata.Alias.kind</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00020">wrimsv2.commondata.wresldata.Dvar.kind</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00025">wrimsv2.commondata.wresldata.Svar.kind</a>, <a class="el" href="_timeseries_8java_source.html#l00014">wrimsv2.commondata.wresldata.Timeseries.kind</a>, <a class="el" href="_file_parser_8java_source.html#l00260">wrimsv2.wreslparser.elements.FileParser.parseOneFileForDebug()</a>, <a class="el" href="_model_data_set_8java_source.html#l00076">wrimsv2.commondata.wresldata.ModelDataSet.svFutMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00079">wrimsv2.wreslparser.elements.SimulationDataSet.svList</a>, <a class="el" href="_model_data_set_8java_source.html#l00075">wrimsv2.commondata.wresldata.ModelDataSet.svMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00082">wrimsv2.wreslparser.elements.SimulationDataSet.svMap</a>, <a class="el" href="_control_data_8java_source.html#l00059">wrimsv2.components.ControlData.timeStep</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00070">wrimsv2.wreslparser.elements.SimulationDataSet.tsList</a>, <a class="el" href="_model_data_set_8java_source.html#l00068">wrimsv2.commondata.wresldata.ModelDataSet.tsMap</a>, and <a class="el" href="_simulation_data_set_8java_source.html#l00035">wrimsv2.wreslparser.elements.SimulationDataSet.wtList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="afd3bbe37e0f2b995815446f5938ed484" name="afd3bbe37e0f2b995815446f5938ed484"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd3bbe37e0f2b995815446f5938ed484">&#9670;&#160;</a></span>getVariableInOneFileWP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getVariableInOneFileWP </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>fileFullPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00862">862</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_model_temp_8java_source.html#l00061">wrimsv2.wreslplus.elements.ModelTemp.asList</a>, <a class="el" href="_model_data_set_8java_source.html#l00095">wrimsv2.commondata.wresldata.ModelDataSet.asMap</a>, <a class="el" href="_model_temp_8java_source.html#l00063">wrimsv2.wreslplus.elements.ModelTemp.asMap</a>, <a class="el" href="_proc_weight_8java_source.html#l00222">wrimsv2.wreslplus.elements.procedures.ProcWeight.collectWeightVar()</a>, <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="_model_temp_8java_source.html#l00066">wrimsv2.wreslplus.elements.ModelTemp.dvList</a>, <a class="el" href="_file_paths_8java_source.html#l00007">wrimsv2.components.FilePaths.fullMainPath</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00054">wrimsv2.commondata.wresldata.Alias.getData()</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00064">wrimsv2.commondata.wresldata.Dvar.getData()</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00102">wrimsv2.commondata.wresldata.Svar.getData()</a>, <a class="el" href="_timeseries_8java_source.html#l00036">wrimsv2.commondata.wresldata.Timeseries.getData()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00121">wrimsv2.commondata.wresldata.StudyDataSet.getModelDataSetMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00057">wrimsv2.commondata.wresldata.StudyDataSet.getParameterMap()</a>, <a class="el" href="_debug_interface_8java_source.html#l01054">getVariableIfInc()</a>, <a class="el" href="_model_temp_8java_source.html#l00076">wrimsv2.wreslplus.elements.ModelTemp.glList</a>, <a class="el" href="_model_temp_8java_source.html#l00077">wrimsv2.wreslplus.elements.ModelTemp.glMap</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00016">wrimsv2.commondata.wresldata.Alias.kind</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00020">wrimsv2.commondata.wresldata.Dvar.kind</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00025">wrimsv2.commondata.wresldata.Svar.kind</a>, <a class="el" href="_timeseries_8java_source.html#l00014">wrimsv2.commondata.wresldata.Timeseries.kind</a>, <a class="el" href="_study_temp_8java_source.html#l00034">wrimsv2.wreslplus.elements.StudyTemp.modelList</a>, <a class="el" href="_study_temp_8java_source.html#l00035">wrimsv2.wreslplus.elements.StudyTemp.modelMap</a>, <a class="el" href="_study_temp_8java_source.html#l00023">wrimsv2.wreslplus.elements.StudyTemp.parameterList</a>, <a class="el" href="_parser_utils_8java_source.html#l00098">wrimsv2.wreslplus.elements.ParserUtils.parseWreslFile()</a>, <a class="el" href="_parser_utils_8java_source.html#l00075">wrimsv2.wreslplus.elements.ParserUtils.parseWreslMain()</a>, <a class="el" href="_model_data_set_8java_source.html#l00076">wrimsv2.commondata.wresldata.ModelDataSet.svFutMap</a>, <a class="el" href="_model_temp_8java_source.html#l00064">wrimsv2.wreslplus.elements.ModelTemp.svList</a>, <a class="el" href="_model_data_set_8java_source.html#l00075">wrimsv2.commondata.wresldata.ModelDataSet.svMap</a>, <a class="el" href="_model_temp_8java_source.html#l00065">wrimsv2.wreslplus.elements.ModelTemp.svMap</a>, <a class="el" href="_control_data_8java_source.html#l00059">wrimsv2.components.ControlData.timeStep</a>, <a class="el" href="_model_temp_8java_source.html#l00071">wrimsv2.wreslplus.elements.ModelTemp.tsList</a>, <a class="el" href="_model_data_set_8java_source.html#l00068">wrimsv2.commondata.wresldata.ModelDataSet.tsMap</a>, and <a class="el" href="_model_temp_8java_source.html#l00058">wrimsv2.wreslplus.elements.ModelTemp.wvList_post</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a1957fd5a2f1051bdcb824333d0a8bc30" name="a1957fd5a2f1051bdcb824333d0a8bc30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1957fd5a2f1051bdcb824333d0a8bc30">&#9670;&#160;</a></span>getWatch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.getWatch </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>vGNameString</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l01953">1953</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_model_data_set_8java_source.html#l00095">wrimsv2.commondata.wresldata.ModelDataSet.asMap</a>, <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="_debug_interface_8java_source.html#l00106">df</a>, <a class="el" href="_solver_data_8java_source.html#l00043">wrimsv2.commondata.solverdata.SolverData.getConstraintDataMap()</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00054">wrimsv2.commondata.wresldata.Alias.getData()</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00064">wrimsv2.commondata.wresldata.Dvar.getData()</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00102">wrimsv2.commondata.wresldata.Svar.getData()</a>, <a class="el" href="_timeseries_8java_source.html#l00036">wrimsv2.commondata.wresldata.Timeseries.getData()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00015">wrimsv2.evaluator.EvalConstraint.getEvalExpression()</a>, <a class="el" href="_study_data_set_8java_source.html#l00121">wrimsv2.commondata.wresldata.StudyDataSet.getModelDataSetMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_eval_expression_8java_source.html#l00032">wrimsv2.evaluator.EvalExpression.getMultiplier()</a>, <a class="el" href="_study_data_set_8java_source.html#l00057">wrimsv2.commondata.wresldata.StudyDataSet.getParameterMap()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00019">wrimsv2.evaluator.EvalConstraint.getSign()</a>, <a class="el" href="_eval_expression_8java_source.html#l00024">wrimsv2.evaluator.EvalExpression.getValue()</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00016">wrimsv2.commondata.wresldata.Alias.kind</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00020">wrimsv2.commondata.wresldata.Dvar.kind</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00025">wrimsv2.commondata.wresldata.Svar.kind</a>, <a class="el" href="_timeseries_8java_source.html#l00014">wrimsv2.commondata.wresldata.Timeseries.kind</a>, <a class="el" href="_model_data_set_8java_source.html#l00076">wrimsv2.commondata.wresldata.ModelDataSet.svFutMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00075">wrimsv2.commondata.wresldata.ModelDataSet.svMap</a>, <a class="el" href="_control_data_8java_source.html#l00059">wrimsv2.components.ControlData.timeStep</a>, and <a class="el" href="_model_data_set_8java_source.html#l00068">wrimsv2.commondata.wresldata.ModelDataSet.tsMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a792939b3fce943260aa11dfb8678d8b8" name="a792939b3fce943260aa11dfb8678d8b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a792939b3fce943260aa11dfb8678d8b8">&#9670;&#160;</a></span>handleRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.components.DebugInterface.handleRequest </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>request</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00160">160</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00103">allDebugVariables</a>, <a class="el" href="_cbc_solver_8java_source.html#l00069">wrimsv2.solver.CbcSolver.cbcHintRelaxPenalty</a>, <a class="el" href="_cbc_solver_8java_source.html#l00091">wrimsv2.solver.CbcSolver.cbcHintTimeMax</a>, <a class="el" href="_error_8java_source.html#l00258">wrimsv2.components.Error.clear()</a>, <a class="el" href="_cbc_solver_8java_source.html#l00215">wrimsv2.solver.CbcSolver.close()</a>, <a class="el" href="_debug_interface_8java_source.html#l00096">controllerDebug</a>, <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00055">wrimsv2.components.ControlData.currDay</a>, <a class="el" href="_control_data_8java_source.html#l00056">wrimsv2.components.ControlData.currMonth</a>, <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="_control_data_8java_source.html#l00057">wrimsv2.components.ControlData.currYear</a>, <a class="el" href="_control_data_8java_source.html#l00152">wrimsv2.components.ControlData.cycleDataStartDay</a>, <a class="el" href="_control_data_8java_source.html#l00151">wrimsv2.components.ControlData.cycleDataStartMonth</a>, <a class="el" href="_control_data_8java_source.html#l00150">wrimsv2.components.ControlData.cycleDataStartYear</a>, <a class="el" href="_control_data_8java_source.html#l00070">wrimsv2.components.ControlData.cycleEndDay</a>, <a class="el" href="_control_data_8java_source.html#l00071">wrimsv2.components.ControlData.cycleEndMonth</a>, <a class="el" href="_control_data_8java_source.html#l00072">wrimsv2.components.ControlData.cycleEndYear</a>, <a class="el" href="_control_data_8java_source.html#l00088">wrimsv2.components.ControlData.dvDss</a>, <a class="el" href="_file_paths_8java_source.html#l00014">wrimsv2.components.FilePaths.fullDvarDssPath</a>, <a class="el" href="_debug_interface_8java_source.html#l02091">getAllControlGoalName()</a>, <a class="el" href="_debug_interface_8java_source.html#l01882">getAllGoalFile()</a>, <a class="el" href="_debug_interface_8java_source.html#l01644">getAllVariableFiles()</a>, <a class="el" href="_debug_interface_8java_source.html#l02231">getCycleValueDetail()</a>, <a class="el" href="_debug_interface_8java_source.html#l02372">getDataString()</a>, <a class="el" href="_debug_interface_8java_source.html#l01355">getFilterGoal()</a>, <a class="el" href="_debug_interface_8java_source.html#l02180">getFutureValueDetail()</a>, <a class="el" href="_debug_interface_8java_source.html#l01139">getGoalInOneFile()</a>, <a class="el" href="_debug_interface_8java_source.html#l01226">getGoalInOneFileWP()</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_debug_interface_8java_source.html#l02129">getTimeseriesDetail()</a>, <a class="el" href="_debug_interface_8java_source.html#l00754">getVariableInOneFile()</a>, <a class="el" href="_debug_interface_8java_source.html#l00862">getVariableInOneFileWP()</a>, <a class="el" href="_debug_interface_8java_source.html#l01953">getWatch()</a>, <a class="el" href="_debug_interface_8java_source.html#l02579">initOutputCycleDataToDss()</a>, <a class="el" href="_cbc_solver_8java_source.html#l00085">wrimsv2.solver.CbcSolver.integerT</a>, <a class="el" href="_cbc_solver_8java_source.html#l00086">wrimsv2.solver.CbcSolver.integerT_check</a>, <a class="el" href="_debug_interface_8java_source.html#l00095">isDebugging</a>, <a class="el" href="_control_data_8java_source.html#l00111">wrimsv2.components.ControlData.isOutputCycle</a>, <a class="el" href="_control_data_8java_source.html#l00104">wrimsv2.components.ControlData.isParseStudy</a>, <a class="el" href="_debug_interface_8java_source.html#l00099">isStart</a>, <a class="el" href="_i_l_p_8java_source.html#l00091">wrimsv2.ilp.ILP.loggingUsageMemeory</a>, <a class="el" href="_debug_interface_8java_source.html#l02347">modifyCycle()</a>, <a class="el" href="_debug_interface_8java_source.html#l02318">modifyTimeSeries()</a>, <a class="el" href="_control_data_8java_source.html#l00112">wrimsv2.components.ControlData.outputAllCycles</a>, <a class="el" href="_control_data_8java_source.html#l00168">wrimsv2.components.ControlData.printGWFuncCalls</a>, <a class="el" href="_control_data_8java_source.html#l00142">wrimsv2.components.ControlData.relationTolerance</a>, <a class="el" href="_control_data_8java_source.html#l00145">wrimsv2.components.ControlData.resimDate</a>, <a class="el" href="_control_data_8java_source.html#l00149">wrimsv2.components.ControlData.resimDay</a>, <a class="el" href="_control_data_8java_source.html#l00146">wrimsv2.components.ControlData.resimGroundwater</a>, <a class="el" href="_control_data_8java_source.html#l00148">wrimsv2.components.ControlData.resimMonth</a>, <a class="el" href="_control_data_8java_source.html#l00147">wrimsv2.components.ControlData.resimYear</a>, <a class="el" href="_dss_operation_8java_source.html#l00663">wrimsv2.evaluator.DssOperation.saveDvarData()</a>, <a class="el" href="_debug_interface_8java_source.html#l02535">saveDvDss()</a>, <a class="el" href="_debug_interface_8java_source.html#l02501">saveInitDss()</a>, <a class="el" href="_dss_operation_8java_source.html#l00499">wrimsv2.evaluator.DssOperation.saveInitialData()</a>, <a class="el" href="_debug_interface_8java_source.html#l02523">saveSvDss()</a>, <a class="el" href="_control_data_8java_source.html#l00113">wrimsv2.components.ControlData.selectedCycleOutput</a>, <a class="el" href="_debug_interface_8java_source.html#l00743">sendEvent()</a>, <a class="el" href="_debug_interface_8java_source.html#l00732">sendRequest()</a>, <a class="el" href="_debug_interface_8java_source.html#l02563">setConditionalBreakpoint()</a>, <a class="el" href="_debug_interface_8java_source.html#l02592">setSelectedOutputCycles()</a>, <a class="el" href="_debug_interface_8java_source.html#l02393">setSolverOptions()</a>, <a class="el" href="_control_data_8java_source.html#l00100">wrimsv2.components.ControlData.showRunTimeMessage</a>, <a class="el" href="_cbc_solver_8java_source.html#l00078">wrimsv2.solver.CbcSolver.solve_2_primalT</a>, <a class="el" href="_cbc_solver_8java_source.html#l00079">wrimsv2.solver.CbcSolver.solve_2_primalT_relax</a>, <a class="el" href="_cbc_solver_8java_source.html#l00083">wrimsv2.solver.CbcSolver.solve_whs_primalT</a>, <a class="el" href="_control_data_8java_source.html#l00089">wrimsv2.components.ControlData.solverName</a>, <a class="el" href="_table_series_8java_source.html#l00006">wrimsv2.evaluator.TableSeries.tableSeries</a>, <a class="el" href="_debug_interface_8java_source.html#l00110">terminateCode</a>, <a class="el" href="_study_parser_8java_source.html#l00030">wrimsv2.wreslparser.elements.StudyParser.total_errors</a>, <a class="el" href="_study_utils_8java_source.html#l00048">wrimsv2.wreslparser.elements.StudyUtils.useWreslPlus</a>, <a class="el" href="_control_data_8java_source.html#l00090">wrimsv2.components.ControlData.xasolver</a>, and <a class="el" href="_control_data_8java_source.html#l00141">wrimsv2.components.ControlData.zeroTolerance</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>.</p>
+
+</div>
+</div>
+<a id="abdd5b1de35c6dc329f27005087bac43a" name="abdd5b1de35c6dc329f27005087bac43a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdd5b1de35c6dc329f27005087bac43a">&#9670;&#160;</a></span>initOutputCycleDataToDss()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.components.DebugInterface.initOutputCycleDataToDss </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02579">2579</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00055">wrimsv2.components.ControlData.currDay</a>, <a class="el" href="_control_data_8java_source.html#l00056">wrimsv2.components.ControlData.currMonth</a>, <a class="el" href="_control_data_8java_source.html#l00057">wrimsv2.components.ControlData.currYear</a>, <a class="el" href="_control_data_8java_source.html#l00152">wrimsv2.components.ControlData.cycleDataStartDay</a>, <a class="el" href="_control_data_8java_source.html#l00151">wrimsv2.components.ControlData.cycleDataStartMonth</a>, <a class="el" href="_control_data_8java_source.html#l00150">wrimsv2.components.ControlData.cycleDataStartYear</a>, and <a class="el" href="_control_data_8java_source.html#l00111">wrimsv2.components.ControlData.isOutputCycle</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="ac68ef6a75377594f10ec8c82235a807c" name="ac68ef6a75377594f10ec8c82235a807c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac68ef6a75377594f10ec8c82235a807c">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.components.DebugInterface.main </td>
+          <td>(</td>
+          <td class="paramtype">String[]</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02597">2597</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>.</p>
+
+</div>
+</div>
+<a id="ad490936264f6ecff2bf6bd0fd6ae8488" name="ad490936264f6ecff2bf6bd0fd6ae8488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad490936264f6ecff2bf6bd0fd6ae8488">&#9670;&#160;</a></span>modifyCycle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.components.DebugInterface.modifyCycle </td>
+          <td>(</td>
+          <td class="paramtype">String[]</td>          <td class="paramname"><span class="paramname"><em>requestParts</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02347">2347</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="_study_data_set_8java_source.html#l00129">wrimsv2.commondata.wresldata.StudyDataSet.getVarCycleValueMap()</a>, and <a class="el" href="_study_data_set_8java_source.html#l00137">wrimsv2.commondata.wresldata.StudyDataSet.getVarTimeArrayCycleValueMap()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a1b4479615944e36dbe72a83ddf1f5b2f" name="a1b4479615944e36dbe72a83ddf1f5b2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b4479615944e36dbe72a83ddf1f5b2f">&#9670;&#160;</a></span>modifyTimeSeries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.components.DebugInterface.modifyTimeSeries </td>
+          <td>(</td>
+          <td class="paramtype">String[]</td>          <td class="paramname"><span class="paramname"><em>requestParts</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02318">2318</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_data_time_series_8java_source.html#l00012">wrimsv2.evaluator.DataTimeSeries.dvAliasTS</a>, <a class="el" href="_dss_operation_8java_source.html#l00490">wrimsv2.evaluator.DssOperation.entryNameTS()</a>, <a class="el" href="_time_operation_8java_source.html#l00178">wrimsv2.evaluator.TimeOperation.findTime()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00030">wrimsv2.evaluator.DssDataSet.getData()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00029">wrimsv2.evaluator.DssDataSetFixLength.getData()</a>, <a class="el" href="_debug_interface_8java_source.html#l00108">monitorVarTimeStep</a>, <a class="el" href="_data_time_series_8java_source.html#l00011">wrimsv2.evaluator.DataTimeSeries.svTS</a>, and <a class="el" href="_value_evaluation_8java_source.html#l00729">wrimsv2.evaluator.ValueEvaluation.timeSeriesIndex()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a96dcb3362c3f7b50ad403a722c3c3b3a" name="a96dcb3362c3f7b50ad403a722c3c3b3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96dcb3362c3f7b50ad403a722c3c3b3a">&#9670;&#160;</a></span>procFilterFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.components.DebugInterface.procFilterFile </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>filterName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l01446">1446</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00104">filterGoalNames</a>, <a class="el" href="_debug_interface_8java_source.html#l00105">filterGoals</a>, <a class="el" href="_filter_goal_8java_source.html#l00013">wrimsv2.debug.FilterGoal.setAlias()</a>, and <a class="el" href="_filter_goal_8java_source.html#l00021">wrimsv2.debug.FilterGoal.setTolerance()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l01355">getFilterGoal()</a>.</p>
+
+</div>
+</div>
+<a id="a1eb67932f7bf34c7ee6dcccb66224819" name="a1eb67932f7bf34c7ee6dcccb66224819"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eb67932f7bf34c7ee6dcccb66224819">&#9670;&#160;</a></span>saveDvDss()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.components.DebugInterface.saveDvDss </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02535">2535</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00088">wrimsv2.components.ControlData.dvDss</a>, <a class="el" href="_file_paths_8java_source.html#l00014">wrimsv2.components.FilePaths.fullDvarDssPath</a>, <a class="el" href="_dss_operation_8java_source.html#l00663">wrimsv2.evaluator.DssOperation.saveDvarData()</a>, and <a class="el" href="_dss_operation_8java_source.html#l00499">wrimsv2.evaluator.DssOperation.saveInitialData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="afc6a1c2ab5fed7de4ef4320a1f0b3615" name="afc6a1c2ab5fed7de4ef4320a1f0b3615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc6a1c2ab5fed7de4ef4320a1f0b3615">&#9670;&#160;</a></span>saveInitDss()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.components.DebugInterface.saveInitDss </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02501">2501</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_dss_operation_8java_source.html#l00539">wrimsv2.evaluator.DssOperation.saveDVInitialData()</a>, and <a class="el" href="_dss_operation_8java_source.html#l00580">wrimsv2.evaluator.DssOperation.saveSVInitialData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a40f3007bceccb0ad2baf78aea5e25115" name="a40f3007bceccb0ad2baf78aea5e25115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40f3007bceccb0ad2baf78aea5e25115">&#9670;&#160;</a></span>saveSvDss()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.components.DebugInterface.saveSvDss </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02523">2523</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_dss_operation_8java_source.html#l00797">wrimsv2.evaluator.DssOperation.saveSvarTSData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a49ae82580c139e3a324924dce38a87bc" name="a49ae82580c139e3a324924dce38a87bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49ae82580c139e3a324924dce38a87bc">&#9670;&#160;</a></span>sendEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.components.DebugInterface.sendEvent </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00743">743</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00088">eventConnection</a>, and <a class="el" href="_debug_interface_8java_source.html#l00091">eventOut</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="aa12c75479ded1aed09ebace9c93eebd3" name="aa12c75479ded1aed09ebace9c93eebd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa12c75479ded1aed09ebace9c93eebd3">&#9670;&#160;</a></span>sendRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.components.DebugInterface.sendRequest </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>request</em></span></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00732">732</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00086">requestConnection</a>, and <a class="el" href="_debug_interface_8java_source.html#l00089">requestOut</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a5e90dbabdc611ba19d8efc034a063cb0" name="a5e90dbabdc611ba19d8efc034a063cb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e90dbabdc611ba19d8efc034a063cb0">&#9670;&#160;</a></span>setConditionalBreakpoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.components.DebugInterface.setConditionalBreakpoint </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>request</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02563">2563</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_debug_interface_8java_source.html#l00096">controllerDebug</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a1e33c85d310253cf8192a002ed23a637" name="a1e33c85d310253cf8192a002ed23a637"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e33c85d310253cf8192a002ed23a637">&#9670;&#160;</a></span>setSelectedOutputCycles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.components.DebugInterface.setSelectedOutputCycles </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02592">2592</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00113">wrimsv2.components.ControlData.selectedCycleOutput</a>, and <a class="el" href="_control_data_8java_source.html#l00114">wrimsv2.components.ControlData.selectedCycles</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a670330a01de66e5f3f312d3909cc636a" name="a670330a01de66e5f3f312d3909cc636a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a670330a01de66e5f3f312d3909cc636a">&#9670;&#160;</a></span>setSolverOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.components.DebugInterface.setSolverOptions </td>
+          <td>(</td>
+          <td class="paramtype">String[]</td>          <td class="paramname"><span class="paramname"><em>requestParts</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l02393">2393</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00138">wrimsv2.components.ControlData.cbc_debug_routeCbc</a>, <a class="el" href="_control_data_8java_source.html#l00137">wrimsv2.components.ControlData.cbc_debug_routeXA</a>, <a class="el" href="_control_data_8java_source.html#l00128">wrimsv2.components.ControlData.cbcCheckIntErr</a>, <a class="el" href="_cbc_solver_8java_source.html#l00089">wrimsv2.solver.CbcSolver.cbcLibName</a>, <a class="el" href="_warmstart_8java_source.html#l00149">wrimsv2.tools.Warmstart.collectIntegerDV_2()</a>, <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="_set_x_a_log_8java_source.html#l00039">wrimsv2.solver.SetXALog.disableXALog()</a>, <a class="el" href="_set_x_a_log_8java_source.html#l00016">wrimsv2.solver.SetXALog.enableXALog()</a>, <a class="el" href="_i_l_p_8java_source.html#l00104">wrimsv2.ilp.ILP.getIlpDir()</a>, <a class="el" href="_cbc_solver_8java_source.html#l00176">wrimsv2.solver.CbcSolver.init()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00064">wrimsv2.solver.Gurobi.GurobiSolver.initialize()</a>, <a class="el" href="_i_l_p_8java_source.html#l00183">wrimsv2.ilp.ILP.initializeIlp()</a>, <a class="el" href="_change_solver_8java_source.html#l00012">wrimsv2.debug.ChangeSolver.loadLPSolveConfigFile()</a>, <a class="el" href="_i_l_p_8java_source.html#l00086">wrimsv2.ilp.ILP.logging</a>, <a class="el" href="_i_l_p_8java_source.html#l00085">wrimsv2.ilp.ILP.loggingAllCycles</a>, <a class="el" href="_i_l_p_8java_source.html#l00088">wrimsv2.ilp.ILP.loggingCplexLp</a>, <a class="el" href="_i_l_p_8java_source.html#l00089">wrimsv2.ilp.ILP.loggingLpSolve</a>, <a class="el" href="_i_l_p_8java_source.html#l00082">wrimsv2.ilp.ILP.loggingVariableValue</a>, <a class="el" href="_control_data_8java_source.html#l00089">wrimsv2.components.ControlData.solverName</a>, and <a class="el" href="_control_data_8java_source.html#l00127">wrimsv2.components.ControlData.useCbcWarmStart</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ae0f474288d60c3f1a439417cf4e98619" name="ae0f474288d60c3f1a439417cf4e98619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f474288d60c3f1a439417cf4e98619">&#9670;&#160;</a></span>allDebugVariables</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String [] wrimsv2.components.DebugInterface.allDebugVariables</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00103">103</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l02372">getDataString()</a>, and <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a1b199793e400d72feab2b92f66cb78ce" name="a1b199793e400d72feab2b92f66cb78ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b199793e400d72feab2b92f66cb78ce">&#9670;&#160;</a></span>breakFile</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.components.DebugInterface.breakFile =new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00094">94</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+</div>
+</div>
+<a id="af6f9a8e86e10577ad5a39cf0a7c67e80" name="af6f9a8e86e10577ad5a39cf0a7c67e80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6f9a8e86e10577ad5a39cf0a7c67e80">&#9670;&#160;</a></span>breakIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.components.DebugInterface.breakIndex =new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00093">93</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+</div>
+</div>
+<a id="a39f5bda4b8ab82135c52f01b426546b3" name="a39f5bda4b8ab82135c52f01b426546b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39f5bda4b8ab82135c52f01b426546b3">&#9670;&#160;</a></span>controllerDebug</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1components_1_1_controller_debug.html">ControllerDebug</a> wrimsv2.components.DebugInterface.controllerDebug</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00096">96</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>, <a class="el" href="_debug_interface_8java_source.html#l02129">getTimeseriesDetail()</a>, <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>, and <a class="el" href="_debug_interface_8java_source.html#l02563">setConditionalBreakpoint()</a>.</p>
+
+</div>
+</div>
+<a id="ae1eaad03f1e45da7b6b826df5391d39b" name="ae1eaad03f1e45da7b6b826df5391d39b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1eaad03f1e45da7b6b826df5391d39b">&#9670;&#160;</a></span>dataDir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.dataDir =&quot;data&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00109">109</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l01882">getAllGoalFile()</a>, <a class="el" href="_debug_interface_8java_source.html#l01644">getAllVariableFiles()</a>, and <a class="el" href="_debug_interface_8java_source.html#l01355">getFilterGoal()</a>.</p>
+
+</div>
+</div>
+<a id="a1a3707ba26b7677320a4b07b25a80c24" name="a1a3707ba26b7677320a4b07b25a80c24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a3707ba26b7677320a4b07b25a80c24">&#9670;&#160;</a></span>debugAlias</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String [] wrimsv2.components.DebugInterface.debugAlias</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00102">102</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+</div>
+</div>
+<a id="a1b04a6de915592738e2b996c5d7ed582" name="a1b04a6de915592738e2b996c5d7ed582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b04a6de915592738e2b996c5d7ed582">&#9670;&#160;</a></span>debugDvar</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String [] wrimsv2.components.DebugInterface.debugDvar</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00101">101</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+</div>
+</div>
+<a id="a9aa9d6226da9c112cab93280ac24fcb6" name="a9aa9d6226da9c112cab93280ac24fcb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aa9d6226da9c112cab93280ac24fcb6">&#9670;&#160;</a></span>debugSvar</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String [] wrimsv2.components.DebugInterface.debugSvar</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00100">100</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+</div>
+</div>
+<a id="a78bf4201af4568ceaff920431c9faf13" name="a78bf4201af4568ceaff920431c9faf13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78bf4201af4568ceaff920431c9faf13">&#9670;&#160;</a></span>df</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DecimalFormat wrimsv2.components.DebugInterface.df = new DecimalFormat(&quot;#.####&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00106">106</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l01882">getAllGoalFile()</a>, <a class="el" href="_debug_interface_8java_source.html#l01824">getAllGoalString()</a>, <a class="el" href="_debug_interface_8java_source.html#l01644">getAllVariableFiles()</a>, <a class="el" href="_debug_interface_8java_source.html#l01484">getAllVariableString()</a>, <a class="el" href="_debug_interface_8java_source.html#l02231">getCycleValueDetail()</a>, <a class="el" href="_debug_interface_8java_source.html#l01355">getFilterGoal()</a>, <a class="el" href="_debug_interface_8java_source.html#l02180">getFutureValueDetail()</a>, <a class="el" href="_debug_interface_8java_source.html#l01139">getGoalInOneFile()</a>, <a class="el" href="_debug_interface_8java_source.html#l01226">getGoalInOneFileWP()</a>, <a class="el" href="_debug_interface_8java_source.html#l02129">getTimeseriesDetail()</a>, <a class="el" href="_debug_interface_8java_source.html#l00754">getVariableInOneFile()</a>, <a class="el" href="_debug_interface_8java_source.html#l00862">getVariableInOneFileWP()</a>, and <a class="el" href="_debug_interface_8java_source.html#l01953">getWatch()</a>.</p>
+
+</div>
+</div>
+<a id="a62679624661bc185ed9ec622983ae056" name="a62679624661bc185ed9ec622983ae056"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62679624661bc185ed9ec622983ae056">&#9670;&#160;</a></span>eventConnection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Socket wrimsv2.components.DebugInterface.eventConnection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00088">88</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>, and <a class="el" href="_debug_interface_8java_source.html#l00743">sendEvent()</a>.</p>
+
+</div>
+</div>
+<a id="a07557777427f7d0a3955874bc830f4ab" name="a07557777427f7d0a3955874bc830f4ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07557777427f7d0a3955874bc830f4ab">&#9670;&#160;</a></span>eventIn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BufferedReader wrimsv2.components.DebugInterface.eventIn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00092">92</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>.</p>
+
+</div>
+</div>
+<a id="a6bacf3b7a9d4db302d83b50e1e62a3ed" name="a6bacf3b7a9d4db302d83b50e1e62a3ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bacf3b7a9d4db302d83b50e1e62a3ed">&#9670;&#160;</a></span>eventOut</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PrintWriter wrimsv2.components.DebugInterface.eventOut</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00091">91</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>, and <a class="el" href="_debug_interface_8java_source.html#l00743">sendEvent()</a>.</p>
+
+</div>
+</div>
+<a id="a2b20dd225bf1151f24ea401f66a2c263" name="a2b20dd225bf1151f24ea401f66a2c263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b20dd225bf1151f24ea401f66a2c263">&#9670;&#160;</a></span>eventSocket</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ServerSocket wrimsv2.components.DebugInterface.eventSocket</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00087">87</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>.</p>
+
+</div>
+</div>
+<a id="a54e6dae196989726bf334a5498e1ce80" name="a54e6dae196989726bf334a5498e1ce80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54e6dae196989726bf334a5498e1ce80">&#9670;&#160;</a></span>fileOut</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PrintWriter wrimsv2.components.DebugInterface.fileOut</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00098">98</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>.</p>
+
+</div>
+</div>
+<a id="aabced2ff2a566d3b9f49f3cf322dfe04" name="aabced2ff2a566d3b9f49f3cf322dfe04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabced2ff2a566d3b9f49f3cf322dfe04">&#9670;&#160;</a></span>filterGoalNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.components.DebugInterface.filterGoalNames =new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00104">104</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l01355">getFilterGoal()</a>, and <a class="el" href="_debug_interface_8java_source.html#l01446">procFilterFile()</a>.</p>
+
+</div>
+</div>
+<a id="a08b389866b5060aa73a5057cfc9485a7" name="a08b389866b5060aa73a5057cfc9485a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08b389866b5060aa73a5057cfc9485a7">&#9670;&#160;</a></span>filterGoals</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1debug_1_1_filter_goal.html">FilterGoal</a>&gt; wrimsv2.components.DebugInterface.filterGoals =new HashMap&lt;String, <a class="el" href="classwrimsv2_1_1debug_1_1_filter_goal.html">FilterGoal</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00105">105</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l01355">getFilterGoal()</a>, and <a class="el" href="_debug_interface_8java_source.html#l01446">procFilterFile()</a>.</p>
+
+</div>
+</div>
+<a id="a12881258a63f7710967ac65b17f63bc2" name="a12881258a63f7710967ac65b17f63bc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12881258a63f7710967ac65b17f63bc2">&#9670;&#160;</a></span>isDebugging</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.components.DebugInterface.isDebugging =true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00095">95</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>, and <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a7edc9c75a1816fe26fa248383118f02b" name="a7edc9c75a1816fe26fa248383118f02b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7edc9c75a1816fe26fa248383118f02b">&#9670;&#160;</a></span>isStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.components.DebugInterface.isStart =false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00099">99</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a699cdc2b513615f38c235638b3841a52" name="a699cdc2b513615f38c235638b3841a52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a699cdc2b513615f38c235638b3841a52">&#9670;&#160;</a></span>monitorVarNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String [] wrimsv2.components.DebugInterface.monitorVarNames =new String[0]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00107">107</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l02129">getTimeseriesDetail()</a>.</p>
+
+</div>
+</div>
+<a id="af91ee4e4953085d248da7a98fa1f4faa" name="af91ee4e4953085d248da7a98fa1f4faa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af91ee4e4953085d248da7a98fa1f4faa">&#9670;&#160;</a></span>monitorVarTimeStep</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.components.DebugInterface.monitorVarTimeStep =&quot;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00108">108</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l02129">getTimeseriesDetail()</a>, and <a class="el" href="_debug_interface_8java_source.html#l02318">modifyTimeSeries()</a>.</p>
+
+</div>
+</div>
+<a id="ab4813e843a5b0e56665d4e0b859964b2" name="ab4813e843a5b0e56665d4e0b859964b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4813e843a5b0e56665d4e0b859964b2">&#9670;&#160;</a></span>requestConnection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Socket wrimsv2.components.DebugInterface.requestConnection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00086">86</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>, and <a class="el" href="_debug_interface_8java_source.html#l00732">sendRequest()</a>.</p>
+
+</div>
+</div>
+<a id="a237dd44d8564d8ee975e849f5b137036" name="a237dd44d8564d8ee975e849f5b137036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a237dd44d8564d8ee975e849f5b137036">&#9670;&#160;</a></span>requestIn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BufferedReader wrimsv2.components.DebugInterface.requestIn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00090">90</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>.</p>
+
+</div>
+</div>
+<a id="a53196748ed3f05fdc0c977188f30429e" name="a53196748ed3f05fdc0c977188f30429e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53196748ed3f05fdc0c977188f30429e">&#9670;&#160;</a></span>requestOut</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PrintWriter wrimsv2.components.DebugInterface.requestOut</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00089">89</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>, and <a class="el" href="_debug_interface_8java_source.html#l00732">sendRequest()</a>.</p>
+
+</div>
+</div>
+<a id="aa1d7de598776df45d6d5ea46a797fa44" name="aa1d7de598776df45d6d5ea46a797fa44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1d7de598776df45d6d5ea46a797fa44">&#9670;&#160;</a></span>requestSocket</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ServerSocket wrimsv2.components.DebugInterface.requestSocket</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00085">85</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>.</p>
+
+</div>
+</div>
+<a id="a7fce49e6aec19c273c736349e5f3a3b0" name="a7fce49e6aec19c273c736349e5f3a3b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fce49e6aec19c273c736349e5f3a3b0">&#9670;&#160;</a></span>statusFile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FileWriter wrimsv2.components.DebugInterface.statusFile</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00097">97</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>.</p>
+
+</div>
+</div>
+<a id="add9f0a26fe62cfaaec30f2f89e010635" name="add9f0a26fe62cfaaec30f2f89e010635"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add9f0a26fe62cfaaec30f2f89e010635">&#9670;&#160;</a></span>terminateCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.components.DebugInterface.terminateCode =0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_debug_interface_8java_source.html#l00110">110</a> of file <a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l00112">DebugInterface()</a>, and <a class="el" href="_debug_interface_8java_source.html#l00160">handleRequest()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/components/<b>DebugInterface.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/components/<a class="el" href="_debug_interface_8java_source.html">DebugInterface.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -192,7 +1555,7 @@ static String&#160;</td><td class="memItemRight" valign="bottom"><b>monitorVarTi
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>components</b></li><li class="navelem"><a href="classwrimsv2_1_1components_1_1_debug_interface.html">DebugInterface</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1components.html">components</a></li><li class="navelem"><a href="classwrimsv2_1_1components_1_1_debug_interface.html">DebugInterface</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

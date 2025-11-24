@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.wreslparser.elements.StudyParser Class Reference</title>
+<title>Wrims-engine: wrimsv2.wreslparser.elements.StudyParser Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,27 +94,90 @@ $(function(){initNavTree('classwrimsv2_1_1wreslparser_1_1elements_1_1_study_pars
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af009b5972435e6487f62701f9889b23d" id="r_af009b5972435e6487f62701f9889b23d"><td class="memItemLeft" align="right" valign="top"><a id="af009b5972435e6487f62701f9889b23d" name="af009b5972435e6487f62701f9889b23d"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
-<tr class="memitem:ab9c823ae1d73e32e4845203e7133587f" id="r_ab9c823ae1d73e32e4845203e7133587f"><td class="memItemLeft" align="right" valign="top"><a id="ab9c823ae1d73e32e4845203e7133587f" name="ab9c823ae1d73e32e4845203e7133587f"></a>
-static <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a>&#160;</td><td class="memItemRight" valign="bottom"><b>writeWreslData</b> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config.html">StudyConfig</a> sc, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_temp_data.html">TempData</a> td)</td></tr>
+<tr class="memitem:a9034cef8fa93963dd880607258e2a629" id="r_a9034cef8fa93963dd880607258e2a629"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9034cef8fa93963dd880607258e2a629">analyzeVarNeededFromCycles</a> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config.html">StudyConfig</a> sc, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sd)</td></tr>
+<tr class="memitem:ad24eb9b113e4ee0de99684fb57b8937b" id="r_ad24eb9b113e4ee0de99684fb57b8937b"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad24eb9b113e4ee0de99684fb57b8937b">parseModels</a> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config.html">StudyConfig</a> sc, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_temp_data.html">TempData</a> td)  throws RecognitionException, IOException   </td></tr>
+<tr class="memitem:a7df2c6815971c3a15abc8dd086865179" id="r_a7df2c6815971c3a15abc8dd086865179"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7df2c6815971c3a15abc8dd086865179">parseModels</a> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config.html">StudyConfig</a> sc, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_temp_data.html">TempData</a> td, boolean rewrite_list_based_on_dependency, boolean send_all_alias_to_dvar)  throws RecognitionException, IOException   </td></tr>
 <tr class="memitem:ac441d145948c7215b31df5bddeead3e8" id="r_ac441d145948c7215b31df5bddeead3e8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config.html">StudyConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac441d145948c7215b31df5bddeead3e8">processMainFileIntoStudyConfig</a> (String relativeMainFilePath)  throws RecognitionException, IOException </td></tr>
 <tr class="memitem:a708bfb5a2c1129b850423172d0560303" id="r_a708bfb5a2c1129b850423172d0560303"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config.html">StudyConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a708bfb5a2c1129b850423172d0560303">processMainFileIntoStudyConfig</a> (String relativeMainFilePath, boolean showTree)  throws RecognitionException, IOException   </td></tr>
-<tr class="memitem:ad24eb9b113e4ee0de99684fb57b8937b" id="r_ad24eb9b113e4ee0de99684fb57b8937b"><td class="memItemLeft" align="right" valign="top"><a id="ad24eb9b113e4ee0de99684fb57b8937b" name="ad24eb9b113e4ee0de99684fb57b8937b"></a>
-static Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>parseModels</b> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config.html">StudyConfig</a> sc, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_temp_data.html">TempData</a> td)  throws RecognitionException, IOException   </td></tr>
-<tr class="memitem:a7df2c6815971c3a15abc8dd086865179" id="r_a7df2c6815971c3a15abc8dd086865179"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7df2c6815971c3a15abc8dd086865179">parseModels</a> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config.html">StudyConfig</a> sc, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_temp_data.html">TempData</a> td, boolean rewrite_list_based_on_dependency, boolean send_all_alias_to_dvar)  throws RecognitionException, IOException   </td></tr>
-<tr class="memitem:a9034cef8fa93963dd880607258e2a629" id="r_a9034cef8fa93963dd880607258e2a629"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9034cef8fa93963dd880607258e2a629">analyzeVarNeededFromCycles</a> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config.html">StudyConfig</a> sc, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sd)</td></tr>
+<tr class="memitem:af009b5972435e6487f62701f9889b23d" id="r_af009b5972435e6487f62701f9889b23d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af009b5972435e6487f62701f9889b23d">reset</a> ()</td></tr>
+<tr class="memitem:ab9c823ae1d73e32e4845203e7133587f" id="r_ab9c823ae1d73e32e4845203e7133587f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9c823ae1d73e32e4845203e7133587f">writeWreslData</a> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config.html">StudyConfig</a> sc, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_temp_data.html">TempData</a> td)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:adae4490c32410f9c93a5962269fed45b" id="r_adae4490c32410f9c93a5962269fed45b"><td class="memItemLeft" align="right" valign="top"><a id="adae4490c32410f9c93a5962269fed45b" name="adae4490c32410f9c93a5962269fed45b"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>total_errors</b> = 0</td></tr>
-<tr class="memitem:a6de0e430483a1830497ca4672817e394" id="r_a6de0e430483a1830497ca4672817e394"><td class="memItemLeft" align="right" valign="top"><a id="a6de0e430483a1830497ca4672817e394" name="a6de0e430483a1830497ca4672817e394"></a>
-static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>error_summary</b> = new ArrayList&lt;String&gt;()</td></tr>
-<tr class="memitem:a4bcc245c4c541c4234046d21fa4d06ff" id="r_a4bcc245c4c541c4234046d21fa4d06ff"><td class="memItemLeft" align="right" valign="top"><a id="a4bcc245c4c541c4234046d21fa4d06ff" name="a4bcc245c4c541c4234046d21fa4d06ff"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>total_warnings</b> = 0</td></tr>
+<tr class="memitem:a6de0e430483a1830497ca4672817e394" id="r_a6de0e430483a1830497ca4672817e394"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6de0e430483a1830497ca4672817e394">error_summary</a> = new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:adae4490c32410f9c93a5962269fed45b" id="r_adae4490c32410f9c93a5962269fed45b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adae4490c32410f9c93a5962269fed45b">total_errors</a> = 0</td></tr>
+<tr class="memitem:a4bcc245c4c541c4234046d21fa4d06ff" id="r_a4bcc245c4c541c4234046d21fa4d06ff"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bcc245c4c541c4234046d21fa4d06ff">total_warnings</a> = 0</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a7d61bad5b9eeabf0ce22d3122166912d" id="r_a7d61bad5b9eeabf0ce22d3122166912d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d61bad5b9eeabf0ce22d3122166912d">analyzeVarNeededFromCycle_subfunction</a> (String varName, Set&lt; String &gt; neededVarInCycle, String fromWresl, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sd)</td></tr>
+<tr class="memitem:aad813b10107ffdfe1c18c090552a7c0a" id="r_aad813b10107ffdfe1c18c090552a7c0a"><td class="memItemLeft" align="right" valign="top">static Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad813b10107ffdfe1c18c090552a7c0a">checkAliasInGoalExpression</a> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> ds, Set&lt; String &gt; goalSetToCheck)</td></tr>
+<tr class="memitem:a1acec21670554db0a4460f03c7026694" id="r_a1acec21670554db0a4460f03c7026694"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1acec21670554db0a4460f03c7026694">checkUsedBeforeDefined</a> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> ds, ArrayList&lt; String &gt; ordered_list_sv_as_ex, Set&lt; String &gt; previous_global_sv_as_ex_ts)</td></tr>
+<tr class="memitem:a3a771ae1612d018bf7caed671fb5c85a" id="r_a3a771ae1612d018bf7caed671fb5c85a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a771ae1612d018bf7caed671fb5c85a">convertAlias</a> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> ds, String aliasName, String goalName)</td></tr>
+<tr class="memitem:a0d5c1d6b9ade956865c60c35bd80d06d" id="r_a0d5c1d6b9ade956865c60c35bd80d06d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d5c1d6b9ade956865c60c35bd80d06d">convertRestAliasInGoalExpression</a> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> ds)</td></tr>
+<tr class="memitem:a2cf9c8462963e58e76073a9643a68afe" id="r_a2cf9c8462963e58e76073a9643a68afe"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cf9c8462963e58e76073a9643a68afe">copyDataSetToThisModel</a> (Set&lt; String &gt; incFileSet, Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt; fileDataMap_wholeStudy)</td></tr>
+<tr class="memitem:a5ddbccac0ec9bd90c8231ce20ff16ed1" id="r_a5ddbccac0ec9bd90c8231ce20ff16ed1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ddbccac0ec9bd90c8231ce20ff16ed1">correctScopeAndPrioritize</a> (String modelName, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> adhoc, String absMainFilePath, Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt; fileDataMap_thisModel, Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt; fileDataMap_wholeStudy, Map&lt; String, Set&lt; String &gt; &gt; t1Map_wholeStudy, Map&lt; String, String &gt; fileScopeMap_wholeStudy)  throws RecognitionException, IOException   </td></tr>
+<tr class="memitem:a99a36c647d579ca58686b7350da1e15b" id="r_a99a36c647d579ca58686b7350da1e15b"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99a36c647d579ca58686b7350da1e15b">getNewDataSet</a> (Set&lt; String &gt; adhoc_incFileSet, Set&lt; String &gt; fileDataMap_wholeStudy_keySet)  throws RecognitionException, IOException   </td></tr>
+<tr class="memitem:a29af3e5f068fc90eddef5f0315634282" id="r_a29af3e5f068fc90eddef5f0315634282"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29af3e5f068fc90eddef5f0315634282">getOrderedList</a> (Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt; fileDataMap_thisModel, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> adhoc)</td></tr>
+<tr class="memitem:ad657efabdc056fa10c78f36bf32d49c7" id="r_ad657efabdc056fa10c78f36bf32d49c7"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad657efabdc056fa10c78f36bf32d49c7">sortDependency</a> (<a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> model_dataset, boolean rewrite_list_based_on_dependency)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ac6cc5565ebef00a1f94102609bfbf1d9" id="r_ac6cc5565ebef00a1f94102609bfbf1d9"><td class="memItemLeft" align="right" valign="top">static Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6cc5565ebef00a1f94102609bfbf1d9">allValidCycleNames</a></td></tr>
+<tr class="memitem:a51436e5e702213312a5409cbb238b020" id="r_a51436e5e702213312a5409cbb238b020"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51436e5e702213312a5409cbb238b020">cycleNameConditionMap</a></td></tr>
+<tr class="memitem:ad3db1c072208628e121ad2cfd3dd4ebf" id="r_ad3db1c072208628e121ad2cfd3dd4ebf"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3db1c072208628e121ad2cfd3dd4ebf">cycleNameTimeStepMap</a></td></tr>
+<tr class="memitem:a12d73139bc16372a63fabd35a946959b" id="r_a12d73139bc16372a63fabd35a946959b"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, Map&lt; String, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12d73139bc16372a63fabd35a946959b">cycleVarTypeMap</a></td></tr>
+<tr class="memitem:ac6f98887713ec0cb11d44fcb9d14aac3" id="r_ac6f98887713ec0cb11d44fcb9d14aac3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6f98887713ec0cb11d44fcb9d14aac3">n_buffer</a> = 3</td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00028">28</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a7d61bad5b9eeabf0ce22d3122166912d" name="a7d61bad5b9eeabf0ce22d3122166912d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d61bad5b9eeabf0ce22d3122166912d">&#9670;&#160;</a></span>analyzeVarNeededFromCycle_subfunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.wreslparser.elements.StudyParser.analyzeVarNeededFromCycle_subfunction </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>varName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>neededVarInCycle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>fromWresl</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a></td>          <td class="paramname"><span class="paramname"><em>sd</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00548">548</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_study_parser_8java_source.html#l00034">allValidCycleNames</a>, <a class="el" href="_study_parser_8java_source.html#l00035">cycleNameConditionMap</a>, <a class="el" href="_study_parser_8java_source.html#l00033">cycleVarTypeMap</a>, <a class="el" href="_log_utils_8java_source.html#l00298">wrimsv2.wreslparser.elements.LogUtils.errMsg()</a>, <a class="el" href="wreslparser_2elements_2_tools_8java_source.html#l00575">wrimsv2.wreslparser.elements.Tools.getCycleVarMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00121">wrimsv2.commondata.wresldata.StudyDataSet.getModelDataSetMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00129">wrimsv2.commondata.wresldata.StudyDataSet.getVarCycleValueMap()</a>, and <a class="el" href="_study_parser_8java_source.html#l00037">n_buffer</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00439">analyzeVarNeededFromCycles()</a>.</p>
+
+</div>
+</div>
 <a id="a9034cef8fa93963dd880607258e2a629" name="a9034cef8fa93963dd880607258e2a629"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9034cef8fa93963dd880607258e2a629">&#9670;&#160;</a></span>analyzeVarNeededFromCycles()</h2>
 
@@ -143,10 +206,362 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>total_warnings<
 </div><div class="memdoc">
 <p>create map for var and varType</p>
 
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00439">439</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_model_data_set_8java_source.html#l00114">wrimsv2.commondata.wresldata.ModelDataSet.aliasUsedByLaterCycle</a>, <a class="el" href="_study_parser_8java_source.html#l00034">allValidCycleNames</a>, <a class="el" href="_study_parser_8java_source.html#l00548">analyzeVarNeededFromCycle_subfunction()</a>, <a class="el" href="_model_data_set_8java_source.html#l00092">wrimsv2.commondata.wresldata.ModelDataSet.asList</a>, <a class="el" href="_model_data_set_8java_source.html#l00095">wrimsv2.commondata.wresldata.ModelDataSet.asMap</a>, <a class="el" href="_study_parser_8java_source.html#l00033">cycleVarTypeMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00111">wrimsv2.commondata.wresldata.ModelDataSet.dvarUsedByLaterCycle</a>, <a class="el" href="_model_data_set_8java_source.html#l00079">wrimsv2.commondata.wresldata.ModelDataSet.dvList</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00020">wrimsv2.commondata.wresldata.Alias.fromWresl</a>, <a class="el" href="_goal_8java_source.html#l00030">wrimsv2.commondata.wresldata.Goal.fromWresl</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00020">wrimsv2.commondata.wresldata.Svar.fromWresl</a>, <a class="el" href="_study_data_set_8java_source.html#l00121">wrimsv2.commondata.wresldata.StudyDataSet.getModelDataSetMap()</a>, <a class="el" href="_model_data_set_8java_source.html#l00099">wrimsv2.commondata.wresldata.ModelDataSet.gList</a>, <a class="el" href="_model_data_set_8java_source.html#l00103">wrimsv2.commondata.wresldata.ModelDataSet.gMap</a>, <a class="el" href="_log_utils_8java_source.html#l00221">wrimsv2.wreslparser.elements.LogUtils.importantMsg()</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00024">wrimsv2.commondata.wresldata.Alias.neededVarInCycleSet</a>, <a class="el" href="_goal_8java_source.html#l00032">wrimsv2.commondata.wresldata.Goal.neededVarInCycleSet</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00029">wrimsv2.commondata.wresldata.Svar.neededVarInCycleSet</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00025">wrimsv2.commondata.wresldata.Alias.needVarFromEarlierCycle</a>, <a class="el" href="_goal_8java_source.html#l00033">wrimsv2.commondata.wresldata.Goal.needVarFromEarlierCycle</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00030">wrimsv2.commondata.wresldata.Svar.needVarFromEarlierCycle</a>, <a class="el" href="_study_config_8java_source.html#l00009">wrimsv2.wreslparser.elements.StudyConfig.sequenceMap</a>, <a class="el" href="_study_config_8java_source.html#l00010">wrimsv2.wreslparser.elements.StudyConfig.sequenceOrder</a>, <a class="el" href="_model_data_set_8java_source.html#l00113">wrimsv2.commondata.wresldata.ModelDataSet.svarUsedByLaterCycle</a>, <a class="el" href="_model_data_set_8java_source.html#l00072">wrimsv2.commondata.wresldata.ModelDataSet.svList</a>, <a class="el" href="_model_data_set_8java_source.html#l00075">wrimsv2.commondata.wresldata.ModelDataSet.svMap</a>, <a class="el" href="_study_parser_8java_source.html#l00030">total_errors</a>, and <a class="el" href="_model_data_set_8java_source.html#l00109">wrimsv2.commondata.wresldata.ModelDataSet.varUsedByLaterCycle</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_utils_8java_source.html#l00203">wrimsv2.wreslparser.elements.StudyUtils.parseWresl()</a>.</p>
+
+</div>
+</div>
+<a id="aad813b10107ffdfe1c18c090552a7c0a" name="aad813b10107ffdfe1c18c090552a7c0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad813b10107ffdfe1c18c090552a7c0a">&#9670;&#160;</a></span>checkAliasInGoalExpression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt; String &gt; wrimsv2.wreslparser.elements.StudyParser.checkAliasInGoalExpression </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a></td>          <td class="paramname"><span class="paramname"><em>ds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>goalSetToCheck</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00699">699</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_simulation_data_set_8java_source.html#l00093">wrimsv2.wreslparser.elements.SimulationDataSet.asSet</a>, <a class="el" href="_study_parser_8java_source.html#l00893">convertAlias()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00084">wrimsv2.wreslparser.elements.SimulationDataSet.dvSet</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00107">wrimsv2.wreslparser.elements.SimulationDataSet.gMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00076">wrimsv2.wreslparser.elements.SimulationDataSet.svSet</a>, and <a class="el" href="_simulation_data_set_8java_source.html#l00067">wrimsv2.wreslparser.elements.SimulationDataSet.tsSet</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00217">parseModels()</a>.</p>
+
+</div>
+</div>
+<a id="a1acec21670554db0a4460f03c7026694" name="a1acec21670554db0a4460f03c7026694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1acec21670554db0a4460f03c7026694">&#9670;&#160;</a></span>checkUsedBeforeDefined()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.wreslparser.elements.StudyParser.checkUsedBeforeDefined </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a></td>          <td class="paramname"><span class="paramname"><em>ds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>ordered_list_sv_as_ex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>previous_global_sv_as_ex_ts</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00632">632</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_simulation_data_set_8java_source.html#l00096">wrimsv2.wreslparser.elements.SimulationDataSet.asList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00099">wrimsv2.wreslparser.elements.SimulationDataSet.asMap</a>, <a class="el" href="_log_utils_8java_source.html#l00298">wrimsv2.wreslparser.elements.LogUtils.errMsg()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00079">wrimsv2.wreslparser.elements.SimulationDataSet.svList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00082">wrimsv2.wreslparser.elements.SimulationDataSet.svMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00067">wrimsv2.wreslparser.elements.SimulationDataSet.tsSet</a>, and <a class="el" href="_log_utils_8java_source.html#l00258">wrimsv2.wreslparser.elements.LogUtils.warningMsg()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00217">parseModels()</a>.</p>
+
+</div>
+</div>
+<a id="a3a771ae1612d018bf7caed671fb5c85a" name="a3a771ae1612d018bf7caed671fb5c85a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a771ae1612d018bf7caed671fb5c85a">&#9670;&#160;</a></span>convertAlias()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.wreslparser.elements.StudyParser.convertAlias </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a></td>          <td class="paramname"><span class="paramname"><em>ds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>aliasName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>goalName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00893">893</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_param_8java_source.html#l00035">wrimsv2.commondata.wresldata.Param.always</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00096">wrimsv2.wreslparser.elements.SimulationDataSet.asList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00097">wrimsv2.wreslparser.elements.SimulationDataSet.asList_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00098">wrimsv2.wreslparser.elements.SimulationDataSet.asList_local</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00099">wrimsv2.wreslparser.elements.SimulationDataSet.asMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00093">wrimsv2.wreslparser.elements.SimulationDataSet.asSet</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00094">wrimsv2.wreslparser.elements.SimulationDataSet.asSet_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00095">wrimsv2.wreslparser.elements.SimulationDataSet.asSet_local</a>, <a class="el" href="_goal_8java_source.html#l00025">wrimsv2.commondata.wresldata.Goal.caseCondition</a>, <a class="el" href="_goal_8java_source.html#l00027">wrimsv2.commondata.wresldata.Goal.caseExpression</a>, <a class="el" href="_goal_8java_source.html#l00018">wrimsv2.commondata.wresldata.Goal.caseName</a>, <a class="el" href="_param_8java_source.html#l00034">wrimsv2.commondata.wresldata.Param.defaultCaseName</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00023">wrimsv2.commondata.wresldata.Alias.dependants</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00087">wrimsv2.wreslparser.elements.SimulationDataSet.dvList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00088">wrimsv2.wreslparser.elements.SimulationDataSet.dvList_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00089">wrimsv2.wreslparser.elements.SimulationDataSet.dvList_local</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00090">wrimsv2.wreslparser.elements.SimulationDataSet.dvMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00084">wrimsv2.wreslparser.elements.SimulationDataSet.dvSet</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00085">wrimsv2.wreslparser.elements.SimulationDataSet.dvSet_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00086">wrimsv2.wreslparser.elements.SimulationDataSet.dvSet_local</a>, <a class="el" href="_log_utils_8java_source.html#l00298">wrimsv2.wreslparser.elements.LogUtils.errMsg()</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00018">wrimsv2.commondata.wresldata.Alias.expression</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00020">wrimsv2.commondata.wresldata.Alias.fromWresl</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00104">wrimsv2.wreslparser.elements.SimulationDataSet.gList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00105">wrimsv2.wreslparser.elements.SimulationDataSet.gList_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00106">wrimsv2.wreslparser.elements.SimulationDataSet.gList_local</a>, <a class="el" href="_param_8java_source.html#l00070">wrimsv2.commondata.wresldata.Param.global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00107">wrimsv2.wreslparser.elements.SimulationDataSet.gMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00101">wrimsv2.wreslparser.elements.SimulationDataSet.gSet</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00102">wrimsv2.wreslparser.elements.SimulationDataSet.gSet_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00103">wrimsv2.wreslparser.elements.SimulationDataSet.gSet_local</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00016">wrimsv2.commondata.wresldata.Alias.kind</a>, <a class="el" href="_param_8java_source.html#l00071">wrimsv2.commondata.wresldata.Param.local</a>, <a class="el" href="_param_8java_source.html#l00027">wrimsv2.commondata.wresldata.Param.lower_unbounded</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00024">wrimsv2.commondata.wresldata.Alias.neededVarInCycleSet</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00025">wrimsv2.commondata.wresldata.Alias.needVarFromEarlierCycle</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00015">wrimsv2.commondata.wresldata.Alias.scope</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00029">wrimsv2.commondata.wresldata.Alias.timeArraySize</a>, <a class="el" href="_goal_8java_source.html#l00036">wrimsv2.commondata.wresldata.Goal.timeArraySize</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00017">wrimsv2.commondata.wresldata.Alias.units</a>, and <a class="el" href="_param_8java_source.html#l00028">wrimsv2.commondata.wresldata.Param.upper_unbounded</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00699">checkAliasInGoalExpression()</a>, and <a class="el" href="_study_parser_8java_source.html#l00687">convertRestAliasInGoalExpression()</a>.</p>
+
+</div>
+</div>
+<a id="a0d5c1d6b9ade956865c60c35bd80d06d" name="a0d5c1d6b9ade956865c60c35bd80d06d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d5c1d6b9ade956865c60c35bd80d06d">&#9670;&#160;</a></span>convertRestAliasInGoalExpression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.wreslparser.elements.StudyParser.convertRestAliasInGoalExpression </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a></td>          <td class="paramname"><span class="paramname"><em>ds</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00687">687</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_simulation_data_set_8java_source.html#l00093">wrimsv2.wreslparser.elements.SimulationDataSet.asSet</a>, and <a class="el" href="_study_parser_8java_source.html#l00893">convertAlias()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00217">parseModels()</a>.</p>
+
+</div>
+</div>
+<a id="a2cf9c8462963e58e76073a9643a68afe" name="a2cf9c8462963e58e76073a9643a68afe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cf9c8462963e58e76073a9643a68afe">&#9670;&#160;</a></span>copyDataSetToThisModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt; wrimsv2.wreslparser.elements.StudyParser.copyDataSetToThisModel </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>incFileSet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>fileDataMap_wholeStudy</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00746">746</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="wreslparser_2elements_2_tools_8java_source.html#l00490">wrimsv2.wreslparser.elements.Tools.putDataFileMapFromWholeStudy()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00217">parseModels()</a>.</p>
+
+</div>
+</div>
+<a id="a5ddbccac0ec9bd90c8231ce20ff16ed1" name="a5ddbccac0ec9bd90c8231ce20ff16ed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ddbccac0ec9bd90c8231ce20ff16ed1">&#9670;&#160;</a></span>correctScopeAndPrioritize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> wrimsv2.wreslparser.elements.StudyParser.correctScopeAndPrioritize </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>modelName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a></td>          <td class="paramname"><span class="paramname"><em>adhoc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>absMainFilePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>fileDataMap_thisModel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>fileDataMap_wholeStudy</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, Set&lt; String &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>t1Map_wholeStudy</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, String &gt;</td>          <td class="paramname"><span class="paramname"><em>fileScopeMap_wholeStudy</em></span>&#160;) throws RecognitionException, IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00758">758</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_simulation_data_set_8java_source.html#l00549">wrimsv2.wreslparser.elements.SimulationDataSet.addChildren()</a>, <a class="el" href="wreslparser_2elements_2_tools_8java_source.html#l00436">wrimsv2.wreslparser.elements.Tools.correctDataScope_deep()</a>, <a class="el" href="wreslparser_2elements_2_tools_8java_source.html#l00327">wrimsv2.wreslparser.elements.Tools.getReverseMap()</a>, <a class="el" href="wreslparser_2elements_2_tools_8java_source.html#l00293">wrimsv2.wreslparser.elements.Tools.getScopeMap()</a>, and <a class="el" href="_simulation_data_set_8java_source.html#l01059">wrimsv2.wreslparser.elements.SimulationDataSet.overwrittenWith_set()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00217">parseModels()</a>.</p>
+
+</div>
+</div>
+<a id="a99a36c647d579ca58686b7350da1e15b" name="a99a36c647d579ca58686b7350da1e15b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99a36c647d579ca58686b7350da1e15b">&#9670;&#160;</a></span>getNewDataSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt; wrimsv2.wreslparser.elements.StudyParser.getNewDataSet </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>adhoc_incFileSet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>fileDataMap_wholeStudy_keySet</em></span>&#160;) throws RecognitionException, IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00728">728</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_file_parser_8java_source.html#l00127">wrimsv2.wreslparser.elements.FileParser.processNestedFileExceptFor()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00217">parseModels()</a>.</p>
+
+</div>
+</div>
+<a id="a29af3e5f068fc90eddef5f0315634282" name="a29af3e5f068fc90eddef5f0315634282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29af3e5f068fc90eddef5f0315634282">&#9670;&#160;</a></span>getOrderedList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt; String &gt; wrimsv2.wreslparser.elements.StudyParser.getOrderedList </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>fileDataMap_thisModel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a></td>          <td class="paramname"><span class="paramname"><em>adhoc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00832">832</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_simulation_data_set_8java_source.html#l00044">wrimsv2.wreslparser.elements.SimulationDataSet.incFileList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00050">wrimsv2.wreslparser.elements.SimulationDataSet.ordered_list_including_files</a>, and <a class="el" href="_sort_8java_source.html#l00078">wrimsv2.wreslparser.elements.Sort.sort()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00217">parseModels()</a>.</p>
+
+</div>
+</div>
+<a id="ad24eb9b113e4ee0de99684fb57b8937b" name="ad24eb9b113e4ee0de99684fb57b8937b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad24eb9b113e4ee0de99684fb57b8937b">&#9670;&#160;</a></span>parseModels() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt; wrimsv2.wreslparser.elements.StudyParser.parseModels </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config.html">StudyConfig</a></td>          <td class="paramname"><span class="paramname"><em>sc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_temp_data.html">TempData</a></td>          <td class="paramname"><span class="paramname"><em>td</em></span>&#160;) throws RecognitionException, IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00212">212</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_study_parser_8java_source.html#l00212">parseModels()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00212">parseModels()</a>, and <a class="el" href="_study_utils_8java_source.html#l00203">wrimsv2.wreslparser.elements.StudyUtils.parseWresl()</a>.</p>
+
 </div>
 </div>
 <a id="a7df2c6815971c3a15abc8dd086865179" name="a7df2c6815971c3a15abc8dd086865179"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7df2c6815971c3a15abc8dd086865179">&#9670;&#160;</a></span>parseModels()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7df2c6815971c3a15abc8dd086865179">&#9670;&#160;</a></span>parseModels() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,6 +607,10 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>total_warnings<
 <p>check if alias is used in goal's constraint expression.</p>
 <p>check if var size &gt; 100</p>
 
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00217">217</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_simulation_data_set_8java_source.html#l00096">wrimsv2.wreslparser.elements.SimulationDataSet.asList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00093">wrimsv2.wreslparser.elements.SimulationDataSet.asSet</a>, <a class="el" href="_study_parser_8java_source.html#l00699">checkAliasInGoalExpression()</a>, <a class="el" href="_study_parser_8java_source.html#l00632">checkUsedBeforeDefined()</a>, <a class="el" href="_study_parser_8java_source.html#l00687">convertRestAliasInGoalExpression()</a>, <a class="el" href="_study_parser_8java_source.html#l00746">copyDataSetToThisModel()</a>, <a class="el" href="_study_parser_8java_source.html#l00758">correctScopeAndPrioritize()</a>, <a class="el" href="_log_utils_8java_source.html#l00214">wrimsv2.wreslparser.elements.LogUtils.criticalMsg()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00084">wrimsv2.wreslparser.elements.SimulationDataSet.dvSet</a>, <a class="el" href="_log_utils_8java_source.html#l00298">wrimsv2.wreslparser.elements.LogUtils.errMsg()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00059">wrimsv2.wreslparser.elements.SimulationDataSet.exSet</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00941">wrimsv2.wreslparser.elements.SimulationDataSet.getAllGlobalVarsSet_except_file_and_weight()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00954">wrimsv2.wreslparser.elements.SimulationDataSet.getAllLocalVarsSet_except_file_and_weight()</a>, <a class="el" href="wreslparser_2elements_2_tools_8java_source.html#l00371">wrimsv2.wreslparser.elements.Tools.getFileScopeMap()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00822">wrimsv2.wreslparser.elements.SimulationDataSet.getGlobalVars_set()</a>, <a class="el" href="_study_parser_8java_source.html#l00728">getNewDataSet()</a>, <a class="el" href="_study_parser_8java_source.html#l00832">getOrderedList()</a>, <a class="el" href="wreslparser_2elements_2_tools_8java_source.html#l00327">wrimsv2.wreslparser.elements.Tools.getReverseMap()</a>, <a class="el" href="wreslparser_2elements_2_tools_8java_source.html#l00310">wrimsv2.wreslparser.elements.Tools.getType1Map()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00107">wrimsv2.wreslparser.elements.SimulationDataSet.gMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00101">wrimsv2.wreslparser.elements.SimulationDataSet.gSet</a>, <a class="el" href="_log_utils_8java_source.html#l00221">wrimsv2.wreslparser.elements.LogUtils.importantMsg()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00041">wrimsv2.wreslparser.elements.SimulationDataSet.incFileSet</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00042">wrimsv2.wreslparser.elements.SimulationDataSet.incFileSet_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l01119">wrimsv2.wreslparser.elements.SimulationDataSet.lousyConvert()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00636">wrimsv2.wreslparser.elements.SimulationDataSet.overwrite_set()</a>, <a class="el" href="wreslparser_2elements_2_tools_8java_source.html#l00559">wrimsv2.wreslparser.elements.Tools.removeDuplicates()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00771">wrimsv2.wreslparser.elements.SimulationDataSet.replaceGlobalWithDuplicateLocal()</a>, <a class="el" href="_param_8java_source.html#l00077">wrimsv2.commondata.wresldata.Param.reservedSet</a>, <a class="el" href="wreslparser_2elements_2_tools_8java_source.html#l00544">wrimsv2.wreslparser.elements.Tools.restoreOrder()</a>, <a class="el" href="_study_parser_8java_source.html#l00794">sortDependency()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00079">wrimsv2.wreslparser.elements.SimulationDataSet.svList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00076">wrimsv2.wreslparser.elements.SimulationDataSet.svSet</a>, <a class="el" href="_study_parser_8java_source.html#l00030">total_errors</a>, <a class="el" href="_study_parser_8java_source.html#l00032">total_warnings</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00067">wrimsv2.wreslparser.elements.SimulationDataSet.tsSet</a>, <a class="el" href="_log_utils_8java_source.html#l00258">wrimsv2.wreslparser.elements.LogUtils.warningMsg()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00032">wrimsv2.wreslparser.elements.SimulationDataSet.wtSet</a>, and <a class="el" href="_simulation_data_set_8java_source.html#l00033">wrimsv2.wreslparser.elements.SimulationDataSet.wtSet_global</a>.</p>
+
 </div>
 </div>
 <a id="ac441d145948c7215b31df5bddeead3e8" name="ac441d145948c7215b31df5bddeead3e8"></a>
@@ -217,6 +636,12 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>total_warnings<
 </table>
 </div><div class="memdoc">
 <p>reset total errors</p>
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00165">165</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_study_parser_8java_source.html#l00165">processMainFileIntoStudyConfig()</a>, and <a class="el" href="_study_parser_8java_source.html#l00030">total_errors</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_utils_8java_source.html#l00203">wrimsv2.wreslparser.elements.StudyUtils.parseWresl()</a>, and <a class="el" href="_study_parser_8java_source.html#l00165">processMainFileIntoStudyConfig()</a>.</p>
 
 </div>
 </div>
@@ -248,10 +673,324 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>total_warnings<
 </div><div class="memdoc">
 <p><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_sort.html">Sort</a> sequence order</p>
 
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00171">171</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_study_parser_8java_source.html#l00035">cycleNameConditionMap</a>, <a class="el" href="_study_parser_8java_source.html#l00036">cycleNameTimeStepMap</a>, <a class="el" href="_log_utils_8java_source.html#l00221">wrimsv2.wreslparser.elements.LogUtils.importantMsg()</a>, <a class="el" href="_study_config_8java_source.html#l00013">wrimsv2.wreslparser.elements.StudyConfig.modelConditionList</a>, <a class="el" href="_study_config_8java_source.html#l00012">wrimsv2.wreslparser.elements.StudyConfig.modelList</a>, <a class="el" href="_study_config_8java_source.html#l00014">wrimsv2.wreslparser.elements.StudyConfig.modelTimeStepList</a>, <a class="el" href="_file_parser_8java_source.html#l00199">wrimsv2.wreslparser.elements.FileParser.parseMainFile()</a>, <a class="el" href="_study_config_8java_source.html#l00011">wrimsv2.wreslparser.elements.StudyConfig.sequenceList</a>, <a class="el" href="_study_config_8java_source.html#l00009">wrimsv2.wreslparser.elements.StudyConfig.sequenceMap</a>, and <a class="el" href="_study_config_8java_source.html#l00010">wrimsv2.wreslparser.elements.StudyConfig.sequenceOrder</a>.</p>
+
+</div>
+</div>
+<a id="af009b5972435e6487f62701f9889b23d" name="af009b5972435e6487f62701f9889b23d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af009b5972435e6487f62701f9889b23d">&#9670;&#160;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.wreslparser.elements.StudyParser.reset </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00040">40</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_study_parser_8java_source.html#l00034">allValidCycleNames</a>, <a class="el" href="_study_parser_8java_source.html#l00035">cycleNameConditionMap</a>, <a class="el" href="_study_parser_8java_source.html#l00036">cycleNameTimeStepMap</a>, <a class="el" href="_study_parser_8java_source.html#l00033">cycleVarTypeMap</a>, <a class="el" href="_study_parser_8java_source.html#l00031">error_summary</a>, <a class="el" href="_study_parser_8java_source.html#l00030">total_errors</a>, and <a class="el" href="_study_parser_8java_source.html#l00032">total_warnings</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_workflow_8java_source.html#l00035">wrimsv2.wreslplus.elements.Workflow.checkStudy()</a>, <a class="el" href="_workflow_8java_source.html#l00266">wrimsv2.wreslplus.elements.Workflow.checkStudy_compileLog()</a>, <a class="el" href="_study_utils_8java_source.html#l00203">wrimsv2.wreslparser.elements.StudyUtils.parseWresl()</a>, and <a class="el" href="_study_utils_8java_source.html#l00056">wrimsv2.wreslparser.elements.StudyUtils.reset()</a>.</p>
+
+</div>
+</div>
+<a id="ad657efabdc056fa10c78f36bf32d49c7" name="ad657efabdc056fa10c78f36bf32d49c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad657efabdc056fa10c78f36bf32d49c7">&#9670;&#160;</a></span>sortDependency()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.wreslparser.elements.StudyParser.sortDependency </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a></td>          <td class="paramname"><span class="paramname"><em>model_dataset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>rewrite_list_based_on_dependency</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00794">794</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_simulation_data_set_8java_source.html#l00096">wrimsv2.wreslparser.elements.SimulationDataSet.asList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00099">wrimsv2.wreslparser.elements.SimulationDataSet.asMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00093">wrimsv2.wreslparser.elements.SimulationDataSet.asSet</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00092">wrimsv2.wreslparser.elements.SimulationDataSet.asSet_unknown</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00084">wrimsv2.wreslparser.elements.SimulationDataSet.dvSet</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00059">wrimsv2.wreslparser.elements.SimulationDataSet.exSet</a>, <a class="el" href="_sort_8java_source.html#l00078">wrimsv2.wreslparser.elements.Sort.sort()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00079">wrimsv2.wreslparser.elements.SimulationDataSet.svList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00082">wrimsv2.wreslparser.elements.SimulationDataSet.svMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00076">wrimsv2.wreslparser.elements.SimulationDataSet.svSet</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00075">wrimsv2.wreslparser.elements.SimulationDataSet.svSet_unknown</a>, and <a class="el" href="_simulation_data_set_8java_source.html#l00067">wrimsv2.wreslparser.elements.SimulationDataSet.tsSet</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00217">parseModels()</a>.</p>
+
+</div>
+</div>
+<a id="ab9c823ae1d73e32e4845203e7133587f" name="ab9c823ae1d73e32e4845203e7133587f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9c823ae1d73e32e4845203e7133587f">&#9670;&#160;</a></span>writeWreslData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> wrimsv2.wreslparser.elements.StudyParser.writeWreslData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_config.html">StudyConfig</a></td>          <td class="paramname"><span class="paramname"><em>sc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_temp_data.html">TempData</a></td>          <td class="paramname"><span class="paramname"><em>td</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00050">50</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_simulation_data_set_8java_source.html#l00096">wrimsv2.wreslparser.elements.SimulationDataSet.asList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00097">wrimsv2.wreslparser.elements.SimulationDataSet.asList_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00098">wrimsv2.wreslparser.elements.SimulationDataSet.asList_local</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00099">wrimsv2.wreslparser.elements.SimulationDataSet.asMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00092">wrimsv2.wreslparser.elements.SimulationDataSet.asSet_unknown</a>, <a class="el" href="_param_8java_source.html#l00046">wrimsv2.commondata.wresldata.Param.conditional</a>, <a class="el" href="_control_data_8java_source.html#l00058">wrimsv2.components.ControlData.defaultTimeStep</a>, <a class="el" href="_model_data_set_8java_source.html#l00079">wrimsv2.commondata.wresldata.ModelDataSet.dvList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00087">wrimsv2.wreslparser.elements.SimulationDataSet.dvList</a>, <a class="el" href="_model_data_set_8java_source.html#l00085">wrimsv2.commondata.wresldata.ModelDataSet.dvList_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00088">wrimsv2.wreslparser.elements.SimulationDataSet.dvList_global</a>, <a class="el" href="_model_data_set_8java_source.html#l00086">wrimsv2.commondata.wresldata.ModelDataSet.dvList_local</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00089">wrimsv2.wreslparser.elements.SimulationDataSet.dvList_local</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00090">wrimsv2.wreslparser.elements.SimulationDataSet.dvMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00084">wrimsv2.commondata.wresldata.ModelDataSet.dvSlackSurplusList</a>, <a class="el" href="_model_data_set_8java_source.html#l00088">wrimsv2.commondata.wresldata.ModelDataSet.dvSlackSurplusMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00062">wrimsv2.wreslparser.elements.SimulationDataSet.exList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00063">wrimsv2.wreslparser.elements.SimulationDataSet.exList_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00064">wrimsv2.wreslparser.elements.SimulationDataSet.exList_local</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00065">wrimsv2.wreslparser.elements.SimulationDataSet.exMap</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_model_data_set_8java_source.html#l00099">wrimsv2.commondata.wresldata.ModelDataSet.gList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00104">wrimsv2.wreslparser.elements.SimulationDataSet.gList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00105">wrimsv2.wreslparser.elements.SimulationDataSet.gList_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00106">wrimsv2.wreslparser.elements.SimulationDataSet.gList_local</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00107">wrimsv2.wreslparser.elements.SimulationDataSet.gMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00044">wrimsv2.wreslparser.elements.SimulationDataSet.incFileList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00045">wrimsv2.wreslparser.elements.SimulationDataSet.incFileList_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00046">wrimsv2.wreslparser.elements.SimulationDataSet.incFileList_local</a>, <a class="el" href="_temp_data_8java_source.html#l00015">wrimsv2.wreslparser.elements.TempData.model_dataset_map</a>, <a class="el" href="_study_config_8java_source.html#l00013">wrimsv2.wreslparser.elements.StudyConfig.modelConditionList</a>, <a class="el" href="_study_config_8java_source.html#l00012">wrimsv2.wreslparser.elements.StudyConfig.modelList</a>, <a class="el" href="_study_config_8java_source.html#l00014">wrimsv2.wreslparser.elements.StudyConfig.modelTimeStepList</a>, <a class="el" href="_study_data_set_8java_source.html#l00105">wrimsv2.commondata.wresldata.StudyDataSet.setModelConditionList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00125">wrimsv2.commondata.wresldata.StudyDataSet.setModelDataSetMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00093">wrimsv2.commondata.wresldata.StudyDataSet.setModelList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00109">wrimsv2.commondata.wresldata.StudyDataSet.setModelTimeStepList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00069">wrimsv2.commondata.wresldata.StudyDataSet.setTimeseriesMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00077">wrimsv2.commondata.wresldata.StudyDataSet.setTimeseriesTimeStepMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00162">wrimsv2.commondata.wresldata.StudyDataSet.setVarCycleIndexList()</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00079">wrimsv2.wreslparser.elements.SimulationDataSet.svList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00080">wrimsv2.wreslparser.elements.SimulationDataSet.svList_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00081">wrimsv2.wreslparser.elements.SimulationDataSet.svList_local</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00082">wrimsv2.wreslparser.elements.SimulationDataSet.svMap</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00075">wrimsv2.wreslparser.elements.SimulationDataSet.svSet_unknown</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00070">wrimsv2.wreslparser.elements.SimulationDataSet.tsList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00071">wrimsv2.wreslparser.elements.SimulationDataSet.tsList_global</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00072">wrimsv2.wreslparser.elements.SimulationDataSet.tsList_local</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00073">wrimsv2.wreslparser.elements.SimulationDataSet.tsMap</a>, <a class="el" href="_param_8java_source.html#l00033">wrimsv2.commondata.wresldata.Param.undefined</a>, <a class="el" href="_var_cycle_index_8java_source.html#l00006">wrimsv2.wreslplus.elements.VarCycleIndex.varCycleIndexList</a>, <a class="el" href="_model_data_set_8java_source.html#l00040">wrimsv2.commondata.wresldata.ModelDataSet.wtList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00035">wrimsv2.wreslparser.elements.SimulationDataSet.wtList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00038">wrimsv2.wreslparser.elements.SimulationDataSet.wtMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00042">wrimsv2.commondata.wresldata.ModelDataSet.wtSlackSurplusList</a>, and <a class="el" href="_model_data_set_8java_source.html#l00049">wrimsv2.commondata.wresldata.ModelDataSet.wtSlackSurplusMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_utils_8java_source.html#l00203">wrimsv2.wreslparser.elements.StudyUtils.parseWresl()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ac6cc5565ebef00a1f94102609bfbf1d9" name="ac6cc5565ebef00a1f94102609bfbf1d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6cc5565ebef00a1f94102609bfbf1d9">&#9670;&#160;</a></span>allValidCycleNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; wrimsv2.wreslparser.elements.StudyParser.allValidCycleNames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00034">34</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00548">analyzeVarNeededFromCycle_subfunction()</a>, <a class="el" href="_study_parser_8java_source.html#l00439">analyzeVarNeededFromCycles()</a>, and <a class="el" href="_study_parser_8java_source.html#l00040">reset()</a>.</p>
+
+</div>
+</div>
+<a id="a51436e5e702213312a5409cbb238b020" name="a51436e5e702213312a5409cbb238b020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51436e5e702213312a5409cbb238b020">&#9670;&#160;</a></span>cycleNameConditionMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, String&gt; wrimsv2.wreslparser.elements.StudyParser.cycleNameConditionMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00035">35</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00548">analyzeVarNeededFromCycle_subfunction()</a>, <a class="el" href="_study_parser_8java_source.html#l00171">processMainFileIntoStudyConfig()</a>, and <a class="el" href="_study_parser_8java_source.html#l00040">reset()</a>.</p>
+
+</div>
+</div>
+<a id="ad3db1c072208628e121ad2cfd3dd4ebf" name="ad3db1c072208628e121ad2cfd3dd4ebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3db1c072208628e121ad2cfd3dd4ebf">&#9670;&#160;</a></span>cycleNameTimeStepMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, String&gt; wrimsv2.wreslparser.elements.StudyParser.cycleNameTimeStepMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00036">36</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00171">processMainFileIntoStudyConfig()</a>, and <a class="el" href="_study_parser_8java_source.html#l00040">reset()</a>.</p>
+
+</div>
+</div>
+<a id="a12d73139bc16372a63fabd35a946959b" name="a12d73139bc16372a63fabd35a946959b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12d73139bc16372a63fabd35a946959b">&#9670;&#160;</a></span>cycleVarTypeMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, Map&lt;String, String&gt; &gt; wrimsv2.wreslparser.elements.StudyParser.cycleVarTypeMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00033">33</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00548">analyzeVarNeededFromCycle_subfunction()</a>, <a class="el" href="_study_parser_8java_source.html#l00439">analyzeVarNeededFromCycles()</a>, and <a class="el" href="_study_parser_8java_source.html#l00040">reset()</a>.</p>
+
+</div>
+</div>
+<a id="a6de0e430483a1830497ca4672817e394" name="a6de0e430483a1830497ca4672817e394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6de0e430483a1830497ca4672817e394">&#9670;&#160;</a></span>error_summary</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.wreslparser.elements.StudyParser.error_summary = new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00031">31</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_workflow_8java_source.html#l00035">wrimsv2.wreslplus.elements.Workflow.checkStudy()</a>, <a class="el" href="_log_utils_8java_source.html#l00288">wrimsv2.wreslparser.elements.LogUtils.errMsgLocation()</a>, and <a class="el" href="_study_parser_8java_source.html#l00040">reset()</a>.</p>
+
+</div>
+</div>
+<a id="ac6f98887713ec0cb11d44fcb9d14aac3" name="ac6f98887713ec0cb11d44fcb9d14aac3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6f98887713ec0cb11d44fcb9d14aac3">&#9670;&#160;</a></span>n_buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.wreslparser.elements.StudyParser.n_buffer = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00037">37</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00548">analyzeVarNeededFromCycle_subfunction()</a>.</p>
+
+</div>
+</div>
+<a id="adae4490c32410f9c93a5962269fed45b" name="adae4490c32410f9c93a5962269fed45b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adae4490c32410f9c93a5962269fed45b">&#9670;&#160;</a></span>total_errors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.wreslparser.elements.StudyParser.total_errors = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00030">30</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00439">analyzeVarNeededFromCycles()</a>, <a class="el" href="_study_utils_8java_source.html#l00099">wrimsv2.wreslparser.elements.StudyUtils.checkStudy()</a>, <a class="el" href="_workflow_8java_source.html#l00035">wrimsv2.wreslplus.elements.Workflow.checkStudy()</a>, <a class="el" href="_log_utils_8java_source.html#l00298">wrimsv2.wreslparser.elements.LogUtils.errMsg()</a>, <a class="el" href="_log_utils_8java_source.html#l00288">wrimsv2.wreslparser.elements.LogUtils.errMsgLocation()</a>, <a class="el" href="_debug_interface_8java_source.html#l00160">wrimsv2.components.DebugInterface.handleRequest()</a>, <a class="el" href="_study_parser_8java_source.html#l00217">parseModels()</a>, <a class="el" href="_study_utils_8java_source.html#l00203">wrimsv2.wreslparser.elements.StudyUtils.parseWresl()</a>, <a class="el" href="_study_parser_8java_source.html#l00165">processMainFileIntoStudyConfig()</a>, <a class="el" href="_study_parser_8java_source.html#l00040">reset()</a>, <a class="el" href="_controller_debug_8java_source.html#l00081">wrimsv2.components.ControllerDebug.run()</a>, and <a class="el" href="_log_utils_8java_source.html#l00276">wrimsv2.wreslparser.elements.LogUtils.typeRedefinedErrMsg()</a>.</p>
+
+</div>
+</div>
+<a id="a4bcc245c4c541c4234046d21fa4d06ff" name="a4bcc245c4c541c4234046d21fa4d06ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bcc245c4c541c4234046d21fa4d06ff">&#9670;&#160;</a></span>total_warnings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.wreslparser.elements.StudyParser.total_warnings = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_study_parser_8java_source.html#l00032">32</a> of file <a class="el" href="_study_parser_8java_source.html">StudyParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00217">parseModels()</a>, <a class="el" href="_study_parser_8java_source.html#l00040">reset()</a>, and <a class="el" href="_log_utils_8java_source.html#l00258">wrimsv2.wreslparser.elements.LogUtils.warningMsg()</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/wreslparser/elements/<b>StudyParser.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/wreslparser/elements/<a class="el" href="_study_parser_8java_source.html">StudyParser.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -266,7 +1005,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>total_warnings<
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>wreslparser</b></li><li class="navelem"><b>elements</b></li><li class="navelem"><a href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser.html">StudyParser</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>wreslparser</b></li><li class="navelem"><a href="namespacewrimsv2_1_1wreslparser_1_1elements.html">elements</a></li><li class="navelem"><a href="classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser.html">StudyParser</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.parallel.ProcessDvar Class Reference</title>
+<title>Wrims-engine: wrimsv2.parallel.ProcessDvar Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -100,18 +100,480 @@ Inheritance diagram for wrimsv2.parallel.ProcessDvar:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a14a4397418c3a3d5f6d2286fd56d3fc4" id="r_a14a4397418c3a3d5f6d2286fd56d3fc4"><td class="memItemLeft" align="right" valign="top"><a id="a14a4397418c3a3d5f6d2286fd56d3fc4" name="a14a4397418c3a3d5f6d2286fd56d3fc4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessDvar</b> (ArrayList&lt; String &gt; dvList, Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt; dvMap, ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt; solverDvarMap, ArrayList&lt; String &gt; timeArrayDvList, ArrayList&lt; String &gt; dvTimeArrayList2, Set&lt; String &gt; dvarUsedByLaterCycle, Set&lt; String &gt; dvarTimeArrayUsedByLaterCycle, ArrayList&lt; String &gt; varCycleIndexList, ArrayList&lt; String &gt; dvarTimeArrayCycleIndexList, int start, int end)</td></tr>
+<tr class="memitem:a14a4397418c3a3d5f6d2286fd56d3fc4" id="r_a14a4397418c3a3d5f6d2286fd56d3fc4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14a4397418c3a3d5f6d2286fd56d3fc4">ProcessDvar</a> (ArrayList&lt; String &gt; <a class="el" href="#aadfec8ae3b31b23d8f4a0908b6980169">dvList</a>, Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt; <a class="el" href="#a58ba54595a3f20253a0a31375eba0044">dvMap</a>, ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt; <a class="el" href="#a0e1bf5dc54d2ff7b303677ac426320a2">solverDvarMap</a>, ArrayList&lt; String &gt; <a class="el" href="#aee261158181bf3002b71ac0f5ba4f62e">timeArrayDvList</a>, ArrayList&lt; String &gt; dvTimeArrayList2, Set&lt; String &gt; <a class="el" href="#a4223e784ee60f13693a183cba889ffaa">dvarUsedByLaterCycle</a>, Set&lt; String &gt; <a class="el" href="#ab2e5ebff9b6671f1d6127748efc0f898">dvarTimeArrayUsedByLaterCycle</a>, ArrayList&lt; String &gt; <a class="el" href="#ae327854abbacb9cf3bec0c7e8c58e2c2">varCycleIndexList</a>, ArrayList&lt; String &gt; <a class="el" href="#a28ba160b1e8ef60b21e9785e469b5ac0">dvarTimeArrayCycleIndexList</a>, int <a class="el" href="#a117f359ecab2f0b37aa652a12e2229c2">start</a>, int <a class="el" href="#ad3a3152b689debbb785929827b34fea3">end</a>)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:adf9d600e6f6809ea572074ffb3d223dc" id="r_adf9d600e6f6809ea572074ffb3d223dc"><td class="memItemLeft" align="right" valign="top"><a id="adf9d600e6f6809ea572074ffb3d223dc" name="adf9d600e6f6809ea572074ffb3d223dc"></a>
-Integer&#160;</td><td class="memItemRight" valign="bottom"><b>compute</b> ()</td></tr>
-<tr class="memitem:ad2768386ba219aded94923d7906584f5" id="r_ad2768386ba219aded94923d7906584f5"><td class="memItemLeft" align="right" valign="top"><a id="ad2768386ba219aded94923d7906584f5" name="ad2768386ba219aded94923d7906584f5"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>computeDirectly</b> ()</td></tr>
+<tr class="memitem:adf9d600e6f6809ea572074ffb3d223dc" id="r_adf9d600e6f6809ea572074ffb3d223dc"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf9d600e6f6809ea572074ffb3d223dc">compute</a> ()</td></tr>
+<tr class="memitem:ad2768386ba219aded94923d7906584f5" id="r_ad2768386ba219aded94923d7906584f5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2768386ba219aded94923d7906584f5">computeDirectly</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a28ba160b1e8ef60b21e9785e469b5ac0" id="r_a28ba160b1e8ef60b21e9785e469b5ac0"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28ba160b1e8ef60b21e9785e469b5ac0">dvarTimeArrayCycleIndexList</a></td></tr>
+<tr class="memitem:ab2e5ebff9b6671f1d6127748efc0f898" id="r_ab2e5ebff9b6671f1d6127748efc0f898"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2e5ebff9b6671f1d6127748efc0f898">dvarTimeArrayUsedByLaterCycle</a></td></tr>
+<tr class="memitem:a4223e784ee60f13693a183cba889ffaa" id="r_a4223e784ee60f13693a183cba889ffaa"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4223e784ee60f13693a183cba889ffaa">dvarUsedByLaterCycle</a> = new HashSet&lt;String&gt;()</td></tr>
+<tr class="memitem:aadfec8ae3b31b23d8f4a0908b6980169" id="r_aadfec8ae3b31b23d8f4a0908b6980169"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadfec8ae3b31b23d8f4a0908b6980169">dvList</a></td></tr>
+<tr class="memitem:a58ba54595a3f20253a0a31375eba0044" id="r_a58ba54595a3f20253a0a31375eba0044"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58ba54595a3f20253a0a31375eba0044">dvMap</a></td></tr>
+<tr class="memitem:a54fe7cb832d4139514c6339a8e778bd2" id="r_a54fe7cb832d4139514c6339a8e778bd2"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54fe7cb832d4139514c6339a8e778bd2">dvTimeArrayList</a></td></tr>
+<tr class="memitem:ad3a3152b689debbb785929827b34fea3" id="r_ad3a3152b689debbb785929827b34fea3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3a3152b689debbb785929827b34fea3">end</a></td></tr>
+<tr class="memitem:a0e1bf5dc54d2ff7b303677ac426320a2" id="r_a0e1bf5dc54d2ff7b303677ac426320a2"><td class="memItemLeft" align="right" valign="top">ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e1bf5dc54d2ff7b303677ac426320a2">solverDvarMap</a></td></tr>
+<tr class="memitem:a117f359ecab2f0b37aa652a12e2229c2" id="r_a117f359ecab2f0b37aa652a12e2229c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a117f359ecab2f0b37aa652a12e2229c2">start</a></td></tr>
+<tr class="memitem:a5843d59f4ae34b4a440a682ae10f4473" id="r_a5843d59f4ae34b4a440a682ae10f4473"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5843d59f4ae34b4a440a682ae10f4473">threshold</a></td></tr>
+<tr class="memitem:aee261158181bf3002b71ac0f5ba4f62e" id="r_aee261158181bf3002b71ac0f5ba4f62e"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee261158181bf3002b71ac0f5ba4f62e">timeArrayDvList</a></td></tr>
+<tr class="memitem:ae327854abbacb9cf3bec0c7e8c58e2c2" id="r_ae327854abbacb9cf3bec0c7e8c58e2c2"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae327854abbacb9cf3bec0c7e8c58e2c2">varCycleIndexList</a></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00023">23</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a14a4397418c3a3d5f6d2286fd56d3fc4" name="a14a4397418c3a3d5f6d2286fd56d3fc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14a4397418c3a3d5f6d2286fd56d3fc4">&#9670;&#160;</a></span>ProcessDvar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.parallel.ProcessDvar.ProcessDvar </td>
+          <td>(</td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>dvList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>dvMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>solverDvarMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>timeArrayDvList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>dvTimeArrayList2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>dvarUsedByLaterCycle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>dvarTimeArrayUsedByLaterCycle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>varCycleIndexList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>dvarTimeArrayCycleIndexList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00038">38</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_process_dvar_8java_source.html#l00036">dvarTimeArrayCycleIndexList</a>, <a class="el" href="_process_dvar_8java_source.html#l00034">dvarTimeArrayUsedByLaterCycle</a>, <a class="el" href="_process_dvar_8java_source.html#l00033">dvarUsedByLaterCycle</a>, <a class="el" href="_process_dvar_8java_source.html#l00028">dvList</a>, <a class="el" href="_process_dvar_8java_source.html#l00029">dvMap</a>, <a class="el" href="_process_dvar_8java_source.html#l00027">end</a>, <a class="el" href="_control_data_8java_source.html#l00187">wrimsv2.components.ControlData.nThreads</a>, <a class="el" href="_process_dvar_8java_source.html#l00030">solverDvarMap</a>, <a class="el" href="_process_dvar_8java_source.html#l00026">start</a>, <a class="el" href="_process_dvar_8java_source.html#l00025">threshold</a>, <a class="el" href="_process_dvar_8java_source.html#l00031">timeArrayDvList</a>, and <a class="el" href="_process_dvar_8java_source.html#l00035">varCycleIndexList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="adf9d600e6f6809ea572074ffb3d223dc" name="adf9d600e6f6809ea572074ffb3d223dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf9d600e6f6809ea572074ffb3d223dc">&#9670;&#160;</a></span>compute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer wrimsv2.parallel.ProcessDvar.compute </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00054">54</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_process_dvar_8java_source.html#l00038">ProcessDvar()</a>, <a class="el" href="_process_dvar_8java_source.html#l00086">computeDirectly()</a>, <a class="el" href="_process_dvar_8java_source.html#l00036">dvarTimeArrayCycleIndexList</a>, <a class="el" href="_process_dvar_8java_source.html#l00034">dvarTimeArrayUsedByLaterCycle</a>, <a class="el" href="_process_dvar_8java_source.html#l00033">dvarUsedByLaterCycle</a>, <a class="el" href="_process_dvar_8java_source.html#l00028">dvList</a>, <a class="el" href="_process_dvar_8java_source.html#l00029">dvMap</a>, <a class="el" href="_process_dvar_8java_source.html#l00032">dvTimeArrayList</a>, <a class="el" href="_process_dvar_8java_source.html#l00027">end</a>, <a class="el" href="_control_data_8java_source.html#l00187">wrimsv2.components.ControlData.nThreads</a>, <a class="el" href="_process_dvar_8java_source.html#l00030">solverDvarMap</a>, <a class="el" href="_process_dvar_8java_source.html#l00026">start</a>, <a class="el" href="_process_dvar_8java_source.html#l00025">threshold</a>, <a class="el" href="_process_dvar_8java_source.html#l00031">timeArrayDvList</a>, and <a class="el" href="_process_dvar_8java_source.html#l00035">varCycleIndexList</a>.</p>
+
+</div>
+</div>
+<a id="ad2768386ba219aded94923d7906584f5" name="ad2768386ba219aded94923d7906584f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2768386ba219aded94923d7906584f5">&#9670;&#160;</a></span>computeDirectly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessDvar.computeDirectly </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00086">86</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00149">wrimsv2.components.Error.addEvaluationError()</a>, <a class="el" href="_control_data_8java_source.html#l00054">wrimsv2.components.ControlData.currEvalName</a>, <a class="el" href="_process_dvar_8java_source.html#l00036">dvarTimeArrayCycleIndexList</a>, <a class="el" href="_process_dvar_8java_source.html#l00034">dvarTimeArrayUsedByLaterCycle</a>, <a class="el" href="_process_dvar_8java_source.html#l00033">dvarUsedByLaterCycle</a>, <a class="el" href="_process_dvar_8java_source.html#l00028">dvList</a>, <a class="el" href="_process_dvar_8java_source.html#l00029">dvMap</a>, <a class="el" href="_process_dvar_8java_source.html#l00032">dvTimeArrayList</a>, <a class="el" href="_process_dvar_8java_source.html#l00027">end</a>, <a class="el" href="_time_array_8java_source.html#l00010">wrimsv2.commondata.wresldata.TimeArray.getTimeArraySize()</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00018">wrimsv2.commondata.wresldata.Dvar.integer</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00020">wrimsv2.commondata.wresldata.Dvar.kind</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00023">wrimsv2.commondata.wresldata.Dvar.lowerBoundParser</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00028">wrimsv2.commondata.wresldata.Dvar.lowerBoundValue</a>, <a class="el" href="_control_data_8java_source.html#l00100">wrimsv2.components.ControlData.showRunTimeMessage</a>, <a class="el" href="_process_dvar_8java_source.html#l00030">solverDvarMap</a>, <a class="el" href="_process_dvar_8java_source.html#l00026">start</a>, <a class="el" href="_process_dvar_8java_source.html#l00031">timeArrayDvList</a>, <a class="el" href="_parallel_vars_8java_source.html#l00007">wrimsv2.parallel.ParallelVars.timeArrayIndex</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00034">wrimsv2.commondata.wresldata.Dvar.timeArraySize</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00035">wrimsv2.commondata.wresldata.Dvar.timeArraySizeParser</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00021">wrimsv2.commondata.wresldata.Dvar.units</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00025">wrimsv2.commondata.wresldata.Dvar.upperBoundParser</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00027">wrimsv2.commondata.wresldata.Dvar.upperBoundValue</a>, and <a class="el" href="_process_dvar_8java_source.html#l00035">varCycleIndexList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a28ba160b1e8ef60b21e9785e469b5ac0" name="a28ba160b1e8ef60b21e9785e469b5ac0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28ba160b1e8ef60b21e9785e469b5ac0">&#9670;&#160;</a></span>dvarTimeArrayCycleIndexList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.parallel.ProcessDvar.dvarTimeArrayCycleIndexList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00036">36</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00038">ProcessDvar()</a>, <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>, and <a class="el" href="_process_dvar_8java_source.html#l00086">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="ab2e5ebff9b6671f1d6127748efc0f898" name="ab2e5ebff9b6671f1d6127748efc0f898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2e5ebff9b6671f1d6127748efc0f898">&#9670;&#160;</a></span>dvarTimeArrayUsedByLaterCycle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; wrimsv2.parallel.ProcessDvar.dvarTimeArrayUsedByLaterCycle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00034">34</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00038">ProcessDvar()</a>, <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>, and <a class="el" href="_process_dvar_8java_source.html#l00086">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a4223e784ee60f13693a183cba889ffaa" name="a4223e784ee60f13693a183cba889ffaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4223e784ee60f13693a183cba889ffaa">&#9670;&#160;</a></span>dvarUsedByLaterCycle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; wrimsv2.parallel.ProcessDvar.dvarUsedByLaterCycle = new HashSet&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00033">33</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00038">ProcessDvar()</a>, <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>, and <a class="el" href="_process_dvar_8java_source.html#l00086">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="aadfec8ae3b31b23d8f4a0908b6980169" name="aadfec8ae3b31b23d8f4a0908b6980169"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadfec8ae3b31b23d8f4a0908b6980169">&#9670;&#160;</a></span>dvList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.parallel.ProcessDvar.dvList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00028">28</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00038">ProcessDvar()</a>, <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>, and <a class="el" href="_process_dvar_8java_source.html#l00086">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a58ba54595a3f20253a0a31375eba0044" name="a58ba54595a3f20253a0a31375eba0044"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58ba54595a3f20253a0a31375eba0044">&#9670;&#160;</a></span>dvMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a>&gt; wrimsv2.parallel.ProcessDvar.dvMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00029">29</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00038">ProcessDvar()</a>, <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>, and <a class="el" href="_process_dvar_8java_source.html#l00086">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a54fe7cb832d4139514c6339a8e778bd2" name="a54fe7cb832d4139514c6339a8e778bd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54fe7cb832d4139514c6339a8e778bd2">&#9670;&#160;</a></span>dvTimeArrayList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.parallel.ProcessDvar.dvTimeArrayList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00032">32</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>, and <a class="el" href="_process_dvar_8java_source.html#l00086">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="ad3a3152b689debbb785929827b34fea3" name="ad3a3152b689debbb785929827b34fea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3a3152b689debbb785929827b34fea3">&#9670;&#160;</a></span>end</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessDvar.end</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00027">27</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00038">ProcessDvar()</a>, <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>, and <a class="el" href="_process_dvar_8java_source.html#l00086">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a0e1bf5dc54d2ff7b303677ac426320a2" name="a0e1bf5dc54d2ff7b303677ac426320a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e1bf5dc54d2ff7b303677ac426320a2">&#9670;&#160;</a></span>solverDvarMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a>&gt; wrimsv2.parallel.ProcessDvar.solverDvarMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00030">30</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00038">ProcessDvar()</a>, <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>, and <a class="el" href="_process_dvar_8java_source.html#l00086">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a117f359ecab2f0b37aa652a12e2229c2" name="a117f359ecab2f0b37aa652a12e2229c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a117f359ecab2f0b37aa652a12e2229c2">&#9670;&#160;</a></span>start</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessDvar.start</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00026">26</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00038">ProcessDvar()</a>, <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>, and <a class="el" href="_process_dvar_8java_source.html#l00086">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a5843d59f4ae34b4a440a682ae10f4473" name="a5843d59f4ae34b4a440a682ae10f4473"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5843d59f4ae34b4a440a682ae10f4473">&#9670;&#160;</a></span>threshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessDvar.threshold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00025">25</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00038">ProcessDvar()</a>, and <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>.</p>
+
+</div>
+</div>
+<a id="aee261158181bf3002b71ac0f5ba4f62e" name="aee261158181bf3002b71ac0f5ba4f62e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee261158181bf3002b71ac0f5ba4f62e">&#9670;&#160;</a></span>timeArrayDvList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.parallel.ProcessDvar.timeArrayDvList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00031">31</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00038">ProcessDvar()</a>, <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>, and <a class="el" href="_process_dvar_8java_source.html#l00086">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="ae327854abbacb9cf3bec0c7e8c58e2c2" name="ae327854abbacb9cf3bec0c7e8c58e2c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae327854abbacb9cf3bec0c7e8c58e2c2">&#9670;&#160;</a></span>varCycleIndexList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.parallel.ProcessDvar.varCycleIndexList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_dvar_8java_source.html#l00035">35</a> of file <a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_dvar_8java_source.html#l00038">ProcessDvar()</a>, <a class="el" href="_process_dvar_8java_source.html#l00054">compute()</a>, and <a class="el" href="_process_dvar_8java_source.html#l00086">computeDirectly()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/parallel/<b>ProcessDvar.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/parallel/<a class="el" href="_process_dvar_8java_source.html">ProcessDvar.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -126,7 +588,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>computeDirectly</b> ()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>parallel</b></li><li class="navelem"><a href="classwrimsv2_1_1parallel_1_1_process_dvar.html">ProcessDvar</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1parallel.html">parallel</a></li><li class="navelem"><a href="classwrimsv2_1_1parallel_1_1_process_dvar.html">ProcessDvar</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

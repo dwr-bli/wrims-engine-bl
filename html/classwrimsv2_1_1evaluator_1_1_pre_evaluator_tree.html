@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.evaluator.PreEvaluatorTree Class Reference</title>
+<title>Wrims-engine: wrimsv2.evaluator.PreEvaluatorTree Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,13 +94,118 @@ $(function(){initNavTree('classwrimsv2_1_1evaluator_1_1_pre_evaluator_tree.html'
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a168f3050d7ce7b205c04ed4bdd7891aa" id="r_a168f3050d7ce7b205c04ed4bdd7891aa"><td class="memItemLeft" align="right" valign="top"><a id="a168f3050d7ce7b205c04ed4bdd7891aa" name="a168f3050d7ce7b205c04ed4bdd7891aa"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>PreEvaluatorTree</b> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sds)</td></tr>
-<tr class="memitem:ae794265a324ab18c470b722ab6024fc0" id="r_ae794265a324ab18c470b722ab6024fc0"><td class="memItemLeft" align="right" valign="top"><a id="ae794265a324ab18c470b722ab6024fc0" name="ae794265a324ab18c470b722ab6024fc0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>preEvaluateSvar</b> ()</td></tr>
+<tr class="memitem:a168f3050d7ce7b205c04ed4bdd7891aa" id="r_a168f3050d7ce7b205c04ed4bdd7891aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a168f3050d7ce7b205c04ed4bdd7891aa">PreEvaluatorTree</a> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sds)</td></tr>
+<tr class="memitem:ae794265a324ab18c470b722ab6024fc0" id="r_ae794265a324ab18c470b722ab6024fc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae794265a324ab18c470b722ab6024fc0">preEvaluateSvar</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa97c11885634d054df4f08c0fd6b0658" id="r_aa97c11885634d054df4f08c0fd6b0658"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa97c11885634d054df4f08c0fd6b0658">svList</a></td></tr>
+<tr class="memitem:a9f200ac024201d57cc2ec15a1d4261ea" id="r_a9f200ac024201d57cc2ec15a1d4261ea"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f200ac024201d57cc2ec15a1d4261ea">svMap</a></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_tree_8java_source.html#l00021">21</a> of file <a class="el" href="_pre_evaluator_tree_8java_source.html">PreEvaluatorTree.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a168f3050d7ce7b205c04ed4bdd7891aa" name="a168f3050d7ce7b205c04ed4bdd7891aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a168f3050d7ce7b205c04ed4bdd7891aa">&#9670;&#160;</a></span>PreEvaluatorTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.evaluator.PreEvaluatorTree.PreEvaluatorTree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a></td>          <td class="paramname"><span class="paramname"><em>sds</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_tree_8java_source.html#l00025">25</a> of file <a class="el" href="_pre_evaluator_tree_8java_source.html">PreEvaluatorTree.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_study_data_set_8java_source.html#l00121">wrimsv2.commondata.wresldata.StudyDataSet.getModelDataSetMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_pre_evaluator_tree_8java_source.html#l00037">preEvaluateSvar()</a>, <a class="el" href="_model_data_set_8java_source.html#l00072">wrimsv2.commondata.wresldata.ModelDataSet.svList</a>, <a class="el" href="_pre_evaluator_tree_8java_source.html#l00022">svList</a>, <a class="el" href="_model_data_set_8java_source.html#l00075">wrimsv2.commondata.wresldata.ModelDataSet.svMap</a>, and <a class="el" href="_pre_evaluator_tree_8java_source.html#l00023">svMap</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ae794265a324ab18c470b722ab6024fc0" name="ae794265a324ab18c470b722ab6024fc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae794265a324ab18c470b722ab6024fc0">&#9670;&#160;</a></span>preEvaluateSvar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.PreEvaluatorTree.preEvaluateSvar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_tree_8java_source.html#l00037">37</a> of file <a class="el" href="_pre_evaluator_tree_8java_source.html">PreEvaluatorTree.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00149">wrimsv2.components.Error.addEvaluationError()</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00047">wrimsv2.commondata.wresldata.Svar.caseCondition</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00049">wrimsv2.commondata.wresldata.Svar.caseConditionWalkers</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00050">wrimsv2.commondata.wresldata.Svar.caseExpression</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00052">wrimsv2.commondata.wresldata.Svar.caseExpressionWalkers</a>, <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00054">wrimsv2.components.ControlData.currEvalName</a>, <a class="el" href="_pre_evaluator_tree_8java_source.html#l00022">svList</a>, and <a class="el" href="_pre_evaluator_tree_8java_source.html#l00023">svMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_tree_8java_source.html#l00025">PreEvaluatorTree()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="aa97c11885634d054df4f08c0fd6b0658" name="aa97c11885634d054df4f08c0fd6b0658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa97c11885634d054df4f08c0fd6b0658">&#9670;&#160;</a></span>svList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.PreEvaluatorTree.svList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_tree_8java_source.html#l00022">22</a> of file <a class="el" href="_pre_evaluator_tree_8java_source.html">PreEvaluatorTree.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_tree_8java_source.html#l00025">PreEvaluatorTree()</a>, and <a class="el" href="_pre_evaluator_tree_8java_source.html#l00037">preEvaluateSvar()</a>.</p>
+
+</div>
+</div>
+<a id="a9f200ac024201d57cc2ec15a1d4261ea" name="a9f200ac024201d57cc2ec15a1d4261ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f200ac024201d57cc2ec15a1d4261ea">&#9670;&#160;</a></span>svMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a>&gt; wrimsv2.evaluator.PreEvaluatorTree.svMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_tree_8java_source.html#l00023">23</a> of file <a class="el" href="_pre_evaluator_tree_8java_source.html">PreEvaluatorTree.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_tree_8java_source.html#l00025">PreEvaluatorTree()</a>, and <a class="el" href="_pre_evaluator_tree_8java_source.html#l00037">preEvaluateSvar()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/evaluator/<b>PreEvaluatorTree.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/evaluator/<a class="el" href="_pre_evaluator_tree_8java_source.html">PreEvaluatorTree.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -115,7 +220,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>preEvaluateSvar</b> (
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>evaluator</b></li><li class="navelem"><a href="classwrimsv2_1_1evaluator_1_1_pre_evaluator_tree.html">PreEvaluatorTree</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1evaluator.html">evaluator</a></li><li class="navelem"><a href="classwrimsv2_1_1evaluator_1_1_pre_evaluator_tree.html">PreEvaluatorTree</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

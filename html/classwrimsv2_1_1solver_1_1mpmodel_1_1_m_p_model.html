@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.solver.mpmodel.MPModel Class Reference</title>
+<title>Wrims-engine: wrimsv2.solver.mpmodel.MPModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -100,66 +100,591 @@ Inheritance diagram for wrimsv2.solver.mpmodel.MPModel:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3476ec4fca104b2c835473f32f0cd48d" id="r_a3476ec4fca104b2c835473f32f0cd48d"><td class="memItemLeft" align="right" valign="top"><a id="a3476ec4fca104b2c835473f32f0cd48d" name="a3476ec4fca104b2c835473f32f0cd48d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>MPModel</b> (String modelName)</td></tr>
-<tr class="memitem:ab37b539dcd405caeb00d505b86f96580" id="r_ab37b539dcd405caeb00d505b86f96580"><td class="memItemLeft" align="right" valign="top"><a id="ab37b539dcd405caeb00d505b86f96580" name="ab37b539dcd405caeb00d505b86f96580"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>MPModel</b> (MPModel in, String modelName)</td></tr>
-<tr class="memitem:ab40f7255ac1a2f09eed6deda7996b52a" id="r_ab40f7255ac1a2f09eed6deda7996b52a"><td class="memItemLeft" align="right" valign="top"><a id="ab40f7255ac1a2f09eed6deda7996b52a" name="ab40f7255ac1a2f09eed6deda7996b52a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addGeneralVar</b> (String varName, double lb, double ub)</td></tr>
-<tr class="memitem:ab3f2cd504a4012278074604df0597ec5" id="r_ab3f2cd504a4012278074604df0597ec5"><td class="memItemLeft" align="right" valign="top"><a id="ab3f2cd504a4012278074604df0597ec5" name="ab3f2cd504a4012278074604df0597ec5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addStdVar</b> (String varName)</td></tr>
-<tr class="memitem:a31aeb706e2964383044f22a46909856d" id="r_a31aeb706e2964383044f22a46909856d"><td class="memItemLeft" align="right" valign="top"><a id="a31aeb706e2964383044f22a46909856d" name="a31aeb706e2964383044f22a46909856d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addFreeVar</b> (String varName)</td></tr>
-<tr class="memitem:a70d1c05c4abead0279ba5a6ff2126faa" id="r_a70d1c05c4abead0279ba5a6ff2126faa"><td class="memItemLeft" align="right" valign="top"><a id="a70d1c05c4abead0279ba5a6ff2126faa" name="a70d1c05c4abead0279ba5a6ff2126faa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addBinaryVar</b> (String varName)</td></tr>
-<tr class="memitem:a928d110650fe79ed32b1ff7cca87ee9c" id="r_a928d110650fe79ed32b1ff7cca87ee9c"><td class="memItemLeft" align="right" valign="top"><a id="a928d110650fe79ed32b1ff7cca87ee9c" name="a928d110650fe79ed32b1ff7cca87ee9c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addIntVar</b> (String varName, double lb, double ub)</td></tr>
-<tr class="memitem:aa45594038f7c3c17f51adba0d0c5834a" id="r_aa45594038f7c3c17f51adba0d0c5834a"><td class="memItemLeft" align="right" valign="top"><a id="aa45594038f7c3c17f51adba0d0c5834a" name="aa45594038f7c3c17f51adba0d0c5834a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>createConstraint</b> (String constraintName, LinkedHashMap&lt; String, Double &gt; varCoefMap, double lb, double ub)</td></tr>
+<tr class="memitem:ab37b539dcd405caeb00d505b86f96580" id="r_ab37b539dcd405caeb00d505b86f96580"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab37b539dcd405caeb00d505b86f96580">MPModel</a> (MPModel in, String <a class="el" href="#aec90cd9e709047f7dae926b706b35ffa">modelName</a>)</td></tr>
+<tr class="memitem:a3476ec4fca104b2c835473f32f0cd48d" id="r_a3476ec4fca104b2c835473f32f0cd48d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3476ec4fca104b2c835473f32f0cd48d">MPModel</a> (String <a class="el" href="#aec90cd9e709047f7dae926b706b35ffa">modelName</a>)</td></tr>
+<tr class="memitem:a70d1c05c4abead0279ba5a6ff2126faa" id="r_a70d1c05c4abead0279ba5a6ff2126faa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70d1c05c4abead0279ba5a6ff2126faa">addBinaryVar</a> (String varName)</td></tr>
+<tr class="memitem:a31aeb706e2964383044f22a46909856d" id="r_a31aeb706e2964383044f22a46909856d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31aeb706e2964383044f22a46909856d">addFreeVar</a> (String varName)</td></tr>
+<tr class="memitem:ab40f7255ac1a2f09eed6deda7996b52a" id="r_ab40f7255ac1a2f09eed6deda7996b52a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab40f7255ac1a2f09eed6deda7996b52a">addGeneralVar</a> (String varName, double lb, double ub)</td></tr>
+<tr class="memitem:a928d110650fe79ed32b1ff7cca87ee9c" id="r_a928d110650fe79ed32b1ff7cca87ee9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a928d110650fe79ed32b1ff7cca87ee9c">addIntVar</a> (String varName, double lb, double ub)</td></tr>
+<tr class="memitem:ab3f2cd504a4012278074604df0597ec5" id="r_ab3f2cd504a4012278074604df0597ec5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3f2cd504a4012278074604df0597ec5">addStdVar</a> (String varName)</td></tr>
+<tr class="memitem:aa45594038f7c3c17f51adba0d0c5834a" id="r_aa45594038f7c3c17f51adba0d0c5834a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa45594038f7c3c17f51adba0d0c5834a">createConstraint</a> (String constraintName, LinkedHashMap&lt; String, Double &gt; varCoefMap, double lb, double ub)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aec90cd9e709047f7dae926b706b35ffa" id="r_aec90cd9e709047f7dae926b706b35ffa"><td class="memItemLeft" align="right" valign="top"><a id="aec90cd9e709047f7dae926b706b35ffa" name="aec90cd9e709047f7dae926b706b35ffa"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>modelName</b> = &quot;&quot;</td></tr>
-<tr class="memitem:aed49ba30bbd1ae3b64a3a1c863be5ee1" id="r_aed49ba30bbd1ae3b64a3a1c863be5ee1"><td class="memItemLeft" align="right" valign="top"><a id="aed49ba30bbd1ae3b64a3a1c863be5ee1" name="aed49ba30bbd1ae3b64a3a1c863be5ee1"></a>
-LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>varMap_number</b> = null</td></tr>
-<tr class="memitem:a7ba28cb73d72df8e41aecaa597cbe7e9" id="r_a7ba28cb73d72df8e41aecaa597cbe7e9"><td class="memItemLeft" align="right" valign="top"><a id="a7ba28cb73d72df8e41aecaa597cbe7e9" name="a7ba28cb73d72df8e41aecaa597cbe7e9"></a>
-HashSet&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>var_general</b> = null</td></tr>
-<tr class="memitem:a43414edd5be5d7ab9e5d31a7fee49955" id="r_a43414edd5be5d7ab9e5d31a7fee49955"><td class="memItemLeft" align="right" valign="top"><a id="a43414edd5be5d7ab9e5d31a7fee49955" name="a43414edd5be5d7ab9e5d31a7fee49955"></a>
-HashSet&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>var_standard</b> = null</td></tr>
-<tr class="memitem:abedbe2981bb156d6b6a92511c9e85812" id="r_abedbe2981bb156d6b6a92511c9e85812"><td class="memItemLeft" align="right" valign="top"><a id="abedbe2981bb156d6b6a92511c9e85812" name="abedbe2981bb156d6b6a92511c9e85812"></a>
-HashSet&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>var_free</b> = null</td></tr>
-<tr class="memitem:a3beebe019b358ad41a098665a2f36ffc" id="r_a3beebe019b358ad41a098665a2f36ffc"><td class="memItemLeft" align="right" valign="top"><a id="a3beebe019b358ad41a098665a2f36ffc" name="a3beebe019b358ad41a098665a2f36ffc"></a>
-LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>varMap_integer</b> = null</td></tr>
-<tr class="memitem:a9f656b74584285f59d56661f9a385e7b" id="r_a9f656b74584285f59d56661f9a385e7b"><td class="memItemLeft" align="right" valign="top"><a id="a9f656b74584285f59d56661f9a385e7b" name="a9f656b74584285f59d56661f9a385e7b"></a>
-HashSet&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>var_int_binary</b> = null</td></tr>
-<tr class="memitem:a783e0865bee94a3ec68ecfc45ecf6ad2" id="r_a783e0865bee94a3ec68ecfc45ecf6ad2"><td class="memItemLeft" align="right" valign="top"><a id="a783e0865bee94a3ec68ecfc45ecf6ad2" name="a783e0865bee94a3ec68ecfc45ecf6ad2"></a>
-HashSet&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>var_int_nonnegative</b> = null</td></tr>
-<tr class="memitem:a4b659828ffef0004dff5021a19856ea7" id="r_a4b659828ffef0004dff5021a19856ea7"><td class="memItemLeft" align="right" valign="top"><a id="a4b659828ffef0004dff5021a19856ea7" name="a4b659828ffef0004dff5021a19856ea7"></a>
-LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>constraintLhs</b> = null</td></tr>
-<tr class="memitem:a3edc84a5679f6f1cdd4b94a288c1e7b7" id="r_a3edc84a5679f6f1cdd4b94a288c1e7b7"><td class="memItemLeft" align="right" valign="top"><a id="a3edc84a5679f6f1cdd4b94a288c1e7b7" name="a3edc84a5679f6f1cdd4b94a288c1e7b7"></a>
-LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>constraintRhs</b> = null</td></tr>
-<tr class="memitem:a2e9be32fbf67cffc333d1058a57d6acc" id="r_a2e9be32fbf67cffc333d1058a57d6acc"><td class="memItemLeft" align="right" valign="top"><a id="a2e9be32fbf67cffc333d1058a57d6acc" name="a2e9be32fbf67cffc333d1058a57d6acc"></a>
-LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>objFunction</b> = null</td></tr>
-<tr class="memitem:a7542a418ce6cee8df2c7bc736cbe4be8" id="r_a7542a418ce6cee8df2c7bc736cbe4be8"><td class="memItemLeft" align="right" valign="top"><a id="a7542a418ce6cee8df2c7bc736cbe4be8" name="a7542a418ce6cee8df2c7bc736cbe4be8"></a>
-LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>solution</b> = null</td></tr>
-<tr class="memitem:a21232da360ad90d117e9147c51a94ce6" id="r_a21232da360ad90d117e9147c51a94ce6"><td class="memItemLeft" align="right" valign="top"><a id="a21232da360ad90d117e9147c51a94ce6" name="a21232da360ad90d117e9147c51a94ce6"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>objValue</b></td></tr>
-<tr class="memitem:afd41d948b26df5f05ba05a40adcf428e" id="r_afd41d948b26df5f05ba05a40adcf428e"><td class="memItemLeft" align="right" valign="top"><a id="afd41d948b26df5f05ba05a40adcf428e" name="afd41d948b26df5f05ba05a40adcf428e"></a>
-LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>originalObjFunction</b> = null</td></tr>
-<tr class="memitem:a52cedcd57c7fb437499fcc0d8bd9929a" id="r_a52cedcd57c7fb437499fcc0d8bd9929a"><td class="memItemLeft" align="right" valign="top"><a id="a52cedcd57c7fb437499fcc0d8bd9929a" name="a52cedcd57c7fb437499fcc0d8bd9929a"></a>
-LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>restoredSolution</b> = null</td></tr>
-<tr class="memitem:ac5547d2277a026843916324e705a60cd" id="r_ac5547d2277a026843916324e705a60cd"><td class="memItemLeft" align="right" valign="top"><a id="ac5547d2277a026843916324e705a60cd" name="ac5547d2277a026843916324e705a60cd"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>restoredObjValue</b></td></tr>
-<tr class="memitem:ac8d62df5e8c6150ee0aafb5fba21012f" id="r_ac8d62df5e8c6150ee0aafb5fba21012f"><td class="memItemLeft" align="right" valign="top"><a id="ac8d62df5e8c6150ee0aafb5fba21012f" name="ac8d62df5e8c6150ee0aafb5fba21012f"></a>
-LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tvarOffsetMap</b> = null</td></tr>
-<tr class="memitem:a36bb4d656f9038759c9cd58bb5931a76" id="r_a36bb4d656f9038759c9cd58bb5931a76"><td class="memItemLeft" align="right" valign="top"><a id="a36bb4d656f9038759c9cd58bb5931a76" name="a36bb4d656f9038759c9cd58bb5931a76"></a>
-LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tvarEquationMap</b> = null</td></tr>
-<tr class="memitem:a26fcaf80fdf15ca01734d805acb79a5b" id="r_a26fcaf80fdf15ca01734d805acb79a5b"><td class="memItemLeft" align="right" valign="top"><a id="a26fcaf80fdf15ca01734d805acb79a5b" name="a26fcaf80fdf15ca01734d805acb79a5b"></a>
-LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>solution_original</b> = null</td></tr>
+<tr class="memitem:a4b659828ffef0004dff5021a19856ea7" id="r_a4b659828ffef0004dff5021a19856ea7"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b659828ffef0004dff5021a19856ea7">constraintLhs</a> = null</td></tr>
+<tr class="memitem:a3edc84a5679f6f1cdd4b94a288c1e7b7" id="r_a3edc84a5679f6f1cdd4b94a288c1e7b7"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3edc84a5679f6f1cdd4b94a288c1e7b7">constraintRhs</a> = null</td></tr>
+<tr class="memitem:aec90cd9e709047f7dae926b706b35ffa" id="r_aec90cd9e709047f7dae926b706b35ffa"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec90cd9e709047f7dae926b706b35ffa">modelName</a> = &quot;&quot;</td></tr>
+<tr class="memitem:a2e9be32fbf67cffc333d1058a57d6acc" id="r_a2e9be32fbf67cffc333d1058a57d6acc"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e9be32fbf67cffc333d1058a57d6acc">objFunction</a> = null</td></tr>
+<tr class="memitem:a21232da360ad90d117e9147c51a94ce6" id="r_a21232da360ad90d117e9147c51a94ce6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21232da360ad90d117e9147c51a94ce6">objValue</a></td></tr>
+<tr class="memitem:afd41d948b26df5f05ba05a40adcf428e" id="r_afd41d948b26df5f05ba05a40adcf428e"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd41d948b26df5f05ba05a40adcf428e">originalObjFunction</a> = null</td></tr>
+<tr class="memitem:ac5547d2277a026843916324e705a60cd" id="r_ac5547d2277a026843916324e705a60cd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5547d2277a026843916324e705a60cd">restoredObjValue</a></td></tr>
+<tr class="memitem:a52cedcd57c7fb437499fcc0d8bd9929a" id="r_a52cedcd57c7fb437499fcc0d8bd9929a"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52cedcd57c7fb437499fcc0d8bd9929a">restoredSolution</a> = null</td></tr>
+<tr class="memitem:a7542a418ce6cee8df2c7bc736cbe4be8" id="r_a7542a418ce6cee8df2c7bc736cbe4be8"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7542a418ce6cee8df2c7bc736cbe4be8">solution</a> = null</td></tr>
+<tr class="memitem:a26fcaf80fdf15ca01734d805acb79a5b" id="r_a26fcaf80fdf15ca01734d805acb79a5b"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26fcaf80fdf15ca01734d805acb79a5b">solution_original</a> = null</td></tr>
+<tr class="memitem:a36bb4d656f9038759c9cd58bb5931a76" id="r_a36bb4d656f9038759c9cd58bb5931a76"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36bb4d656f9038759c9cd58bb5931a76">tvarEquationMap</a> = null</td></tr>
+<tr class="memitem:ac8d62df5e8c6150ee0aafb5fba21012f" id="r_ac8d62df5e8c6150ee0aafb5fba21012f"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8d62df5e8c6150ee0aafb5fba21012f">tvarOffsetMap</a> = null</td></tr>
+<tr class="memitem:abedbe2981bb156d6b6a92511c9e85812" id="r_abedbe2981bb156d6b6a92511c9e85812"><td class="memItemLeft" align="right" valign="top">HashSet&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abedbe2981bb156d6b6a92511c9e85812">var_free</a> = null</td></tr>
+<tr class="memitem:a7ba28cb73d72df8e41aecaa597cbe7e9" id="r_a7ba28cb73d72df8e41aecaa597cbe7e9"><td class="memItemLeft" align="right" valign="top">HashSet&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ba28cb73d72df8e41aecaa597cbe7e9">var_general</a> = null</td></tr>
+<tr class="memitem:a9f656b74584285f59d56661f9a385e7b" id="r_a9f656b74584285f59d56661f9a385e7b"><td class="memItemLeft" align="right" valign="top">HashSet&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f656b74584285f59d56661f9a385e7b">var_int_binary</a> = null</td></tr>
+<tr class="memitem:a783e0865bee94a3ec68ecfc45ecf6ad2" id="r_a783e0865bee94a3ec68ecfc45ecf6ad2"><td class="memItemLeft" align="right" valign="top">HashSet&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a783e0865bee94a3ec68ecfc45ecf6ad2">var_int_nonnegative</a> = null</td></tr>
+<tr class="memitem:a43414edd5be5d7ab9e5d31a7fee49955" id="r_a43414edd5be5d7ab9e5d31a7fee49955"><td class="memItemLeft" align="right" valign="top">HashSet&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43414edd5be5d7ab9e5d31a7fee49955">var_standard</a> = null</td></tr>
+<tr class="memitem:a3beebe019b358ad41a098665a2f36ffc" id="r_a3beebe019b358ad41a098665a2f36ffc"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3beebe019b358ad41a098665a2f36ffc">varMap_integer</a> = null</td></tr>
+<tr class="memitem:aed49ba30bbd1ae3b64a3a1c863be5ee1" id="r_aed49ba30bbd1ae3b64a3a1c863be5ee1"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed49ba30bbd1ae3b64a3a1c863be5ee1">varMap_number</a> = null</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00009">9</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a3476ec4fca104b2c835473f32f0cd48d" name="a3476ec4fca104b2c835473f32f0cd48d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3476ec4fca104b2c835473f32f0cd48d">&#9670;&#160;</a></span>MPModel() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.solver.mpmodel.MPModel.MPModel </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>modelName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00038">38</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_m_p_model_8java_source.html#l00022">constraintLhs</a>, <a class="el" href="_m_p_model_8java_source.html#l00023">constraintRhs</a>, <a class="el" href="_m_p_model_8java_source.html#l00011">modelName</a>, <a class="el" href="_m_p_model_8java_source.html#l00025">objFunction</a>, <a class="el" href="_m_p_model_8java_source.html#l00027">objValue</a>, <a class="el" href="_m_p_model_8java_source.html#l00036">solution_original</a>, <a class="el" href="_m_p_model_8java_source.html#l00035">tvarEquationMap</a>, <a class="el" href="_m_p_model_8java_source.html#l00034">tvarOffsetMap</a>, <a class="el" href="_m_p_model_8java_source.html#l00015">var_free</a>, <a class="el" href="_m_p_model_8java_source.html#l00013">var_general</a>, <a class="el" href="_m_p_model_8java_source.html#l00018">var_int_binary</a>, <a class="el" href="_m_p_model_8java_source.html#l00019">var_int_nonnegative</a>, <a class="el" href="_m_p_model_8java_source.html#l00014">var_standard</a>, <a class="el" href="_m_p_model_8java_source.html#l00017">varMap_integer</a>, and <a class="el" href="_m_p_model_8java_source.html#l00012">varMap_number</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>.</p>
+
+</div>
+</div>
+<a id="ab37b539dcd405caeb00d505b86f96580" name="ab37b539dcd405caeb00d505b86f96580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab37b539dcd405caeb00d505b86f96580">&#9670;&#160;</a></span>MPModel() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.solver.mpmodel.MPModel.MPModel </td>
+          <td>(</td>
+          <td class="paramtype">MPModel</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>modelName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00059">59</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00022">constraintLhs</a>, <a class="el" href="_m_p_model_8java_source.html#l00023">constraintRhs</a>, <a class="el" href="_m_p_model_8java_source.html#l00011">modelName</a>, <a class="el" href="_m_p_model_8java_source.html#l00025">objFunction</a>, <a class="el" href="_m_p_model_8java_source.html#l00027">objValue</a>, <a class="el" href="_m_p_model_8java_source.html#l00036">solution_original</a>, <a class="el" href="_m_p_model_8java_source.html#l00035">tvarEquationMap</a>, <a class="el" href="_m_p_model_8java_source.html#l00034">tvarOffsetMap</a>, <a class="el" href="_m_p_model_8java_source.html#l00015">var_free</a>, <a class="el" href="_m_p_model_8java_source.html#l00013">var_general</a>, <a class="el" href="_m_p_model_8java_source.html#l00018">var_int_binary</a>, <a class="el" href="_m_p_model_8java_source.html#l00019">var_int_nonnegative</a>, <a class="el" href="_m_p_model_8java_source.html#l00014">var_standard</a>, <a class="el" href="_m_p_model_8java_source.html#l00017">varMap_integer</a>, and <a class="el" href="_m_p_model_8java_source.html#l00012">varMap_number</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a70d1c05c4abead0279ba5a6ff2126faa" name="a70d1c05c4abead0279ba5a6ff2126faa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70d1c05c4abead0279ba5a6ff2126faa">&#9670;&#160;</a></span>addBinaryVar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.mpmodel.MPModel.addBinaryVar </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>varName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00115">115</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_m_p_model_8java_source.html#l00018">var_int_binary</a>, and <a class="el" href="_m_p_model_8java_source.html#l00017">varMap_integer</a>.</p>
+
+</div>
+</div>
+<a id="a31aeb706e2964383044f22a46909856d" name="a31aeb706e2964383044f22a46909856d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31aeb706e2964383044f22a46909856d">&#9670;&#160;</a></span>addFreeVar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.mpmodel.MPModel.addFreeVar </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>varName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00106">106</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_param_8java_source.html#l00075">wrimsv2.commondata.wresldata.Param.inf</a>, <a class="el" href="_m_p_model_8java_source.html#l00015">var_free</a>, and <a class="el" href="_m_p_model_8java_source.html#l00012">varMap_number</a>.</p>
+
+</div>
+</div>
+<a id="ab40f7255ac1a2f09eed6deda7996b52a" name="ab40f7255ac1a2f09eed6deda7996b52a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab40f7255ac1a2f09eed6deda7996b52a">&#9670;&#160;</a></span>addGeneralVar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.mpmodel.MPModel.addGeneralVar </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>varName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>lb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>ub</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00081">81</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_param_8java_source.html#l00074">wrimsv2.commondata.wresldata.Param.inf_assumed</a>, <a class="el" href="_m_p_model_8java_source.html#l00015">var_free</a>, <a class="el" href="_m_p_model_8java_source.html#l00013">var_general</a>, <a class="el" href="_m_p_model_8java_source.html#l00014">var_standard</a>, and <a class="el" href="_m_p_model_8java_source.html#l00012">varMap_number</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00159">wrimsv2.solver.ortools.Misc.setDVars()</a>.</p>
+
+</div>
+</div>
+<a id="a928d110650fe79ed32b1ff7cca87ee9c" name="a928d110650fe79ed32b1ff7cca87ee9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a928d110650fe79ed32b1ff7cca87ee9c">&#9670;&#160;</a></span>addIntVar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.mpmodel.MPModel.addIntVar </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>varName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>lb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>ub</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00126">126</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_m_p_model_8java_source.html#l00018">var_int_binary</a>, <a class="el" href="_m_p_model_8java_source.html#l00019">var_int_nonnegative</a>, and <a class="el" href="_m_p_model_8java_source.html#l00017">varMap_integer</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00159">wrimsv2.solver.ortools.Misc.setDVars()</a>.</p>
+
+</div>
+</div>
+<a id="ab3f2cd504a4012278074604df0597ec5" name="ab3f2cd504a4012278074604df0597ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3f2cd504a4012278074604df0597ec5">&#9670;&#160;</a></span>addStdVar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.mpmodel.MPModel.addStdVar </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>varName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00097">97</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_param_8java_source.html#l00075">wrimsv2.commondata.wresldata.Param.inf</a>, <a class="el" href="_m_p_model_8java_source.html#l00014">var_standard</a>, and <a class="el" href="_m_p_model_8java_source.html#l00012">varMap_number</a>.</p>
+
+</div>
+</div>
+<a id="aa45594038f7c3c17f51adba0d0c5834a" name="aa45594038f7c3c17f51adba0d0c5834a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa45594038f7c3c17f51adba0d0c5834a">&#9670;&#160;</a></span>createConstraint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.mpmodel.MPModel.createConstraint </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>constraintName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; String, Double &gt;</td>          <td class="paramname"><span class="paramname"><em>varCoefMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>lb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>ub</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00150">150</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_m_p_model_8java_source.html#l00022">constraintLhs</a>, and <a class="el" href="_m_p_model_8java_source.html#l00023">constraintRhs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00029">wrimsv2.solver.ortools.Misc.setConstraints()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a4b659828ffef0004dff5021a19856ea7" name="a4b659828ffef0004dff5021a19856ea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b659828ffef0004dff5021a19856ea7">&#9670;&#160;</a></span>constraintLhs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, LinkedHashMap&lt;String, Double&gt; &gt; wrimsv2.solver.mpmodel.MPModel.constraintLhs = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00022">22</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00150">createConstraint()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00053">wrimsv2.solver.ortools.OrToolsSolver.setModel()</a>, <a class="el" href="_m_p_model_utils_8java_source.html#l00033">wrimsv2.solver.mpmodel.MPModelUtils.toLpSolve()</a>, and <a class="el" href="_transform_model_8java_source.html#l00024">wrimsv2.solver.mpmodel.TransformModel.transform()</a>.</p>
+
+</div>
+</div>
+<a id="a3edc84a5679f6f1cdd4b94a288c1e7b7" name="a3edc84a5679f6f1cdd4b94a288c1e7b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3edc84a5679f6f1cdd4b94a288c1e7b7">&#9670;&#160;</a></span>constraintRhs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, double[]&gt; wrimsv2.solver.mpmodel.MPModel.constraintRhs = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00023">23</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00150">createConstraint()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00053">wrimsv2.solver.ortools.OrToolsSolver.setModel()</a>, <a class="el" href="_m_p_model_utils_8java_source.html#l00033">wrimsv2.solver.mpmodel.MPModelUtils.toLpSolve()</a>, and <a class="el" href="_transform_model_8java_source.html#l00024">wrimsv2.solver.mpmodel.TransformModel.transform()</a>.</p>
+
+</div>
+</div>
+<a id="aec90cd9e709047f7dae926b706b35ffa" name="aec90cd9e709047f7dae926b706b35ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec90cd9e709047f7dae926b706b35ffa">&#9670;&#160;</a></span>modelName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.solver.mpmodel.MPModel.modelName = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00011">11</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, and <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>.</p>
+
+</div>
+</div>
+<a id="a2e9be32fbf67cffc333d1058a57d6acc" name="a2e9be32fbf67cffc333d1058a57d6acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e9be32fbf67cffc333d1058a57d6acc">&#9670;&#160;</a></span>objFunction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, Double&gt; wrimsv2.solver.mpmodel.MPModel.objFunction = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00025">25</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00053">wrimsv2.solver.ortools.OrToolsSolver.setModel()</a>, <a class="el" href="_m_p_model_utils_8java_source.html#l00033">wrimsv2.solver.mpmodel.MPModelUtils.toLpSolve()</a>, and <a class="el" href="_transform_model_8java_source.html#l00024">wrimsv2.solver.mpmodel.TransformModel.transform()</a>.</p>
+
+</div>
+</div>
+<a id="a21232da360ad90d117e9147c51a94ce6" name="a21232da360ad90d117e9147c51a94ce6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21232da360ad90d117e9147c51a94ce6">&#9670;&#160;</a></span>objValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double wrimsv2.solver.mpmodel.MPModel.objValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00027">27</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, and <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>.</p>
+
+</div>
+</div>
+<a id="afd41d948b26df5f05ba05a40adcf428e" name="afd41d948b26df5f05ba05a40adcf428e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd41d948b26df5f05ba05a40adcf428e">&#9670;&#160;</a></span>originalObjFunction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, Double&gt; wrimsv2.solver.mpmodel.MPModel.originalObjFunction = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00029">29</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+</div>
+</div>
+<a id="ac5547d2277a026843916324e705a60cd" name="ac5547d2277a026843916324e705a60cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5547d2277a026843916324e705a60cd">&#9670;&#160;</a></span>restoredObjValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double wrimsv2.solver.mpmodel.MPModel.restoredObjValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00031">31</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+</div>
+</div>
+<a id="a52cedcd57c7fb437499fcc0d8bd9929a" name="a52cedcd57c7fb437499fcc0d8bd9929a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52cedcd57c7fb437499fcc0d8bd9929a">&#9670;&#160;</a></span>restoredSolution</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, Double&gt; wrimsv2.solver.mpmodel.MPModel.restoredSolution = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00030">30</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+</div>
+</div>
+<a id="a7542a418ce6cee8df2c7bc736cbe4be8" name="a7542a418ce6cee8df2c7bc736cbe4be8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7542a418ce6cee8df2c7bc736cbe4be8">&#9670;&#160;</a></span>solution</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, Double&gt; wrimsv2.solver.mpmodel.MPModel.solution = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00026">26</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+</div>
+</div>
+<a id="a26fcaf80fdf15ca01734d805acb79a5b" name="a26fcaf80fdf15ca01734d805acb79a5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26fcaf80fdf15ca01734d805acb79a5b">&#9670;&#160;</a></span>solution_original</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, Double&gt; wrimsv2.solver.mpmodel.MPModel.solution_original = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00036">36</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, and <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>.</p>
+
+</div>
+</div>
+<a id="a36bb4d656f9038759c9cd58bb5931a76" name="a36bb4d656f9038759c9cd58bb5931a76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36bb4d656f9038759c9cd58bb5931a76">&#9670;&#160;</a></span>tvarEquationMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, LinkedHashMap&lt;String, Double&gt; &gt; wrimsv2.solver.mpmodel.MPModel.tvarEquationMap = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00035">35</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, and <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>.</p>
+
+</div>
+</div>
+<a id="ac8d62df5e8c6150ee0aafb5fba21012f" name="ac8d62df5e8c6150ee0aafb5fba21012f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d62df5e8c6150ee0aafb5fba21012f">&#9670;&#160;</a></span>tvarOffsetMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, Double&gt; wrimsv2.solver.mpmodel.MPModel.tvarOffsetMap = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00034">34</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, and <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>.</p>
+
+</div>
+</div>
+<a id="abedbe2981bb156d6b6a92511c9e85812" name="abedbe2981bb156d6b6a92511c9e85812"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abedbe2981bb156d6b6a92511c9e85812">&#9670;&#160;</a></span>var_free</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HashSet&lt;String&gt; wrimsv2.solver.mpmodel.MPModel.var_free = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00015">15</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00106">addFreeVar()</a>, <a class="el" href="_m_p_model_8java_source.html#l00081">addGeneralVar()</a>, <a class="el" href="_transform_model_8java_source.html#l00024">wrimsv2.solver.mpmodel.TransformModel.transform()</a>, and <a class="el" href="_lp_solve_export_8java_source.html#l00120">wrimsv2.solver.mpmodel.export.LpSolveExport.writeDvar()</a>.</p>
+
+</div>
+</div>
+<a id="a7ba28cb73d72df8e41aecaa597cbe7e9" name="a7ba28cb73d72df8e41aecaa597cbe7e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ba28cb73d72df8e41aecaa597cbe7e9">&#9670;&#160;</a></span>var_general</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HashSet&lt;String&gt; wrimsv2.solver.mpmodel.MPModel.var_general = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00013">13</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00081">addGeneralVar()</a>, <a class="el" href="_transform_model_8java_source.html#l00024">wrimsv2.solver.mpmodel.TransformModel.transform()</a>, and <a class="el" href="_lp_solve_export_8java_source.html#l00120">wrimsv2.solver.mpmodel.export.LpSolveExport.writeDvar()</a>.</p>
+
+</div>
+</div>
+<a id="a9f656b74584285f59d56661f9a385e7b" name="a9f656b74584285f59d56661f9a385e7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f656b74584285f59d56661f9a385e7b">&#9670;&#160;</a></span>var_int_binary</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HashSet&lt;String&gt; wrimsv2.solver.mpmodel.MPModel.var_int_binary = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00018">18</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00115">addBinaryVar()</a>, <a class="el" href="_m_p_model_8java_source.html#l00126">addIntVar()</a>, <a class="el" href="_transform_model_8java_source.html#l00024">wrimsv2.solver.mpmodel.TransformModel.transform()</a>, and <a class="el" href="_lp_solve_export_8java_source.html#l00120">wrimsv2.solver.mpmodel.export.LpSolveExport.writeDvar()</a>.</p>
+
+</div>
+</div>
+<a id="a783e0865bee94a3ec68ecfc45ecf6ad2" name="a783e0865bee94a3ec68ecfc45ecf6ad2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a783e0865bee94a3ec68ecfc45ecf6ad2">&#9670;&#160;</a></span>var_int_nonnegative</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HashSet&lt;String&gt; wrimsv2.solver.mpmodel.MPModel.var_int_nonnegative = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00019">19</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00126">addIntVar()</a>, and <a class="el" href="_transform_model_8java_source.html#l00024">wrimsv2.solver.mpmodel.TransformModel.transform()</a>.</p>
+
+</div>
+</div>
+<a id="a43414edd5be5d7ab9e5d31a7fee49955" name="a43414edd5be5d7ab9e5d31a7fee49955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43414edd5be5d7ab9e5d31a7fee49955">&#9670;&#160;</a></span>var_standard</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HashSet&lt;String&gt; wrimsv2.solver.mpmodel.MPModel.var_standard = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00014">14</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00081">addGeneralVar()</a>, <a class="el" href="_m_p_model_8java_source.html#l00097">addStdVar()</a>, and <a class="el" href="_transform_model_8java_source.html#l00024">wrimsv2.solver.mpmodel.TransformModel.transform()</a>.</p>
+
+</div>
+</div>
+<a id="a3beebe019b358ad41a098665a2f36ffc" name="a3beebe019b358ad41a098665a2f36ffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3beebe019b358ad41a098665a2f36ffc">&#9670;&#160;</a></span>varMap_integer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, double[]&gt; wrimsv2.solver.mpmodel.MPModel.varMap_integer = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00017">17</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00115">addBinaryVar()</a>, <a class="el" href="_m_p_model_8java_source.html#l00126">addIntVar()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00053">wrimsv2.solver.ortools.OrToolsSolver.setModel()</a>, <a class="el" href="_transform_model_8java_source.html#l00024">wrimsv2.solver.mpmodel.TransformModel.transform()</a>, and <a class="el" href="_lp_solve_export_8java_source.html#l00120">wrimsv2.solver.mpmodel.export.LpSolveExport.writeDvar()</a>.</p>
+
+</div>
+</div>
+<a id="aed49ba30bbd1ae3b64a3a1c863be5ee1" name="aed49ba30bbd1ae3b64a3a1c863be5ee1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed49ba30bbd1ae3b64a3a1c863be5ee1">&#9670;&#160;</a></span>varMap_number</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, double[]&gt; wrimsv2.solver.mpmodel.MPModel.varMap_number = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_p_model_8java_source.html#l00012">12</a> of file <a class="el" href="_m_p_model_8java_source.html">MPModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_8java_source.html#l00059">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00038">MPModel()</a>, <a class="el" href="_m_p_model_8java_source.html#l00106">addFreeVar()</a>, <a class="el" href="_m_p_model_8java_source.html#l00081">addGeneralVar()</a>, <a class="el" href="_m_p_model_8java_source.html#l00097">addStdVar()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00053">wrimsv2.solver.ortools.OrToolsSolver.setModel()</a>, <a class="el" href="_transform_model_8java_source.html#l00024">wrimsv2.solver.mpmodel.TransformModel.transform()</a>, and <a class="el" href="_lp_solve_export_8java_source.html#l00120">wrimsv2.solver.mpmodel.export.LpSolveExport.writeDvar()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/solver/mpmodel/<b>MPModel.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/solver/mpmodel/<a class="el" href="_m_p_model_8java_source.html">MPModel.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -174,7 +699,7 @@ LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign=
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>solver</b></li><li class="navelem"><b>mpmodel</b></li><li class="navelem"><a href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1solver.html">solver</a></li><li class="navelem"><a href="namespacewrimsv2_1_1solver_1_1mpmodel.html">mpmodel</a></li><li class="navelem"><a href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

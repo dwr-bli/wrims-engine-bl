@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['_3asteam_5flocomotive_3a_20wrims_20engine_0',[':steam_locomotive: WRIMS Engine',['../md__r_e_a_d_m_e.html',1,'']]]
+  ['wrims_0',['WRIMS-core: the compute engine for WRIMS',['../dir_246932296237b6f4a414383802408e24.html#autotoc_md0',1,'']]],
+  ['wrims_20core_3a_20the_20compute_20engine_20for_20wrims_1',['WRIMS-core: the compute engine for WRIMS',['../dir_246932296237b6f4a414383802408e24.html#autotoc_md0',1,'']]]
 ];

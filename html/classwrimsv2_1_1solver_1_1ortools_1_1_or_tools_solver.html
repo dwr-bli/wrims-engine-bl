@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.solver.ortools.OrToolsSolver Class Reference</title>
+<title>Wrims-engine: wrimsv2.solver.ortools.OrToolsSolver Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,41 +94,406 @@ $(function(){initNavTree('classwrimsv2_1_1solver_1_1ortools_1_1_or_tools_solver.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aea72b4bed85d3c32d0fc78d1c6c902d9" id="r_aea72b4bed85d3c32d0fc78d1c6c902d9"><td class="memItemLeft" align="right" valign="top"><a id="aea72b4bed85d3c32d0fc78d1c6c902d9" name="aea72b4bed85d3c32d0fc78d1c6c902d9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>OrToolsSolver</b> (String mpSolverType)</td></tr>
-<tr class="memitem:ae0a543d8308c0aa63e1b2b6125c8f37a" id="r_ae0a543d8308c0aa63e1b2b6125c8f37a"><td class="memItemLeft" align="right" valign="top"><a id="ae0a543d8308c0aa63e1b2b6125c8f37a" name="ae0a543d8308c0aa63e1b2b6125c8f37a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setModel</b> (<a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> m)</td></tr>
-<tr class="memitem:a3547d1d6bf3890c2d6b4defc0b1a784e" id="r_a3547d1d6bf3890c2d6b4defc0b1a784e"><td class="memItemLeft" align="right" valign="top"><a id="a3547d1d6bf3890c2d6b4defc0b1a784e" name="a3547d1d6bf3890c2d6b4defc0b1a784e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>refreshObjFunc</b> (LinkedHashMap&lt; String, Double &gt; newObjFunc)</td></tr>
-<tr class="memitem:acf5a34815f3cebd32b08bad9822c29cf" id="r_acf5a34815f3cebd32b08bad9822c29cf"><td class="memItemLeft" align="right" valign="top"><a id="acf5a34815f3cebd32b08bad9822c29cf" name="acf5a34815f3cebd32b08bad9822c29cf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setVerbose</b> (int verbosity)</td></tr>
-<tr class="memitem:a07a97cd10d36ef34b46edd6afee51099" id="r_a07a97cd10d36ef34b46edd6afee51099"><td class="memItemLeft" align="right" valign="top"><a id="a07a97cd10d36ef34b46edd6afee51099" name="a07a97cd10d36ef34b46edd6afee51099"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>solve</b> (<a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> m)</td></tr>
-<tr class="memitem:ab212047d02c0266c7483323c2d9a928e" id="r_ab212047d02c0266c7483323c2d9a928e"><td class="memItemLeft" align="right" valign="top"><a id="ab212047d02c0266c7483323c2d9a928e" name="ab212047d02c0266c7483323c2d9a928e"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>solve</b> ()</td></tr>
-<tr class="memitem:ad9b98d3ffc79627cbaae67d8102511de" id="r_ad9b98d3ffc79627cbaae67d8102511de"><td class="memItemLeft" align="right" valign="top"><a id="ad9b98d3ffc79627cbaae67d8102511de" name="ad9b98d3ffc79627cbaae67d8102511de"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>delete</b> ()</td></tr>
-<tr class="memitem:a7e2e2ff3393b07a938cb2d9c3a2ac4f1" id="r_a7e2e2ff3393b07a938cb2d9c3a2ac4f1"><td class="memItemLeft" align="right" valign="top"><a id="a7e2e2ff3393b07a938cb2d9c3a2ac4f1" name="a7e2e2ff3393b07a938cb2d9c3a2ac4f1"></a>
-<a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a>&#160;</td><td class="memItemRight" valign="bottom"><b>createModel</b> ()</td></tr>
-<tr class="memitem:adb97438fa9770ec98aceb7d51d5a243d" id="r_adb97438fa9770ec98aceb7d51d5a243d"><td class="memItemLeft" align="right" valign="top"><a id="adb97438fa9770ec98aceb7d51d5a243d" name="adb97438fa9770ec98aceb7d51d5a243d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>run</b> ()</td></tr>
+<tr class="memitem:aea72b4bed85d3c32d0fc78d1c6c902d9" id="r_aea72b4bed85d3c32d0fc78d1c6c902d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea72b4bed85d3c32d0fc78d1c6c902d9">OrToolsSolver</a> (String mpSolverType)</td></tr>
+<tr class="memitem:a7e2e2ff3393b07a938cb2d9c3a2ac4f1" id="r_a7e2e2ff3393b07a938cb2d9c3a2ac4f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e2e2ff3393b07a938cb2d9c3a2ac4f1">createModel</a> ()</td></tr>
+<tr class="memitem:ad9b98d3ffc79627cbaae67d8102511de" id="r_ad9b98d3ffc79627cbaae67d8102511de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9b98d3ffc79627cbaae67d8102511de">delete</a> ()</td></tr>
+<tr class="memitem:a3547d1d6bf3890c2d6b4defc0b1a784e" id="r_a3547d1d6bf3890c2d6b4defc0b1a784e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3547d1d6bf3890c2d6b4defc0b1a784e">refreshObjFunc</a> (LinkedHashMap&lt; String, Double &gt; newObjFunc)</td></tr>
+<tr class="memitem:adb97438fa9770ec98aceb7d51d5a243d" id="r_adb97438fa9770ec98aceb7d51d5a243d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb97438fa9770ec98aceb7d51d5a243d">run</a> ()</td></tr>
+<tr class="memitem:ae0a543d8308c0aa63e1b2b6125c8f37a" id="r_ae0a543d8308c0aa63e1b2b6125c8f37a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0a543d8308c0aa63e1b2b6125c8f37a">setModel</a> (<a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> m)</td></tr>
+<tr class="memitem:acf5a34815f3cebd32b08bad9822c29cf" id="r_acf5a34815f3cebd32b08bad9822c29cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf5a34815f3cebd32b08bad9822c29cf">setVerbose</a> (int <a class="el" href="#af9cebacefa391c1455bde959011a8c04">verbosity</a>)</td></tr>
+<tr class="memitem:ab212047d02c0266c7483323c2d9a928e" id="r_ab212047d02c0266c7483323c2d9a928e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab212047d02c0266c7483323c2d9a928e">solve</a> ()</td></tr>
+<tr class="memitem:a07a97cd10d36ef34b46edd6afee51099" id="r_a07a97cd10d36ef34b46edd6afee51099"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07a97cd10d36ef34b46edd6afee51099">solve</a> (<a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> m)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:adf60c6b979f1aa3e05fa309e93cdc9fb" id="r_adf60c6b979f1aa3e05fa309e93cdc9fb"><td class="memItemLeft" align="right" valign="top"><a id="adf60c6b979f1aa3e05fa309e93cdc9fb" name="adf60c6b979f1aa3e05fa309e93cdc9fb"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>initialize</b> ()</td></tr>
+<tr class="memitem:adf60c6b979f1aa3e05fa309e93cdc9fb" id="r_adf60c6b979f1aa3e05fa309e93cdc9fb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf60c6b979f1aa3e05fa309e93cdc9fb">initialize</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a079defa928e97b61aa846ddb356de065" id="r_a079defa928e97b61aa846ddb356de065"><td class="memItemLeft" align="right" valign="top"><a id="a079defa928e97b61aa846ddb356de065" name="a079defa928e97b61aa846ddb356de065"></a>
-MPSolver&#160;</td><td class="memItemRight" valign="bottom"><b>solver</b></td></tr>
-<tr class="memitem:ac6f4ae717fe638bb2ab23d1f52a59882" id="r_ac6f4ae717fe638bb2ab23d1f52a59882"><td class="memItemLeft" align="right" valign="top"><a id="ac6f4ae717fe638bb2ab23d1f52a59882" name="ac6f4ae717fe638bb2ab23d1f52a59882"></a>
-<a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a>&#160;</td><td class="memItemRight" valign="bottom"><b>model</b></td></tr>
-<tr class="memitem:a65cbb64ab81f0ad4416a10754fa18106" id="r_a65cbb64ab81f0ad4416a10754fa18106"><td class="memItemLeft" align="right" valign="top"><a id="a65cbb64ab81f0ad4416a10754fa18106" name="a65cbb64ab81f0ad4416a10754fa18106"></a>
-LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>solution</b> = null</td></tr>
+<tr class="memitem:ac6f4ae717fe638bb2ab23d1f52a59882" id="r_ac6f4ae717fe638bb2ab23d1f52a59882"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6f4ae717fe638bb2ab23d1f52a59882">model</a></td></tr>
+<tr class="memitem:a65cbb64ab81f0ad4416a10754fa18106" id="r_a65cbb64ab81f0ad4416a10754fa18106"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65cbb64ab81f0ad4416a10754fa18106">solution</a> = null</td></tr>
+<tr class="memitem:a079defa928e97b61aa846ddb356de065" id="r_a079defa928e97b61aa846ddb356de065"><td class="memItemLeft" align="right" valign="top">MPSolver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a079defa928e97b61aa846ddb356de065">solver</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aae550a5d6402dcf11392a3a8862daa96" id="r_aae550a5d6402dcf11392a3a8862daa96"><td class="memItemLeft" align="right" valign="top">Map&lt; String, MPConstraint &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae550a5d6402dcf11392a3a8862daa96">_solverConstraintMap</a> = null</td></tr>
+<tr class="memitem:a061b2a6cb316019633bbe69fab569879" id="r_a061b2a6cb316019633bbe69fab569879"><td class="memItemLeft" align="right" valign="top">Map&lt; String, MPVariable &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a061b2a6cb316019633bbe69fab569879">_solverVarMap</a> = null</td></tr>
+<tr class="memitem:af9cebacefa391c1455bde959011a8c04" id="r_af9cebacefa391c1455bde959011a8c04"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9cebacefa391c1455bde959011a8c04">verbosity</a> = 0</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00015">15</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aea72b4bed85d3c32d0fc78d1c6c902d9" name="aea72b4bed85d3c32d0fc78d1c6c902d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea72b4bed85d3c32d0fc78d1c6c902d9">&#9670;&#160;</a></span>OrToolsSolver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.solver.ortools.OrToolsSolver.OrToolsSolver </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>mpSolverType</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00028">28</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_or_tools_solver_8java_source.html#l00020">solver</a>, and <a class="el" href="_or_tools_solver_8java_source.html#l00025">verbosity</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a7e2e2ff3393b07a938cb2d9c3a2ac4f1" name="a7e2e2ff3393b07a938cb2d9c3a2ac4f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e2e2ff3393b07a938cb2d9c3a2ac4f1">&#9670;&#160;</a></span>createModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> wrimsv2.solver.ortools.OrToolsSolver.createModel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00166">166</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_or_tools_solver_8java_source.html#l00021">model</a>, <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00029">wrimsv2.solver.ortools.Misc.setConstraints()</a>, <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00159">wrimsv2.solver.ortools.Misc.setDVars()</a>, and <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00185">wrimsv2.solver.ortools.Misc.setWeights()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_controller_batch_8java_source.html#l01170">wrimsv2.components.ControllerBatch.runModelOrTools()</a>.</p>
+
+</div>
+</div>
+<a id="ad9b98d3ffc79627cbaae67d8102511de" name="ad9b98d3ffc79627cbaae67d8102511de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9b98d3ffc79627cbaae67d8102511de">&#9670;&#160;</a></span>delete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ortools.OrToolsSolver.delete </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00159">159</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_or_tools_solver_8java_source.html#l00020">solver</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_alt_solution_finder_8java_source.html#l00050">wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.go()</a>, <a class="el" href="_controller_batch_8java_source.html#l01170">wrimsv2.components.ControllerBatch.runModelOrTools()</a>, <a class="el" href="_detector_workflow_8java_source.html#l00109">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.validateBaseModel()</a>, and <a class="el" href="_detector_workflow_8java_source.html#l00073">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.validateOriginalModel()</a>.</p>
+
+</div>
+</div>
+<a id="adf60c6b979f1aa3e05fa309e93cdc9fb" name="adf60c6b979f1aa3e05fa309e93cdc9fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf60c6b979f1aa3e05fa309e93cdc9fb">&#9670;&#160;</a></span>initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ortools.OrToolsSolver.initialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00047">47</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_8java_source.html#l00017">wrimsv2.tools.solutionRangeFinder.Detector.main()</a>, <a class="el" href="_main_8java_source.html#l00017">wrimsv2.tools.solutionRangeFinder.Main.main()</a>, and <a class="el" href="_controller_batch_8java_source.html#l01170">wrimsv2.components.ControllerBatch.runModelOrTools()</a>.</p>
+
+</div>
+</div>
+<a id="a3547d1d6bf3890c2d6b4defc0b1a784e" name="a3547d1d6bf3890c2d6b4defc0b1a784e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3547d1d6bf3890c2d6b4defc0b1a784e">&#9670;&#160;</a></span>refreshObjFunc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ortools.OrToolsSolver.refreshObjFunc </td>
+          <td>(</td>
+          <td class="paramtype">LinkedHashMap&lt; String, Double &gt;</td>          <td class="paramname"><span class="paramname"><em>newObjFunc</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00100">100</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_or_tools_solver_8java_source.html#l00022">_solverVarMap</a>, and <a class="el" href="_or_tools_solver_8java_source.html#l00020">solver</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_alt_solution_finder_8java_source.html#l00050">wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.go()</a>.</p>
+
+</div>
+</div>
+<a id="adb97438fa9770ec98aceb7d51d5a243d" name="adb97438fa9770ec98aceb7d51d5a243d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb97438fa9770ec98aceb7d51d5a243d">&#9670;&#160;</a></span>run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ortools.OrToolsSolver.run </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00178">178</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_or_tools_solver_8java_source.html#l00022">_solverVarMap</a>, <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00101">wrimsv2.solver.ortools.Misc.assignDvar()</a>, <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00216">wrimsv2.solver.ortools.Misc.getSolverInformation()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00021">model</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00024">solution</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00126">solve()</a>, and <a class="el" href="_or_tools_solver_8java_source.html#l00025">verbosity</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_controller_batch_8java_source.html#l01170">wrimsv2.components.ControllerBatch.runModelOrTools()</a>.</p>
+
+</div>
+</div>
+<a id="ae0a543d8308c0aa63e1b2b6125c8f37a" name="ae0a543d8308c0aa63e1b2b6125c8f37a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0a543d8308c0aa63e1b2b6125c8f37a">&#9670;&#160;</a></span>setModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ortools.OrToolsSolver.setModel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a></td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00053">53</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_or_tools_solver_8java_source.html#l00023">_solverConstraintMap</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00022">_solverVarMap</a>, <a class="el" href="_m_p_model_8java_source.html#l00022">wrimsv2.solver.mpmodel.MPModel.constraintLhs</a>, <a class="el" href="_m_p_model_8java_source.html#l00023">wrimsv2.solver.mpmodel.MPModel.constraintRhs</a>, <a class="el" href="_param_8java_source.html#l00075">wrimsv2.commondata.wresldata.Param.inf</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00021">model</a>, <a class="el" href="_m_p_model_8java_source.html#l00025">wrimsv2.solver.mpmodel.MPModel.objFunction</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00020">solver</a>, <a class="el" href="_m_p_model_8java_source.html#l00017">wrimsv2.solver.mpmodel.MPModel.varMap_integer</a>, and <a class="el" href="_m_p_model_8java_source.html#l00012">wrimsv2.solver.mpmodel.MPModel.varMap_number</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_alt_solution_finder_8java_source.html#l00050">wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.go()</a>, and <a class="el" href="_or_tools_solver_8java_source.html#l00118">solve()</a>.</p>
+
+</div>
+</div>
+<a id="acf5a34815f3cebd32b08bad9822c29cf" name="acf5a34815f3cebd32b08bad9822c29cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf5a34815f3cebd32b08bad9822c29cf">&#9670;&#160;</a></span>setVerbose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ortools.OrToolsSolver.setVerbose </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>verbosity</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00113">113</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_or_tools_solver_8java_source.html#l00025">verbosity</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_workflow_8java_source.html#l00109">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.validateBaseModel()</a>, and <a class="el" href="_detector_workflow_8java_source.html#l00073">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.validateOriginalModel()</a>.</p>
+
+</div>
+</div>
+<a id="ab212047d02c0266c7483323c2d9a928e" name="ab212047d02c0266c7483323c2d9a928e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab212047d02c0266c7483323c2d9a928e">&#9670;&#160;</a></span>solve() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.solver.ortools.OrToolsSolver.solve </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00126">126</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_or_tools_solver_8java_source.html#l00022">_solverVarMap</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00024">solution</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00020">solver</a>, and <a class="el" href="_or_tools_solver_8java_source.html#l00025">verbosity</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_or_tools_solver_8java_source.html#l00178">run()</a>, and <a class="el" href="_or_tools_solver_8java_source.html#l00118">solve()</a>.</p>
+
+</div>
+</div>
+<a id="a07a97cd10d36ef34b46edd6afee51099" name="a07a97cd10d36ef34b46edd6afee51099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07a97cd10d36ef34b46edd6afee51099">&#9670;&#160;</a></span>solve() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.solver.ortools.OrToolsSolver.solve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a></td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00118">118</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_or_tools_solver_8java_source.html#l00053">setModel()</a>, and <a class="el" href="_or_tools_solver_8java_source.html#l00126">solve()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_alt_solution_finder_8java_source.html#l00050">wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.go()</a>, <a class="el" href="_detector_workflow_8java_source.html#l00109">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.validateBaseModel()</a>, and <a class="el" href="_detector_workflow_8java_source.html#l00073">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.validateOriginalModel()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="aae550a5d6402dcf11392a3a8862daa96" name="aae550a5d6402dcf11392a3a8862daa96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae550a5d6402dcf11392a3a8862daa96">&#9670;&#160;</a></span>_solverConstraintMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, MPConstraint&gt; wrimsv2.solver.ortools.OrToolsSolver._solverConstraintMap = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00023">23</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_or_tools_solver_8java_source.html#l00053">setModel()</a>.</p>
+
+</div>
+</div>
+<a id="a061b2a6cb316019633bbe69fab569879" name="a061b2a6cb316019633bbe69fab569879"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a061b2a6cb316019633bbe69fab569879">&#9670;&#160;</a></span>_solverVarMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, MPVariable&gt; wrimsv2.solver.ortools.OrToolsSolver._solverVarMap = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00022">22</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_or_tools_solver_8java_source.html#l00100">refreshObjFunc()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00178">run()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00053">setModel()</a>, and <a class="el" href="_or_tools_solver_8java_source.html#l00126">solve()</a>.</p>
+
+</div>
+</div>
+<a id="ac6f4ae717fe638bb2ab23d1f52a59882" name="ac6f4ae717fe638bb2ab23d1f52a59882"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6f4ae717fe638bb2ab23d1f52a59882">&#9670;&#160;</a></span>model</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> wrimsv2.solver.ortools.OrToolsSolver.model</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00021">21</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_or_tools_solver_8java_source.html#l00166">createModel()</a>, <a class="el" href="_alt_solution_finder_8java_source.html#l00050">wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.go()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00178">run()</a>, and <a class="el" href="_or_tools_solver_8java_source.html#l00053">setModel()</a>.</p>
+
+</div>
+</div>
+<a id="a65cbb64ab81f0ad4416a10754fa18106" name="a65cbb64ab81f0ad4416a10754fa18106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65cbb64ab81f0ad4416a10754fa18106">&#9670;&#160;</a></span>solution</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, Double&gt; wrimsv2.solver.ortools.OrToolsSolver.solution = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00024">24</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_alt_solution_finder_8java_source.html#l00050">wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.go()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00178">run()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00126">solve()</a>, <a class="el" href="_detector_workflow_8java_source.html#l00109">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.validateBaseModel()</a>, <a class="el" href="_detector_workflow_8java_source.html#l00073">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.validateOriginalModel()</a>, and <a class="el" href="_i_l_p_8java_source.html#l01035">wrimsv2.ilp.ILP.writeDvarValue_OrTools()</a>.</p>
+
+</div>
+</div>
+<a id="a079defa928e97b61aa846ddb356de065" name="a079defa928e97b61aa846ddb356de065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a079defa928e97b61aa846ddb356de065">&#9670;&#160;</a></span>solver</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MPSolver wrimsv2.solver.ortools.OrToolsSolver.solver</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00020">20</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_or_tools_solver_8java_source.html#l00028">OrToolsSolver()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00159">delete()</a>, <a class="el" href="_alt_solution_finder_8java_source.html#l00050">wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.go()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00100">refreshObjFunc()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00053">setModel()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00126">solve()</a>, <a class="el" href="_detector_workflow_8java_source.html#l00109">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.validateBaseModel()</a>, <a class="el" href="_detector_workflow_8java_source.html#l00073">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.validateOriginalModel()</a>, and <a class="el" href="_i_l_p_8java_source.html#l00311">wrimsv2.ilp.ILP.writeObjValue_OrTools()</a>.</p>
+
+</div>
+</div>
+<a id="af9cebacefa391c1455bde959011a8c04" name="af9cebacefa391c1455bde959011a8c04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9cebacefa391c1455bde959011a8c04">&#9670;&#160;</a></span>verbosity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.solver.ortools.OrToolsSolver.verbosity = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_or_tools_solver_8java_source.html#l00025">25</a> of file <a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_or_tools_solver_8java_source.html#l00028">OrToolsSolver()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00178">run()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00113">setVerbose()</a>, and <a class="el" href="_or_tools_solver_8java_source.html#l00126">solve()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/solver/ortools/<b>OrToolsSolver.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/solver/ortools/<a class="el" href="_or_tools_solver_8java_source.html">OrToolsSolver.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -143,7 +508,7 @@ LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign=
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>solver</b></li><li class="navelem"><b>ortools</b></li><li class="navelem"><a href="classwrimsv2_1_1solver_1_1ortools_1_1_or_tools_solver.html">OrToolsSolver</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1solver.html">solver</a></li><li class="navelem"><a href="namespacewrimsv2_1_1solver_1_1ortools.html">ortools</a></li><li class="navelem"><a href="classwrimsv2_1_1solver_1_1ortools_1_1_or_tools_solver.html">OrToolsSolver</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

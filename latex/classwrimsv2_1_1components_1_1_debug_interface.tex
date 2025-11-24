@@ -1,0 +1,127 @@
+\doxysection{wrimsv2.\+components.\+Debug\+Interface Class Reference}
+\hypertarget{classwrimsv2_1_1components_1_1_debug_interface}{}\label{classwrimsv2_1_1components_1_1_debug_interface}\index{wrimsv2.components.DebugInterface@{wrimsv2.components.DebugInterface}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a9e9f7087ef909fb8acec86d47e04dae0}\label{classwrimsv2_1_1components_1_1_debug_interface_a9e9f7087ef909fb8acec86d47e04dae0} 
+{\bfseries Debug\+Interface} (int request\+Port, int event\+Port, String args\mbox{[}$\,$\mbox{]})
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a792939b3fce943260aa11dfb8678d8b8}\label{classwrimsv2_1_1components_1_1_debug_interface_a792939b3fce943260aa11dfb8678d8b8} 
+void {\bfseries handle\+Request} (String request)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_aa12c75479ded1aed09ebace9c93eebd3}\label{classwrimsv2_1_1components_1_1_debug_interface_aa12c75479ded1aed09ebace9c93eebd3} 
+void {\bfseries send\+Request} (String request)  throws IOException 
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a49ae82580c139e3a324924dce38a87bc}\label{classwrimsv2_1_1components_1_1_debug_interface_a49ae82580c139e3a324924dce38a87bc} 
+void {\bfseries send\+Event} (String event)  throws IOException 
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a32402112790336018c607873b12288a7}\label{classwrimsv2_1_1components_1_1_debug_interface_a32402112790336018c607873b12288a7} 
+String {\bfseries get\+Variable\+In\+One\+File} (String file\+Full\+Path)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_afd3bbe37e0f2b995815446f5938ed484}\label{classwrimsv2_1_1components_1_1_debug_interface_afd3bbe37e0f2b995815446f5938ed484} 
+String {\bfseries get\+Variable\+In\+One\+File\+WP} (String file\+Full\+Path)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a9544628608a6e19eaec743653d5b9741}\label{classwrimsv2_1_1components_1_1_debug_interface_a9544628608a6e19eaec743653d5b9741} 
+Array\+List$<$ String $>$ {\bfseries get\+Variable\+If\+Inc} (\mbox{\hyperlink{classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp}{Model\+Temp}} model\+Temp)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a15d04a53d8d309ba52ab72597cbdfce9}\label{classwrimsv2_1_1components_1_1_debug_interface_a15d04a53d8d309ba52ab72597cbdfce9} 
+String {\bfseries get\+Goal\+In\+One\+File} (String file\+Full\+Path)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a5d9451b8a0422d94b98df4c0accc15a1}\label{classwrimsv2_1_1components_1_1_debug_interface_a5d9451b8a0422d94b98df4c0accc15a1} 
+String {\bfseries get\+Goal\+In\+One\+File\+WP} (String file\+Full\+Path)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a4d011f70b0cd44c7ada8f264f8e69776}\label{classwrimsv2_1_1components_1_1_debug_interface_a4d011f70b0cd44c7ada8f264f8e69776} 
+String {\bfseries get\+Filter\+Goal} (String file\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a96dcb3362c3f7b50ad403a722c3c3b3a}\label{classwrimsv2_1_1components_1_1_debug_interface_a96dcb3362c3f7b50ad403a722c3c3b3a} 
+boolean {\bfseries proc\+Filter\+File} (String filter\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a9b51f857ea5b00d247bde50c71f4a96f}\label{classwrimsv2_1_1components_1_1_debug_interface_a9b51f857ea5b00d247bde50c71f4a96f} 
+String {\bfseries get\+All\+Variable\+String} ()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_aca34be99ac03266cc42a460c5633cb0c}\label{classwrimsv2_1_1components_1_1_debug_interface_aca34be99ac03266cc42a460c5633cb0c} 
+String {\bfseries get\+All\+Variable\+Files} ()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_ae5a53b475d98dd47b2f72ba65fbee11a}\label{classwrimsv2_1_1components_1_1_debug_interface_ae5a53b475d98dd47b2f72ba65fbee11a} 
+String {\bfseries get\+All\+Goal\+String} ()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_ae34ae571ff5b114a15cff0cb27ff5b55}\label{classwrimsv2_1_1components_1_1_debug_interface_ae34ae571ff5b114a15cff0cb27ff5b55} 
+String {\bfseries get\+All\+Goal\+File} ()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a1957fd5a2f1051bdcb824333d0a8bc30}\label{classwrimsv2_1_1components_1_1_debug_interface_a1957fd5a2f1051bdcb824333d0a8bc30} 
+String {\bfseries get\+Watch} (String v\+GName\+String)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a773392507c3b272929b20e64d8adbf7d}\label{classwrimsv2_1_1components_1_1_debug_interface_a773392507c3b272929b20e64d8adbf7d} 
+String {\bfseries get\+All\+Control\+Goal\+Name} ()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_ad062faf430982f92cb0cf6b5e24b144f}\label{classwrimsv2_1_1components_1_1_debug_interface_ad062faf430982f92cb0cf6b5e24b144f} 
+String {\bfseries get\+Timeseries\+Detail} (String variable\+Names)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_aa3b907c247a201c9b648adff38db2135}\label{classwrimsv2_1_1components_1_1_debug_interface_aa3b907c247a201c9b648adff38db2135} 
+String {\bfseries get\+Future\+Value\+Detail} (String variable\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a7ca0a16ed9a60665f4f6756cefacc5fd}\label{classwrimsv2_1_1components_1_1_debug_interface_a7ca0a16ed9a60665f4f6756cefacc5fd} 
+String {\bfseries get\+Cycle\+Value\+Detail} (String variable\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a1b4479615944e36dbe72a83ddf1f5b2f}\label{classwrimsv2_1_1components_1_1_debug_interface_a1b4479615944e36dbe72a83ddf1f5b2f} 
+boolean {\bfseries modify\+Time\+Series} (String\mbox{[}$\,$\mbox{]} request\+Parts)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_ad490936264f6ecff2bf6bd0fd6ae8488}\label{classwrimsv2_1_1components_1_1_debug_interface_ad490936264f6ecff2bf6bd0fd6ae8488} 
+boolean {\bfseries modify\+Cycle} (String\mbox{[}$\,$\mbox{]} request\+Parts)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_ae56f659b5d73ce9823e536947210929c}\label{classwrimsv2_1_1components_1_1_debug_interface_ae56f659b5d73ce9823e536947210929c} 
+String {\bfseries get\+Data\+String} ()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a670330a01de66e5f3f312d3909cc636a}\label{classwrimsv2_1_1components_1_1_debug_interface_a670330a01de66e5f3f312d3909cc636a} 
+void {\bfseries set\+Solver\+Options} (String\mbox{[}$\,$\mbox{]} request\+Parts)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_afc6a1c2ab5fed7de4ef4320a1f0b3615}\label{classwrimsv2_1_1components_1_1_debug_interface_afc6a1c2ab5fed7de4ef4320a1f0b3615} 
+boolean {\bfseries save\+Init\+Dss} (String file\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a40f3007bceccb0ad2baf78aea5e25115}\label{classwrimsv2_1_1components_1_1_debug_interface_a40f3007bceccb0ad2baf78aea5e25115} 
+boolean {\bfseries save\+Sv\+Dss} (String file\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a1eb67932f7bf34c7ee6dcccb66224819}\label{classwrimsv2_1_1components_1_1_debug_interface_a1eb67932f7bf34c7ee6dcccb66224819} 
+boolean {\bfseries save\+Dv\+Dss} (String file\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a1e33c85d310253cf8192a002ed23a637}\label{classwrimsv2_1_1components_1_1_debug_interface_a1e33c85d310253cf8192a002ed23a637} 
+void {\bfseries set\+Selected\+Output\+Cycles} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_ac68ef6a75377594f10ec8c82235a807c}\label{classwrimsv2_1_1components_1_1_debug_interface_ac68ef6a75377594f10ec8c82235a807c} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_af6f9a8e86e10577ad5a39cf0a7c67e80}\label{classwrimsv2_1_1components_1_1_debug_interface_af6f9a8e86e10577ad5a39cf0a7c67e80} 
+Array\+List$<$ String $>$ {\bfseries break\+Index} =new Array\+List$<$String$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a1b199793e400d72feab2b92f66cb78ce}\label{classwrimsv2_1_1components_1_1_debug_interface_a1b199793e400d72feab2b92f66cb78ce} 
+Array\+List$<$ String $>$ {\bfseries break\+File} =new Array\+List$<$String$>$()
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a12881258a63f7710967ac65b17f63bc2}\label{classwrimsv2_1_1components_1_1_debug_interface_a12881258a63f7710967ac65b17f63bc2} 
+boolean {\bfseries is\+Debugging} =true
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a54e6dae196989726bf334a5498e1ce80}\label{classwrimsv2_1_1components_1_1_debug_interface_a54e6dae196989726bf334a5498e1ce80} 
+Print\+Writer {\bfseries file\+Out}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a78bf4201af4568ceaff920431c9faf13}\label{classwrimsv2_1_1components_1_1_debug_interface_a78bf4201af4568ceaff920431c9faf13} 
+Decimal\+Format {\bfseries df} = new Decimal\+Format("{}\#.\#\#\#\#"{})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_a699cdc2b513615f38c235638b3841a52}\label{classwrimsv2_1_1components_1_1_debug_interface_a699cdc2b513615f38c235638b3841a52} 
+static String\mbox{[}$\,$\mbox{]} {\bfseries monitor\+Var\+Names} =new String\mbox{[}0\mbox{]}
+\item 
+\Hypertarget{classwrimsv2_1_1components_1_1_debug_interface_af91ee4e4953085d248da7a98fa1f4faa}\label{classwrimsv2_1_1components_1_1_debug_interface_af91ee4e4953085d248da7a98fa1f4faa} 
+static String {\bfseries monitor\+Var\+Time\+Step} ="{}"{}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+wrims-\/core/src/main/java/wrimsv2/components/Debug\+Interface.\+java\end{DoxyCompactItemize}

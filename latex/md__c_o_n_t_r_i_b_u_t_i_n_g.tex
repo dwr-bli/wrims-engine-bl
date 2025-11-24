@@ -1,0 +1,228 @@
+\chapter{Contributing Guidelines }
+\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g}{}\label{md__c_o_n_t_r_i_b_u_t_i_n_g}\index{Contributing Guidelines@{Contributing Guidelines}}
+\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md7}%
+\Hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md7}%
+
+
+Thank you for considering contributing to this project! To keep things smooth and maintain high quality, please follow the rules and best practices outlined below.
+
+
+\begin{DoxyItemize}
+\item Be respectful and constructive in code reviews and discussions.
+\item Follow the Code of Conduct at all times.
+\item All code must be reviewed and approved via a Pull Request (PR)
+\item Write clear, concise commit messages and PR descriptions.
+\item The {\ttfamily main} branch is protected and always production-\/ready. All changes must be made via pull requests.
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md8}{}\doxysection{\texorpdfstring{Developer IDE configuration}{Developer IDE configuration}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md8}
+See \doxysectlink{md__e_c_l_i_p_s_e-_c_o_n_f_i_g}{ECLIPSE-\/\+CONFIG.md}{0} for Eclipse IDE setup instruction\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md9}{}\doxysection{\texorpdfstring{Developer Workflow Overview}{Developer Workflow Overview}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md9}
+\begin{DoxyImportant}{Important}
+This repository has restricted the permissions for contributing to the repository. If you are unsure about your permissions, ask about it the \href{https://github.com/CentralValleyModeling/wrims-engine/discussions/44}{\texttt{Developer Permissions}} discussion.
+\end{DoxyImportant}
+
+\begin{DoxyEnumerate}
+\item \href{https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue}{\texttt{Create an issue}}
+\item Assign the issue to yourself
+\item Create a new branch from \`{}\`{}\`{}main\`{}\`{}\`{} to address the assigned issue
+\begin{DoxyItemize}
+\item If creating a patch release, branch from a release branch
+\end{DoxyItemize}
+\item Open a pull request
+\item Address the issue
+\item Commit changes
+\item Have a maintainer review the pull request
+\begin{DoxyItemize}
+\item A pull request may require revisions from the reviewer before being approved.
+\end{DoxyItemize}
+\item Squash commits before merging the pull request
+\item Merge approved pull request into the main branch
+\item Delete the working branch if no longer needed
+\end{DoxyEnumerate}
+
+\begin{DoxyNote}{Note}
+Creating and assigning an issue will only work for members of the development team.
+\end{DoxyNote}
+The following links reference workflows that closely model the developer workflow for this repository\+:
+\begin{DoxyItemize}
+\item \href{https://docs.github.com/en/get-started/using-github/github-flow}{\texttt{Git\+Hub flow}}
+\item \href{https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow}{\texttt{Gitflow workflow}}
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md10}{}\doxysection{\texorpdfstring{Coding Standards and Style Guides}{Coding Standards and Style Guides}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md10}
+\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md11}{}\doxysubsection{\texorpdfstring{General Principles (All Languages)}{General Principles (All Languages)}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md11}
+
+\begin{DoxyItemize}
+\item Follow \href{https://en.wikipedia.org/wiki/SOLID}{\texttt{{\bfseries{SOLID}} design principles}}
+\item Follow the code style for the context (language, file purpose, etc)
+\item Write clear, readable, and self-\/explanatory code.
+\item Use consistent indentation.
+\item Use meaningful names for variables, functions, and classes.
+\item Avoid hard-\/coding values -\/ use constants or configuration where appropriate.
+\item Comment why something is done, not what is done (code should explain the "{}what"{}).
+\item Avoid global variables unless necessary.
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md12}{}\doxysubsection{\texorpdfstring{Fortran}{Fortran}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md12}
+\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md13}{}\doxysubsubsection{\texorpdfstring{Style}{Style}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md13}
+
+\begin{DoxyItemize}
+\item Use {\ttfamily implicit none} to avoid undeclared variables.
+\item Follow the \href{https://stdlib.fortran-lang.org/page/contributing/StyleGuide.html}{\texttt{Fortran Standard Library Style Guide}}.
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md14}{}\doxysubsection{\texorpdfstring{Java}{Java}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md14}
+\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md15}{}\doxysubsubsection{\texorpdfstring{Style}{Style}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md15}
+
+\begin{DoxyItemize}
+\item Follow the \href{https://google.github.io/styleguide/javaguide.html}{\texttt{Google Java Style Guide}}.
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md16}{}\doxysubsection{\texorpdfstring{Python}{Python}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md16}
+The short answer\+: \href{https://peps.python.org/pep-0008/}{\texttt{PEP 8}}. It\textquotesingle{}s encouraged to use a code formatter like {\ttfamily autopep8}, or {\ttfamily black}. As long as it\textquotesingle{}s PEP 8 compliant, it\textquotesingle{}s fine.\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md17}{}\doxysubsubsection{\texorpdfstring{Scripts}{Scripts}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md17}
+Python scripts should provide a \href{https://docs.python.org/3/library/argparse.html}{\texttt{CLI}} entry point so other users don\textquotesingle{}t need to change source code in order to run the script with new inputs.
+
+Limit the use of {\ttfamily jupyter} notebooks for scripts that others might use for production or development activities. Notebooks are fine for documentation, tutorials, and the like.\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md18}{}\doxysubsubsection{\texorpdfstring{Modules \& Packages}{Modules \& Packages}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md18}
+Under most circumstances, Python modules shouldn\textquotesingle{}t cause side effects upon {\ttfamily import}, they should not use {\ttfamily global}, and should not use {\ttfamily print} when {\ttfamily logging} is more appropriate.
+
+Avoid the use of \href{https://docs.python.org/3/glossary.html\#term-namespace-package}{\texttt{namespace packages}}.\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md19}{}\doxysection{\texorpdfstring{Branching Strategies}{Branching Strategies}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md19}
+\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md20}{}\doxysubsection{\texorpdfstring{{\ttfamily main} Branch}{{\ttfamily main} Branch}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md20}
+
+\begin{DoxyItemize}
+\item The {\ttfamily main} branch is protected and always production ready. All changes must be made via pull requests.
+\item Support {\bfseries{collaborative development}}.
+\item Ensure features and fixes are tested before release.
+\item PR reviews are {\bfseries{required}}.
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md21}{}\doxysection{\texorpdfstring{Git Operations and Pull Requests Guidelines}{Git Operations and Pull Requests Guidelines}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md21}
+\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md22}{}\doxysubsection{\texorpdfstring{Branching}{Branching}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md22}
+
+\begin{DoxyItemize}
+\item All branches should have a known goal and lifecycle.
+\item The branch name should summarize its goal include one of these prefixes\+:
+\begin{DoxyItemize}
+\item {\ttfamily feature/} -\/ branches with new features
+\item {\ttfamily bugfix/} -\/ branches with bug fixes
+\item {\ttfamily devops/} -\/ branches that change the CI/\+CD process, and similar activities.
+\item {\ttfamily docs/} -\/ for branches only containing documentation addition or edits
+\end{DoxyItemize}
+\item Branches should be lightweight according to the goal and lifecycle.
+\item {\bfseries{Main branch must remain deployable at all times.}}
+\begin{DoxyItemize}
+\item No pull request should be made to {\ttfamily main} with partially completed work (with very limited exceptions which need to be coordinated before opening the pull request).
+\item "{}\+Deployable"{} means\+:
+\begin{DoxyItemize}
+\item Developer tested
+\item Automated tests are passing
+\item Feature complete
+\item Peer-\/reviewed and accepted
+\item Static analysis completed
+\item Test coverage metrics goal met
+\end{DoxyItemize}
+\end{DoxyItemize}
+\item {\bfseries{Other people\textquotesingle{}s branches\+:}}
+\begin{DoxyItemize}
+\item Do not push commits to someone else\textquotesingle{}s feature branch; at least not without coordinating with them first.
+\begin{DoxyItemize}
+\item It is somewhat rude.
+\item There could be local changes that the originator has not pushed up yet that you are missing.
+\end{DoxyItemize}
+\item Instead submit a PR to the developer\textquotesingle{}s branch if you feel you have a constructive change for it.
+\end{DoxyItemize}
+\item {\bfseries{Branches in general}}
+\begin{DoxyItemize}
+\item Do not leave feature branches laying around.
+\end{DoxyItemize}
+\item {\bfseries{Avoid Git Force Pushes}}
+\begin{DoxyItemize}
+\item See below sections below for details on when {\ttfamily -\/-\/force} is okay.
+\item When possible, avoid the use of {\ttfamily git push -\/-\/force}. If the option is available, use {\ttfamily git push -\/-\/force-\/with-\/lease} (or the equivalent option in the application in use). {\ttfamily -\/-\/force} performs a blind overwrite of the branch on the server, which may sometimes undesirably blast away changes. {\ttfamily -\/-\/force-\/with-\/lease} checks the status of the branch on the server first, and if it has changed sinc the last {\ttfamily fetch} or {\ttfamily pull}, will fail the {\ttfamily push}.
+\end{DoxyItemize}
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md23}{}\doxysubsection{\texorpdfstring{Commits}{Commits}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md23}
+
+\begin{DoxyItemize}
+\item The primary rule is "{}be clear about what this commit is doing."{}
+\item \href{https://cbea.ms/git-commit/}{\texttt{How to Write a Git Commit Message}}
+\item If you cannot open the above guide, the format for a commit is\+:
+\begin{DoxyItemize}
+\item first 60 characters, short summary
+\item blank line
+\item more detailed description
+\end{DoxyItemize}
+\item If work is done for a ticket, the Git\+Hub ID should be referenced. This allows Git\+Hub/\+Git\+Hub issues to link together and cross-\/reference.
+\item Try to group related changes in a single commit.
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md24}{}\doxysubsubsection{\texorpdfstring{Use the Force?}{Use the Force?}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md24}
+
+\begin{DoxyItemize}
+\item It is okay to rewrite your local feature branch history so that it is simpler and more clear
+\begin{DoxyItemize}
+\item UNTIL you push the branch and share it
+\item Though it may still be okay, coordinate with the team.
+\end{DoxyItemize}
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md25}{}\doxysubsection{\texorpdfstring{Pull Requests}{Pull Requests}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md25}
+
+\begin{DoxyItemize}
+\item The lifecycle of a pull request is the developer\textquotesingle{}s responsibility.
+\item As much as possible, pull requests should have small changes. However, this means as small as possible.
+\item Preferred is to merge in any successful change during development as soon as possible. This means a given effort may involve a series of pull requests. This is normal and preferred.
+\item NOTE\+: while prudence and fixing complexity can override the above two rules, it should not as a matter of course and only be done after smaller changes have been attempted.
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md26}{}\doxysubsubsection{\texorpdfstring{Task List Checker}{Task List Checker}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md26}
+
+\begin{DoxyItemize}
+\item {\bfseries{Task List Checker}} workflow has been enabled for all pull requests.
+\item Any tasks in the pull request description will be checked for completion.
+\item If any tasks are unchecked at the time of the last build, a "{}pending check"{} named "{}checklist completion"{} will block the PR from being merged.
+\item Editing the PR description or checking off a task in the description will trigger a rerun of the Task List Checker workflow.
+\item Only tasks in the PR description are checked, not tasks in comments.
+\item Tasks (checkboxes) can be added to the description using markdown format\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{-\/\ [\ ]\ Task\ 1}
+\DoxyCodeLine{-\/\ [\ ]\ Task\ 2\ }
+
+\end{DoxyCode}
+
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md27}{}\doxysubsubsection{\texorpdfstring{Pull Request Title/\+Summary}{Pull Request Title/\+Summary}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md27}
+
+\begin{DoxyItemize}
+\item If PR is a draft, but you still want review/feedback/builds, prefix with one of the following for better communication with reviewers. Note that Git\+Hub has a dedicated "{}\+Draft"{} feature
+\begin{DoxyItemize}
+\item \mbox{[}WIP\mbox{]}/\mbox{[}DRAFT\mbox{]} -\/ the changes within the Pull Request are still under active development
+\item \mbox{[}DO NOT MERGE\mbox{]} -\/ The Pull Request is not yet ready to be merged, and may need further work.
+\item \mbox{[}RFC\mbox{]} -\/ the PR is actively seeking comments and feedback from other developers.
+\end{DoxyItemize}
+\item When the pull request is ready, remove the title prefix using the edit menu.
+\item Optimally replace with \mbox{[}READY FOR REVIEW\mbox{]}in addition to the above indication.
+\item The summary should have a meaningful description of what you are trying to accomplish.
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md28}{}\doxysubsubsection{\texorpdfstring{Pull Request Description}{Pull Request Description}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md28}
+
+\begin{DoxyItemize}
+\item If you have followed the advice in the commit section, you can usually leave the commit message as the default, which will be the commits from the source branch of the PR.
+\item Otherwise, please explain in more detail what you are trying to accomplish. If you are working on a draft but want specific feedback, please indicate so in the description.
+\item If you are working on two projects at once with related changes, please paste a link to that open PR or branch for the reviewer.
+\item If work is done for a ticket, the Git\+Hub ID should be referenced. THis allows Git\+Hub issues to link together and cross-\/rference.
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md29}{}\doxysubsubsection{\texorpdfstring{Start of work}{Start of work}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md29}
+
+\begin{DoxyItemize}
+\item A pull request should be created as soon as possible within reason to allow others to understand, review, and collaborate on the change.
+\begin{DoxyItemize}
+\item Pull request should include the Git\+Hub issue numbers (note that multiple tickets can be referenced).
+\item The pull request name should summarize the work being done similar to the branch name.
+\end{DoxyItemize}
+\item A pull request should be small, concise, easier to review, and understand.
+\item Multiple pull requests can be made from a given branch to meet the above statement.
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md30}{}\doxysubsubsection{\texorpdfstring{During work}{During work}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md30}
+
+\begin{DoxyItemize}
+\item The developer will push small commits during the development.
+\item {\bfseries{Commits should be squashed and rebased as necessary for clearer commit history. This should occur while work is progressing and not just once at the end.}}
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md31}{}\doxysubsubsection{\texorpdfstring{End of Work}{End of Work}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md31}
+
+\begin{DoxyItemize}
+\item Before a pull request is merged, changes should be tested by the developer thorugh both automated and manual exercise of the changed code.
+\item Acquiring peer review is the responsibility of the developer and the developer should assign appropriate reviewers for their work. All default reviewers should always be included, do not remove them.
+\begin{DoxyItemize}
+\item Default reviewers should be regularly audited to ensure relevancy to the repository.
+\item If you want a specific reviewer, add them to the list instead of replacing the list.
+\item If your PR is a draft or wip, it is acceptable to clear the field. In other cases it is not. ~\newline
+
+\end{DoxyItemize}
+\item Further commits, squashes, ad rebases should be coordinated with active revieweers.
+\item Once the PR is actively being revieewed, do not rewrite history (squash, rebase, etc.) until the PR is complete and approved.
+\item Ideally, do not push any new commits until the reviewer has marked the PR citing they have finished reviewing.
+\item Respond to every comment and task made by reviewers.
+\item Task authors should be responsible for clearing tasks, not PR authors.
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md32}{}\doxysubsubsection{\texorpdfstring{On pull request merge}{On pull request merge}}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md32}
+
+\begin{DoxyItemize}
+\item Once the pull request has been merged, the issue can be assigned to QA testing to verify that the bug has been addressed.
+\item The developer should assign an appropriate reviewer for their work. 
+\end{DoxyItemize}

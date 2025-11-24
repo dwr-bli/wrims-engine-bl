@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['analyzevarneededfromcycles_0',['analyzeVarNeededFromCycles',['../classwrimsv2_1_1wreslparser_1_1elements_1_1_study_parser.html#a9034cef8fa93963dd880607258e2a629',1,'wrimsv2::wreslparser::elements::StudyParser']]]
+  ['_5bstatic_20initializer_5d_0',['[static initializer]',['../classwrimsv2_1_1external_1_1_functiondoestimation.html#a9c1a46192e36f016721578e41e6f39ac',1,'wrimsv2::external::Functiondoestimation']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.tools.solutionRangeFinder.AltSolutionFinder Class Reference</title>
+<title>Wrims-engine: wrimsv2.tools.solutionRangeFinder.AltSolutionFinder Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,20 +94,372 @@ $(function(){initNavTree('classwrimsv2_1_1tools_1_1solution_range_finder_1_1_alt
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a51018859e40aa590f7212f0a04b45e05" id="r_a51018859e40aa590f7212f0a04b45e05"><td class="memItemLeft" align="right" valign="top"><a id="a51018859e40aa590f7212f0a04b45e05" name="a51018859e40aa590f7212f0a04b45e05"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>AltSolutionFinder</b> (String id, <a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> inModel, List&lt; String &gt; searchVars, int searchObjSign, ArrayList&lt; String &gt; reportVars)</td></tr>
-<tr class="memitem:a511d9ec16326cafef2edc025bce60579" id="r_a511d9ec16326cafef2edc025bce60579"><td class="memItemLeft" align="right" valign="top"><a id="a511d9ec16326cafef2edc025bce60579" name="a511d9ec16326cafef2edc025bce60579"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setLpsLoggingPath</b> (String dirName, String lpsFileNamePrepend)</td></tr>
-<tr class="memitem:ab6c5eb9668b2b95e2b2fa13d6205b57f" id="r_ab6c5eb9668b2b95e2b2fa13d6205b57f"><td class="memItemLeft" align="right" valign="top"><a id="ab6c5eb9668b2b95e2b2fa13d6205b57f" name="ab6c5eb9668b2b95e2b2fa13d6205b57f"></a>
-ArrayList&lt; LinkedHashMap&lt; String, Double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>go</b> ()</td></tr>
+<tr class="memitem:a51018859e40aa590f7212f0a04b45e05" id="r_a51018859e40aa590f7212f0a04b45e05"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51018859e40aa590f7212f0a04b45e05">AltSolutionFinder</a> (String <a class="el" href="#a4ad3ca64d4dd6428be5c5094f4bc7b3c">id</a>, <a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> inModel, List&lt; String &gt; <a class="el" href="#aaf4946c8c4e2006c3c40f9daed757cf5">searchVars</a>, int <a class="el" href="#a6b53ea2939a9e3689fdedf277d11fc89">searchObjSign</a>, ArrayList&lt; String &gt; <a class="el" href="#a0b35751926c8ee83be36ba0b4d3897a6">reportVars</a>)</td></tr>
+<tr class="memitem:ab6c5eb9668b2b95e2b2fa13d6205b57f" id="r_ab6c5eb9668b2b95e2b2fa13d6205b57f"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; LinkedHashMap&lt; String, Double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6c5eb9668b2b95e2b2fa13d6205b57f">go</a> ()</td></tr>
+<tr class="memitem:a511d9ec16326cafef2edc025bce60579" id="r_a511d9ec16326cafef2edc025bce60579"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a511d9ec16326cafef2edc025bce60579">setLpsLoggingPath</a> (String dirName, String <a class="el" href="#af9f13e4539edba080af35d3dd929ccd1">lpsFileNamePrepend</a>)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6e5b845871ef2e6bc71e781b6f3fad0b" id="r_a6e5b845871ef2e6bc71e781b6f3fad0b"><td class="memItemLeft" align="right" valign="top"><a id="a6e5b845871ef2e6bc71e781b6f3fad0b" name="a6e5b845871ef2e6bc71e781b6f3fad0b"></a>
-static double&#160;</td><td class="memItemRight" valign="bottom"><b>createObjFunc</b> (LinkedHashMap&lt; String, Double &gt; out_searchObjFunc, ArrayList&lt; String &gt; vars, int searchObjSign, LinkedHashMap&lt; String, Double &gt; baseSolution)</td></tr>
+<tr class="memitem:a6e5b845871ef2e6bc71e781b6f3fad0b" id="r_a6e5b845871ef2e6bc71e781b6f3fad0b"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e5b845871ef2e6bc71e781b6f3fad0b">createObjFunc</a> (LinkedHashMap&lt; String, Double &gt; out_searchObjFunc, ArrayList&lt; String &gt; vars, int <a class="el" href="#a6b53ea2939a9e3689fdedf277d11fc89">searchObjSign</a>, LinkedHashMap&lt; String, Double &gt; baseSolution)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a5895ecb3930b84fcfb04050f75c23c2e" id="r_a5895ecb3930b84fcfb04050f75c23c2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5895ecb3930b84fcfb04050f75c23c2e">asfModel</a> = null</td></tr>
+<tr class="memitem:a4ad3ca64d4dd6428be5c5094f4bc7b3c" id="r_a4ad3ca64d4dd6428be5c5094f4bc7b3c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ad3ca64d4dd6428be5c5094f4bc7b3c">id</a></td></tr>
+<tr class="memitem:acd00c55a6600b6cf2f052d9b2b1fe450" id="r_acd00c55a6600b6cf2f052d9b2b1fe450"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd00c55a6600b6cf2f052d9b2b1fe450">lpsDir</a> = &quot;&quot;</td></tr>
+<tr class="memitem:af9f13e4539edba080af35d3dd929ccd1" id="r_af9f13e4539edba080af35d3dd929ccd1"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9f13e4539edba080af35d3dd929ccd1">lpsFileNamePrepend</a> = &quot;&quot;</td></tr>
+<tr class="memitem:a6cffd28073072027958a0306a26a52ab" id="r_a6cffd28073072027958a0306a26a52ab"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cffd28073072027958a0306a26a52ab">lpsLogging</a> = false</td></tr>
+<tr class="memitem:a0b35751926c8ee83be36ba0b4d3897a6" id="r_a0b35751926c8ee83be36ba0b4d3897a6"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b35751926c8ee83be36ba0b4d3897a6">reportVars</a></td></tr>
+<tr class="memitem:a6b53ea2939a9e3689fdedf277d11fc89" id="r_a6b53ea2939a9e3689fdedf277d11fc89"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b53ea2939a9e3689fdedf277d11fc89">searchObjSign</a></td></tr>
+<tr class="memitem:aaf4946c8c4e2006c3c40f9daed757cf5" id="r_aaf4946c8c4e2006c3c40f9daed757cf5"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf4946c8c4e2006c3c40f9daed757cf5">searchVars</a></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00012">12</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a51018859e40aa590f7212f0a04b45e05" name="a51018859e40aa590f7212f0a04b45e05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51018859e40aa590f7212f0a04b45e05">&#9670;&#160;</a></span>AltSolutionFinder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.AltSolutionFinder </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a></td>          <td class="paramname"><span class="paramname"><em>inModel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>searchVars</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>searchObjSign</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>reportVars</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00030">30</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_alt_solution_finder_8java_source.html#l00016">id</a>, <a class="el" href="_alt_solution_finder_8java_source.html#l00020">reportVars</a>, <a class="el" href="_alt_solution_finder_8java_source.html#l00019">searchObjSign</a>, and <a class="el" href="_alt_solution_finder_8java_source.html#l00018">searchVars</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a6e5b845871ef2e6bc71e781b6f3fad0b" name="a6e5b845871ef2e6bc71e781b6f3fad0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e5b845871ef2e6bc71e781b6f3fad0b">&#9670;&#160;</a></span>createObjFunc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.createObjFunc </td>
+          <td>(</td>
+          <td class="paramtype">LinkedHashMap&lt; String, Double &gt;</td>          <td class="paramname"><span class="paramname"><em>out_searchObjFunc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>vars</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>searchObjSign</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; String, Double &gt;</td>          <td class="paramname"><span class="paramname"><em>baseSolution</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00121">121</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_alt_solution_finder_8java_source.html#l00019">searchObjSign</a>.</p>
+
+</div>
+</div>
+<a id="ab6c5eb9668b2b95e2b2fa13d6205b57f" name="ab6c5eb9668b2b95e2b2fa13d6205b57f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6c5eb9668b2b95e2b2fa13d6205b57f">&#9670;&#160;</a></span>go()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt; LinkedHashMap&lt; String, Double &gt; &gt; wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.go </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00050">50</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_alt_solution_finder_8java_source.html#l00017">asfModel</a>, <a class="el" href="_detector_param_8java_source.html#l00023">wrimsv2.tools.solutionRangeFinder.DetectorParam.continueOnErrors</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00159">wrimsv2.solver.ortools.OrToolsSolver.delete()</a>, <a class="el" href="_alt_solution_finder_8java_source.html#l00026">lpsDir</a>, <a class="el" href="_alt_solution_finder_8java_source.html#l00027">lpsFileNamePrepend</a>, <a class="el" href="_detector_param_8java_source.html#l00035">wrimsv2.tools.solutionRangeFinder.DetectorParam.lpsLogging</a>, <a class="el" href="wreslplus_2elements_2_tools_8java_source.html#l00462">wrimsv2.wreslplus.elements.Tools.mapRetainAll()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00021">wrimsv2.solver.ortools.OrToolsSolver.model</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00100">wrimsv2.solver.ortools.OrToolsSolver.refreshObjFunc()</a>, <a class="el" href="_alt_solution_finder_8java_source.html#l00020">reportVars</a>, <a class="el" href="_alt_solution_finder_8java_source.html#l00019">searchObjSign</a>, <a class="el" href="_alt_solution_finder_8java_source.html#l00018">searchVars</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00053">wrimsv2.solver.ortools.OrToolsSolver.setModel()</a>, <a class="el" href="_detector_param_8java_source.html#l00024">wrimsv2.tools.solutionRangeFinder.DetectorParam.showSolutionInConsole</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00024">wrimsv2.solver.ortools.OrToolsSolver.solution</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00118">wrimsv2.solver.ortools.OrToolsSolver.solve()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00020">wrimsv2.solver.ortools.OrToolsSolver.solver</a>, and <a class="el" href="_m_p_model_utils_8java_source.html#l00015">wrimsv2.solver.mpmodel.MPModelUtils.toLpSolve()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_workflow_8java_source.html#l00146">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.findAltSolutions()</a>.</p>
+
+</div>
+</div>
+<a id="a511d9ec16326cafef2edc025bce60579" name="a511d9ec16326cafef2edc025bce60579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a511d9ec16326cafef2edc025bce60579">&#9670;&#160;</a></span>setLpsLoggingPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.setLpsLoggingPath </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>dirName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>lpsFileNamePrepend</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00042">42</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_alt_solution_finder_8java_source.html#l00016">id</a>, and <a class="el" href="_alt_solution_finder_8java_source.html#l00027">lpsFileNamePrepend</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_workflow_8java_source.html#l00146">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.findAltSolutions()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a5895ecb3930b84fcfb04050f75c23c2e" name="a5895ecb3930b84fcfb04050f75c23c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5895ecb3930b84fcfb04050f75c23c2e">&#9670;&#160;</a></span>asfModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.asfModel = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00017">17</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_alt_solution_finder_8java_source.html#l00050">go()</a>.</p>
+
+</div>
+</div>
+<a id="a4ad3ca64d4dd6428be5c5094f4bc7b3c" name="a4ad3ca64d4dd6428be5c5094f4bc7b3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ad3ca64d4dd6428be5c5094f4bc7b3c">&#9670;&#160;</a></span>id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00016">16</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_alt_solution_finder_8java_source.html#l00030">AltSolutionFinder()</a>, and <a class="el" href="_alt_solution_finder_8java_source.html#l00042">setLpsLoggingPath()</a>.</p>
+
+</div>
+</div>
+<a id="acd00c55a6600b6cf2f052d9b2b1fe450" name="acd00c55a6600b6cf2f052d9b2b1fe450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd00c55a6600b6cf2f052d9b2b1fe450">&#9670;&#160;</a></span>lpsDir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.lpsDir = &quot;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00026">26</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_alt_solution_finder_8java_source.html#l00050">go()</a>.</p>
+
+</div>
+</div>
+<a id="af9f13e4539edba080af35d3dd929ccd1" name="af9f13e4539edba080af35d3dd929ccd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9f13e4539edba080af35d3dd929ccd1">&#9670;&#160;</a></span>lpsFileNamePrepend</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.lpsFileNamePrepend = &quot;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00027">27</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_alt_solution_finder_8java_source.html#l00050">go()</a>, and <a class="el" href="_alt_solution_finder_8java_source.html#l00042">setLpsLoggingPath()</a>.</p>
+
+</div>
+</div>
+<a id="a6cffd28073072027958a0306a26a52ab" name="a6cffd28073072027958a0306a26a52ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cffd28073072027958a0306a26a52ab">&#9670;&#160;</a></span>lpsLogging</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.lpsLogging = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00025">25</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+
+</div>
+</div>
+<a id="a0b35751926c8ee83be36ba0b4d3897a6" name="a0b35751926c8ee83be36ba0b4d3897a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b35751926c8ee83be36ba0b4d3897a6">&#9670;&#160;</a></span>reportVars</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.reportVars</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00020">20</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_alt_solution_finder_8java_source.html#l00030">AltSolutionFinder()</a>, and <a class="el" href="_alt_solution_finder_8java_source.html#l00050">go()</a>.</p>
+
+</div>
+</div>
+<a id="a6b53ea2939a9e3689fdedf277d11fc89" name="a6b53ea2939a9e3689fdedf277d11fc89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b53ea2939a9e3689fdedf277d11fc89">&#9670;&#160;</a></span>searchObjSign</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.searchObjSign</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00019">19</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_alt_solution_finder_8java_source.html#l00030">AltSolutionFinder()</a>, <a class="el" href="_alt_solution_finder_8java_source.html#l00121">createObjFunc()</a>, and <a class="el" href="_alt_solution_finder_8java_source.html#l00050">go()</a>.</p>
+
+</div>
+</div>
+<a id="aaf4946c8c4e2006c3c40f9daed757cf5" name="aaf4946c8c4e2006c3c40f9daed757cf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf4946c8c4e2006c3c40f9daed757cf5">&#9670;&#160;</a></span>searchVars</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;String&gt; wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.searchVars</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_alt_solution_finder_8java_source.html#l00018">18</a> of file <a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_alt_solution_finder_8java_source.html#l00030">AltSolutionFinder()</a>, and <a class="el" href="_alt_solution_finder_8java_source.html#l00050">go()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/tools/solutionRangeFinder/<b>AltSolutionFinder.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/tools/solutionRangeFinder/<a class="el" href="_alt_solution_finder_8java_source.html">AltSolutionFinder.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -122,7 +474,7 @@ static double&#160;</td><td class="memItemRight" valign="bottom"><b>createObjFun
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>tools</b></li><li class="navelem"><b>solutionRangeFinder</b></li><li class="navelem"><a href="classwrimsv2_1_1tools_1_1solution_range_finder_1_1_alt_solution_finder.html">AltSolutionFinder</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1tools.html">tools</a></li><li class="navelem"><a href="namespacewrimsv2_1_1tools_1_1solution_range_finder.html">solutionRangeFinder</a></li><li class="navelem"><a href="classwrimsv2_1_1tools_1_1solution_range_finder_1_1_alt_solution_finder.html">AltSolutionFinder</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

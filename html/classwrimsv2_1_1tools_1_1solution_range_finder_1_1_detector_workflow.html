@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.tools.solutionRangeFinder.DetectorWorkflow Class Reference</title>
+<title>Wrims-engine: wrimsv2.tools.solutionRangeFinder.DetectorWorkflow Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,24 +94,304 @@ $(function(){initNavTree('classwrimsv2_1_1tools_1_1solution_range_finder_1_1_det
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ace7ba75d4f18c7c60961b92899b3b55f" id="r_ace7ba75d4f18c7c60961b92899b3b55f"><td class="memItemLeft" align="right" valign="top"><a id="ace7ba75d4f18c7c60961b92899b3b55f" name="ace7ba75d4f18c7c60961b92899b3b55f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DetectorWorkflow</b> (<a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> mpm)</td></tr>
-<tr class="memitem:a253d6958e3c70fbf7ca719cd43fb14cb" id="r_a253d6958e3c70fbf7ca719cd43fb14cb"><td class="memItemLeft" align="right" valign="top"><a id="a253d6958e3c70fbf7ca719cd43fb14cb" name="a253d6958e3c70fbf7ca719cd43fb14cb"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DetectorWorkflow</b> (String mpmPath)</td></tr>
-<tr class="memitem:a70697000871749540c20032650af0a86" id="r_a70697000871749540c20032650af0a86"><td class="memItemLeft" align="right" valign="top"><a id="a70697000871749540c20032650af0a86" name="a70697000871749540c20032650af0a86"></a>
-LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getVarsRange</b> ()</td></tr>
-<tr class="memitem:ac6e7c644a784805479cd9a9967aa4a3d" id="r_ac6e7c644a784805479cd9a9967aa4a3d"><td class="memItemLeft" align="right" valign="top"><a id="ac6e7c644a784805479cd9a9967aa4a3d" name="ac6e7c644a784805479cd9a9967aa4a3d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>findAltSolutions</b> (ArrayList&lt; String &gt; searchVarList)</td></tr>
+<tr class="memitem:ace7ba75d4f18c7c60961b92899b3b55f" id="r_ace7ba75d4f18c7c60961b92899b3b55f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace7ba75d4f18c7c60961b92899b3b55f">DetectorWorkflow</a> (<a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> mpm)</td></tr>
+<tr class="memitem:a253d6958e3c70fbf7ca719cd43fb14cb" id="r_a253d6958e3c70fbf7ca719cd43fb14cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a253d6958e3c70fbf7ca719cd43fb14cb">DetectorWorkflow</a> (String mpmPath)</td></tr>
+<tr class="memitem:ac6e7c644a784805479cd9a9967aa4a3d" id="r_ac6e7c644a784805479cd9a9967aa4a3d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6e7c644a784805479cd9a9967aa4a3d">findAltSolutions</a> (ArrayList&lt; String &gt; searchVarList)</td></tr>
+<tr class="memitem:a70697000871749540c20032650af0a86" id="r_a70697000871749540c20032650af0a86"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70697000871749540c20032650af0a86">getVarsRange</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aaa0c5009a08d910b24cdaff48087aee8" id="r_aaa0c5009a08d910b24cdaff48087aee8"><td class="memItemLeft" align="right" valign="top"><a id="aaa0c5009a08d910b24cdaff48087aee8" name="aaa0c5009a08d910b24cdaff48087aee8"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>validateOriginalModel</b> ()</td></tr>
-<tr class="memitem:a6a7bcfef3d2e5342c26824f02c6801f4" id="r_a6a7bcfef3d2e5342c26824f02c6801f4"><td class="memItemLeft" align="right" valign="top"><a id="a6a7bcfef3d2e5342c26824f02c6801f4" name="a6a7bcfef3d2e5342c26824f02c6801f4"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>validateBaseModel</b> (double obj_constraint_relax_ratio)</td></tr>
+<tr class="memitem:a6a7bcfef3d2e5342c26824f02c6801f4" id="r_a6a7bcfef3d2e5342c26824f02c6801f4"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a7bcfef3d2e5342c26824f02c6801f4">validateBaseModel</a> (double obj_constraint_relax_ratio)</td></tr>
+<tr class="memitem:aaa0c5009a08d910b24cdaff48087aee8" id="r_aaa0c5009a08d910b24cdaff48087aee8"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa0c5009a08d910b24cdaff48087aee8">validateOriginalModel</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac6a440316a7d64025ada4a544d8607ef" id="r_ac6a440316a7d64025ada4a544d8607ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6a440316a7d64025ada4a544d8607ef">baseModel</a> = null</td></tr>
+<tr class="memitem:abe4b70db596aea6d1f2050c2b9e02d30" id="r_abe4b70db596aea6d1f2050c2b9e02d30"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe4b70db596aea6d1f2050c2b9e02d30">isBaseValidated</a></td></tr>
+<tr class="memitem:a64a161961b08e183696990ed308c23fb" id="r_a64a161961b08e183696990ed308c23fb"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64a161961b08e183696990ed308c23fb">isOriginalValidated</a></td></tr>
+<tr class="memitem:ad62e08368cf1f3b1994ae1c21f5f0711" id="r_ad62e08368cf1f3b1994ae1c21f5f0711"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad62e08368cf1f3b1994ae1c21f5f0711">originalModel</a> = null</td></tr>
+<tr class="memitem:ab98be5f2548ee328785bf5ab9d96a1cd" id="r_ab98be5f2548ee328785bf5ab9d96a1cd"><td class="memItemLeft" align="right" valign="top">LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab98be5f2548ee328785bf5ab9d96a1cd">varsRange_output</a></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_detector_workflow_8java_source.html#l00018">18</a> of file <a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ace7ba75d4f18c7c60961b92899b3b55f" name="ace7ba75d4f18c7c60961b92899b3b55f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace7ba75d4f18c7c60961b92899b3b55f">&#9670;&#160;</a></span>DetectorWorkflow() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.DetectorWorkflow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a></td>          <td class="paramname"><span class="paramname"><em>mpm</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_detector_workflow_8java_source.html#l00031">31</a> of file <a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_detector_workflow_8java_source.html#l00020">originalModel</a>.</p>
+
+</div>
+</div>
+<a id="a253d6958e3c70fbf7ca719cd43fb14cb" name="a253d6958e3c70fbf7ca719cd43fb14cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a253d6958e3c70fbf7ca719cd43fb14cb">&#9670;&#160;</a></span>DetectorWorkflow() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.DetectorWorkflow </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>mpmPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_detector_workflow_8java_source.html#l00041">41</a> of file <a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_m_p_model_utils_8java_source.html#l00046">wrimsv2.solver.mpmodel.MPModelUtils.load()</a>, and <a class="el" href="_detector_workflow_8java_source.html#l00020">originalModel</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ac6e7c644a784805479cd9a9967aa4a3d" name="ac6e7c644a784805479cd9a9967aa4a3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6e7c644a784805479cd9a9967aa4a3d">&#9670;&#160;</a></span>findAltSolutions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.findAltSolutions </td>
+          <td>(</td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>searchVarList</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_detector_workflow_8java_source.html#l00146">146</a> of file <a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_detector_param_8java_source.html#l00010">wrimsv2.tools.solutionRangeFinder.DetectorParam.altSolutionFound</a>, <a class="el" href="_detector_param_8java_source.html#l00011">wrimsv2.tools.solutionRangeFinder.DetectorParam.altSolutionNotFound</a>, <a class="el" href="_detector_workflow_8java_source.html#l00024">baseModel</a>, <a class="el" href="_detector_param_8java_source.html#l00032">wrimsv2.tools.solutionRangeFinder.DetectorParam.excludeStrings</a>, <a class="el" href="_vars_group_8java_source.html#l00085">wrimsv2.tools.solutionRangeFinder.VarsGroup.filterVarsPool()</a>, <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html#l00101">wrimsv2.tools.solutionRangeFinder.Misc.filterVarsRange()</a>, <a class="el" href="_vars_group_8java_source.html#l00126">wrimsv2.tools.solutionRangeFinder.VarsGroup.findVarsAtVertex()</a>, <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html#l00130">wrimsv2.tools.solutionRangeFinder.Misc.findVarsRange()</a>, <a class="el" href="_alt_solution_finder_8java_source.html#l00050">wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.go()</a>, <a class="el" href="_detector_param_8java_source.html#l00033">wrimsv2.tools.solutionRangeFinder.DetectorParam.includeStrings</a>, <a class="el" href="_detector_workflow_8java_source.html#l00027">isBaseValidated</a>, <a class="el" href="_detector_workflow_8java_source.html#l00026">isOriginalValidated</a>, <a class="el" href="_detector_param_8java_source.html#l00036">wrimsv2.tools.solutionRangeFinder.DetectorParam.lpsDir</a>, <a class="el" href="_detector_param_8java_source.html#l00037">wrimsv2.tools.solutionRangeFinder.DetectorParam.lpsFileNamePrepend</a>, <a class="el" href="_detector_param_8java_source.html#l00035">wrimsv2.tools.solutionRangeFinder.DetectorParam.lpsLogging</a>, <a class="el" href="wreslplus_2elements_2_tools_8java_source.html#l00462">wrimsv2.wreslplus.elements.Tools.mapRetainAll()</a>, <a class="el" href="_detector_param_8java_source.html#l00012">wrimsv2.tools.solutionRangeFinder.DetectorParam.modelNotValid</a>, <a class="el" href="_detector_param_8java_source.html#l00017">wrimsv2.tools.solutionRangeFinder.DetectorParam.nonunique_min_abs_diff</a>, <a class="el" href="_detector_param_8java_source.html#l00018">wrimsv2.tools.solutionRangeFinder.DetectorParam.nonunique_min_ratio_diff</a>, <a class="el" href="_vars_group_8java_source.html#l00015">wrimsv2.tools.solutionRangeFinder.VarsGroup.notLowerVertexVars_number</a>, <a class="el" href="_vars_group_8java_source.html#l00018">wrimsv2.tools.solutionRangeFinder.VarsGroup.notUpperVertexVars_number</a>, <a class="el" href="_detector_workflow_8java_source.html#l00020">originalModel</a>, <a class="el" href="_detector_param_8java_source.html#l00013">wrimsv2.tools.solutionRangeFinder.DetectorParam.otherErrors</a>, <a class="el" href="_detector_param_8java_source.html#l00022">wrimsv2.tools.solutionRangeFinder.DetectorParam.searchLevel</a>, <a class="el" href="_alt_solution_finder_8java_source.html#l00042">wrimsv2.tools.solutionRangeFinder.AltSolutionFinder.setLpsLoggingPath()</a>, <a class="el" href="_vars_group_8java_source.html#l00060">wrimsv2.tools.solutionRangeFinder.VarsGroup.setVarsPool()</a>, <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html#l00163">wrimsv2.tools.solutionRangeFinder.Misc.updateVarsRange()</a>, <a class="el" href="_vars_group_8java_source.html#l00028">wrimsv2.tools.solutionRangeFinder.VarsGroup.varsPool</a>, <a class="el" href="_detector_workflow_8java_source.html#l00029">varsRange_output</a>, and <a class="el" href="_detector_param_8java_source.html#l00019">wrimsv2.tools.solutionRangeFinder.DetectorParam.vertax_tolerance</a>.</p>
+
+</div>
+</div>
+<a id="a70697000871749540c20032650af0a86" name="a70697000871749540c20032650af0a86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70697000871749540c20032650af0a86">&#9670;&#160;</a></span>getVarsRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt; String, double[]&gt; wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.getVarsRange </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_detector_workflow_8java_source.html#l00068">68</a> of file <a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_detector_workflow_8java_source.html#l00029">varsRange_output</a>.</p>
+
+</div>
+</div>
+<a id="a6a7bcfef3d2e5342c26824f02c6801f4" name="a6a7bcfef3d2e5342c26824f02c6801f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a7bcfef3d2e5342c26824f02c6801f4">&#9670;&#160;</a></span>validateBaseModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.validateBaseModel </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>obj_constraint_relax_ratio</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_detector_workflow_8java_source.html#l00109">109</a> of file <a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_detector_workflow_8java_source.html#l00024">baseModel</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00159">wrimsv2.solver.ortools.OrToolsSolver.delete()</a>, <a class="el" href="_param_8java_source.html#l00075">wrimsv2.commondata.wresldata.Param.inf</a>, <a class="el" href="_detector_workflow_8java_source.html#l00027">isBaseValidated</a>, <a class="el" href="_detector_workflow_8java_source.html#l00026">isOriginalValidated</a>, <a class="el" href="_detector_param_8java_source.html#l00036">wrimsv2.tools.solutionRangeFinder.DetectorParam.lpsDir</a>, <a class="el" href="_detector_param_8java_source.html#l00037">wrimsv2.tools.solutionRangeFinder.DetectorParam.lpsFileNamePrepend</a>, <a class="el" href="_detector_param_8java_source.html#l00035">wrimsv2.tools.solutionRangeFinder.DetectorParam.lpsLogging</a>, <a class="el" href="_detector_workflow_8java_source.html#l00020">originalModel</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00113">wrimsv2.solver.ortools.OrToolsSolver.setVerbose()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00024">wrimsv2.solver.ortools.OrToolsSolver.solution</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00118">wrimsv2.solver.ortools.OrToolsSolver.solve()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00020">wrimsv2.solver.ortools.OrToolsSolver.solver</a>, and <a class="el" href="_m_p_model_utils_8java_source.html#l00015">wrimsv2.solver.mpmodel.MPModelUtils.toLpSolve()</a>.</p>
+
+</div>
+</div>
+<a id="aaa0c5009a08d910b24cdaff48087aee8" name="aaa0c5009a08d910b24cdaff48087aee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa0c5009a08d910b24cdaff48087aee8">&#9670;&#160;</a></span>validateOriginalModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.validateOriginalModel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_detector_workflow_8java_source.html#l00073">73</a> of file <a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_or_tools_solver_8java_source.html#l00159">wrimsv2.solver.ortools.OrToolsSolver.delete()</a>, <a class="el" href="_detector_workflow_8java_source.html#l00026">isOriginalValidated</a>, <a class="el" href="_detector_param_8java_source.html#l00036">wrimsv2.tools.solutionRangeFinder.DetectorParam.lpsDir</a>, <a class="el" href="_detector_param_8java_source.html#l00037">wrimsv2.tools.solutionRangeFinder.DetectorParam.lpsFileNamePrepend</a>, <a class="el" href="_detector_param_8java_source.html#l00035">wrimsv2.tools.solutionRangeFinder.DetectorParam.lpsLogging</a>, <a class="el" href="_detector_workflow_8java_source.html#l00020">originalModel</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00113">wrimsv2.solver.ortools.OrToolsSolver.setVerbose()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00024">wrimsv2.solver.ortools.OrToolsSolver.solution</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00118">wrimsv2.solver.ortools.OrToolsSolver.solve()</a>, <a class="el" href="_or_tools_solver_8java_source.html#l00020">wrimsv2.solver.ortools.OrToolsSolver.solver</a>, and <a class="el" href="_m_p_model_utils_8java_source.html#l00015">wrimsv2.solver.mpmodel.MPModelUtils.toLpSolve()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ac6a440316a7d64025ada4a544d8607ef" name="ac6a440316a7d64025ada4a544d8607ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6a440316a7d64025ada4a544d8607ef">&#9670;&#160;</a></span>baseModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.baseModel = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_detector_workflow_8java_source.html#l00024">24</a> of file <a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_workflow_8java_source.html#l00146">findAltSolutions()</a>, and <a class="el" href="_detector_workflow_8java_source.html#l00109">validateBaseModel()</a>.</p>
+
+</div>
+</div>
+<a id="abe4b70db596aea6d1f2050c2b9e02d30" name="abe4b70db596aea6d1f2050c2b9e02d30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe4b70db596aea6d1f2050c2b9e02d30">&#9670;&#160;</a></span>isBaseValidated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.isBaseValidated</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_detector_workflow_8java_source.html#l00027">27</a> of file <a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_workflow_8java_source.html#l00146">findAltSolutions()</a>, and <a class="el" href="_detector_workflow_8java_source.html#l00109">validateBaseModel()</a>.</p>
+
+</div>
+</div>
+<a id="a64a161961b08e183696990ed308c23fb" name="a64a161961b08e183696990ed308c23fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64a161961b08e183696990ed308c23fb">&#9670;&#160;</a></span>isOriginalValidated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.isOriginalValidated</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_detector_workflow_8java_source.html#l00026">26</a> of file <a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_workflow_8java_source.html#l00146">findAltSolutions()</a>, <a class="el" href="_detector_workflow_8java_source.html#l00109">validateBaseModel()</a>, and <a class="el" href="_detector_workflow_8java_source.html#l00073">validateOriginalModel()</a>.</p>
+
+</div>
+</div>
+<a id="ad62e08368cf1f3b1994ae1c21f5f0711" name="ad62e08368cf1f3b1994ae1c21f5f0711"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad62e08368cf1f3b1994ae1c21f5f0711">&#9670;&#160;</a></span>originalModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.originalModel = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_detector_workflow_8java_source.html#l00020">20</a> of file <a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_workflow_8java_source.html#l00031">DetectorWorkflow()</a>, <a class="el" href="_detector_workflow_8java_source.html#l00041">DetectorWorkflow()</a>, <a class="el" href="_detector_workflow_8java_source.html#l00146">findAltSolutions()</a>, <a class="el" href="_detector_workflow_8java_source.html#l00109">validateBaseModel()</a>, and <a class="el" href="_detector_workflow_8java_source.html#l00073">validateOriginalModel()</a>.</p>
+
+</div>
+</div>
+<a id="ab98be5f2548ee328785bf5ab9d96a1cd" name="ab98be5f2548ee328785bf5ab9d96a1cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab98be5f2548ee328785bf5ab9d96a1cd">&#9670;&#160;</a></span>varsRange_output</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, double[]&gt; wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.varsRange_output</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_detector_workflow_8java_source.html#l00029">29</a> of file <a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_workflow_8java_source.html#l00146">findAltSolutions()</a>, and <a class="el" href="_detector_workflow_8java_source.html#l00068">getVarsRange()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/tools/solutionRangeFinder/<b>DetectorWorkflow.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/tools/solutionRangeFinder/<a class="el" href="_detector_workflow_8java_source.html">DetectorWorkflow.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -126,7 +406,7 @@ boolean&#160;</td><td class="memItemRight" valign="bottom"><b>validateBaseModel<
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>tools</b></li><li class="navelem"><b>solutionRangeFinder</b></li><li class="navelem"><a href="classwrimsv2_1_1tools_1_1solution_range_finder_1_1_detector_workflow.html">DetectorWorkflow</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1tools.html">tools</a></li><li class="navelem"><a href="namespacewrimsv2_1_1tools_1_1solution_range_finder.html">solutionRangeFinder</a></li><li class="navelem"><a href="classwrimsv2_1_1tools_1_1solution_range_finder_1_1_detector_workflow.html">DetectorWorkflow</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

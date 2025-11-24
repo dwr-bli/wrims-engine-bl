@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.evaluator.WeightEval Class Reference</title>
+<title>Wrims-engine: wrimsv2.evaluator.WeightEval Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,25 +94,690 @@ $(function(){initNavTree('classwrimsv2_1_1evaluator_1_1_weight_eval.html','','cl
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:afa00704a90b54283a4537c0e1fedd7f7" id="r_afa00704a90b54283a4537c0e1fedd7f7"><td class="memItemLeft" align="right" valign="top"><a id="afa00704a90b54283a4537c0e1fedd7f7" name="afa00704a90b54283a4537c0e1fedd7f7"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>procWt</b> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sds)</td></tr>
-<tr class="memitem:a6fe04031648a58af1efa47b14fb3b900" id="r_a6fe04031648a58af1efa47b14fb3b900"><td class="memItemLeft" align="right" valign="top"><a id="a6fe04031648a58af1efa47b14fb3b900" name="a6fe04031648a58af1efa47b14fb3b900"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>collectWt</b> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html">ModelDataSet</a> mds, int ci)</td></tr>
-<tr class="memitem:a1561c5cd9870d234b8446a853f8535df" id="r_a1561c5cd9870d234b8446a853f8535df"><td class="memItemLeft" align="right" valign="top"><a id="a1561c5cd9870d234b8446a853f8535df" name="a1561c5cd9870d234b8446a853f8535df"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>collectWtSlackSurplus</b> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html">ModelDataSet</a> mds, int ci)</td></tr>
-<tr class="memitem:aefb22509d94cd657d952ae48fc93fe17" id="r_aefb22509d94cd657d952ae48fc93fe17"><td class="memItemLeft" align="right" valign="top"><a id="aefb22509d94cd657d952ae48fc93fe17" name="aefb22509d94cd657d952ae48fc93fe17"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>getTimeArraySize</b> (ValueEvaluatorParser timeArraySizeParser)</td></tr>
-<tr class="memitem:a06d264af2e1d5d8760476d6f245ab858" id="r_a06d264af2e1d5d8760476d6f245ab858"><td class="memItemLeft" align="right" valign="top"><a id="a06d264af2e1d5d8760476d6f245ab858" name="a06d264af2e1d5d8760476d6f245ab858"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>outputWtTable</b> ()</td></tr>
-<tr class="memitem:a7cc16317f2c8aafb151a168d2d6a95ca" id="r_a7cc16317f2c8aafb151a168d2d6a95ca"><td class="memItemLeft" align="right" valign="top"><a id="a7cc16317f2c8aafb151a168d2d6a95ca" name="a7cc16317f2c8aafb151a168d2d6a95ca"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>outputExtreme</b> ()</td></tr>
-<tr class="memitem:ad036346af21d7be4c8188589c1946bdf" id="r_ad036346af21d7be4c8188589c1946bdf"><td class="memItemLeft" align="right" valign="top"><a id="ad036346af21d7be4c8188589c1946bdf" name="ad036346af21d7be4c8188589c1946bdf"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>collectWtRT</b> (String name, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> wt)</td></tr>
-<tr class="memitem:a02546d20fac4407bcacf668be0ad0e8d" id="r_a02546d20fac4407bcacf668be0ad0e8d"><td class="memItemLeft" align="right" valign="top"><a id="a02546d20fac4407bcacf668be0ad0e8d" name="a02546d20fac4407bcacf668be0ad0e8d"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>outputWtTableAR</b> ()</td></tr>
+<tr class="memitem:a6fe04031648a58af1efa47b14fb3b900" id="r_a6fe04031648a58af1efa47b14fb3b900"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fe04031648a58af1efa47b14fb3b900">collectWt</a> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html">ModelDataSet</a> mds, int ci)</td></tr>
+<tr class="memitem:ad036346af21d7be4c8188589c1946bdf" id="r_ad036346af21d7be4c8188589c1946bdf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad036346af21d7be4c8188589c1946bdf">collectWtRT</a> (String name, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> wt)</td></tr>
+<tr class="memitem:a1561c5cd9870d234b8446a853f8535df" id="r_a1561c5cd9870d234b8446a853f8535df"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1561c5cd9870d234b8446a853f8535df">collectWtSlackSurplus</a> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html">ModelDataSet</a> mds, int ci)</td></tr>
+<tr class="memitem:aefb22509d94cd657d952ae48fc93fe17" id="r_aefb22509d94cd657d952ae48fc93fe17"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefb22509d94cd657d952ae48fc93fe17">getTimeArraySize</a> (ValueEvaluatorParser timeArraySizeParser)</td></tr>
+<tr class="memitem:a7cc16317f2c8aafb151a168d2d6a95ca" id="r_a7cc16317f2c8aafb151a168d2d6a95ca"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc16317f2c8aafb151a168d2d6a95ca">outputExtreme</a> ()</td></tr>
+<tr class="memitem:a06d264af2e1d5d8760476d6f245ab858" id="r_a06d264af2e1d5d8760476d6f245ab858"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06d264af2e1d5d8760476d6f245ab858">outputWtTable</a> ()</td></tr>
+<tr class="memitem:a02546d20fac4407bcacf668be0ad0e8d" id="r_a02546d20fac4407bcacf668be0ad0e8d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02546d20fac4407bcacf668be0ad0e8d">outputWtTableAR</a> ()</td></tr>
+<tr class="memitem:afa00704a90b54283a4537c0e1fedd7f7" id="r_afa00704a90b54283a4537c0e1fedd7f7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa00704a90b54283a4537c0e1fedd7f7">procWt</a> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sds)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a0011958c717303630a4976e4e4cce431" id="r_a0011958c717303630a4976e4e4cce431"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0011958c717303630a4976e4e4cce431">farstr</a> = &quot;WeightTableAR.csv&quot;</td></tr>
+<tr class="memitem:a75bc57e6b751a0e6fc0092258596f4fc" id="r_a75bc57e6b751a0e6fc0092258596f4fc"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75bc57e6b751a0e6fc0092258596f4fc">fstr</a> = &quot;WeightTable.csv&quot;</td></tr>
+<tr class="memitem:a6b767b5160b784e019dec1bd894812e5" id="r_a6b767b5160b784e019dec1bd894812e5"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b767b5160b784e019dec1bd894812e5">maxCa</a> =new ArrayList&lt;Integer&gt;()</td></tr>
+<tr class="memitem:a7542d4a69c8216345380b14520a28e2f" id="r_a7542d4a69c8216345380b14520a28e2f"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7542d4a69c8216345380b14520a28e2f">maxPa</a> =new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:aece7c9a0b237c0c1803cbe6f1b3da9aa" id="r_aece7c9a0b237c0c1803cbe6f1b3da9aa"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aece7c9a0b237c0c1803cbe6f1b3da9aa">maxw</a> =1.0</td></tr>
+<tr class="memitem:a9e50b53f0dc0e3ba47c3109e57acc14a" id="r_a9e50b53f0dc0e3ba47c3109e57acc14a"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e50b53f0dc0e3ba47c3109e57acc14a">maxwva</a> =new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:abe78d33e34fabe4abea47ec6f019bfc6" id="r_abe78d33e34fabe4abea47ec6f019bfc6"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe78d33e34fabe4abea47ec6f019bfc6">minCa</a> =new ArrayList&lt;Integer&gt;()</td></tr>
+<tr class="memitem:a4fdb38749ab2359b3f33d51c9e4eaf0b" id="r_a4fdb38749ab2359b3f33d51c9e4eaf0b"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fdb38749ab2359b3f33d51c9e4eaf0b">minPa</a> =new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:ac55d00df1f0e07977a8dcd3153e1b14d" id="r_ac55d00df1f0e07977a8dcd3153e1b14d"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55d00df1f0e07977a8dcd3153e1b14d">minw</a> =1.0</td></tr>
+<tr class="memitem:afdd16caa540a65277d564e048a7a994d" id="r_afdd16caa540a65277d564e048a7a994d"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdd16caa540a65277d564e048a7a994d">minwva</a> =new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:af4155b70524a0a526fcd7478512d0d71" id="r_af4155b70524a0a526fcd7478512d0d71"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4155b70524a0a526fcd7478512d0d71">variedwList</a> =new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:a68eba8b7cffd8405b272afec94799b28" id="r_a68eba8b7cffd8405b272afec94799b28"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68eba8b7cffd8405b272afec94799b28">wList</a> =new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:aa801acf073332527df3f3487df3d299d" id="r_aa801acf073332527df3f3487df3d299d"><td class="memItemLeft" align="right" valign="top">static CopyOnWriteArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa801acf073332527df3f3487df3d299d">wListAR</a> =new CopyOnWriteArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:a9d1ed0cdae562b26b73e256b40e0bc29" id="r_a9d1ed0cdae562b26b73e256b40e0bc29"><td class="memItemLeft" align="right" valign="top">static HashMap&lt; String, LinkedHashMap&lt; Integer, ArrayList&lt; Double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d1ed0cdae562b26b73e256b40e0bc29">wMap</a> = new HashMap&lt;String, LinkedHashMap&lt;Integer, ArrayList&lt;Double&gt;&gt;&gt;()</td></tr>
+<tr class="memitem:a40f0b0ebe4e512e599615822f48909b6" id="r_a40f0b0ebe4e512e599615822f48909b6"><td class="memItemLeft" align="right" valign="top">static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40f0b0ebe4e512e599615822f48909b6">wMapAR</a> =new ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt;()</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00028">28</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a6fe04031648a58af1efa47b14fb3b900" name="a6fe04031648a58af1efa47b14fb3b900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fe04031648a58af1efa47b14fb3b900">&#9670;&#160;</a></span>collectWt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.WeightEval.collectWt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html">ModelDataSet</a></td>          <td class="paramname"><span class="paramname"><em>mds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>ci</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00079">79</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00054">wrimsv2.components.ControlData.currEvalName</a>, <a class="el" href="_control_data_8java_source.html#l00053">wrimsv2.components.ControlData.currEvalTypeIndex</a>, <a class="el" href="_weight_element_8java_source.html#l00014">wrimsv2.commondata.wresldata.WeightElement.fromWresl</a>, <a class="el" href="_weight_eval_8java_source.html#l00339">getTimeArraySize()</a>, <a class="el" href="_weight_element_8java_source.html#l00015">wrimsv2.commondata.wresldata.WeightElement.line</a>, <a class="el" href="_weight_eval_8java_source.html#l00036">maxCa</a>, <a class="el" href="_weight_eval_8java_source.html#l00034">maxPa</a>, <a class="el" href="_weight_eval_8java_source.html#l00030">maxw</a>, <a class="el" href="_weight_eval_8java_source.html#l00032">maxwva</a>, <a class="el" href="_weight_eval_8java_source.html#l00035">minCa</a>, <a class="el" href="_weight_eval_8java_source.html#l00033">minPa</a>, <a class="el" href="_weight_eval_8java_source.html#l00029">minw</a>, <a class="el" href="_weight_eval_8java_source.html#l00031">minwva</a>, <a class="el" href="_parallel_vars_8java_source.html#l00007">wrimsv2.parallel.ParallelVars.timeArrayIndex</a>, <a class="el" href="_weight_element_8java_source.html#l00020">wrimsv2.commondata.wresldata.WeightElement.timeArraySizeParser</a>, <a class="el" href="_weight_eval_8java_source.html#l00042">variedwList</a>, <a class="el" href="_weight_element_8java_source.html#l00012">wrimsv2.commondata.wresldata.WeightElement.weightParser</a>, <a class="el" href="_weight_eval_8java_source.html#l00040">wList</a>, <a class="el" href="_weight_eval_8java_source.html#l00041">wMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00040">wrimsv2.commondata.wresldata.ModelDataSet.wtList</a>, and <a class="el" href="_model_data_set_8java_source.html#l00048">wrimsv2.commondata.wresldata.ModelDataSet.wtMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00047">procWt()</a>.</p>
+
+</div>
+</div>
+<a id="ad036346af21d7be4c8188589c1946bdf" name="ad036346af21d7be4c8188589c1946bdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad036346af21d7be4c8188589c1946bdf">&#9670;&#160;</a></span>collectWtRT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.WeightEval.collectWtRT </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a></td>          <td class="paramname"><span class="paramname"><em>wt</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00408">408</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00055">wrimsv2.components.ControlData.currDay</a>, <a class="el" href="_control_data_8java_source.html#l00056">wrimsv2.components.ControlData.currMonth</a>, <a class="el" href="_control_data_8java_source.html#l00057">wrimsv2.components.ControlData.currYear</a>, <a class="el" href="_weight_element_8java_source.html#l00039">wrimsv2.commondata.wresldata.WeightElement.getValue()</a>, <a class="el" href="_weight_element_8java_source.html#l00023">wrimsv2.commondata.wresldata.WeightElement.max</a>, <a class="el" href="_weight_element_8java_source.html#l00025">wrimsv2.commondata.wresldata.WeightElement.maxTC</a>, <a class="el" href="_weight_element_8java_source.html#l00022">wrimsv2.commondata.wresldata.WeightElement.min</a>, <a class="el" href="_weight_element_8java_source.html#l00024">wrimsv2.commondata.wresldata.WeightElement.minTC</a>, <a class="el" href="_weight_eval_8java_source.html#l00044">wListAR</a>, and <a class="el" href="_weight_eval_8java_source.html#l00045">wMapAR</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_8java_source.html#l00078">wrimsv2.parallel.ProcessWeight.computeDirectly()</a>, and <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00076">wrimsv2.parallel.ProcessWeightSurplusSlack.computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a1561c5cd9870d234b8446a853f8535df" name="a1561c5cd9870d234b8446a853f8535df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1561c5cd9870d234b8446a853f8535df">&#9670;&#160;</a></span>collectWtSlackSurplus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.WeightEval.collectWtSlackSurplus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html">ModelDataSet</a></td>          <td class="paramname"><span class="paramname"><em>mds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>ci</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00209">209</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00054">wrimsv2.components.ControlData.currEvalName</a>, <a class="el" href="_control_data_8java_source.html#l00053">wrimsv2.components.ControlData.currEvalTypeIndex</a>, <a class="el" href="_weight_element_8java_source.html#l00014">wrimsv2.commondata.wresldata.WeightElement.fromWresl</a>, <a class="el" href="_weight_eval_8java_source.html#l00339">getTimeArraySize()</a>, <a class="el" href="_weight_element_8java_source.html#l00015">wrimsv2.commondata.wresldata.WeightElement.line</a>, <a class="el" href="_weight_eval_8java_source.html#l00036">maxCa</a>, <a class="el" href="_weight_eval_8java_source.html#l00034">maxPa</a>, <a class="el" href="_weight_eval_8java_source.html#l00030">maxw</a>, <a class="el" href="_weight_eval_8java_source.html#l00032">maxwva</a>, <a class="el" href="_weight_eval_8java_source.html#l00035">minCa</a>, <a class="el" href="_weight_eval_8java_source.html#l00033">minPa</a>, <a class="el" href="_weight_eval_8java_source.html#l00029">minw</a>, <a class="el" href="_weight_eval_8java_source.html#l00031">minwva</a>, <a class="el" href="_parallel_vars_8java_source.html#l00007">wrimsv2.parallel.ParallelVars.timeArrayIndex</a>, <a class="el" href="_weight_element_8java_source.html#l00020">wrimsv2.commondata.wresldata.WeightElement.timeArraySizeParser</a>, <a class="el" href="_weight_eval_8java_source.html#l00042">variedwList</a>, <a class="el" href="_weight_element_8java_source.html#l00012">wrimsv2.commondata.wresldata.WeightElement.weightParser</a>, <a class="el" href="_weight_eval_8java_source.html#l00040">wList</a>, <a class="el" href="_weight_eval_8java_source.html#l00041">wMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00042">wrimsv2.commondata.wresldata.ModelDataSet.wtSlackSurplusList</a>, and <a class="el" href="_model_data_set_8java_source.html#l00049">wrimsv2.commondata.wresldata.ModelDataSet.wtSlackSurplusMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00047">procWt()</a>.</p>
+
+</div>
+</div>
+<a id="aefb22509d94cd657d952ae48fc93fe17" name="aefb22509d94cd657d952ae48fc93fe17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefb22509d94cd657d952ae48fc93fe17">&#9670;&#160;</a></span>getTimeArraySize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.evaluator.WeightEval.getTimeArraySize </td>
+          <td>(</td>
+          <td class="paramtype">ValueEvaluatorParser</td>          <td class="paramname"><span class="paramname"><em>timeArraySizeParser</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00339">339</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00149">wrimsv2.components.Error.addEvaluationError()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, and <a class="el" href="_int_double_8java_source.html#l00035">wrimsv2.components.IntDouble.isInt()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>.</p>
+
+</div>
+</div>
+<a id="a7cc16317f2c8aafb151a168d2d6a95ca" name="a7cc16317f2c8aafb151a168d2d6a95ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc16317f2c8aafb151a168d2d6a95ca">&#9670;&#160;</a></span>outputExtreme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.WeightEval.outputExtreme </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00388">388</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_weight_eval_8java_source.html#l00036">maxCa</a>, <a class="el" href="_weight_eval_8java_source.html#l00034">maxPa</a>, <a class="el" href="_weight_eval_8java_source.html#l00030">maxw</a>, <a class="el" href="_weight_eval_8java_source.html#l00032">maxwva</a>, <a class="el" href="_weight_eval_8java_source.html#l00035">minCa</a>, <a class="el" href="_weight_eval_8java_source.html#l00033">minPa</a>, <a class="el" href="_weight_eval_8java_source.html#l00029">minw</a>, <a class="el" href="_weight_eval_8java_source.html#l00031">minwva</a>, and <a class="el" href="_weight_eval_8java_source.html#l00042">variedwList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00047">procWt()</a>.</p>
+
+</div>
+</div>
+<a id="a06d264af2e1d5d8760476d6f245ab858" name="a06d264af2e1d5d8760476d6f245ab858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06d264af2e1d5d8760476d6f245ab858">&#9670;&#160;</a></span>outputWtTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.WeightEval.outputWtTable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00356">356</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_weight_eval_8java_source.html#l00037">fstr</a>, <a class="el" href="_file_paths_8java_source.html#l00009">wrimsv2.components.FilePaths.mainDirectory</a>, <a class="el" href="_weight_eval_8java_source.html#l00040">wList</a>, and <a class="el" href="_weight_eval_8java_source.html#l00041">wMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00047">procWt()</a>.</p>
+
+</div>
+</div>
+<a id="a02546d20fac4407bcacf668be0ad0e8d" name="a02546d20fac4407bcacf668be0ad0e8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02546d20fac4407bcacf668be0ad0e8d">&#9670;&#160;</a></span>outputWtTableAR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.WeightEval.outputWtTableAR </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00438">438</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_weight_eval_8java_source.html#l00038">farstr</a>, <a class="el" href="_i_l_p_8java_source.html#l00104">wrimsv2.ilp.ILP.getIlpDir()</a>, <a class="el" href="_weight_element_8java_source.html#l00023">wrimsv2.commondata.wresldata.WeightElement.max</a>, <a class="el" href="_weight_element_8java_source.html#l00025">wrimsv2.commondata.wresldata.WeightElement.maxTC</a>, <a class="el" href="_weight_element_8java_source.html#l00022">wrimsv2.commondata.wresldata.WeightElement.min</a>, <a class="el" href="_weight_element_8java_source.html#l00024">wrimsv2.commondata.wresldata.WeightElement.minTC</a>, <a class="el" href="_weight_eval_8java_source.html#l00044">wListAR</a>, and <a class="el" href="_weight_eval_8java_source.html#l00045">wMapAR</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_controller_batch_8java_source.html#l00265">wrimsv2.components.ControllerBatch.runModel()</a>, and <a class="el" href="_controller_debug_8java_source.html#l00223">wrimsv2.components.ControllerDebug.runModelSolvers()</a>.</p>
+
+</div>
+</div>
+<a id="afa00704a90b54283a4537c0e1fedd7f7" name="afa00704a90b54283a4537c0e1fedd7f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa00704a90b54283a4537c0e1fedd7f7">&#9670;&#160;</a></span>procWt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.WeightEval.procWt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a></td>          <td class="paramname"><span class="paramname"><em>sds</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00047">47</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>, <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00055">wrimsv2.components.ControlData.currDay</a>, <a class="el" href="_control_data_8java_source.html#l00037">wrimsv2.components.ControlData.currModelDataSet</a>, <a class="el" href="_control_data_8java_source.html#l00056">wrimsv2.components.ControlData.currMonth</a>, <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="_control_data_8java_source.html#l00057">wrimsv2.components.ControlData.currYear</a>, <a class="el" href="_study_data_set_8java_source.html#l00121">wrimsv2.commondata.wresldata.StudyDataSet.getModelDataSetMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_weight_eval_8java_source.html#l00388">outputExtreme()</a>, <a class="el" href="_weight_eval_8java_source.html#l00356">outputWtTable()</a>, <a class="el" href="_model_data_set_8java_source.html#l00145">wrimsv2.commondata.wresldata.ModelDataSet.resetSlackSurplusWeight()</a>, <a class="el" href="_control_data_8java_source.html#l00063">wrimsv2.components.ControlData.startDay</a>, <a class="el" href="_control_data_8java_source.html#l00062">wrimsv2.components.ControlData.startMonth</a>, and <a class="el" href="_control_data_8java_source.html#l00061">wrimsv2.components.ControlData.startYear</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_utils_8java_source.html#l00063">wrimsv2.wreslparser.elements.StudyUtils.compileStudy()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a0011958c717303630a4976e4e4cce431" name="a0011958c717303630a4976e4e4cce431"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0011958c717303630a4976e4e4cce431">&#9670;&#160;</a></span>farstr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.evaluator.WeightEval.farstr = &quot;WeightTableAR.csv&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00038">38</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00438">outputWtTableAR()</a>.</p>
+
+</div>
+</div>
+<a id="a75bc57e6b751a0e6fc0092258596f4fc" name="a75bc57e6b751a0e6fc0092258596f4fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75bc57e6b751a0e6fc0092258596f4fc">&#9670;&#160;</a></span>fstr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.evaluator.WeightEval.fstr = &quot;WeightTable.csv&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00037">37</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00356">outputWtTable()</a>.</p>
+
+</div>
+</div>
+<a id="a6b767b5160b784e019dec1bd894812e5" name="a6b767b5160b784e019dec1bd894812e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b767b5160b784e019dec1bd894812e5">&#9670;&#160;</a></span>maxCa</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;Integer&gt; wrimsv2.evaluator.WeightEval.maxCa =new ArrayList&lt;Integer&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00036">36</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00388">outputExtreme()</a>.</p>
+
+</div>
+</div>
+<a id="a7542d4a69c8216345380b14520a28e2f" name="a7542d4a69c8216345380b14520a28e2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7542d4a69c8216345380b14520a28e2f">&#9670;&#160;</a></span>maxPa</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.WeightEval.maxPa =new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00034">34</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00388">outputExtreme()</a>.</p>
+
+</div>
+</div>
+<a id="aece7c9a0b237c0c1803cbe6f1b3da9aa" name="aece7c9a0b237c0c1803cbe6f1b3da9aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aece7c9a0b237c0c1803cbe6f1b3da9aa">&#9670;&#160;</a></span>maxw</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double wrimsv2.evaluator.WeightEval.maxw =1.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00030">30</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00388">outputExtreme()</a>.</p>
+
+</div>
+</div>
+<a id="a9e50b53f0dc0e3ba47c3109e57acc14a" name="a9e50b53f0dc0e3ba47c3109e57acc14a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e50b53f0dc0e3ba47c3109e57acc14a">&#9670;&#160;</a></span>maxwva</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.WeightEval.maxwva =new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00032">32</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00388">outputExtreme()</a>.</p>
+
+</div>
+</div>
+<a id="abe78d33e34fabe4abea47ec6f019bfc6" name="abe78d33e34fabe4abea47ec6f019bfc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe78d33e34fabe4abea47ec6f019bfc6">&#9670;&#160;</a></span>minCa</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;Integer&gt; wrimsv2.evaluator.WeightEval.minCa =new ArrayList&lt;Integer&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00035">35</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00388">outputExtreme()</a>.</p>
+
+</div>
+</div>
+<a id="a4fdb38749ab2359b3f33d51c9e4eaf0b" name="a4fdb38749ab2359b3f33d51c9e4eaf0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fdb38749ab2359b3f33d51c9e4eaf0b">&#9670;&#160;</a></span>minPa</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.WeightEval.minPa =new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00033">33</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00388">outputExtreme()</a>.</p>
+
+</div>
+</div>
+<a id="ac55d00df1f0e07977a8dcd3153e1b14d" name="ac55d00df1f0e07977a8dcd3153e1b14d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55d00df1f0e07977a8dcd3153e1b14d">&#9670;&#160;</a></span>minw</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double wrimsv2.evaluator.WeightEval.minw =1.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00029">29</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00388">outputExtreme()</a>.</p>
+
+</div>
+</div>
+<a id="afdd16caa540a65277d564e048a7a994d" name="afdd16caa540a65277d564e048a7a994d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdd16caa540a65277d564e048a7a994d">&#9670;&#160;</a></span>minwva</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.WeightEval.minwva =new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00031">31</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00388">outputExtreme()</a>.</p>
+
+</div>
+</div>
+<a id="af4155b70524a0a526fcd7478512d0d71" name="af4155b70524a0a526fcd7478512d0d71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4155b70524a0a526fcd7478512d0d71">&#9670;&#160;</a></span>variedwList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.WeightEval.variedwList =new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00042">42</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00388">outputExtreme()</a>.</p>
+
+</div>
+</div>
+<a id="a68eba8b7cffd8405b272afec94799b28" name="a68eba8b7cffd8405b272afec94799b28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68eba8b7cffd8405b272afec94799b28">&#9670;&#160;</a></span>wList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.WeightEval.wList =new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00040">40</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00356">outputWtTable()</a>.</p>
+
+</div>
+</div>
+<a id="aa801acf073332527df3f3487df3d299d" name="aa801acf073332527df3f3487df3d299d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa801acf073332527df3f3487df3d299d">&#9670;&#160;</a></span>wListAR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CopyOnWriteArrayList&lt;String&gt; wrimsv2.evaluator.WeightEval.wListAR =new CopyOnWriteArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00044">44</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00408">collectWtRT()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00438">outputWtTableAR()</a>.</p>
+
+</div>
+</div>
+<a id="a9d1ed0cdae562b26b73e256b40e0bc29" name="a9d1ed0cdae562b26b73e256b40e0bc29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d1ed0cdae562b26b73e256b40e0bc29">&#9670;&#160;</a></span>wMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HashMap&lt;String, LinkedHashMap&lt;Integer, ArrayList&lt;Double&gt; &gt; &gt; wrimsv2.evaluator.WeightEval.wMap = new HashMap&lt;String, LinkedHashMap&lt;Integer, ArrayList&lt;Double&gt;&gt;&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00041">41</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00079">collectWt()</a>, <a class="el" href="_weight_eval_8java_source.html#l00209">collectWtSlackSurplus()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00356">outputWtTable()</a>.</p>
+
+</div>
+</div>
+<a id="a40f0b0ebe4e512e599615822f48909b6" name="a40f0b0ebe4e512e599615822f48909b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40f0b0ebe4e512e599615822f48909b6">&#9670;&#160;</a></span>wMapAR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt; wrimsv2.evaluator.WeightEval.wMapAR =new ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weight_eval_8java_source.html#l00045">45</a> of file <a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_weight_eval_8java_source.html#l00408">collectWtRT()</a>, and <a class="el" href="_weight_eval_8java_source.html#l00438">outputWtTableAR()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/evaluator/<b>WeightEval.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/evaluator/<a class="el" href="_weight_eval_8java_source.html">WeightEval.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -127,7 +792,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>outputWtTableA
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>evaluator</b></li><li class="navelem"><a href="classwrimsv2_1_1evaluator_1_1_weight_eval.html">WeightEval</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1evaluator.html">evaluator</a></li><li class="navelem"><a href="classwrimsv2_1_1evaluator_1_1_weight_eval.html">WeightEval</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

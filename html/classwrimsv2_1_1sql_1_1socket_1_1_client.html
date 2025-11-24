@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.sql.socket.Client Class Reference</title>
+<title>Wrims-engine: wrimsv2.sql.socket.Client Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,15 +94,330 @@ $(function(){initNavTree('classwrimsv2_1_1sql_1_1socket_1_1_client.html','','cla
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a84460790c70d9b6133f8b318104133cb" id="r_a84460790c70d9b6133f8b318104133cb"><td class="memItemLeft" align="right" valign="top"><a id="a84460790c70d9b6133f8b318104133cb" name="a84460790c70d9b6133f8b318104133cb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>connect</b> (String host, String sourceFilePath)</td></tr>
-<tr class="memitem:a8e8194ce68fb547e68c6e5c99a3dcc13" id="r_a8e8194ce68fb547e68c6e5c99a3dcc13"><td class="memItemLeft" align="right" valign="top"><a id="a8e8194ce68fb547e68c6e5c99a3dcc13" name="a8e8194ce68fb547e68c6e5c99a3dcc13"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>sendFile</b> ()</td></tr>
-<tr class="memitem:a3bdd9df807ec31b0924ecd4ecd558eab" id="r_a3bdd9df807ec31b0924ecd4ecd558eab"><td class="memItemLeft" align="right" valign="top"><a id="a3bdd9df807ec31b0924ecd4ecd558eab" name="a3bdd9df807ec31b0924ecd4ecd558eab"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>closeSocket</b> ()</td></tr>
+<tr class="memitem:a5efe6cc5e10f4628289b86b13fd1be53" id="r_a5efe6cc5e10f4628289b86b13fd1be53"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5efe6cc5e10f4628289b86b13fd1be53">Client</a> ()</td></tr>
+<tr class="memitem:a3bdd9df807ec31b0924ecd4ecd558eab" id="r_a3bdd9df807ec31b0924ecd4ecd558eab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bdd9df807ec31b0924ecd4ecd558eab">closeSocket</a> ()</td></tr>
+<tr class="memitem:a84460790c70d9b6133f8b318104133cb" id="r_a84460790c70d9b6133f8b318104133cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84460790c70d9b6133f8b318104133cb">connect</a> (String host, String <a class="el" href="#a0406ec8a68fdd56821e04b06c7343773">sourceFilePath</a>)</td></tr>
+<tr class="memitem:a8e8194ce68fb547e68c6e5c99a3dcc13" id="r_a8e8194ce68fb547e68c6e5c99a3dcc13"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e8194ce68fb547e68c6e5c99a3dcc13">sendFile</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac9b7e2747c339d1430aba3b9eab3f383" id="r_ac9b7e2747c339d1430aba3b9eab3f383"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9b7e2747c339d1430aba3b9eab3f383">destinationPath</a> =&quot;G:\\tempCSV\\&quot;</td></tr>
+<tr class="memitem:ae726db0b3653f45a078543d8f36b0b7a" id="r_ae726db0b3653f45a078543d8f36b0b7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwrimsv2_1_1sql_1_1socket_1_1_file_event.html">FileEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae726db0b3653f45a078543d8f36b0b7a">fileEvent</a> = null</td></tr>
+<tr class="memitem:a92c099a003ed5e289910a24988b474b7" id="r_a92c099a003ed5e289910a24988b474b7"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92c099a003ed5e289910a24988b474b7">isConnected</a> = false</td></tr>
+<tr class="memitem:a62380c09ad668c644bd59ef789ac950d" id="r_a62380c09ad668c644bd59ef789ac950d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62380c09ad668c644bd59ef789ac950d">message</a> =&quot;&quot;</td></tr>
+<tr class="memitem:a07e95dd89404697d5cc8173cf6662771" id="r_a07e95dd89404697d5cc8173cf6662771"><td class="memItemLeft" align="right" valign="top">ObjectOutputStream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07e95dd89404697d5cc8173cf6662771">outputStream</a> = null</td></tr>
+<tr class="memitem:a2ee2af040e8bd66fa55d16b9bc0e2359" id="r_a2ee2af040e8bd66fa55d16b9bc0e2359"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ee2af040e8bd66fa55d16b9bc0e2359">port</a> = 13267</td></tr>
+<tr class="memitem:aeb3fc7a8a81090b390bb4948defa3203" id="r_aeb3fc7a8a81090b390bb4948defa3203"><td class="memItemLeft" align="right" valign="top">Socket&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb3fc7a8a81090b390bb4948defa3203">socket</a> = null</td></tr>
+<tr class="memitem:a0406ec8a68fdd56821e04b06c7343773" id="r_a0406ec8a68fdd56821e04b06c7343773"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0406ec8a68fdd56821e04b06c7343773">sourceFilePath</a></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00006">6</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a5efe6cc5e10f4628289b86b13fd1be53" name="a5efe6cc5e10f4628289b86b13fd1be53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5efe6cc5e10f4628289b86b13fd1be53">&#9670;&#160;</a></span>Client()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.sql.socket.Client.Client </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00016">16</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a3bdd9df807ec31b0924ecd4ecd558eab" name="a3bdd9df807ec31b0924ecd4ecd558eab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bdd9df807ec31b0924ecd4ecd558eab">&#9670;&#160;</a></span>closeSocket()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.socket.Client.closeSocket </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00100">100</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_client_8java_source.html#l00007">socket</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_client_8java_source.html#l00039">sendFile()</a>.</p>
+
+</div>
+</div>
+<a id="a84460790c70d9b6133f8b318104133cb" name="a84460790c70d9b6133f8b318104133cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84460790c70d9b6133f8b318104133cb">&#9670;&#160;</a></span>connect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.socket.Client.connect </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>host</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>sourceFilePath</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00020">20</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_client_8java_source.html#l00009">isConnected</a>, <a class="el" href="_client_8java_source.html#l00008">outputStream</a>, <a class="el" href="_client_8java_source.html#l00013">port</a>, <a class="el" href="_client_8java_source.html#l00007">socket</a>, and <a class="el" href="_client_8java_source.html#l00010">sourceFilePath</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00204">wrimsv2.sql.SQLServerRWriter.transferCSV()</a>.</p>
+
+</div>
+</div>
+<a id="a8e8194ce68fb547e68c6e5c99a3dcc13" name="a8e8194ce68fb547e68c6e5c99a3dcc13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e8194ce68fb547e68c6e5c99a3dcc13">&#9670;&#160;</a></span>sendFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.sql.socket.Client.sendFile </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00039">39</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_client_8java_source.html#l00100">closeSocket()</a>, <a class="el" href="_client_8java_source.html#l00011">destinationPath</a>, <a class="el" href="_client_8java_source.html#l00012">fileEvent</a>, <a class="el" href="_client_8java_source.html#l00014">message</a>, <a class="el" href="_client_8java_source.html#l00008">outputStream</a>, <a class="el" href="_client_8java_source.html#l00007">socket</a>, and <a class="el" href="_client_8java_source.html#l00010">sourceFilePath</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00204">wrimsv2.sql.SQLServerRWriter.transferCSV()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ac9b7e2747c339d1430aba3b9eab3f383" name="ac9b7e2747c339d1430aba3b9eab3f383"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b7e2747c339d1430aba3b9eab3f383">&#9670;&#160;</a></span>destinationPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.socket.Client.destinationPath =&quot;G:\\tempCSV\\&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00011">11</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_client_8java_source.html#l00039">sendFile()</a>.</p>
+
+</div>
+</div>
+<a id="ae726db0b3653f45a078543d8f36b0b7a" name="ae726db0b3653f45a078543d8f36b0b7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae726db0b3653f45a078543d8f36b0b7a">&#9670;&#160;</a></span>fileEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1sql_1_1socket_1_1_file_event.html">FileEvent</a> wrimsv2.sql.socket.Client.fileEvent = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00012">12</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_client_8java_source.html#l00039">sendFile()</a>.</p>
+
+</div>
+</div>
+<a id="a92c099a003ed5e289910a24988b474b7" name="a92c099a003ed5e289910a24988b474b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92c099a003ed5e289910a24988b474b7">&#9670;&#160;</a></span>isConnected</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.sql.socket.Client.isConnected = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00009">9</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_client_8java_source.html#l00020">connect()</a>.</p>
+
+</div>
+</div>
+<a id="a62380c09ad668c644bd59ef789ac950d" name="a62380c09ad668c644bd59ef789ac950d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62380c09ad668c644bd59ef789ac950d">&#9670;&#160;</a></span>message</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.socket.Client.message =&quot;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00014">14</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_client_8java_source.html#l00039">sendFile()</a>.</p>
+
+</div>
+</div>
+<a id="a07e95dd89404697d5cc8173cf6662771" name="a07e95dd89404697d5cc8173cf6662771"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07e95dd89404697d5cc8173cf6662771">&#9670;&#160;</a></span>outputStream</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ObjectOutputStream wrimsv2.sql.socket.Client.outputStream = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00008">8</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_client_8java_source.html#l00020">connect()</a>, and <a class="el" href="_client_8java_source.html#l00039">sendFile()</a>.</p>
+
+</div>
+</div>
+<a id="a2ee2af040e8bd66fa55d16b9bc0e2359" name="a2ee2af040e8bd66fa55d16b9bc0e2359"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ee2af040e8bd66fa55d16b9bc0e2359">&#9670;&#160;</a></span>port</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.sql.socket.Client.port = 13267</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00013">13</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_client_8java_source.html#l00020">connect()</a>.</p>
+
+</div>
+</div>
+<a id="aeb3fc7a8a81090b390bb4948defa3203" name="aeb3fc7a8a81090b390bb4948defa3203"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb3fc7a8a81090b390bb4948defa3203">&#9670;&#160;</a></span>socket</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Socket wrimsv2.sql.socket.Client.socket = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00007">7</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_client_8java_source.html#l00100">closeSocket()</a>, <a class="el" href="_client_8java_source.html#l00020">connect()</a>, and <a class="el" href="_client_8java_source.html#l00039">sendFile()</a>.</p>
+
+</div>
+</div>
+<a id="a0406ec8a68fdd56821e04b06c7343773" name="a0406ec8a68fdd56821e04b06c7343773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0406ec8a68fdd56821e04b06c7343773">&#9670;&#160;</a></span>sourceFilePath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.socket.Client.sourceFilePath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_client_8java_source.html#l00010">10</a> of file <a class="el" href="_client_8java_source.html">Client.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_client_8java_source.html#l00020">connect()</a>, and <a class="el" href="_client_8java_source.html#l00039">sendFile()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/sql/socket/<b>Client.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/sql/socket/<a class="el" href="_client_8java_source.html">Client.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -117,7 +432,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>closeSocket</b> ()</t
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>sql</b></li><li class="navelem"><b>socket</b></li><li class="navelem"><a href="classwrimsv2_1_1sql_1_1socket_1_1_client.html">Client</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1sql.html">sql</a></li><li class="navelem"><a href="namespacewrimsv2_1_1sql_1_1socket.html">socket</a></li><li class="navelem"><a href="classwrimsv2_1_1sql_1_1socket_1_1_client.html">Client</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

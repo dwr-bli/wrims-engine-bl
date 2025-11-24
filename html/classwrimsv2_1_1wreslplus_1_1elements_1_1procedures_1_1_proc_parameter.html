@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.wreslplus.elements.procedures.ProcParameter Class Reference</title>
+<title>Wrims-engine: wrimsv2.wreslplus.elements.procedures.ProcParameter Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,11 +94,212 @@ $(function(){initNavTree('classwrimsv2_1_1wreslplus_1_1elements_1_1procedures_1_
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7b30698b54a19b5f6797cc6cb7e9eaf0" id="r_a7b30698b54a19b5f6797cc6cb7e9eaf0"><td class="memItemLeft" align="right" valign="top"><a id="a7b30698b54a19b5f6797cc6cb7e9eaf0" name="a7b30698b54a19b5f6797cc6cb7e9eaf0"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>process</b> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html">StudyTemp</a> st)</td></tr>
+<tr class="memitem:a7b30698b54a19b5f6797cc6cb7e9eaf0" id="r_a7b30698b54a19b5f6797cc6cb7e9eaf0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b30698b54a19b5f6797cc6cb7e9eaf0">process</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html">StudyTemp</a> st)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:adfdec2fee1a42daf523c7065a0390b0b" id="r_adfdec2fee1a42daf523c7065a0390b0b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfdec2fee1a42daf523c7065a0390b0b">ProcParameter</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a721d10fa6b8f361e36c029e6f4924f27" id="r_a721d10fa6b8f361e36c029e6f4924f27"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a721d10fa6b8f361e36c029e6f4924f27">callBooleanEvaluator</a> (String evalString)</td></tr>
+<tr class="memitem:ac8251561a74240965f711a63b3ece10d" id="r_ac8251561a74240965f711a63b3ece10d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classwrimsv2_1_1components_1_1_int_double.html">IntDouble</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8251561a74240965f711a63b3ece10d">callNumberEvaluator</a> (String evalString)</td></tr>
+<tr class="memitem:af1438a80e3b853570cd5d02a66b29ad0" id="r_af1438a80e3b853570cd5d02a66b29ad0"><td class="memItemLeft" align="right" valign="top">static LinkedHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1438a80e3b853570cd5d02a66b29ad0">convertParamMapToSvarMap</a> (Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_svar_temp.html">SvarTemp</a> &gt; simpleMap)</td></tr>
+<tr class="memitem:ac61a04174a2350d9853b750d1f7a1b0c" id="r_ac61a04174a2350d9853b750d1f7a1b0c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac61a04174a2350d9853b750d1f7a1b0c">evaluateAllParams</a> (ArrayList&lt; String &gt; keyList, Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a> &gt; map)</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_proc_parameter_8java_source.html#l00024">24</a> of file <a class="el" href="_proc_parameter_8java_source.html">ProcParameter.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="adfdec2fee1a42daf523c7065a0390b0b" name="adfdec2fee1a42daf523c7065a0390b0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfdec2fee1a42daf523c7065a0390b0b">&#9670;&#160;</a></span>ProcParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.wreslplus.elements.procedures.ProcParameter.ProcParameter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_proc_parameter_8java_source.html#l00026">26</a> of file <a class="el" href="_proc_parameter_8java_source.html">ProcParameter.java</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a721d10fa6b8f361e36c029e6f4924f27" name="a721d10fa6b8f361e36c029e6f4924f27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a721d10fa6b8f361e36c029e6f4924f27">&#9670;&#160;</a></span>callBooleanEvaluator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.wreslplus.elements.procedures.ProcParameter.callBooleanEvaluator </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>evalString</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_proc_parameter_8java_source.html#l00066">66</a> of file <a class="el" href="_proc_parameter_8java_source.html">ProcParameter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00248">wrimsv2.components.Error.getTotalError()</a>, and <a class="el" href="_error_8java_source.html#l00110">wrimsv2.components.Error.writeErrorLog()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_proc_parameter_8java_source.html#l00039">evaluateAllParams()</a>.</p>
+
+</div>
+</div>
+<a id="ac8251561a74240965f711a63b3ece10d" name="ac8251561a74240965f711a63b3ece10d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8251561a74240965f711a63b3ece10d">&#9670;&#160;</a></span>callNumberEvaluator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1components_1_1_int_double.html">IntDouble</a> wrimsv2.wreslplus.elements.procedures.ProcParameter.callNumberEvaluator </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>evalString</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_proc_parameter_8java_source.html#l00095">95</a> of file <a class="el" href="_proc_parameter_8java_source.html">ProcParameter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00248">wrimsv2.components.Error.getTotalError()</a>, and <a class="el" href="_error_8java_source.html#l00110">wrimsv2.components.Error.writeErrorLog()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_proc_parameter_8java_source.html#l00039">evaluateAllParams()</a>.</p>
+
+</div>
+</div>
+<a id="af1438a80e3b853570cd5d02a66b29ad0" name="af1438a80e3b853570cd5d02a66b29ad0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1438a80e3b853570cd5d02a66b29ad0">&#9670;&#160;</a></span>convertParamMapToSvarMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a> &gt; wrimsv2.wreslplus.elements.procedures.ProcParameter.convertParamMapToSvarMap </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_svar_temp.html">SvarTemp</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>simpleMap</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_proc_parameter_8java_source.html#l00126">126</a> of file <a class="el" href="_proc_parameter_8java_source.html">ProcParameter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_svar_temp_8java_source.html#l00043">wrimsv2.wreslplus.elements.SvarTemp.caseCondition</a>, <a class="el" href="_svar_temp_8java_source.html#l00044">wrimsv2.wreslplus.elements.SvarTemp.caseExpression</a>, and <a class="el" href="_svar_temp_8java_source.html#l00042">wrimsv2.wreslplus.elements.SvarTemp.caseName</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_proc_parameter_8java_source.html#l00029">process()</a>.</p>
+
+</div>
+</div>
+<a id="ac61a04174a2350d9853b750d1f7a1b0c" name="ac61a04174a2350d9853b750d1f7a1b0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac61a04174a2350d9853b750d1f7a1b0c">&#9670;&#160;</a></span>evaluateAllParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.wreslplus.elements.procedures.ProcParameter.evaluateAllParams </td>
+          <td>(</td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>keyList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_proc_parameter_8java_source.html#l00039">39</a> of file <a class="el" href="_proc_parameter_8java_source.html">ProcParameter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_proc_parameter_8java_source.html#l00066">callBooleanEvaluator()</a>, <a class="el" href="_proc_parameter_8java_source.html#l00095">callNumberEvaluator()</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00047">wrimsv2.commondata.wresldata.Svar.caseCondition</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00050">wrimsv2.commondata.wresldata.Svar.caseExpression</a>, <a class="el" href="_control_data_8java_source.html#l00054">wrimsv2.components.ControlData.currEvalName</a>, <a class="el" href="_control_data_8java_source.html#l00053">wrimsv2.components.ControlData.currEvalTypeIndex</a>, and <a class="el" href="wresldata_2_svar_8java_source.html#l00098">wrimsv2.commondata.wresldata.Svar.setData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_proc_parameter_8java_source.html#l00029">process()</a>.</p>
+
+</div>
+</div>
+<a id="a7b30698b54a19b5f6797cc6cb7e9eaf0" name="a7b30698b54a19b5f6797cc6cb7e9eaf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b30698b54a19b5f6797cc6cb7e9eaf0">&#9670;&#160;</a></span>process()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.wreslplus.elements.procedures.ProcParameter.process </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html">StudyTemp</a></td>          <td class="paramname"><span class="paramname"><em>st</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_proc_parameter_8java_source.html#l00029">29</a> of file <a class="el" href="_proc_parameter_8java_source.html">ProcParameter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_study_temp_8java_source.html#l00027">wrimsv2.wreslplus.elements.StudyTemp.controlDataParameterMap</a>, <a class="el" href="_proc_parameter_8java_source.html#l00126">convertParamMapToSvarMap()</a>, <a class="el" href="_proc_parameter_8java_source.html#l00039">evaluateAllParams()</a>, <a class="el" href="_study_temp_8java_source.html#l00023">wrimsv2.wreslplus.elements.StudyTemp.parameterList</a>, <a class="el" href="_control_data_8java_source.html#l00038">wrimsv2.components.ControlData.parameterMap</a>, and <a class="el" href="_study_temp_8java_source.html#l00026">wrimsv2.wreslplus.elements.StudyTemp.parameterMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_workflow_8java_source.html#l00035">wrimsv2.wreslplus.elements.Workflow.checkStudy()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/wreslplus/elements/procedures/<b>ProcParameter.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/wreslplus/elements/procedures/<a class="el" href="_proc_parameter_8java_source.html">ProcParameter.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -113,7 +314,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>process</b> (<
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>wreslplus</b></li><li class="navelem"><b>elements</b></li><li class="navelem"><b>procedures</b></li><li class="navelem"><a href="classwrimsv2_1_1wreslplus_1_1elements_1_1procedures_1_1_proc_parameter.html">ProcParameter</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>wreslplus</b></li><li class="navelem"><a href="namespacewrimsv2_1_1wreslplus_1_1elements.html">elements</a></li><li class="navelem"><a href="namespacewrimsv2_1_1wreslplus_1_1elements_1_1procedures.html">procedures</a></li><li class="navelem"><a href="classwrimsv2_1_1wreslplus_1_1elements_1_1procedures_1_1_proc_parameter.html">ProcParameter</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.evaluator.PreEvaluator Class Reference</title>
+<title>Wrims-engine: wrimsv2.evaluator.PreEvaluator Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,25 +94,559 @@ $(function(){initNavTree('classwrimsv2_1_1evaluator_1_1_pre_evaluator.html','','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0841d165ac3cf7e168b8b741f69be149" id="r_a0841d165ac3cf7e168b8b741f69be149"><td class="memItemLeft" align="right" valign="top"><a id="a0841d165ac3cf7e168b8b741f69be149" name="a0841d165ac3cf7e168b8b741f69be149"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>PreEvaluator</b> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sds)</td></tr>
-<tr class="memitem:adb3e2241923956ee9092c6608ead6a7a" id="r_adb3e2241923956ee9092c6608ead6a7a"><td class="memItemLeft" align="right" valign="top"><a id="adb3e2241923956ee9092c6608ead6a7a" name="adb3e2241923956ee9092c6608ead6a7a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>preEvaluateModelCondition</b> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sds)</td></tr>
-<tr class="memitem:ab7f7df95b01c58162317ca2c6bb94769" id="r_ab7f7df95b01c58162317ca2c6bb94769"><td class="memItemLeft" align="right" valign="top"><a id="ab7f7df95b01c58162317ca2c6bb94769" name="ab7f7df95b01c58162317ca2c6bb94769"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>preEvaluateWeight</b> ()</td></tr>
-<tr class="memitem:a954e944d71928ef43f548f4a239293dd" id="r_a954e944d71928ef43f548f4a239293dd"><td class="memItemLeft" align="right" valign="top"><a id="a954e944d71928ef43f548f4a239293dd" name="a954e944d71928ef43f548f4a239293dd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>preEvaluateWeightSlackSurplus</b> ()</td></tr>
-<tr class="memitem:a666efb4589450145a526e6be8e56a444" id="r_a666efb4589450145a526e6be8e56a444"><td class="memItemLeft" align="right" valign="top"><a id="a666efb4589450145a526e6be8e56a444" name="a666efb4589450145a526e6be8e56a444"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>preEvaluateAlias</b> ()</td></tr>
-<tr class="memitem:a15379fa958fde5aba9ebddcbfbfc9e77" id="r_a15379fa958fde5aba9ebddcbfbfc9e77"><td class="memItemLeft" align="right" valign="top"><a id="a15379fa958fde5aba9ebddcbfbfc9e77" name="a15379fa958fde5aba9ebddcbfbfc9e77"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>preEvaluateDvar</b> ()</td></tr>
-<tr class="memitem:ab3a7d71a357f11e9a4d3f6079e87795e" id="r_ab3a7d71a357f11e9a4d3f6079e87795e"><td class="memItemLeft" align="right" valign="top"><a id="ab3a7d71a357f11e9a4d3f6079e87795e" name="ab3a7d71a357f11e9a4d3f6079e87795e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>preEvaluateGoal</b> ()</td></tr>
-<tr class="memitem:ab9b6ee0dfaabdb0412c98cbc9c17b150" id="r_ab9b6ee0dfaabdb0412c98cbc9c17b150"><td class="memItemLeft" align="right" valign="top"><a id="ab9b6ee0dfaabdb0412c98cbc9c17b150" name="ab9b6ee0dfaabdb0412c98cbc9c17b150"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>preEvaluateSvar</b> ()</td></tr>
+<tr class="memitem:a0841d165ac3cf7e168b8b741f69be149" id="r_a0841d165ac3cf7e168b8b741f69be149"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0841d165ac3cf7e168b8b741f69be149">PreEvaluator</a> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sds)</td></tr>
+<tr class="memitem:a666efb4589450145a526e6be8e56a444" id="r_a666efb4589450145a526e6be8e56a444"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a666efb4589450145a526e6be8e56a444">preEvaluateAlias</a> ()</td></tr>
+<tr class="memitem:a15379fa958fde5aba9ebddcbfbfc9e77" id="r_a15379fa958fde5aba9ebddcbfbfc9e77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15379fa958fde5aba9ebddcbfbfc9e77">preEvaluateDvar</a> ()</td></tr>
+<tr class="memitem:ab3a7d71a357f11e9a4d3f6079e87795e" id="r_ab3a7d71a357f11e9a4d3f6079e87795e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3a7d71a357f11e9a4d3f6079e87795e">preEvaluateGoal</a> ()</td></tr>
+<tr class="memitem:adb3e2241923956ee9092c6608ead6a7a" id="r_adb3e2241923956ee9092c6608ead6a7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb3e2241923956ee9092c6608ead6a7a">preEvaluateModelCondition</a> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sds)</td></tr>
+<tr class="memitem:ab9b6ee0dfaabdb0412c98cbc9c17b150" id="r_ab9b6ee0dfaabdb0412c98cbc9c17b150"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9b6ee0dfaabdb0412c98cbc9c17b150">preEvaluateSvar</a> ()</td></tr>
+<tr class="memitem:ab7f7df95b01c58162317ca2c6bb94769" id="r_ab7f7df95b01c58162317ca2c6bb94769"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7f7df95b01c58162317ca2c6bb94769">preEvaluateWeight</a> ()</td></tr>
+<tr class="memitem:a954e944d71928ef43f548f4a239293dd" id="r_a954e944d71928ef43f548f4a239293dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a954e944d71928ef43f548f4a239293dd">preEvaluateWeightSlackSurplus</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a49f56053f59e12870685dd1603c7e282" id="r_a49f56053f59e12870685dd1603c7e282"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49f56053f59e12870685dd1603c7e282">asList</a></td></tr>
+<tr class="memitem:abab9c296f8d61055044ae96fc75bd118" id="r_abab9c296f8d61055044ae96fc75bd118"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_alias.html">Alias</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abab9c296f8d61055044ae96fc75bd118">asMap</a></td></tr>
+<tr class="memitem:ad5b74a19b2c7babe1820e7aaae278972" id="r_ad5b74a19b2c7babe1820e7aaae278972"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5b74a19b2c7babe1820e7aaae278972">dvList</a></td></tr>
+<tr class="memitem:ad0c3ba52bc8dbe6da295197dfb23f01a" id="r_ad0c3ba52bc8dbe6da295197dfb23f01a"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0c3ba52bc8dbe6da295197dfb23f01a">dvMap</a></td></tr>
+<tr class="memitem:aa50038fb2a01549f0decdf7663944da9" id="r_aa50038fb2a01549f0decdf7663944da9"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa50038fb2a01549f0decdf7663944da9">gList</a></td></tr>
+<tr class="memitem:af9cedef873d0c095112df48bfc54e323" id="r_af9cedef873d0c095112df48bfc54e323"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_goal.html">Goal</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9cedef873d0c095112df48bfc54e323">gMap</a></td></tr>
+<tr class="memitem:a06ab54a4147a754e81886131104f51d1" id="r_a06ab54a4147a754e81886131104f51d1"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06ab54a4147a754e81886131104f51d1">modelConditionList</a></td></tr>
+<tr class="memitem:a718edec6c79de43bd1d04c76d0a14f36" id="r_a718edec6c79de43bd1d04c76d0a14f36"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a718edec6c79de43bd1d04c76d0a14f36">svList</a></td></tr>
+<tr class="memitem:aad18f1f5a13bd07e22c785fd8cccd907" id="r_aad18f1f5a13bd07e22c785fd8cccd907"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad18f1f5a13bd07e22c785fd8cccd907">svMap</a></td></tr>
+<tr class="memitem:a01ccbaaaef32bcb01d5b4990f31518a9" id="r_a01ccbaaaef32bcb01d5b4990f31518a9"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01ccbaaaef32bcb01d5b4990f31518a9">wtList</a></td></tr>
+<tr class="memitem:aedca96a2e4588c76e37130e2715a62a4" id="r_aedca96a2e4588c76e37130e2715a62a4"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedca96a2e4588c76e37130e2715a62a4">wtMap</a></td></tr>
+<tr class="memitem:a04e788d1a9718e63916536d43ffa08ef" id="r_a04e788d1a9718e63916536d43ffa08ef"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04e788d1a9718e63916536d43ffa08ef">wtSlackSurplusList</a></td></tr>
+<tr class="memitem:aeca8cfd071794c8e73d50e20dbcbc5a8" id="r_aeca8cfd071794c8e73d50e20dbcbc5a8"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeca8cfd071794c8e73d50e20dbcbc5a8">wtSlackSurplusMap</a></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00023">23</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0841d165ac3cf7e168b8b741f69be149" name="a0841d165ac3cf7e168b8b741f69be149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0841d165ac3cf7e168b8b741f69be149">&#9670;&#160;</a></span>PreEvaluator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.evaluator.PreEvaluator.PreEvaluator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a></td>          <td class="paramname"><span class="paramname"><em>sds</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00038">38</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_model_data_set_8java_source.html#l00092">wrimsv2.commondata.wresldata.ModelDataSet.asList</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00030">asList</a>, <a class="el" href="_model_data_set_8java_source.html#l00095">wrimsv2.commondata.wresldata.ModelDataSet.asMap</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00031">asMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00079">wrimsv2.commondata.wresldata.ModelDataSet.dvList</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00028">dvList</a>, <a class="el" href="_model_data_set_8java_source.html#l00087">wrimsv2.commondata.wresldata.ModelDataSet.dvMap</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00029">dvMap</a>, <a class="el" href="_study_data_set_8java_source.html#l00097">wrimsv2.commondata.wresldata.StudyDataSet.getModelConditionList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00121">wrimsv2.commondata.wresldata.StudyDataSet.getModelDataSetMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00089">wrimsv2.commondata.wresldata.StudyDataSet.getModelList()</a>, <a class="el" href="_model_data_set_8java_source.html#l00099">wrimsv2.commondata.wresldata.ModelDataSet.gList</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00026">gList</a>, <a class="el" href="_model_data_set_8java_source.html#l00103">wrimsv2.commondata.wresldata.ModelDataSet.gMap</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00027">gMap</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00036">modelConditionList</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00119">preEvaluateAlias()</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00138">preEvaluateDvar()</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00163">preEvaluateGoal()</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00068">preEvaluateModelCondition()</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00195">preEvaluateSvar()</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00081">preEvaluateWeight()</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00100">preEvaluateWeightSlackSurplus()</a>, <a class="el" href="_model_data_set_8java_source.html#l00072">wrimsv2.commondata.wresldata.ModelDataSet.svList</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00024">svList</a>, <a class="el" href="_model_data_set_8java_source.html#l00075">wrimsv2.commondata.wresldata.ModelDataSet.svMap</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00025">svMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00040">wrimsv2.commondata.wresldata.ModelDataSet.wtList</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00032">wtList</a>, <a class="el" href="_model_data_set_8java_source.html#l00048">wrimsv2.commondata.wresldata.ModelDataSet.wtMap</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00033">wtMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00042">wrimsv2.commondata.wresldata.ModelDataSet.wtSlackSurplusList</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00034">wtSlackSurplusList</a>, <a class="el" href="_model_data_set_8java_source.html#l00049">wrimsv2.commondata.wresldata.ModelDataSet.wtSlackSurplusMap</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00035">wtSlackSurplusMap</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a666efb4589450145a526e6be8e56a444" name="a666efb4589450145a526e6be8e56a444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a666efb4589450145a526e6be8e56a444">&#9670;&#160;</a></span>preEvaluateAlias()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.PreEvaluator.preEvaluateAlias </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00119">119</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_pre_evaluator_8java_source.html#l00030">asList</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00031">asMap</a>, <a class="el" href="wresldata_2_alias_8java_source.html#l00018">wrimsv2.commondata.wresldata.Alias.expression</a>, and <a class="el" href="wresldata_2_alias_8java_source.html#l00029">wrimsv2.commondata.wresldata.Alias.timeArraySize</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>.</p>
+
+</div>
+</div>
+<a id="a15379fa958fde5aba9ebddcbfbfc9e77" name="a15379fa958fde5aba9ebddcbfbfc9e77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15379fa958fde5aba9ebddcbfbfc9e77">&#9670;&#160;</a></span>preEvaluateDvar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.PreEvaluator.preEvaluateDvar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00138">138</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_pre_evaluator_8java_source.html#l00028">dvList</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00029">dvMap</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00022">wrimsv2.commondata.wresldata.Dvar.lowerBound</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00034">wrimsv2.commondata.wresldata.Dvar.timeArraySize</a>, and <a class="el" href="wresldata_2_dvar_8java_source.html#l00024">wrimsv2.commondata.wresldata.Dvar.upperBound</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>.</p>
+
+</div>
+</div>
+<a id="ab3a7d71a357f11e9a4d3f6079e87795e" name="ab3a7d71a357f11e9a4d3f6079e87795e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3a7d71a357f11e9a4d3f6079e87795e">&#9670;&#160;</a></span>preEvaluateGoal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.PreEvaluator.preEvaluateGoal </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00163">163</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_goal_8java_source.html#l00025">wrimsv2.commondata.wresldata.Goal.caseCondition</a>, <a class="el" href="_goal_8java_source.html#l00026">wrimsv2.commondata.wresldata.Goal.caseConditionParsers</a>, <a class="el" href="_goal_8java_source.html#l00027">wrimsv2.commondata.wresldata.Goal.caseExpression</a>, <a class="el" href="_goal_8java_source.html#l00029">wrimsv2.commondata.wresldata.Goal.caseExpressionParsers</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00026">gList</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00027">gMap</a>, and <a class="el" href="_goal_8java_source.html#l00036">wrimsv2.commondata.wresldata.Goal.timeArraySize</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>.</p>
+
+</div>
+</div>
+<a id="adb3e2241923956ee9092c6608ead6a7a" name="adb3e2241923956ee9092c6608ead6a7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3e2241923956ee9092c6608ead6a7a">&#9670;&#160;</a></span>preEvaluateModelCondition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.PreEvaluator.preEvaluateModelCondition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a></td>          <td class="paramname"><span class="paramname"><em>sds</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00068">68</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_pre_evaluator_8java_source.html#l00036">modelConditionList</a>, and <a class="el" href="_study_data_set_8java_source.html#l00117">wrimsv2.commondata.wresldata.StudyDataSet.setModelConditionParsers()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>.</p>
+
+</div>
+</div>
+<a id="ab9b6ee0dfaabdb0412c98cbc9c17b150" name="ab9b6ee0dfaabdb0412c98cbc9c17b150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9b6ee0dfaabdb0412c98cbc9c17b150">&#9670;&#160;</a></span>preEvaluateSvar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.PreEvaluator.preEvaluateSvar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00195">195</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">References <a class="el" href="wresldata_2_svar_8java_source.html#l00047">wrimsv2.commondata.wresldata.Svar.caseCondition</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00048">wrimsv2.commondata.wresldata.Svar.caseConditionParsers</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00050">wrimsv2.commondata.wresldata.Svar.caseExpression</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00051">wrimsv2.commondata.wresldata.Svar.caseExpressionParsers</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00024">svList</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00025">svMap</a>, and <a class="el" href="wresldata_2_svar_8java_source.html#l00037">wrimsv2.commondata.wresldata.Svar.timeArraySize</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>.</p>
+
+</div>
+</div>
+<a id="ab7f7df95b01c58162317ca2c6bb94769" name="ab7f7df95b01c58162317ca2c6bb94769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7f7df95b01c58162317ca2c6bb94769">&#9670;&#160;</a></span>preEvaluateWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.PreEvaluator.preEvaluateWeight </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00081">81</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_weight_element_8java_source.html#l00019">wrimsv2.commondata.wresldata.WeightElement.timeArraySize</a>, <a class="el" href="_weight_element_8java_source.html#l00010">wrimsv2.commondata.wresldata.WeightElement.weight</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00032">wtList</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00033">wtMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>.</p>
+
+</div>
+</div>
+<a id="a954e944d71928ef43f548f4a239293dd" name="a954e944d71928ef43f548f4a239293dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a954e944d71928ef43f548f4a239293dd">&#9670;&#160;</a></span>preEvaluateWeightSlackSurplus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.PreEvaluator.preEvaluateWeightSlackSurplus </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00100">100</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_weight_element_8java_source.html#l00019">wrimsv2.commondata.wresldata.WeightElement.timeArraySize</a>, <a class="el" href="_weight_element_8java_source.html#l00010">wrimsv2.commondata.wresldata.WeightElement.weight</a>, <a class="el" href="_pre_evaluator_8java_source.html#l00034">wtSlackSurplusList</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00035">wtSlackSurplusMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a49f56053f59e12870685dd1603c7e282" name="a49f56053f59e12870685dd1603c7e282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49f56053f59e12870685dd1603c7e282">&#9670;&#160;</a></span>asList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.PreEvaluator.asList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00030">30</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00119">preEvaluateAlias()</a>.</p>
+
+</div>
+</div>
+<a id="abab9c296f8d61055044ae96fc75bd118" name="abab9c296f8d61055044ae96fc75bd118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abab9c296f8d61055044ae96fc75bd118">&#9670;&#160;</a></span>asMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_alias.html">Alias</a>&gt; wrimsv2.evaluator.PreEvaluator.asMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00031">31</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00119">preEvaluateAlias()</a>.</p>
+
+</div>
+</div>
+<a id="ad5b74a19b2c7babe1820e7aaae278972" name="ad5b74a19b2c7babe1820e7aaae278972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5b74a19b2c7babe1820e7aaae278972">&#9670;&#160;</a></span>dvList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.PreEvaluator.dvList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00028">28</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00138">preEvaluateDvar()</a>.</p>
+
+</div>
+</div>
+<a id="ad0c3ba52bc8dbe6da295197dfb23f01a" name="ad0c3ba52bc8dbe6da295197dfb23f01a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0c3ba52bc8dbe6da295197dfb23f01a">&#9670;&#160;</a></span>dvMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a>&gt; wrimsv2.evaluator.PreEvaluator.dvMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00029">29</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00138">preEvaluateDvar()</a>.</p>
+
+</div>
+</div>
+<a id="aa50038fb2a01549f0decdf7663944da9" name="aa50038fb2a01549f0decdf7663944da9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa50038fb2a01549f0decdf7663944da9">&#9670;&#160;</a></span>gList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.PreEvaluator.gList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00026">26</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00163">preEvaluateGoal()</a>.</p>
+
+</div>
+</div>
+<a id="af9cedef873d0c095112df48bfc54e323" name="af9cedef873d0c095112df48bfc54e323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9cedef873d0c095112df48bfc54e323">&#9670;&#160;</a></span>gMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_goal.html">Goal</a>&gt; wrimsv2.evaluator.PreEvaluator.gMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00027">27</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00163">preEvaluateGoal()</a>.</p>
+
+</div>
+</div>
+<a id="a06ab54a4147a754e81886131104f51d1" name="a06ab54a4147a754e81886131104f51d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06ab54a4147a754e81886131104f51d1">&#9670;&#160;</a></span>modelConditionList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.PreEvaluator.modelConditionList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00036">36</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00068">preEvaluateModelCondition()</a>.</p>
+
+</div>
+</div>
+<a id="a718edec6c79de43bd1d04c76d0a14f36" name="a718edec6c79de43bd1d04c76d0a14f36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a718edec6c79de43bd1d04c76d0a14f36">&#9670;&#160;</a></span>svList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.PreEvaluator.svList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00024">24</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00195">preEvaluateSvar()</a>.</p>
+
+</div>
+</div>
+<a id="aad18f1f5a13bd07e22c785fd8cccd907" name="aad18f1f5a13bd07e22c785fd8cccd907"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad18f1f5a13bd07e22c785fd8cccd907">&#9670;&#160;</a></span>svMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a>&gt; wrimsv2.evaluator.PreEvaluator.svMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00025">25</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00195">preEvaluateSvar()</a>.</p>
+
+</div>
+</div>
+<a id="a01ccbaaaef32bcb01d5b4990f31518a9" name="a01ccbaaaef32bcb01d5b4990f31518a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01ccbaaaef32bcb01d5b4990f31518a9">&#9670;&#160;</a></span>wtList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.PreEvaluator.wtList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00032">32</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00081">preEvaluateWeight()</a>.</p>
+
+</div>
+</div>
+<a id="aedca96a2e4588c76e37130e2715a62a4" name="aedca96a2e4588c76e37130e2715a62a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedca96a2e4588c76e37130e2715a62a4">&#9670;&#160;</a></span>wtMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt; wrimsv2.evaluator.PreEvaluator.wtMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00033">33</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00081">preEvaluateWeight()</a>.</p>
+
+</div>
+</div>
+<a id="a04e788d1a9718e63916536d43ffa08ef" name="a04e788d1a9718e63916536d43ffa08ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04e788d1a9718e63916536d43ffa08ef">&#9670;&#160;</a></span>wtSlackSurplusList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.evaluator.PreEvaluator.wtSlackSurplusList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00034">34</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00100">preEvaluateWeightSlackSurplus()</a>.</p>
+
+</div>
+</div>
+<a id="aeca8cfd071794c8e73d50e20dbcbc5a8" name="aeca8cfd071794c8e73d50e20dbcbc5a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeca8cfd071794c8e73d50e20dbcbc5a8">&#9670;&#160;</a></span>wtSlackSurplusMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt; wrimsv2.evaluator.PreEvaluator.wtSlackSurplusMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pre_evaluator_8java_source.html#l00035">35</a> of file <a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_pre_evaluator_8java_source.html#l00038">PreEvaluator()</a>, and <a class="el" href="_pre_evaluator_8java_source.html#l00100">preEvaluateWeightSlackSurplus()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/evaluator/<b>PreEvaluator.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/evaluator/<a class="el" href="_pre_evaluator_8java_source.html">PreEvaluator.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -127,7 +661,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>preEvaluateSvar</b> (
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>evaluator</b></li><li class="navelem"><a href="classwrimsv2_1_1evaluator_1_1_pre_evaluator.html">PreEvaluator</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1evaluator.html">evaluator</a></li><li class="navelem"><a href="classwrimsv2_1_1evaluator_1_1_pre_evaluator.html">PreEvaluator</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

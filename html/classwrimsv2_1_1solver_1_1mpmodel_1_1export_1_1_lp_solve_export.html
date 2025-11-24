@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.solver.mpmodel.export.LpSolveExport Class Reference</title>
+<title>Wrims-engine: wrimsv2.solver.mpmodel.export.LpSolveExport Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,19 +94,203 @@ $(function(){initNavTree('classwrimsv2_1_1solver_1_1mpmodel_1_1export_1_1_lp_sol
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5c79c870d02136853aac73de7b4cf06f" id="r_a5c79c870d02136853aac73de7b4cf06f"><td class="memItemLeft" align="right" valign="top"><a id="a5c79c870d02136853aac73de7b4cf06f" name="a5c79c870d02136853aac73de7b4cf06f"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>writeComment</b> (PrintWriter outFile, String msg)</td></tr>
-<tr class="memitem:a6362cd6e969e4f5b3adb8c8a2a9efdc3" id="r_a6362cd6e969e4f5b3adb8c8a2a9efdc3"><td class="memItemLeft" align="right" valign="top"><a id="a6362cd6e969e4f5b3adb8c8a2a9efdc3" name="a6362cd6e969e4f5b3adb8c8a2a9efdc3"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>writeObjValue</b> ()</td></tr>
-<tr class="memitem:aa402b4a301b2f0fdf741ca94071d6e45" id="r_aa402b4a301b2f0fdf741ca94071d6e45"><td class="memItemLeft" align="right" valign="top"><a id="aa402b4a301b2f0fdf741ca94071d6e45" name="aa402b4a301b2f0fdf741ca94071d6e45"></a>
-static String&#160;</td><td class="memItemRight" valign="bottom"><b>writeObj</b> (LinkedHashMap&lt; String, Double &gt; activeWeightMap)</td></tr>
-<tr class="memitem:a335a786ed4e9f4505adaa5b9576a6652" id="r_a335a786ed4e9f4505adaa5b9576a6652"><td class="memItemLeft" align="right" valign="top"><a id="a335a786ed4e9f4505adaa5b9576a6652" name="a335a786ed4e9f4505adaa5b9576a6652"></a>
-static String&#160;</td><td class="memItemRight" valign="bottom"><b>writeConstraint</b> (LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt; constraintLhs, LinkedHashMap&lt; String, double[]&gt; constraintRhs)</td></tr>
-<tr class="memitem:a07e88d9e213d5594205e5fd145c4f855" id="r_a07e88d9e213d5594205e5fd145c4f855"><td class="memItemLeft" align="right" valign="top"><a id="a07e88d9e213d5594205e5fd145c4f855" name="a07e88d9e213d5594205e5fd145c4f855"></a>
-static String&#160;</td><td class="memItemRight" valign="bottom"><b>writeDvar</b> (<a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> in)</td></tr>
+<tr class="memitem:a5c79c870d02136853aac73de7b4cf06f" id="r_a5c79c870d02136853aac73de7b4cf06f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c79c870d02136853aac73de7b4cf06f">writeComment</a> (PrintWriter outFile, String msg)</td></tr>
+<tr class="memitem:a335a786ed4e9f4505adaa5b9576a6652" id="r_a335a786ed4e9f4505adaa5b9576a6652"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a335a786ed4e9f4505adaa5b9576a6652">writeConstraint</a> (LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt; constraintLhs, LinkedHashMap&lt; String, double[]&gt; constraintRhs)</td></tr>
+<tr class="memitem:a07e88d9e213d5594205e5fd145c4f855" id="r_a07e88d9e213d5594205e5fd145c4f855"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07e88d9e213d5594205e5fd145c4f855">writeDvar</a> (<a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> in)</td></tr>
+<tr class="memitem:aa402b4a301b2f0fdf741ca94071d6e45" id="r_aa402b4a301b2f0fdf741ca94071d6e45"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa402b4a301b2f0fdf741ca94071d6e45">writeObj</a> (LinkedHashMap&lt; String, Double &gt; activeWeightMap)</td></tr>
+<tr class="memitem:a6362cd6e969e4f5b3adb8c8a2a9efdc3" id="r_a6362cd6e969e4f5b3adb8c8a2a9efdc3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6362cd6e969e4f5b3adb8c8a2a9efdc3">writeObjValue</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a6981492af3592b724a5282afa1e561ed" id="r_a6981492af3592b724a5282afa1e561ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6981492af3592b724a5282afa1e561ed">LpSolveExport</a> ()</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_lp_solve_export_8java_source.html#l00012">12</a> of file <a class="el" href="_lp_solve_export_8java_source.html">LpSolveExport.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a6981492af3592b724a5282afa1e561ed" name="a6981492af3592b724a5282afa1e561ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6981492af3592b724a5282afa1e561ed">&#9670;&#160;</a></span>LpSolveExport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.solver.mpmodel.export.LpSolveExport.LpSolveExport </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_lp_solve_export_8java_source.html#l00015">15</a> of file <a class="el" href="_lp_solve_export_8java_source.html">LpSolveExport.java</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a5c79c870d02136853aac73de7b4cf06f" name="a5c79c870d02136853aac73de7b4cf06f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c79c870d02136853aac73de7b4cf06f">&#9670;&#160;</a></span>writeComment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.mpmodel.export.LpSolveExport.writeComment </td>
+          <td>(</td>
+          <td class="paramtype">PrintWriter</td>          <td class="paramname"><span class="paramname"><em>outFile</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>msg</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_lp_solve_export_8java_source.html#l00019">19</a> of file <a class="el" href="_lp_solve_export_8java_source.html">LpSolveExport.java</a>.</p>
+
+</div>
+</div>
+<a id="a335a786ed4e9f4505adaa5b9576a6652" name="a335a786ed4e9f4505adaa5b9576a6652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a335a786ed4e9f4505adaa5b9576a6652">&#9670;&#160;</a></span>writeConstraint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.solver.mpmodel.export.LpSolveExport.writeConstraint </td>
+          <td>(</td>
+          <td class="paramtype">LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>constraintLhs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; String, double[]&gt;</td>          <td class="paramname"><span class="paramname"><em>constraintRhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_lp_solve_export_8java_source.html#l00063">63</a> of file <a class="el" href="_lp_solve_export_8java_source.html">LpSolveExport.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_param_8java_source.html#l00074">wrimsv2.commondata.wresldata.Param.inf_assumed</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_utils_8java_source.html#l00033">wrimsv2.solver.mpmodel.MPModelUtils.toLpSolve()</a>.</p>
+
+</div>
+</div>
+<a id="a07e88d9e213d5594205e5fd145c4f855" name="a07e88d9e213d5594205e5fd145c4f855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07e88d9e213d5594205e5fd145c4f855">&#9670;&#160;</a></span>writeDvar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.solver.mpmodel.export.LpSolveExport.writeDvar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a></td>          <td class="paramname"><span class="paramname"><em>in</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_lp_solve_export_8java_source.html#l00120">120</a> of file <a class="el" href="_lp_solve_export_8java_source.html">LpSolveExport.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_param_8java_source.html#l00074">wrimsv2.commondata.wresldata.Param.inf_assumed</a>, <a class="el" href="_m_p_model_8java_source.html#l00015">wrimsv2.solver.mpmodel.MPModel.var_free</a>, <a class="el" href="_m_p_model_8java_source.html#l00013">wrimsv2.solver.mpmodel.MPModel.var_general</a>, <a class="el" href="_m_p_model_8java_source.html#l00018">wrimsv2.solver.mpmodel.MPModel.var_int_binary</a>, <a class="el" href="_m_p_model_8java_source.html#l00017">wrimsv2.solver.mpmodel.MPModel.varMap_integer</a>, and <a class="el" href="_m_p_model_8java_source.html#l00012">wrimsv2.solver.mpmodel.MPModel.varMap_number</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_utils_8java_source.html#l00033">wrimsv2.solver.mpmodel.MPModelUtils.toLpSolve()</a>.</p>
+
+</div>
+</div>
+<a id="aa402b4a301b2f0fdf741ca94071d6e45" name="aa402b4a301b2f0fdf741ca94071d6e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa402b4a301b2f0fdf741ca94071d6e45">&#9670;&#160;</a></span>writeObj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.solver.mpmodel.export.LpSolveExport.writeObj </td>
+          <td>(</td>
+          <td class="paramtype">LinkedHashMap&lt; String, Double &gt;</td>          <td class="paramname"><span class="paramname"><em>activeWeightMap</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_lp_solve_export_8java_source.html#l00032">32</a> of file <a class="el" href="_lp_solve_export_8java_source.html">LpSolveExport.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_m_p_model_utils_8java_source.html#l00033">wrimsv2.solver.mpmodel.MPModelUtils.toLpSolve()</a>.</p>
+
+</div>
+</div>
+<a id="a6362cd6e969e4f5b3adb8c8a2a9efdc3" name="a6362cd6e969e4f5b3adb8c8a2a9efdc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6362cd6e969e4f5b3adb8c8a2a9efdc3">&#9670;&#160;</a></span>writeObjValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.mpmodel.export.LpSolveExport.writeObjValue </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_lp_solve_export_8java_source.html#l00026">26</a> of file <a class="el" href="_lp_solve_export_8java_source.html">LpSolveExport.java</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/solver/mpmodel/export/<b>LpSolveExport.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/solver/mpmodel/export/<a class="el" href="_lp_solve_export_8java_source.html">LpSolveExport.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -121,7 +305,7 @@ static String&#160;</td><td class="memItemRight" valign="bottom"><b>writeDvar</b
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>solver</b></li><li class="navelem"><b>mpmodel</b></li><li class="navelem"><b>export</b></li><li class="navelem"><a href="classwrimsv2_1_1solver_1_1mpmodel_1_1export_1_1_lp_solve_export.html">LpSolveExport</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1solver.html">solver</a></li><li class="navelem"><a href="namespacewrimsv2_1_1solver_1_1mpmodel.html">mpmodel</a></li><li class="navelem"><a href="namespacewrimsv2_1_1solver_1_1mpmodel_1_1export.html">export</a></li><li class="navelem"><a href="classwrimsv2_1_1solver_1_1mpmodel_1_1export_1_1_lp_solve_export.html">LpSolveExport</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

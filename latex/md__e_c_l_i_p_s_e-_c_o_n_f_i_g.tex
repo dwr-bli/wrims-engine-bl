@@ -1,0 +1,133 @@
+\chapter{Building WRIMS-\/\+ENGINE from Eclipse IDE }
+\hypertarget{md__e_c_l_i_p_s_e-_c_o_n_f_i_g}{}\label{md__e_c_l_i_p_s_e-_c_o_n_f_i_g}\index{Building WRIMS-\/ENGINE from Eclipse IDE@{Building WRIMS-\/ENGINE from Eclipse IDE}}
+\label{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md33}%
+\Hypertarget{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md33}%
+
+
+This document covers the configuration for building the WRIMS-\/\+ENGINE project from the Eclipse IDE using Gradle.
+
+NOTE\+: The current WRIMS-\/\+ENGINE build is built on Java 21. The recommended version of Eclipse uses Java 21 by default. Setting the JAVA\+\_\+\+HOME environment variable to the JDK 21 installation directory is recommended, but not required to build the project from Eclipse.
+
+If you need to keep you JAVA\+\_\+\+HOME set to java 1.\+8 for other projects you can manually run the gradle build by explicitly calling the java executable from the command line as described below.\hypertarget{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md34}{}\doxysection{\texorpdfstring{WRIMS-\/\+ENGINE Developer Build Setup -\/ Using Gradle\+:}{WRIMS-\/\+ENGINE Developer Build Setup -\/ Using Gradle\+:}}\label{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md34}
+PREREQUISITES\+:
+\begin{DoxyItemize}
+\item Git
+\begin{DoxyItemize}
+\item \href{https://github.com/git-guides/install-git}{\texttt{https\+://github.\+com/git-\/guides/install-\/git}}
+\end{DoxyItemize}
+\item \texorpdfstring{$<$}{<}USER-\/\+DIR\texorpdfstring{$>$}{>}\textbackslash{}.gradle\textbackslash{}gradle.\+properties configured with token for access to the Central\+Valley\+Modeling Git\+Hub repository
+\begin{DoxyItemize}
+\item Example\+: C\+:\textbackslash{}Users\textbackslash{}\texorpdfstring{$<$}{<}username\texorpdfstring{$>$}{>}\textbackslash{}.gradle\textbackslash{}gradle.\+properties
+\item NOTE\+: If you have to create the gradle.\+properties file, make sure it\textquotesingle{}s not a "{}gradle.\+properties.\+txt"{} file. 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{...}
+\DoxyCodeLine{cvmUserId=<githubUserId>}
+\DoxyCodeLine{cvmPassword=<githubPersonalAccessToken>}
+\DoxyCodeLine{...}
+
+\end{DoxyCode}
+ The cvm\+Password is preferably set to a Git\+Hub personal access token that has been granted access to the Central\+Valley\+Modeling Git\+Hub repository with public\+\_\+repo access and read\+:packages enabled.~\newline
+
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+You can generate a personal access token here\+: \href{https://github.com/settings/tokens/new}{\texttt{https\+://github.\+com/settings/tokens/new}}
+
+
+\begin{DoxyItemize}
+\item Java JDK 21 installed (\href{https://adoptium.net/en-GB/temurin/releases/?version=21}{\texttt{https\+://adoptium.\+net/en-\/\+GB/temurin/releases/?version=21}})
+\begin{DoxyItemize}
+\item NOTE\+: Any flavor of JDK 21 should work if you already have one installed.
+\end{DoxyItemize}
+\item IDE Eclipse
+\begin{DoxyItemize}
+\item Latest Eclipse RCP download site\+:
+\item \href{https://www.eclipse.org/downloads/packages/release/2024-12/r/eclipse-ide-rcp-and-rap-developers}{\texttt{https\+://www.\+eclipse.\+org/downloads/packages/release/2024-\/12/r/eclipse-\/ide-\/rcp-\/and-\/rap-\/developers}}
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+\begin{DoxyWarning}{Warning}
+If you don\textquotesingle{}t set the cvm\+User\+Id and cvm\+Password in your gradle.\+properties file, you will get errors when you load the project into Eclipse. If that happens, you\textquotesingle{}ll need to set the missing parameters in your gradle.\+properties file. Then remove and re-\/import the project to eclipse to clear the errors and load correctly.~\newline
+ Make sure your gradle.\+properties file is in the correct location under your user directory and not a .txt file.~\newline
+ ~\newline
+ Never add your github username/token to any properties within project source code or it risks being committed \& exposed to the public.
+\end{DoxyWarning}
+\hypertarget{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md35}{}\doxysubsection{\texorpdfstring{1. Pull Source from Git\+Hub \& build the project}{1. Pull Source from Git\+Hub \& build the project}}\label{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md35}
+
+\begin{DoxyItemize}
+\item Clone the repository to your local machine.
+\begin{DoxyItemize}
+\item Repository Clone URL\+: \href{https://github.com/CentralValleyModeling/wrims-engine.git}{\texttt{https\+://github.\+com/\+Central\+Valley\+Modeling/wrims-\/engine.\+git}}
+\end{DoxyItemize}
+\item CD into the wrims-\/engine directory.
+\item Build the project with gradle from the command line
+\end{DoxyItemize}
+
+The following commands will clone the repository, and build the project from a command prompt. Alternatively, you can use your preferred git repo manager tool to clone the wrims repo and checkout the wrims-\/devops branch.\hypertarget{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md36}{}\doxysubsubsection{\texorpdfstring{Example using Command Prompt or Power\+Shell on Windows}{Example using Command Prompt or Power\+Shell on Windows}}\label{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md36}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{git\ clone\ https://github.com/CentralValleyModeling/wrims-\/engine.git}
+\DoxyCodeLine{cd\ wrims-\/engine}
+\DoxyCodeLine{.\(\backslash\)gradlew\ build}
+
+\end{DoxyCode}
+\hypertarget{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md37}{}\doxysubsubsection{\texorpdfstring{Common Build Errors}{Common Build Errors}}\label{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md37}
+If you don\textquotesingle{}t have the JAVA\+\_\+\+HOME environment variable set to a JDK 21 installation directory, you may get errors like this\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{C:\(\backslash\)GitHub\(\backslash\)CVM2\(\backslash\)wrims-\/engine>gradlew\ build}
+\DoxyCodeLine{}
+\DoxyCodeLine{ERROR:\ JAVA\_HOME\ is\ not\ set\ and\ no\ 'java'\ command\ could\ be\ found\ in\ your\ PATH.}
+\DoxyCodeLine{}
+\DoxyCodeLine{Please\ set\ the\ JAVA\_HOME\ variable\ in\ your\ environment\ to\ match\ the}
+\DoxyCodeLine{location\ of\ your\ Java\ installation.}
+
+\end{DoxyCode}
+ Or if you have an older version of Java installed under you JAVA\+\_\+\+HOME environment variable, you would see a similar java version error. In this case you can either set the JAVA\+\_\+\+HOME environment variable to the JDK 21 installation directory, or you can directly call the java executable from the command line like this\+:
+
+/path/to/your/jdk/bin/java -\/jar gradle/wrapper/gradle-\/wrapper.\+jar build
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\ example}
+\DoxyCodeLine{C:\(\backslash\)GitHub\(\backslash\)CVM2\(\backslash\)wrims-\/engine>C:\(\backslash\)java\(\backslash\)jdk-\/21.0.8.9-\/hotspot\(\backslash\)bin\(\backslash\)java\ -\/jar\ gradle/wrapper/gradle-\/wrapper.jar\ build}
+\DoxyCodeLine{Starting\ a\ Gradle\ Daemon,\ 5\ incompatible\ Daemons\ could\ not\ be\ reused,\ use\ -\/-\/status\ for\ details}
+\DoxyCodeLine{}
+\DoxyCodeLine{BUILD\ SUCCESSFUL\ in\ 29s}
+\DoxyCodeLine{15\ actionable\ tasks:\ 15\ up-\/to-\/date}
+
+\end{DoxyCode}
+\hypertarget{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md38}{}\doxysubsubsection{\texorpdfstring{HANDLING BUILD ERRORS FROM CMD or POWERSHELL\+:}{HANDLING BUILD ERRORS FROM CMD or POWERSHELL\+:}}\label{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md38}
+If you have a space in your java path you will need to wrap it in quotes like this\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{"{}C:\(\backslash\)Program\ Files\(\backslash\)Java\(\backslash\)jdk-\/21\(\backslash\)bin\(\backslash\)java"{}\ -\/jar\ gradle/wrapper/gradle-\/wrapper.jar\ build}
+
+\end{DoxyCode}
+
+
+If you encounter an error like\+: "{}invalid option\+: -\/-\/release"{}, try including the -\/\+Dorg.\+gradle.\+java.\+home option in your build command before for the -\/jar like this\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{C:\(\backslash\)java\(\backslash\)jdk-\/21\(\backslash\)bin\(\backslash\)java\ -\/Dorg.gradle.java.home=C:\(\backslash\)java\(\backslash\)jdk-\/21\ -\/jar\ gradle/wrapper/gradle-\/wrapper.jar\ build}
+
+\end{DoxyCode}
+\hypertarget{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md39}{}\doxysubsection{\texorpdfstring{2. Open Eclipse with a new/clean workspace}{2. Open Eclipse with a new/clean workspace}}\label{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md39}
+Once you have built the wrims-\/engine project with Gradle from the command line, launch Eclipse.
+
+Create a new workspace to import the project.
+
+Using Eclipse 2024-\/12, the default Java version is 21, so you should not need to change the Java version in Eclipse.
+
+NOTE\+: If you have an existing workspace, you can import the wrims-\/engine project into that workspace, but it is recommended to use a new workspace to avoid any conflicts with existing projects. You will also need to make sure the workspace gradle and project settings are set to use the JDK 21 version you have installed.\hypertarget{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md40}{}\doxysubsection{\texorpdfstring{3. Import the wrims-\/engine project into Eclipse}{3. Import the wrims-\/engine project into Eclipse}}\label{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md40}
+Close the "{}\+Welcome"{} window if it appears. Click File-\/\texorpdfstring{$>$}{>} Import... and select Import as an Existing Gradle Project
+
+Select the wrims-\/engine project directory and click next.
+
+Complete the import with default settings.
+
+Click Finish to import.
+
+Once the build is complete, you should see 0 errors in the Problems window. Gradle Tasks \& Gradle Executions windows default to the bottom of the Eclipse window.\hypertarget{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md41}{}\doxysubsection{\texorpdfstring{4. Build wrims-\/engine with Gradle task}{4. Build wrims-\/engine with Gradle task}}\label{md__e_c_l_i_p_s_e-_c_o_n_f_i_g_autotoc_md41}
+From the "{}\+Gradle Tasks"{} window, run the "{}build"{} task on the root project. 

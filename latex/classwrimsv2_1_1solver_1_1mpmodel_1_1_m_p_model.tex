@@ -1,0 +1,100 @@
+\doxysection{wrimsv2.\+solver.\+mpmodel.\+MPModel Class Reference}
+\hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model}{}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model}\index{wrimsv2.solver.mpmodel.MPModel@{wrimsv2.solver.mpmodel.MPModel}}
+Inheritance diagram for wrimsv2.\+solver.\+mpmodel.\+MPModel\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a3476ec4fca104b2c835473f32f0cd48d}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a3476ec4fca104b2c835473f32f0cd48d} 
+{\bfseries MPModel} (String model\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_ab37b539dcd405caeb00d505b86f96580}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_ab37b539dcd405caeb00d505b86f96580} 
+{\bfseries MPModel} (MPModel in, String model\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_ab40f7255ac1a2f09eed6deda7996b52a}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_ab40f7255ac1a2f09eed6deda7996b52a} 
+void {\bfseries add\+General\+Var} (String var\+Name, double lb, double ub)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_ab3f2cd504a4012278074604df0597ec5}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_ab3f2cd504a4012278074604df0597ec5} 
+void {\bfseries add\+Std\+Var} (String var\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a31aeb706e2964383044f22a46909856d}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a31aeb706e2964383044f22a46909856d} 
+void {\bfseries add\+Free\+Var} (String var\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a70d1c05c4abead0279ba5a6ff2126faa}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a70d1c05c4abead0279ba5a6ff2126faa} 
+void {\bfseries add\+Binary\+Var} (String var\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a928d110650fe79ed32b1ff7cca87ee9c}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a928d110650fe79ed32b1ff7cca87ee9c} 
+void {\bfseries add\+Int\+Var} (String var\+Name, double lb, double ub)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_aa45594038f7c3c17f51adba0d0c5834a}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_aa45594038f7c3c17f51adba0d0c5834a} 
+void {\bfseries create\+Constraint} (String constraint\+Name, Linked\+Hash\+Map$<$ String, Double $>$ var\+Coef\+Map, double lb, double ub)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_aec90cd9e709047f7dae926b706b35ffa}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_aec90cd9e709047f7dae926b706b35ffa} 
+String {\bfseries model\+Name} = "{}"{}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_aed49ba30bbd1ae3b64a3a1c863be5ee1}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_aed49ba30bbd1ae3b64a3a1c863be5ee1} 
+Linked\+Hash\+Map$<$ String, double\mbox{[}$\,$\mbox{]}$>$ {\bfseries var\+Map\+\_\+number} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a7ba28cb73d72df8e41aecaa597cbe7e9}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a7ba28cb73d72df8e41aecaa597cbe7e9} 
+Hash\+Set$<$ String $>$ {\bfseries var\+\_\+general} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a43414edd5be5d7ab9e5d31a7fee49955}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a43414edd5be5d7ab9e5d31a7fee49955} 
+Hash\+Set$<$ String $>$ {\bfseries var\+\_\+standard} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_abedbe2981bb156d6b6a92511c9e85812}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_abedbe2981bb156d6b6a92511c9e85812} 
+Hash\+Set$<$ String $>$ {\bfseries var\+\_\+free} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a3beebe019b358ad41a098665a2f36ffc}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a3beebe019b358ad41a098665a2f36ffc} 
+Linked\+Hash\+Map$<$ String, double\mbox{[}$\,$\mbox{]}$>$ {\bfseries var\+Map\+\_\+integer} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a9f656b74584285f59d56661f9a385e7b}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a9f656b74584285f59d56661f9a385e7b} 
+Hash\+Set$<$ String $>$ {\bfseries var\+\_\+int\+\_\+binary} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a783e0865bee94a3ec68ecfc45ecf6ad2}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a783e0865bee94a3ec68ecfc45ecf6ad2} 
+Hash\+Set$<$ String $>$ {\bfseries var\+\_\+int\+\_\+nonnegative} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a4b659828ffef0004dff5021a19856ea7}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a4b659828ffef0004dff5021a19856ea7} 
+Linked\+Hash\+Map$<$ String, Linked\+Hash\+Map$<$ String, Double $>$ $>$ {\bfseries constraint\+Lhs} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a3edc84a5679f6f1cdd4b94a288c1e7b7}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a3edc84a5679f6f1cdd4b94a288c1e7b7} 
+Linked\+Hash\+Map$<$ String, double\mbox{[}$\,$\mbox{]}$>$ {\bfseries constraint\+Rhs} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a2e9be32fbf67cffc333d1058a57d6acc}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a2e9be32fbf67cffc333d1058a57d6acc} 
+Linked\+Hash\+Map$<$ String, Double $>$ {\bfseries obj\+Function} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a7542a418ce6cee8df2c7bc736cbe4be8}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a7542a418ce6cee8df2c7bc736cbe4be8} 
+Linked\+Hash\+Map$<$ String, Double $>$ {\bfseries solution} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a21232da360ad90d117e9147c51a94ce6}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a21232da360ad90d117e9147c51a94ce6} 
+double {\bfseries obj\+Value}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_afd41d948b26df5f05ba05a40adcf428e}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_afd41d948b26df5f05ba05a40adcf428e} 
+Linked\+Hash\+Map$<$ String, Double $>$ {\bfseries original\+Obj\+Function} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a52cedcd57c7fb437499fcc0d8bd9929a}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a52cedcd57c7fb437499fcc0d8bd9929a} 
+Linked\+Hash\+Map$<$ String, Double $>$ {\bfseries restored\+Solution} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_ac5547d2277a026843916324e705a60cd}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_ac5547d2277a026843916324e705a60cd} 
+double {\bfseries restored\+Obj\+Value}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_ac8d62df5e8c6150ee0aafb5fba21012f}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_ac8d62df5e8c6150ee0aafb5fba21012f} 
+Linked\+Hash\+Map$<$ String, Double $>$ {\bfseries tvar\+Offset\+Map} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a36bb4d656f9038759c9cd58bb5931a76}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a36bb4d656f9038759c9cd58bb5931a76} 
+Linked\+Hash\+Map$<$ String, Linked\+Hash\+Map$<$ String, Double $>$ $>$ {\bfseries tvar\+Equation\+Map} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a26fcaf80fdf15ca01734d805acb79a5b}\label{classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model_a26fcaf80fdf15ca01734d805acb79a5b} 
+Linked\+Hash\+Map$<$ String, Double $>$ {\bfseries solution\+\_\+original} = null
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+wrims-\/core/src/main/java/wrimsv2/solver/mpmodel/MPModel.\+java\end{DoxyCompactItemize}

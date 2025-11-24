@@ -11,5 +11,6 @@ var searchData=
   ['initialclpsolver_8',['InitialClpSolver',['../classwrimsv2_1_1solver_1_1_initial_clp_solver.html',1,'wrimsv2::solver']]],
   ['initialgurobisolver_9',['InitialGurobiSolver',['../classwrimsv2_1_1solver_1_1_gurobi_1_1_initial_gurobi_solver.html',1,'wrimsv2::solver::Gurobi']]],
   ['initialxasolver_10',['InitialXASolver',['../classwrimsv2_1_1solver_1_1_initial_x_a_solver.html',1,'wrimsv2::solver']]],
-  ['intdouble_11',['IntDouble',['../classwrimsv2_1_1components_1_1_int_double.html',1,'wrimsv2::components']]]
+  ['inputfilepanel_11',['InputFilePanel',['../classmain_1_1_wresl_check_g_u_i_1_1_input_file_panel.html',1,'main::WreslCheckGUI']]],
+  ['intdouble_12',['IntDouble',['../classwrimsv2_1_1components_1_1_int_double.html',1,'wrimsv2::components']]]
 ];

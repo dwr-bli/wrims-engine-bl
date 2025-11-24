@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.sql.SQLServerRWriter Class Reference</title>
+<title>Wrims-engine: wrimsv2.sql.SQLServerRWriter Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,31 +94,628 @@ $(function(){initNavTree('classwrimsv2_1_1sql_1_1_s_q_l_server_r_writer.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac06d6f1fc97e03e47468dd314d735ce5" id="r_ac06d6f1fc97e03e47468dd314d735ce5"><td class="memItemLeft" align="right" valign="top"><a id="ac06d6f1fc97e03e47468dd314d735ce5" name="ac06d6f1fc97e03e47468dd314d735ce5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>process</b> ()</td></tr>
-<tr class="memitem:aa29ddf154ef2463b9d80ab3dbbd778d8" id="r_aa29ddf154ef2463b9d80ab3dbbd778d8"><td class="memItemLeft" align="right" valign="top"><a id="aa29ddf154ef2463b9d80ab3dbbd778d8" name="aa29ddf154ef2463b9d80ab3dbbd778d8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>connectToDataBase</b> ()</td></tr>
-<tr class="memitem:adde17805fea722b4be71fe9335ac913d" id="r_adde17805fea722b4be71fe9335ac913d"><td class="memItemLeft" align="right" valign="top"><a id="adde17805fea722b4be71fe9335ac913d" name="adde17805fea722b4be71fe9335ac913d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setScenarioIndex</b> ()</td></tr>
-<tr class="memitem:ae9e208bfe401357773a1f2bbf9f81545" id="r_ae9e208bfe401357773a1f2bbf9f81545"><td class="memItemLeft" align="right" valign="top"><a id="ae9e208bfe401357773a1f2bbf9f81545" name="ae9e208bfe401357773a1f2bbf9f81545"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>createScenarioCSV</b> ()</td></tr>
-<tr class="memitem:a097bac32a32006f8745b84fc22446d4d" id="r_a097bac32a32006f8745b84fc22446d4d"><td class="memItemLeft" align="right" valign="top"><a id="a097bac32a32006f8745b84fc22446d4d" name="a097bac32a32006f8745b84fc22446d4d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>createTable</b> ()</td></tr>
-<tr class="memitem:a32575552429a324002530ee9bc4b1dac" id="r_a32575552429a324002530ee9bc4b1dac"><td class="memItemLeft" align="right" valign="top"><a id="a32575552429a324002530ee9bc4b1dac" name="a32575552429a324002530ee9bc4b1dac"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteOldData</b> ()</td></tr>
-<tr class="memitem:a8058b413211219f25b8daf51e44598fe" id="r_a8058b413211219f25b8daf51e44598fe"><td class="memItemLeft" align="right" valign="top"><a id="a8058b413211219f25b8daf51e44598fe" name="a8058b413211219f25b8daf51e44598fe"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>createCSV</b> ()</td></tr>
-<tr class="memitem:a81496c6704425211374c82594c149500" id="r_a81496c6704425211374c82594c149500"><td class="memItemLeft" align="right" valign="top"><a id="a81496c6704425211374c82594c149500" name="a81496c6704425211374c82594c149500"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>transferCSV</b> ()</td></tr>
-<tr class="memitem:a59cc0e253cdbab23d64a1b5580599de1" id="r_a59cc0e253cdbab23d64a1b5580599de1"><td class="memItemLeft" align="right" valign="top"><a id="a59cc0e253cdbab23d64a1b5580599de1" name="a59cc0e253cdbab23d64a1b5580599de1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>writeData</b> ()</td></tr>
-<tr class="memitem:ada08b20e1adb3fab1923f10b3992b23a" id="r_ada08b20e1adb3fab1923f10b3992b23a"><td class="memItemLeft" align="right" valign="top"><a id="ada08b20e1adb3fab1923f10b3992b23a" name="ada08b20e1adb3fab1923f10b3992b23a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>createIndex</b> ()</td></tr>
-<tr class="memitem:a210356e5046a607e36677942ec8fb679" id="r_a210356e5046a607e36677942ec8fb679"><td class="memItemLeft" align="right" valign="top"><a id="a210356e5046a607e36677942ec8fb679" name="a210356e5046a607e36677942ec8fb679"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>close</b> ()</td></tr>
+<tr class="memitem:a730e2856c318c897ac0732efc5733cb5" id="r_a730e2856c318c897ac0732efc5733cb5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a730e2856c318c897ac0732efc5733cb5">SQLServerRWriter</a> ()</td></tr>
+<tr class="memitem:a210356e5046a607e36677942ec8fb679" id="r_a210356e5046a607e36677942ec8fb679"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a210356e5046a607e36677942ec8fb679">close</a> ()</td></tr>
+<tr class="memitem:aa29ddf154ef2463b9d80ab3dbbd778d8" id="r_aa29ddf154ef2463b9d80ab3dbbd778d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa29ddf154ef2463b9d80ab3dbbd778d8">connectToDataBase</a> ()</td></tr>
+<tr class="memitem:a8058b413211219f25b8daf51e44598fe" id="r_a8058b413211219f25b8daf51e44598fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8058b413211219f25b8daf51e44598fe">createCSV</a> ()</td></tr>
+<tr class="memitem:ada08b20e1adb3fab1923f10b3992b23a" id="r_ada08b20e1adb3fab1923f10b3992b23a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada08b20e1adb3fab1923f10b3992b23a">createIndex</a> ()</td></tr>
+<tr class="memitem:ae9e208bfe401357773a1f2bbf9f81545" id="r_ae9e208bfe401357773a1f2bbf9f81545"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9e208bfe401357773a1f2bbf9f81545">createScenarioCSV</a> ()</td></tr>
+<tr class="memitem:a097bac32a32006f8745b84fc22446d4d" id="r_a097bac32a32006f8745b84fc22446d4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a097bac32a32006f8745b84fc22446d4d">createTable</a> ()</td></tr>
+<tr class="memitem:a32575552429a324002530ee9bc4b1dac" id="r_a32575552429a324002530ee9bc4b1dac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32575552429a324002530ee9bc4b1dac">deleteOldData</a> ()</td></tr>
+<tr class="memitem:ac06d6f1fc97e03e47468dd314d735ce5" id="r_ac06d6f1fc97e03e47468dd314d735ce5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac06d6f1fc97e03e47468dd314d735ce5">process</a> ()</td></tr>
+<tr class="memitem:adde17805fea722b4be71fe9335ac913d" id="r_adde17805fea722b4be71fe9335ac913d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adde17805fea722b4be71fe9335ac913d">setScenarioIndex</a> ()</td></tr>
+<tr class="memitem:a81496c6704425211374c82594c149500" id="r_a81496c6704425211374c82594c149500"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81496c6704425211374c82594c149500">transferCSV</a> ()</td></tr>
+<tr class="memitem:a59cc0e253cdbab23d64a1b5580599de1" id="r_a59cc0e253cdbab23d64a1b5580599de1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59cc0e253cdbab23d64a1b5580599de1">writeData</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a6149d9301c9bc6e542276181b58770f9" id="r_a6149d9301c9bc6e542276181b58770f9"><td class="memItemLeft" align="right" valign="top">Connection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6149d9301c9bc6e542276181b58770f9">conn</a> = null</td></tr>
+<tr class="memitem:a290e6d80154851e5a2a28b165cf3a3fb" id="r_a290e6d80154851e5a2a28b165cf3a3fb"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a290e6d80154851e5a2a28b165cf3a3fb">csvLocalPath</a></td></tr>
+<tr class="memitem:a65bfb4f33823d06cbcede2c7731adfcc" id="r_a65bfb4f33823d06cbcede2c7731adfcc"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65bfb4f33823d06cbcede2c7731adfcc">csvRemotePath</a></td></tr>
+<tr class="memitem:a4be4c934e8b406bfaadb85226a715215" id="r_a4be4c934e8b406bfaadb85226a715215"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4be4c934e8b406bfaadb85226a715215">database</a></td></tr>
+<tr class="memitem:ad3afb71666c361a6a520e3a1f891453a" id="r_ad3afb71666c361a6a520e3a1f891453a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3afb71666c361a6a520e3a1f891453a">host</a></td></tr>
+<tr class="memitem:ad20af42df741d0386dd39158980e2679" id="r_ad20af42df741d0386dd39158980e2679"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad20af42df741d0386dd39158980e2679">JDBC_DRIVER</a> = &quot;com.microsoft.sqlserver.jdbc.SQLServerDriver&quot;</td></tr>
+<tr class="memitem:a3382af8f8624ba6cf62b248bd0872739" id="r_a3382af8f8624ba6cf62b248bd0872739"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3382af8f8624ba6cf62b248bd0872739">scenarioIndex</a></td></tr>
+<tr class="memitem:a482fed5b9b41549dfa7386f386bb6e2c" id="r_a482fed5b9b41549dfa7386f386bb6e2c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a482fed5b9b41549dfa7386f386bb6e2c">scenarioName</a> =<a class="el" href="classwrimsv2_1_1components_1_1_file_paths.html#a74b02ee82cb81114c69a0f40eff259ee">FilePaths.sqlScenarioName</a></td></tr>
+<tr class="memitem:affda826aff3038a77078c20694c6d1fb" id="r_affda826aff3038a77078c20694c6d1fb"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affda826aff3038a77078c20694c6d1fb">scenarioTableName</a> =&quot;Scenario&quot;</td></tr>
+<tr class="memitem:ab3862447c9b2a17eaf3b53402677b808" id="r_ab3862447c9b2a17eaf3b53402677b808"><td class="memItemLeft" align="right" valign="top">Statement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3862447c9b2a17eaf3b53402677b808">stmt</a> = null</td></tr>
+<tr class="memitem:ae1cd971df08411f9841f70448f2210c8" id="r_ae1cd971df08411f9841f70448f2210c8"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1cd971df08411f9841f70448f2210c8">tableName</a> = <a class="el" href="classwrimsv2_1_1components_1_1_control_data.html#ac8eeab848bfaabe35920eb85ced81769">ControlData.sqlGroup</a></td></tr>
+<tr class="memitem:a795db1b3b6e2f99d75195e79775a8e85" id="r_a795db1b3b6e2f99d75195e79775a8e85"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a795db1b3b6e2f99d75195e79775a8e85">URL</a></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00031">31</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a730e2856c318c897ac0732efc5733cb5" name="a730e2856c318c897ac0732efc5733cb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a730e2856c318c897ac0732efc5733cb5">&#9670;&#160;</a></span>SQLServerRWriter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.sql.SQLServerRWriter.SQLServerRWriter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00050">50</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00070">connectToDataBase()</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a210356e5046a607e36677942ec8fb679" name="a210356e5046a607e36677942ec8fb679"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a210356e5046a607e36677942ec8fb679">&#9670;&#160;</a></span>close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.SQLServerRWriter.close </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00234">234</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00040">conn</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00041">stmt</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">process()</a>.</p>
+
+</div>
+</div>
+<a id="aa29ddf154ef2463b9d80ab3dbbd778d8" name="aa29ddf154ef2463b9d80ab3dbbd778d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa29ddf154ef2463b9d80ab3dbbd778d8">&#9670;&#160;</a></span>connectToDataBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.SQLServerRWriter.connectToDataBase </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00070">70</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00040">conn</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00038">database</a>, <a class="el" href="_control_data_8java_source.html#l00156">wrimsv2.components.ControlData.databaseURL</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00033">JDBC_DRIVER</a>, <a class="el" href="_control_data_8java_source.html#l00155">wrimsv2.components.ControlData.PASS</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00041">stmt</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00037">URL</a>, and <a class="el" href="_control_data_8java_source.html#l00154">wrimsv2.components.ControlData.USER</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00050">SQLServerRWriter()</a>.</p>
+
+</div>
+</div>
+<a id="a8058b413211219f25b8daf51e44598fe" name="a8058b413211219f25b8daf51e44598fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8058b413211219f25b8daf51e44598fe">&#9670;&#160;</a></span>createCSV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.SQLServerRWriter.createCSV </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00193">193</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00047">csvLocalPath</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00046">csvRemotePath</a>, <a class="el" href="_file_paths_8java_source.html#l00014">wrimsv2.components.FilePaths.fullDvarDssPath</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00048">host</a>, <a class="el" href="_csv_operation_8java_source.html#l00026">wrimsv2.evaluator.CsvOperation.ouputCSV()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00044">scenarioIndex</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00037">URL</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">process()</a>.</p>
+
+</div>
+</div>
+<a id="ada08b20e1adb3fab1923f10b3992b23a" name="ada08b20e1adb3fab1923f10b3992b23a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada08b20e1adb3fab1923f10b3992b23a">&#9670;&#160;</a></span>createIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.SQLServerRWriter.createIndex </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00222">222</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00040">conn</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00041">stmt</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00034">tableName</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">process()</a>.</p>
+
+</div>
+</div>
+<a id="ae9e208bfe401357773a1f2bbf9f81545" name="ae9e208bfe401357773a1f2bbf9f81545"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9e208bfe401357773a1f2bbf9f81545">&#9670;&#160;</a></span>createScenarioCSV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.SQLServerRWriter.createScenarioCSV </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00139">139</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_file_paths_8java_source.html#l00016">wrimsv2.components.FilePaths.dvarDssDirectory</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00035">scenarioTableName</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00041">stmt</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">process()</a>.</p>
+
+</div>
+</div>
+<a id="a097bac32a32006f8745b84fc22446d4d" name="a097bac32a32006f8745b84fc22446d4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a097bac32a32006f8745b84fc22446d4d">&#9670;&#160;</a></span>createTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.SQLServerRWriter.createTable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00167">167</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00040">conn</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00041">stmt</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00034">tableName</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">process()</a>.</p>
+
+</div>
+</div>
+<a id="a32575552429a324002530ee9bc4b1dac" name="a32575552429a324002530ee9bc4b1dac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32575552429a324002530ee9bc4b1dac">&#9670;&#160;</a></span>deleteOldData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.SQLServerRWriter.deleteOldData </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00181">181</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00040">conn</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00044">scenarioIndex</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00041">stmt</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00034">tableName</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">process()</a>.</p>
+
+</div>
+</div>
+<a id="ac06d6f1fc97e03e47468dd314d735ce5" name="ac06d6f1fc97e03e47468dd314d735ce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac06d6f1fc97e03e47468dd314d735ce5">&#9670;&#160;</a></span>process()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.SQLServerRWriter.process </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">54</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00234">close()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00193">createCSV()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00222">createIndex()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00139">createScenarioCSV()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00167">createTable()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00181">deleteOldData()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00035">scenarioTableName</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00102">setScenarioIndex()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00034">tableName</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00204">transferCSV()</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00210">writeData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00066">wrimsv2.sql.DssToSQLDatabase.convertData()</a>.</p>
+
+</div>
+</div>
+<a id="adde17805fea722b4be71fe9335ac913d" name="adde17805fea722b4be71fe9335ac913d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adde17805fea722b4be71fe9335ac913d">&#9670;&#160;</a></span>setScenarioIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.SQLServerRWriter.setScenarioIndex </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00102">102</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00040">conn</a>, <a class="el" href="_control_data_8java_source.html#l00078">wrimsv2.components.ControlData.partA</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00044">scenarioIndex</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00043">scenarioName</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00035">scenarioTableName</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00041">stmt</a>, <a class="el" href="_control_data_8java_source.html#l00079">wrimsv2.components.ControlData.svDvPartF</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00034">tableName</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">process()</a>.</p>
+
+</div>
+</div>
+<a id="a81496c6704425211374c82594c149500" name="a81496c6704425211374c82594c149500"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81496c6704425211374c82594c149500">&#9670;&#160;</a></span>transferCSV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.sql.SQLServerRWriter.transferCSV </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00204">204</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_client_8java_source.html#l00020">wrimsv2.sql.socket.Client.connect()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00047">csvLocalPath</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00048">host</a>, and <a class="el" href="_client_8java_source.html#l00039">wrimsv2.sql.socket.Client.sendFile()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">process()</a>.</p>
+
+</div>
+</div>
+<a id="a59cc0e253cdbab23d64a1b5580599de1" name="a59cc0e253cdbab23d64a1b5580599de1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59cc0e253cdbab23d64a1b5580599de1">&#9670;&#160;</a></span>writeData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.sql.SQLServerRWriter.writeData </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00210">210</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00040">conn</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00046">csvRemotePath</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00041">stmt</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00034">tableName</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">process()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a6149d9301c9bc6e542276181b58770f9" name="a6149d9301c9bc6e542276181b58770f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6149d9301c9bc6e542276181b58770f9">&#9670;&#160;</a></span>conn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Connection wrimsv2.sql.SQLServerRWriter.conn = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00040">40</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00234">close()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00070">connectToDataBase()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00222">createIndex()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00167">createTable()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00181">deleteOldData()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00102">setScenarioIndex()</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00210">writeData()</a>.</p>
+
+</div>
+</div>
+<a id="a290e6d80154851e5a2a28b165cf3a3fb" name="a290e6d80154851e5a2a28b165cf3a3fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a290e6d80154851e5a2a28b165cf3a3fb">&#9670;&#160;</a></span>csvLocalPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.SQLServerRWriter.csvLocalPath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00047">47</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00193">createCSV()</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00204">transferCSV()</a>.</p>
+
+</div>
+</div>
+<a id="a65bfb4f33823d06cbcede2c7731adfcc" name="a65bfb4f33823d06cbcede2c7731adfcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65bfb4f33823d06cbcede2c7731adfcc">&#9670;&#160;</a></span>csvRemotePath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.SQLServerRWriter.csvRemotePath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00046">46</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00193">createCSV()</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00210">writeData()</a>.</p>
+
+</div>
+</div>
+<a id="a4be4c934e8b406bfaadb85226a715215" name="a4be4c934e8b406bfaadb85226a715215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4be4c934e8b406bfaadb85226a715215">&#9670;&#160;</a></span>database</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.SQLServerRWriter.database</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00038">38</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00070">connectToDataBase()</a>.</p>
+
+</div>
+</div>
+<a id="ad3afb71666c361a6a520e3a1f891453a" name="ad3afb71666c361a6a520e3a1f891453a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3afb71666c361a6a520e3a1f891453a">&#9670;&#160;</a></span>host</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.SQLServerRWriter.host</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00048">48</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00193">createCSV()</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00204">transferCSV()</a>.</p>
+
+</div>
+</div>
+<a id="ad20af42df741d0386dd39158980e2679" name="ad20af42df741d0386dd39158980e2679"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad20af42df741d0386dd39158980e2679">&#9670;&#160;</a></span>JDBC_DRIVER</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.SQLServerRWriter.JDBC_DRIVER = &quot;com.microsoft.sqlserver.jdbc.SQLServerDriver&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00033">33</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00070">connectToDataBase()</a>.</p>
+
+</div>
+</div>
+<a id="a3382af8f8624ba6cf62b248bd0872739" name="a3382af8f8624ba6cf62b248bd0872739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3382af8f8624ba6cf62b248bd0872739">&#9670;&#160;</a></span>scenarioIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.sql.SQLServerRWriter.scenarioIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00044">44</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00193">createCSV()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00181">deleteOldData()</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00102">setScenarioIndex()</a>.</p>
+
+</div>
+</div>
+<a id="a482fed5b9b41549dfa7386f386bb6e2c" name="a482fed5b9b41549dfa7386f386bb6e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a482fed5b9b41549dfa7386f386bb6e2c">&#9670;&#160;</a></span>scenarioName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.SQLServerRWriter.scenarioName =<a class="el" href="classwrimsv2_1_1components_1_1_file_paths.html#a74b02ee82cb81114c69a0f40eff259ee">FilePaths.sqlScenarioName</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00043">43</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00102">setScenarioIndex()</a>.</p>
+
+</div>
+</div>
+<a id="affda826aff3038a77078c20694c6d1fb" name="affda826aff3038a77078c20694c6d1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affda826aff3038a77078c20694c6d1fb">&#9670;&#160;</a></span>scenarioTableName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.SQLServerRWriter.scenarioTableName =&quot;Scenario&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00035">35</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00139">createScenarioCSV()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">process()</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00102">setScenarioIndex()</a>.</p>
+
+</div>
+</div>
+<a id="ab3862447c9b2a17eaf3b53402677b808" name="ab3862447c9b2a17eaf3b53402677b808"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3862447c9b2a17eaf3b53402677b808">&#9670;&#160;</a></span>stmt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Statement wrimsv2.sql.SQLServerRWriter.stmt = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00041">41</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00234">close()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00070">connectToDataBase()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00222">createIndex()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00139">createScenarioCSV()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00167">createTable()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00181">deleteOldData()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00102">setScenarioIndex()</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00210">writeData()</a>.</p>
+
+</div>
+</div>
+<a id="ae1cd971df08411f9841f70448f2210c8" name="ae1cd971df08411f9841f70448f2210c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1cd971df08411f9841f70448f2210c8">&#9670;&#160;</a></span>tableName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.SQLServerRWriter.tableName = <a class="el" href="classwrimsv2_1_1components_1_1_control_data.html#ac8eeab848bfaabe35920eb85ced81769">ControlData.sqlGroup</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00034">34</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00222">createIndex()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00167">createTable()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00181">deleteOldData()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00054">process()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00102">setScenarioIndex()</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00210">writeData()</a>.</p>
+
+</div>
+</div>
+<a id="a795db1b3b6e2f99d75195e79775a8e85" name="a795db1b3b6e2f99d75195e79775a8e85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a795db1b3b6e2f99d75195e79775a8e85">&#9670;&#160;</a></span>URL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.sql.SQLServerRWriter.URL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00037">37</a> of file <a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00070">connectToDataBase()</a>, and <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00193">createCSV()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/sql/<b>SQLServerRWriter.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/sql/<a class="el" href="_s_q_l_server_r_writer_8java_source.html">SQLServerRWriter.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -133,7 +730,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>close</b> ()</td></tr
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>sql</b></li><li class="navelem"><a href="classwrimsv2_1_1sql_1_1_s_q_l_server_r_writer.html">SQLServerRWriter</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1sql.html">sql</a></li><li class="navelem"><a href="classwrimsv2_1_1sql_1_1_s_q_l_server_r_writer.html">SQLServerRWriter</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

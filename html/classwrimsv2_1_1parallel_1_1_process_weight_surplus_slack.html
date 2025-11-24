@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.parallel.ProcessWeightSurplusSlack Class Reference</title>
+<title>Wrims-engine: wrimsv2.parallel.ProcessWeightSurplusSlack Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -100,18 +100,288 @@ Inheritance diagram for wrimsv2.parallel.ProcessWeightSurplusSlack:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa7712fbb8390d19674b52f940f989675" id="r_aa7712fbb8390d19674b52f940f989675"><td class="memItemLeft" align="right" valign="top"><a id="aa7712fbb8390d19674b52f940f989675" name="aa7712fbb8390d19674b52f940f989675"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessWeightSurplusSlack</b> (CopyOnWriteArrayList&lt; String &gt; usedWtSlackSurplusDvList, Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt; wtSlackSurplusMap, ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt; solverWeightSlackSurplusMap, int start, int end)</td></tr>
+<tr class="memitem:aa7712fbb8390d19674b52f940f989675" id="r_aa7712fbb8390d19674b52f940f989675"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7712fbb8390d19674b52f940f989675">ProcessWeightSurplusSlack</a> (CopyOnWriteArrayList&lt; String &gt; <a class="el" href="#af049c268ab35e9f1503771ab1286a382">usedWtSlackSurplusDvList</a>, Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt; <a class="el" href="#a9d3d4ad987b11f038af5218c1c913099">wtSlackSurplusMap</a>, ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt; <a class="el" href="#ade5cccfdf6295ce2e22c21ecdcb8002d">solverWeightSlackSurplusMap</a>, int <a class="el" href="#acffc14dba7149ad67a5d820257c7ea6f">start</a>, int <a class="el" href="#a8e96f695916817e6b871b7512f94319b">end</a>)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac7a9c6121ad9ae96e77281afbb2b43bd" id="r_ac7a9c6121ad9ae96e77281afbb2b43bd"><td class="memItemLeft" align="right" valign="top"><a id="ac7a9c6121ad9ae96e77281afbb2b43bd" name="ac7a9c6121ad9ae96e77281afbb2b43bd"></a>
-Integer&#160;</td><td class="memItemRight" valign="bottom"><b>compute</b> ()</td></tr>
-<tr class="memitem:ae17b66605caa7817d59c63a77fdf7d18" id="r_ae17b66605caa7817d59c63a77fdf7d18"><td class="memItemLeft" align="right" valign="top"><a id="ae17b66605caa7817d59c63a77fdf7d18" name="ae17b66605caa7817d59c63a77fdf7d18"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>computeDirectly</b> ()</td></tr>
+<tr class="memitem:ac7a9c6121ad9ae96e77281afbb2b43bd" id="r_ac7a9c6121ad9ae96e77281afbb2b43bd"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7a9c6121ad9ae96e77281afbb2b43bd">compute</a> ()</td></tr>
+<tr class="memitem:ae17b66605caa7817d59c63a77fdf7d18" id="r_ae17b66605caa7817d59c63a77fdf7d18"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae17b66605caa7817d59c63a77fdf7d18">computeDirectly</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a8e96f695916817e6b871b7512f94319b" id="r_a8e96f695916817e6b871b7512f94319b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e96f695916817e6b871b7512f94319b">end</a></td></tr>
+<tr class="memitem:ade5cccfdf6295ce2e22c21ecdcb8002d" id="r_ade5cccfdf6295ce2e22c21ecdcb8002d"><td class="memItemLeft" align="right" valign="top">ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5cccfdf6295ce2e22c21ecdcb8002d">solverWeightSlackSurplusMap</a></td></tr>
+<tr class="memitem:acffc14dba7149ad67a5d820257c7ea6f" id="r_acffc14dba7149ad67a5d820257c7ea6f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acffc14dba7149ad67a5d820257c7ea6f">start</a></td></tr>
+<tr class="memitem:ab14a9485ef999257b031b7faf741cecf" id="r_ab14a9485ef999257b031b7faf741cecf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab14a9485ef999257b031b7faf741cecf">threshold</a></td></tr>
+<tr class="memitem:af049c268ab35e9f1503771ab1286a382" id="r_af049c268ab35e9f1503771ab1286a382"><td class="memItemLeft" align="right" valign="top">CopyOnWriteArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af049c268ab35e9f1503771ab1286a382">usedWtSlackSurplusDvList</a></td></tr>
+<tr class="memitem:a9d3d4ad987b11f038af5218c1c913099" id="r_a9d3d4ad987b11f038af5218c1c913099"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d3d4ad987b11f038af5218c1c913099">wtSlackSurplusMap</a></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00025">25</a> of file <a class="el" href="_process_weight_surplus_slack_8java_source.html">ProcessWeightSurplusSlack.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa7712fbb8390d19674b52f940f989675" name="aa7712fbb8390d19674b52f940f989675"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7712fbb8390d19674b52f940f989675">&#9670;&#160;</a></span>ProcessWeightSurplusSlack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.parallel.ProcessWeightSurplusSlack.ProcessWeightSurplusSlack </td>
+          <td>(</td>
+          <td class="paramtype">CopyOnWriteArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>usedWtSlackSurplusDvList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>wtSlackSurplusMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>solverWeightSlackSurplusMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00034">34</a> of file <a class="el" href="_process_weight_surplus_slack_8java_source.html">ProcessWeightSurplusSlack.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00029">end</a>, <a class="el" href="_control_data_8java_source.html#l00187">wrimsv2.components.ControlData.nThreads</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00032">solverWeightSlackSurplusMap</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00028">start</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00027">threshold</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00030">usedWtSlackSurplusDvList</a>, and <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00031">wtSlackSurplusMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00044">compute()</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ac7a9c6121ad9ae96e77281afbb2b43bd" name="ac7a9c6121ad9ae96e77281afbb2b43bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7a9c6121ad9ae96e77281afbb2b43bd">&#9670;&#160;</a></span>compute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer wrimsv2.parallel.ProcessWeightSurplusSlack.compute </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00044">44</a> of file <a class="el" href="_process_weight_surplus_slack_8java_source.html">ProcessWeightSurplusSlack.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00034">ProcessWeightSurplusSlack()</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00076">computeDirectly()</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00029">end</a>, <a class="el" href="_control_data_8java_source.html#l00187">wrimsv2.components.ControlData.nThreads</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00032">solverWeightSlackSurplusMap</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00028">start</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00027">threshold</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00030">usedWtSlackSurplusDvList</a>, and <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00031">wtSlackSurplusMap</a>.</p>
+
+</div>
+</div>
+<a id="ae17b66605caa7817d59c63a77fdf7d18" name="ae17b66605caa7817d59c63a77fdf7d18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae17b66605caa7817d59c63a77fdf7d18">&#9670;&#160;</a></span>computeDirectly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessWeightSurplusSlack.computeDirectly </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00076">76</a> of file <a class="el" href="_process_weight_surplus_slack_8java_source.html">ProcessWeightSurplusSlack.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00149">wrimsv2.components.Error.addEvaluationError()</a>, <a class="el" href="_weight_eval_8java_source.html#l00408">wrimsv2.evaluator.WeightEval.collectWtRT()</a>, <a class="el" href="_control_data_8java_source.html#l00054">wrimsv2.components.ControlData.currEvalName</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00029">end</a>, <a class="el" href="_time_array_8java_source.html#l00010">wrimsv2.commondata.wresldata.TimeArray.getTimeArraySize()</a>, <a class="el" href="_weight_element_8java_source.html#l00035">wrimsv2.commondata.wresldata.WeightElement.setValue()</a>, <a class="el" href="_control_data_8java_source.html#l00100">wrimsv2.components.ControlData.showRunTimeMessage</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00032">solverWeightSlackSurplusMap</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00028">start</a>, <a class="el" href="_parallel_vars_8java_source.html#l00007">wrimsv2.parallel.ParallelVars.timeArrayIndex</a>, <a class="el" href="_weight_element_8java_source.html#l00020">wrimsv2.commondata.wresldata.WeightElement.timeArraySizeParser</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00030">usedWtSlackSurplusDvList</a>, <a class="el" href="_weight_element_8java_source.html#l00012">wrimsv2.commondata.wresldata.WeightElement.weightParser</a>, and <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00031">wtSlackSurplusMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00044">compute()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a8e96f695916817e6b871b7512f94319b" name="a8e96f695916817e6b871b7512f94319b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e96f695916817e6b871b7512f94319b">&#9670;&#160;</a></span>end</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessWeightSurplusSlack.end</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00029">29</a> of file <a class="el" href="_process_weight_surplus_slack_8java_source.html">ProcessWeightSurplusSlack.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00034">ProcessWeightSurplusSlack()</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00044">compute()</a>, and <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00076">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="ade5cccfdf6295ce2e22c21ecdcb8002d" name="ade5cccfdf6295ce2e22c21ecdcb8002d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade5cccfdf6295ce2e22c21ecdcb8002d">&#9670;&#160;</a></span>solverWeightSlackSurplusMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt; wrimsv2.parallel.ProcessWeightSurplusSlack.solverWeightSlackSurplusMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00032">32</a> of file <a class="el" href="_process_weight_surplus_slack_8java_source.html">ProcessWeightSurplusSlack.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00034">ProcessWeightSurplusSlack()</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00044">compute()</a>, and <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00076">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="acffc14dba7149ad67a5d820257c7ea6f" name="acffc14dba7149ad67a5d820257c7ea6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acffc14dba7149ad67a5d820257c7ea6f">&#9670;&#160;</a></span>start</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessWeightSurplusSlack.start</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00028">28</a> of file <a class="el" href="_process_weight_surplus_slack_8java_source.html">ProcessWeightSurplusSlack.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00034">ProcessWeightSurplusSlack()</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00044">compute()</a>, and <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00076">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="ab14a9485ef999257b031b7faf741cecf" name="ab14a9485ef999257b031b7faf741cecf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab14a9485ef999257b031b7faf741cecf">&#9670;&#160;</a></span>threshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessWeightSurplusSlack.threshold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00027">27</a> of file <a class="el" href="_process_weight_surplus_slack_8java_source.html">ProcessWeightSurplusSlack.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00034">ProcessWeightSurplusSlack()</a>, and <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00044">compute()</a>.</p>
+
+</div>
+</div>
+<a id="af049c268ab35e9f1503771ab1286a382" name="af049c268ab35e9f1503771ab1286a382"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af049c268ab35e9f1503771ab1286a382">&#9670;&#160;</a></span>usedWtSlackSurplusDvList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CopyOnWriteArrayList&lt;String&gt; wrimsv2.parallel.ProcessWeightSurplusSlack.usedWtSlackSurplusDvList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00030">30</a> of file <a class="el" href="_process_weight_surplus_slack_8java_source.html">ProcessWeightSurplusSlack.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00034">ProcessWeightSurplusSlack()</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00044">compute()</a>, and <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00076">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a9d3d4ad987b11f038af5218c1c913099" name="a9d3d4ad987b11f038af5218c1c913099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d3d4ad987b11f038af5218c1c913099">&#9670;&#160;</a></span>wtSlackSurplusMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt; wrimsv2.parallel.ProcessWeightSurplusSlack.wtSlackSurplusMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00031">31</a> of file <a class="el" href="_process_weight_surplus_slack_8java_source.html">ProcessWeightSurplusSlack.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00034">ProcessWeightSurplusSlack()</a>, <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00044">compute()</a>, and <a class="el" href="_process_weight_surplus_slack_8java_source.html#l00076">computeDirectly()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/parallel/<b>ProcessWeightSurplusSlack.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/parallel/<a class="el" href="_process_weight_surplus_slack_8java_source.html">ProcessWeightSurplusSlack.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -126,7 +396,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>computeDirectly</b> ()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>parallel</b></li><li class="navelem"><a href="classwrimsv2_1_1parallel_1_1_process_weight_surplus_slack.html">ProcessWeightSurplusSlack</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1parallel.html">parallel</a></li><li class="navelem"><a href="classwrimsv2_1_1parallel_1_1_process_weight_surplus_slack.html">ProcessWeightSurplusSlack</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

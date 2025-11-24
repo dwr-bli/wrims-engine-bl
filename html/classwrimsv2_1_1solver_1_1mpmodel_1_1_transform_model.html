@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.solver.mpmodel.TransformModel Class Reference</title>
+<title>Wrims-engine: wrimsv2.solver.mpmodel.TransformModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,24 +94,268 @@ $(function(){initNavTree('classwrimsv2_1_1solver_1_1mpmodel_1_1_transform_model.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af8bc926ac663079d0caa0f28d5ec52c5" id="r_af8bc926ac663079d0caa0f28d5ec52c5"><td class="memItemLeft" align="right" valign="top"><a id="af8bc926ac663079d0caa0f28d5ec52c5" name="af8bc926ac663079d0caa0f28d5ec52c5"></a>
-static <a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a>&#160;</td><td class="memItemRight" valign="bottom"><b>transform</b> (<a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> in)</td></tr>
-<tr class="memitem:aff4ed1e4b588eb7ba98d150c95e8a3eb" id="r_aff4ed1e4b588eb7ba98d150c95e8a3eb"><td class="memItemLeft" align="right" valign="top"><a id="aff4ed1e4b588eb7ba98d150c95e8a3eb" name="aff4ed1e4b588eb7ba98d150c95e8a3eb"></a>
-static ArrayList&lt; LinkedHashMap&lt; String, Double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>restoreSolutions</b> (ArrayList&lt; LinkedHashMap&lt; String, Double &gt; &gt; inSolutions, LinkedHashMap&lt; String, Double &gt; varOffsetMap, LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt; varEquationMap)</td></tr>
-<tr class="memitem:acd7a45445cb29698d7991fb013e7a6c8" id="r_acd7a45445cb29698d7991fb013e7a6c8"><td class="memItemLeft" align="right" valign="top"><a id="acd7a45445cb29698d7991fb013e7a6c8" name="acd7a45445cb29698d7991fb013e7a6c8"></a>
-static LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>restoreSolution</b> (LinkedHashMap&lt; String, Double &gt; inSolution, LinkedHashMap&lt; String, Double &gt; varOffsetMap, LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt; varEquationMap)</td></tr>
-<tr class="memitem:a775254a555d2b0d63c201d8aed1f177c" id="r_a775254a555d2b0d63c201d8aed1f177c"><td class="memItemLeft" align="right" valign="top"><a id="a775254a555d2b0d63c201d8aed1f177c" name="a775254a555d2b0d63c201d8aed1f177c"></a>
-static double&#160;</td><td class="memItemRight" valign="bottom"><b>restoreObjValue</b> (LinkedHashMap&lt; String, Double &gt; originalObjFunction, LinkedHashMap&lt; String, Double &gt; restoredSolution)</td></tr>
+<tr class="memitem:a775254a555d2b0d63c201d8aed1f177c" id="r_a775254a555d2b0d63c201d8aed1f177c"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a775254a555d2b0d63c201d8aed1f177c">restoreObjValue</a> (LinkedHashMap&lt; String, Double &gt; originalObjFunction, LinkedHashMap&lt; String, Double &gt; restoredSolution)</td></tr>
+<tr class="memitem:acd7a45445cb29698d7991fb013e7a6c8" id="r_acd7a45445cb29698d7991fb013e7a6c8"><td class="memItemLeft" align="right" valign="top">static LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd7a45445cb29698d7991fb013e7a6c8">restoreSolution</a> (LinkedHashMap&lt; String, Double &gt; inSolution, LinkedHashMap&lt; String, Double &gt; varOffsetMap, LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt; varEquationMap)</td></tr>
+<tr class="memitem:aff4ed1e4b588eb7ba98d150c95e8a3eb" id="r_aff4ed1e4b588eb7ba98d150c95e8a3eb"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; LinkedHashMap&lt; String, Double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff4ed1e4b588eb7ba98d150c95e8a3eb">restoreSolutions</a> (ArrayList&lt; LinkedHashMap&lt; String, Double &gt; &gt; inSolutions, LinkedHashMap&lt; String, Double &gt; varOffsetMap, LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt; varEquationMap)</td></tr>
+<tr class="memitem:af8bc926ac663079d0caa0f28d5ec52c5" id="r_af8bc926ac663079d0caa0f28d5ec52c5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8bc926ac663079d0caa0f28d5ec52c5">transform</a> (<a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> in)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a4cc1136820677ace0f8ff6a666a698c5" id="r_a4cc1136820677ace0f8ff6a666a698c5"><td class="memItemLeft" align="right" valign="top"><a id="a4cc1136820677ace0f8ff6a666a698c5" name="a4cc1136820677ace0f8ff6a666a698c5"></a>
-static LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tvarOffsetMap</b> = null</td></tr>
-<tr class="memitem:ab97e059e181c6aa535aba835768f9eb0" id="r_ab97e059e181c6aa535aba835768f9eb0"><td class="memItemLeft" align="right" valign="top"><a id="ab97e059e181c6aa535aba835768f9eb0" name="ab97e059e181c6aa535aba835768f9eb0"></a>
-static LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tvarEquationMap</b> = null</td></tr>
+<tr class="memitem:ab97e059e181c6aa535aba835768f9eb0" id="r_ab97e059e181c6aa535aba835768f9eb0"><td class="memItemLeft" align="right" valign="top">static LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab97e059e181c6aa535aba835768f9eb0">tvarEquationMap</a> = null</td></tr>
+<tr class="memitem:a4cc1136820677ace0f8ff6a666a698c5" id="r_a4cc1136820677ace0f8ff6a666a698c5"><td class="memItemLeft" align="right" valign="top">static LinkedHashMap&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cc1136820677ace0f8ff6a666a698c5">tvarOffsetMap</a> = null</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a67e2441a88fe24706cba893d99ea42d2" id="r_a67e2441a88fe24706cba893d99ea42d2"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67e2441a88fe24706cba893d99ea42d2">slack_append</a> = &quot;___tslac&quot;</td></tr>
+<tr class="memitem:af7d58f814601e8b818bfd2c09218d9cd" id="r_af7d58f814601e8b818bfd2c09218d9cd"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7d58f814601e8b818bfd2c09218d9cd">surplus_append</a> = &quot;___tsurp&quot;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_transform_model_8java_source.html#l00011">11</a> of file <a class="el" href="_transform_model_8java_source.html">TransformModel.java</a>.</p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a775254a555d2b0d63c201d8aed1f177c" name="a775254a555d2b0d63c201d8aed1f177c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a775254a555d2b0d63c201d8aed1f177c">&#9670;&#160;</a></span>restoreObjValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double wrimsv2.solver.mpmodel.TransformModel.restoreObjValue </td>
+          <td>(</td>
+          <td class="paramtype">LinkedHashMap&lt; String, Double &gt;</td>          <td class="paramname"><span class="paramname"><em>originalObjFunction</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; String, Double &gt;</td>          <td class="paramname"><span class="paramname"><em>restoredSolution</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_transform_model_8java_source.html#l00335">335</a> of file <a class="el" href="_transform_model_8java_source.html">TransformModel.java</a>.</p>
+
+</div>
+</div>
+<a id="acd7a45445cb29698d7991fb013e7a6c8" name="acd7a45445cb29698d7991fb013e7a6c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd7a45445cb29698d7991fb013e7a6c8">&#9670;&#160;</a></span>restoreSolution()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt; String, Double &gt; wrimsv2.solver.mpmodel.TransformModel.restoreSolution </td>
+          <td>(</td>
+          <td class="paramtype">LinkedHashMap&lt; String, Double &gt;</td>          <td class="paramname"><span class="paramname"><em>inSolution</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; String, Double &gt;</td>          <td class="paramname"><span class="paramname"><em>varOffsetMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>varEquationMap</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_transform_model_8java_source.html#l00289">289</a> of file <a class="el" href="_transform_model_8java_source.html">TransformModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_transform_model_8java_source.html#l00270">restoreSolutions()</a>.</p>
+
+</div>
+</div>
+<a id="aff4ed1e4b588eb7ba98d150c95e8a3eb" name="aff4ed1e4b588eb7ba98d150c95e8a3eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff4ed1e4b588eb7ba98d150c95e8a3eb">&#9670;&#160;</a></span>restoreSolutions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt; LinkedHashMap&lt; String, Double &gt; &gt; wrimsv2.solver.mpmodel.TransformModel.restoreSolutions </td>
+          <td>(</td>
+          <td class="paramtype">ArrayList&lt; LinkedHashMap&lt; String, Double &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>inSolutions</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; String, Double &gt;</td>          <td class="paramname"><span class="paramname"><em>varOffsetMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>varEquationMap</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_transform_model_8java_source.html#l00270">270</a> of file <a class="el" href="_transform_model_8java_source.html">TransformModel.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_transform_model_8java_source.html#l00289">restoreSolution()</a>.</p>
+
+</div>
+</div>
+<a id="af8bc926ac663079d0caa0f28d5ec52c5" name="af8bc926ac663079d0caa0f28d5ec52c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8bc926ac663079d0caa0f28d5ec52c5">&#9670;&#160;</a></span>transform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a> wrimsv2.solver.mpmodel.TransformModel.transform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html">MPModel</a></td>          <td class="paramname"><span class="paramname"><em>in</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_transform_model_8java_source.html#l00024">24</a> of file <a class="el" href="_transform_model_8java_source.html">TransformModel.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_m_p_model_8java_source.html#l00022">wrimsv2.solver.mpmodel.MPModel.constraintLhs</a>, <a class="el" href="_m_p_model_8java_source.html#l00023">wrimsv2.solver.mpmodel.MPModel.constraintRhs</a>, <a class="el" href="_param_8java_source.html#l00074">wrimsv2.commondata.wresldata.Param.inf_assumed</a>, <a class="el" href="_m_p_model_8java_source.html#l00025">wrimsv2.solver.mpmodel.MPModel.objFunction</a>, <a class="el" href="_transform_model_8java_source.html#l00013">slack_append</a>, <a class="el" href="_transform_model_8java_source.html#l00014">surplus_append</a>, <a class="el" href="_transform_model_8java_source.html#l00022">tvarEquationMap</a>, <a class="el" href="_transform_model_8java_source.html#l00019">tvarOffsetMap</a>, <a class="el" href="_m_p_model_8java_source.html#l00015">wrimsv2.solver.mpmodel.MPModel.var_free</a>, <a class="el" href="_m_p_model_8java_source.html#l00013">wrimsv2.solver.mpmodel.MPModel.var_general</a>, <a class="el" href="_m_p_model_8java_source.html#l00018">wrimsv2.solver.mpmodel.MPModel.var_int_binary</a>, <a class="el" href="_m_p_model_8java_source.html#l00019">wrimsv2.solver.mpmodel.MPModel.var_int_nonnegative</a>, <a class="el" href="_m_p_model_8java_source.html#l00014">wrimsv2.solver.mpmodel.MPModel.var_standard</a>, <a class="el" href="_m_p_model_8java_source.html#l00017">wrimsv2.solver.mpmodel.MPModel.varMap_integer</a>, and <a class="el" href="_m_p_model_8java_source.html#l00012">wrimsv2.solver.mpmodel.MPModel.varMap_number</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a67e2441a88fe24706cba893d99ea42d2" name="a67e2441a88fe24706cba893d99ea42d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67e2441a88fe24706cba893d99ea42d2">&#9670;&#160;</a></span>slack_append</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String wrimsv2.solver.mpmodel.TransformModel.slack_append = &quot;___tslac&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_transform_model_8java_source.html#l00013">13</a> of file <a class="el" href="_transform_model_8java_source.html">TransformModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_transform_model_8java_source.html#l00024">transform()</a>.</p>
+
+</div>
+</div>
+<a id="af7d58f814601e8b818bfd2c09218d9cd" name="af7d58f814601e8b818bfd2c09218d9cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d58f814601e8b818bfd2c09218d9cd">&#9670;&#160;</a></span>surplus_append</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String wrimsv2.solver.mpmodel.TransformModel.surplus_append = &quot;___tsurp&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_transform_model_8java_source.html#l00014">14</a> of file <a class="el" href="_transform_model_8java_source.html">TransformModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_transform_model_8java_source.html#l00024">transform()</a>.</p>
+
+</div>
+</div>
+<a id="ab97e059e181c6aa535aba835768f9eb0" name="ab97e059e181c6aa535aba835768f9eb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab97e059e181c6aa535aba835768f9eb0">&#9670;&#160;</a></span>tvarEquationMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, LinkedHashMap&lt;String, Double&gt; &gt; wrimsv2.solver.mpmodel.TransformModel.tvarEquationMap = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_transform_model_8java_source.html#l00022">22</a> of file <a class="el" href="_transform_model_8java_source.html">TransformModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_transform_model_8java_source.html#l00024">transform()</a>.</p>
+
+</div>
+</div>
+<a id="a4cc1136820677ace0f8ff6a666a698c5" name="a4cc1136820677ace0f8ff6a666a698c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cc1136820677ace0f8ff6a666a698c5">&#9670;&#160;</a></span>tvarOffsetMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, Double&gt; wrimsv2.solver.mpmodel.TransformModel.tvarOffsetMap = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_transform_model_8java_source.html#l00019">19</a> of file <a class="el" href="_transform_model_8java_source.html">TransformModel.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_transform_model_8java_source.html#l00024">transform()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/solver/mpmodel/<b>TransformModel.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/solver/mpmodel/<a class="el" href="_transform_model_8java_source.html">TransformModel.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -126,7 +370,7 @@ static LinkedHashMap&lt; String, LinkedHashMap&lt; String, Double &gt; &gt;&#160
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>solver</b></li><li class="navelem"><b>mpmodel</b></li><li class="navelem"><a href="classwrimsv2_1_1solver_1_1mpmodel_1_1_transform_model.html">TransformModel</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1solver.html">solver</a></li><li class="navelem"><a href="namespacewrimsv2_1_1solver_1_1mpmodel.html">mpmodel</a></li><li class="navelem"><a href="classwrimsv2_1_1solver_1_1mpmodel_1_1_transform_model.html">TransformModel</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

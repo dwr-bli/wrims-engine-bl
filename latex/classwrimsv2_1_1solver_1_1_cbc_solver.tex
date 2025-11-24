@@ -1,0 +1,225 @@
+\doxysection{wrimsv2.\+solver.\+Cbc\+Solver Class Reference}
+\hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver}{}\label{classwrimsv2_1_1solver_1_1_cbc_solver}\index{wrimsv2.solver.CbcSolver@{wrimsv2.solver.CbcSolver}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_aefab791d04e1de151a1d2dc8bd9dc2f0}\label{classwrimsv2_1_1solver_1_1_cbc_solver_aefab791d04e1de151a1d2dc8bd9dc2f0} 
+static void {\bfseries init} (boolean use\+Lp\+File, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set}{Study\+Data\+Set}} sds)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_ab9cf3bdb01f437a31a088202f7143c31}\label{classwrimsv2_1_1solver_1_1_cbc_solver_ab9cf3bdb01f437a31a088202f7143c31} 
+static void {\bfseries close} ()
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a6113e08c747f6eb02d273a9633ab3c67}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a6113e08c747f6eb02d273a9633ab3c67} 
+static void {\bfseries new\+Problem} ()
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a3438fe687395d266666f05de18307a15}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a3438fe687395d266666f05de18307a15} 
+static double {\bfseries get\+Obj\+Value} ()
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a20c9e4c89e61e031e896b64e7b42f0c7}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a20c9e4c89e61e031e896b64e7b42f0c7} 
+static void {\bfseries reset\+Model} ()
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a7dc2a32d28e4e983247e36c36df3d3c2}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a7dc2a32d28e4e983247e36c36df3d3c2} 
+static int\mbox{[}$\,$\mbox{]} {\bfseries solve} ()
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_aeee0ea07aeee780e1a1f83f9e862ec40}\label{classwrimsv2_1_1solver_1_1_cbc_solver_aeee0ea07aeee780e1a1f83f9e862ec40} 
+static int\mbox{[}$\,$\mbox{]} {\bfseries solve\+\_\+j\+Cbc2021} ()
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a66923b855e8a81faa5d8eab70c74638e}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a66923b855e8a81faa5d8eab70c74638e} 
+static void {\bfseries add\+Conditional\+Slack\+Surplus\+To\+Dvar\+Map} (Map$<$ String, \mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar}{Dvar}} $>$ dvar\+Map, String dv\+Name, boolean is\+Note\+Cbc, String append)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a9ba4662930ebbb80cdee59c52bf779a2}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a9ba4662930ebbb80cdee59c52bf779a2} 
+static void {\bfseries reload\+And\+Write\+Lp} (String name\+Append, boolean log\+Mps, boolean log\+Cbc)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a3cc142bbdec3393db1faa4c595e4e691}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a3cc142bbdec3393db1faa4c595e4e691} 
+static void {\bfseries reload\+And\+Write\+Lp} (String name\+Append, boolean log\+Cbc)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a38263648d7fd9af483bc131cb0181a96}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a38263648d7fd9af483bc131cb0181a96} 
+static void {\bfseries write\+Cbc\+Lp} (String name\+Append, boolean log\+Mps)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a33f45ba72221921003fc202b8f26a7a9}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a33f45ba72221921003fc202b8f26a7a9} 
+static void {\bfseries log\+Cbc\+Watch\+List} (\mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set}{Study\+Data\+Set}} sds)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_ae35236169c384ec43ba25ea61e307a56}\label{classwrimsv2_1_1solver_1_1_cbc_solver_ae35236169c384ec43ba25ea61e307a56} 
+static void {\bfseries log\+Cbc\+Debug} (\mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set}{Study\+Data\+Set}} sds)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_afef9b06f816db46238f64f950755b6be}\label{classwrimsv2_1_1solver_1_1_cbc_solver_afef9b06f816db46238f64f950755b6be} 
+static void {\bfseries main} (String argv\mbox{[}$\,$\mbox{]})
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a58f4134c63784d95d7ba70848c4ea67f}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a58f4134c63784d95d7ba70848c4ea67f} 
+static void {\bfseries log\+Int\+Check} (\mbox{\hyperlink{classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set}{Study\+Data\+Set}} sds)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_aee2909623359b5a0f6d12737a458ca6c}\label{classwrimsv2_1_1solver_1_1_cbc_solver_aee2909623359b5a0f6d12737a458ca6c} 
+static boolean {\bfseries violation\+Check} (SWIGTYPE\+\_\+p\+\_\+\+Cbc\+Model model, String model\+Name, String solve\+Name)
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_ad6fe664b31cd2a7276a0464582e2eaeb}\label{classwrimsv2_1_1solver_1_1_cbc_solver_ad6fe664b31cd2a7276a0464582e2eaeb} 
+static int\mbox{[}$\,$\mbox{]} {\bfseries solve\+\_\+j\+Cbc2021a} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_acbe60c6c4634833cdc1413db62e09399}\label{classwrimsv2_1_1solver_1_1_cbc_solver_acbe60c6c4634833cdc1413db62e09399} 
+static Linked\+Hash\+Map$<$ String, Double $>$ {\bfseries var\+Double\+Map}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a927e8e7a1b878396ecf8f8342cc7b104}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a927e8e7a1b878396ecf8f8342cc7b104} 
+static Set$<$ String $>$ {\bfseries prioritize\+Search\+These\+Constraints}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a3986eb644ada956f714b079a07a02a66}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a3986eb644ada956f714b079a07a02a66} 
+static double {\bfseries cbc\+Hint\+Relax\+Penalty} = 9000
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_affceefa592525571e8f18f343da2473d}\label{classwrimsv2_1_1solver_1_1_cbc_solver_affceefa592525571e8f18f343da2473d} 
+static double {\bfseries solve\+\_\+2\+\_\+primalT} = 1e-\/9
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a36c82d057d8ddeae48bcaeb45e991457}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a36c82d057d8ddeae48bcaeb45e991457} 
+static double {\bfseries solve\+\_\+2\+\_\+primal\+T\+\_\+relax} = 1e-\/7
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a37c52914ece744558418ee85f93373a6}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a37c52914ece744558418ee85f93373a6} 
+static double {\bfseries solve\+\_\+whs\+\_\+primalT} = 1e-\/9
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a0ea1702642a29fa9e2785ea5f3585cf0}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a0ea1702642a29fa9e2785ea5f3585cf0} 
+static double {\bfseries integerT} = 1e-\/9
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_acaca11d1d849b87a0712b05ccfce4409}\label{classwrimsv2_1_1solver_1_1_cbc_solver_acaca11d1d849b87a0712b05ccfce4409} 
+static double {\bfseries integer\+T\+\_\+check} = 1e-\/8
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a9c64f01bb74cd8241091d3685acd8caa}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a9c64f01bb74cd8241091d3685acd8caa} 
+static Double {\bfseries lower\+Bound\+Zero\+\_\+check} = null
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a788276194a84244b22bf9cb7361245c7}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a788276194a84244b22bf9cb7361245c7} 
+static final double {\bfseries cbc\+Write\+Lp\+Epsilon} = 1e-\/15
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a397a4886844bb7092c4c39e764bb6a6b}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a397a4886844bb7092c4c39e764bb6a6b} 
+static String {\bfseries cbc\+Lib\+Name} = "{}j\+Cbc"{}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a010f4eef99d672ce2470a6695089aa95}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a010f4eef99d672ce2470a6695089aa95} 
+static String {\bfseries cbc\+Version} = "{}None"{}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a46dff16f7967acd2f2bb6b817358eee4}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a46dff16f7967acd2f2bb6b817358eee4} 
+static int {\bfseries cbc\+Hint\+Time\+Max} = 100
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a481c073a79b37a1d9d69ac263ad689d3}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a481c073a79b37a1d9d69ac263ad689d3} 
+static boolean {\bfseries usej\+Cbc2021} = false
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a3cb4c143d5719e4d95860a55d01db718}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a3cb4c143d5719e4d95860a55d01db718} 
+static boolean {\bfseries usej\+Cbc2021a} = false
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a27d1200fe4eef89a98bbde3f57854c6b}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a27d1200fe4eef89a98bbde3f57854c6b} 
+static boolean {\bfseries cbc\+Violation\+Check} = true
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_ac18d9fe0e32965773e57b8ece041af67}\label{classwrimsv2_1_1solver_1_1_cbc_solver_ac18d9fe0e32965773e57b8ece041af67} 
+static boolean {\bfseries cbc\+Solution\+Rounding} = true
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a4ecabf3df80409f9b04581469f327d56}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a4ecabf3df80409f9b04581469f327d56} 
+static boolean {\bfseries cbc\+Violation\+Retry} = true
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_ad29d0f771e377e1e49f8c8a1f923bb93}\label{classwrimsv2_1_1solver_1_1_cbc_solver_ad29d0f771e377e1e49f8c8a1f923bb93} 
+static int {\bfseries cbc\+Log\+Start\+Date} = 999900
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a71bf3a35f52d1f6fb87fbb6fe7537466}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a71bf3a35f52d1f6fb87fbb6fe7537466} 
+static int {\bfseries cbc\+Log\+Stop\+Date} = 999900
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_acc68bb6eb46615018017f1a8c6685f47}\label{classwrimsv2_1_1solver_1_1_cbc_solver_acc68bb6eb46615018017f1a8c6685f47} 
+static boolean {\bfseries debug\+Obj\+Diff} = false
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a32abc6ccae09d07c33ff9837f81ef82e}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a32abc6ccae09d07c33ff9837f81ef82e} 
+static double {\bfseries debug\+Obj\+Diff\+\_\+tolerance} = 1E5
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a18967a6fe37a71d8e0f7b92df4e18955}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a18967a6fe37a71d8e0f7b92df4e18955} 
+static boolean {\bfseries whs\+Scaling} = true
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a63acb982b8dac9744d142a576ebf1451}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a63acb982b8dac9744d142a576ebf1451} 
+static boolean {\bfseries whs\+Safe} = false
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a96182f504159fdf5393eef942e493dce}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a96182f504159fdf5393eef942e493dce} 
+static boolean {\bfseries debug\+Deviation} = false
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a5300eab32ef115f0fe93118e273fd596}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a5300eab32ef115f0fe93118e273fd596} 
+static double {\bfseries debug\+Deviation\+Min} = 200
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_aec8ddfdf75a2af8c52753f767e5ab85c}\label{classwrimsv2_1_1solver_1_1_cbc_solver_aec8ddfdf75a2af8c52753f767e5ab85c} 
+static double {\bfseries debug\+Deviation\+Weight\+Min} = 99000
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a92e42bce38da3df9c9e2d6146d8d447f}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a92e42bce38da3df9c9e2d6146d8d447f} 
+static double {\bfseries debug\+Deviation\+Weight\+Multiply} = 100
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_acfcce4c7f672826e8e37f238207e1f6a}\label{classwrimsv2_1_1solver_1_1_cbc_solver_acfcce4c7f672826e8e37f238207e1f6a} 
+static boolean {\bfseries debug\+Deviation\+Find\+Missing} = false
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a2e1655a7b42508587ee36d666317053c}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a2e1655a7b42508587ee36d666317053c} 
+static boolean {\bfseries debug\+Deviation\+Write\+Warning} = false
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a3f4cab48faf6d340e55d47598a08e088}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a3f4cab48faf6d340e55d47598a08e088} 
+static double {\bfseries max\+Obj\+Diff} =0
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_adbcc3cc3ae31578772d38574f954c487}\label{classwrimsv2_1_1solver_1_1_cbc_solver_adbcc3cc3ae31578772d38574f954c487} 
+static String {\bfseries max\+Obj\+Diff\+\_\+id} ="{}"{}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_aa14bef0415ebe58dbfb894a06461d180}\label{classwrimsv2_1_1solver_1_1_cbc_solver_aa14bef0415ebe58dbfb894a06461d180} 
+static double {\bfseries max\+Obj\+Diff\+\_\+minus} =0
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a398b15f03aeaf8df6e9c82b5157b48d2}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a398b15f03aeaf8df6e9c82b5157b48d2} 
+static String {\bfseries max\+Obj\+Diff\+\_\+minus\+\_\+id} ="{}"{}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a801f52548d484604bd20ad6e7f387f32}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a801f52548d484604bd20ad6e7f387f32} 
+static String {\bfseries solve\+Name} ="{}"{}
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a00a6200531bddbd40ba6b788aa7c9ed0}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a00a6200531bddbd40ba6b788aa7c9ed0} 
+static boolean {\bfseries log\+Obj} =true
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_ab54682ba1ab215bbfebc93e55b0fbc06}\label{classwrimsv2_1_1solver_1_1_cbc_solver_ab54682ba1ab215bbfebc93e55b0fbc06} 
+static boolean {\bfseries int\+Log} =true
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a3ccce3288729696d73427fe031acbe6c}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a3ccce3288729696d73427fe031acbe6c} 
+static boolean {\bfseries int\+Violation} =false
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_ab1b54b021fb60e27f67d7c5042dbcde2}\label{classwrimsv2_1_1solver_1_1_cbc_solver_ab1b54b021fb60e27f67d7c5042dbcde2} 
+static int {\bfseries solv\+Func} = 90
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a9a7247af492e3426b3d560937123f042}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a9a7247af492e3426b3d560937123f042} 
+static int {\bfseries warm\+\_\+2nd\+\_\+solv\+Func} = 20
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_ac3ca1c3e0b15b7813c796feb3db3b7fa}\label{classwrimsv2_1_1solver_1_1_cbc_solver_ac3ca1c3e0b15b7813c796feb3db3b7fa} 
+static final int {\bfseries solv2} = 20
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a8b1ffb21db50eb691b8eb4afb87c535a}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a8b1ffb21db50eb691b8eb4afb87c535a} 
+static final int {\bfseries solv3} = 30
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_afbfc8c3d0eadee391f71459f14b39af7}\label{classwrimsv2_1_1solver_1_1_cbc_solver_afbfc8c3d0eadee391f71459f14b39af7} 
+static final int {\bfseries solv\+Call\+Cbc} = 50
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a936358e6e426b5d1d2a634e3439e3eb6}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a936358e6e426b5d1d2a634e3439e3eb6} 
+static final int {\bfseries solv\+Full} = 90
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a663c10406e746a239f26ac881776f5d3}\label{classwrimsv2_1_1solver_1_1_cbc_solver_a663c10406e746a239f26ac881776f5d3} 
+static final int {\bfseries solvU} = 100
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_acc9b27f1884ecc221cfdcdeae9295032}\label{classwrimsv2_1_1solver_1_1_cbc_solver_acc9b27f1884ecc221cfdcdeae9295032} 
+static double {\bfseries record\+\_\+if\+\_\+obj\+\_\+diff} = 10000.\+0
+\item 
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_ac5e178dc619bd27a868d5ec9cd4f9003}\label{classwrimsv2_1_1solver_1_1_cbc_solver_ac5e178dc619bd27a868d5ec9cd4f9003} 
+static double {\bfseries log\+\_\+if\+\_\+obj\+\_\+diff} = 500.\+0
+\item 
+static final Hash\+Map$<$ Integer, String $>$ \mbox{\hyperlink{classwrimsv2_1_1solver_1_1_cbc_solver_a69040f20ebfc1f782bdc11d8f39f691e}{solve\+\_\+u\+\_\+ret}}
+\end{DoxyCompactItemize}
+
+
+\label{doc-variable-members}
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classwrimsv2_1_1solver_1_1_cbc_solver_a69040f20ebfc1f782bdc11d8f39f691e}\index{wrimsv2.solver.CbcSolver@{wrimsv2.solver.CbcSolver}!solve\_u\_ret@{solve\_u\_ret}}
+\index{solve\_u\_ret@{solve\_u\_ret}!wrimsv2.solver.CbcSolver@{wrimsv2.solver.CbcSolver}}
+\doxysubsubsection{\texorpdfstring{solve\_u\_ret}{solve\_u\_ret}}
+{\footnotesize\ttfamily \label{classwrimsv2_1_1solver_1_1_cbc_solver_a69040f20ebfc1f782bdc11d8f39f691e} 
+final Hash\+Map$<$Integer, String$>$ wrimsv2.\+solver.\+Cbc\+Solver.\+solve\+\_\+u\+\_\+ret\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \textcolor{keyword}{new}\ HashMap<Integer,\ String>()\ \{\{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ put(6,\textcolor{stringliteral}{"{}whs"{}});put(5,\textcolor{stringliteral}{"{}2\_\_"{}});put(4,\textcolor{stringliteral}{"{}2\_r"{}});put(1,\textcolor{stringliteral}{"{}inf"{}});}
+\DoxyCodeLine{\ \ \ \ \}\}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+wrims-\/core/src/main/java/wrimsv2/solver/Cbc\+Solver.\+java\end{DoxyCompactItemize}

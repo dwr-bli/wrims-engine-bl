@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.wreslplus.elements.CompileLog Class Reference</title>
+<title>Wrims-engine: wrimsv2.wreslplus.elements.CompileLog Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,15 +94,524 @@ $(function(){initNavTree('classwrimsv2_1_1wreslplus_1_1elements_1_1_compile_log.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aea04eeaf644a54d7ccf1ee73cd02ca1e" id="r_aea04eeaf644a54d7ccf1ee73cd02ca1e"><td class="memItemLeft" align="right" valign="top"><a id="aea04eeaf644a54d7ccf1ee73cd02ca1e" name="aea04eeaf644a54d7ccf1ee73cd02ca1e"></a>
-static String&#160;</td><td class="memItemRight" valign="bottom"><b>createMainWreslLog</b> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html">StudyTemp</a> st, LinkedHashMap&lt; String, Integer &gt; fileMap_reverse)</td></tr>
-<tr class="memitem:a3d4888785496fa563b1ea014137ea34c" id="r_a3d4888785496fa563b1ea014137ea34c"><td class="memItemLeft" align="right" valign="top"><a id="a3d4888785496fa563b1ea014137ea34c" name="a3d4888785496fa563b1ea014137ea34c"></a>
-static String&#160;</td><td class="memItemRight" valign="bottom"><b>writeLog</b> (String r, String canonicalFilePath)</td></tr>
-<tr class="memitem:a702b2ac29243fb9bff4954223fb04065" id="r_a702b2ac29243fb9bff4954223fb04065"><td class="memItemLeft" align="right" valign="top"><a id="a702b2ac29243fb9bff4954223fb04065" name="a702b2ac29243fb9bff4954223fb04065"></a>
-static String&#160;</td><td class="memItemRight" valign="bottom"><b>createWreslFileLog</b> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a> mt, Set&lt; String &gt; deps)</td></tr>
+<tr class="memitem:aea04eeaf644a54d7ccf1ee73cd02ca1e" id="r_aea04eeaf644a54d7ccf1ee73cd02ca1e"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea04eeaf644a54d7ccf1ee73cd02ca1e">createMainWreslLog</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html">StudyTemp</a> st, LinkedHashMap&lt; String, Integer &gt; fileMap_reverse)</td></tr>
+<tr class="memitem:a702b2ac29243fb9bff4954223fb04065" id="r_a702b2ac29243fb9bff4954223fb04065"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a702b2ac29243fb9bff4954223fb04065">createWreslFileLog</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a> mt, Set&lt; String &gt; deps)</td></tr>
+<tr class="memitem:a3d4888785496fa563b1ea014137ea34c" id="r_a3d4888785496fa563b1ea014137ea34c"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d4888785496fa563b1ea014137ea34c">writeLog</a> (String r, String canonicalFilePath)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a69459327c3969724cc4851e21a238e8e" id="r_a69459327c3969724cc4851e21a238e8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69459327c3969724cc4851e21a238e8e">CompileLog</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:ac97a89951629ae6c895811e596899300" id="r_ac97a89951629ae6c895811e596899300"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac97a89951629ae6c895811e596899300">doAlias</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a> mt, Set&lt; String &gt; deps)</td></tr>
+<tr class="memitem:a38478f29aa87d5d7f8486e35fd4aab3c" id="r_a38478f29aa87d5d7f8486e35fd4aab3c"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38478f29aa87d5d7f8486e35fd4aab3c">doDv</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a> mt)</td></tr>
+<tr class="memitem:a7e3d69f69a546ef39959d35eb8623f42" id="r_a7e3d69f69a546ef39959d35eb8623f42"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e3d69f69a546ef39959d35eb8623f42">doGoal</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a> mt, Set&lt; String &gt; deps)</td></tr>
+<tr class="memitem:aaaf28a286e4e8afe190e3d266e4a1398" id="r_aaaf28a286e4e8afe190e3d266e4a1398"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaf28a286e4e8afe190e3d266e4a1398">doIncModel</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html">StudyTemp</a> st)</td></tr>
+<tr class="memitem:a839b9885c04ee7e6e48cff32f4630fd2" id="r_a839b9885c04ee7e6e48cff32f4630fd2"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a839b9885c04ee7e6e48cff32f4630fd2">doModel</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a> mt, Set&lt; String &gt; deps)</td></tr>
+<tr class="memitem:af807e8759c942889c8d8e3bc49723e1a" id="r_af807e8759c942889c8d8e3bc49723e1a"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af807e8759c942889c8d8e3bc49723e1a">doModels</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html">StudyTemp</a> st, LinkedHashMap&lt; String, Integer &gt; fileMap_reverse)</td></tr>
+<tr class="memitem:a7980b7670aa7f455733a4cbce4656800" id="r_a7980b7670aa7f455733a4cbce4656800"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7980b7670aa7f455733a4cbce4656800">doSequence</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html">StudyTemp</a> st)</td></tr>
+<tr class="memitem:a5e7f089ed59a4b9774a0e4ad5950d89f" id="r_a5e7f089ed59a4b9774a0e4ad5950d89f"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e7f089ed59a4b9774a0e4ad5950d89f">doSv</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_svar_temp.html">SvarTemp</a> svT)</td></tr>
+<tr class="memitem:a02df7677a14ddd118c0802aee1026891" id="r_a02df7677a14ddd118c0802aee1026891"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02df7677a14ddd118c0802aee1026891">doSvIncFileModel</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a> mt)</td></tr>
+<tr class="memitem:a90a3f077c246102395eead5bbc66225b" id="r_a90a3f077c246102395eead5bbc66225b"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90a3f077c246102395eead5bbc66225b">doSvIncFileModel</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a> mt, LinkedHashMap&lt; String, Integer &gt; fileMap_reverse)</td></tr>
+<tr class="memitem:a32d695217be2a3675ecb5e0b803e45da" id="r_a32d695217be2a3675ecb5e0b803e45da"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32d695217be2a3675ecb5e0b803e45da">doTimeseries</a> (<a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a> mt)</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00016">16</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a69459327c3969724cc4851e21a238e8e" name="a69459327c3969724cc4851e21a238e8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69459327c3969724cc4851e21a238e8e">&#9670;&#160;</a></span>CompileLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.wreslplus.elements.CompileLog.CompileLog </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00018">18</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aea04eeaf644a54d7ccf1ee73cd02ca1e" name="aea04eeaf644a54d7ccf1ee73cd02ca1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea04eeaf644a54d7ccf1ee73cd02ca1e">&#9670;&#160;</a></span>createMainWreslLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.createMainWreslLog </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html">StudyTemp</a></td>          <td class="paramname"><span class="paramname"><em>st</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; String, Integer &gt;</td>          <td class="paramname"><span class="paramname"><em>fileMap_reverse</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00020">20</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_compile_log_8java_source.html#l00281">doIncModel()</a>, <a class="el" href="_compile_log_8java_source.html#l00088">doModels()</a>, and <a class="el" href="_compile_log_8java_source.html#l00303">doSequence()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_workflow_8java_source.html#l00266">wrimsv2.wreslplus.elements.Workflow.checkStudy_compileLog()</a>.</p>
+
+</div>
+</div>
+<a id="a702b2ac29243fb9bff4954223fb04065" name="a702b2ac29243fb9bff4954223fb04065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a702b2ac29243fb9bff4954223fb04065">&#9670;&#160;</a></span>createWreslFileLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.createWreslFileLog </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a></td>          <td class="paramname"><span class="paramname"><em>mt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>deps</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00048">48</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_compile_log_8java_source.html#l00057">doModel()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_workflow_8java_source.html#l00266">wrimsv2.wreslplus.elements.Workflow.checkStudy_compileLog()</a>.</p>
+
+</div>
+</div>
+<a id="ac97a89951629ae6c895811e596899300" name="ac97a89951629ae6c895811e596899300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac97a89951629ae6c895811e596899300">&#9670;&#160;</a></span>doAlias()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.doAlias </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a></td>          <td class="paramname"><span class="paramname"><em>mt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>deps</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00184">184</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="wreslplus_2elements_2_tools_8java_source.html#l00116">wrimsv2.wreslplus.elements.Tools.allToLowerCase()</a>, <a class="el" href="_model_temp_8java_source.html#l00061">wrimsv2.wreslplus.elements.ModelTemp.asList</a>, <a class="el" href="_model_temp_8java_source.html#l00063">wrimsv2.wreslplus.elements.ModelTemp.asMap</a>, <a class="el" href="_alias_temp_8java_source.html#l00027">wrimsv2.wreslplus.elements.AliasTemp.dependants</a>, <a class="el" href="_alias_temp_8java_source.html#l00026">wrimsv2.wreslplus.elements.AliasTemp.expression</a>, <a class="el" href="_alias_temp_8java_source.html#l00023">wrimsv2.wreslplus.elements.AliasTemp.kind</a>, <a class="el" href="_param_8java_source.html#l00077">wrimsv2.commondata.wresldata.Param.reservedSet</a>, <a class="el" href="_param_8java_source.html#l00033">wrimsv2.commondata.wresldata.Param.undefined</a>, and <a class="el" href="_alias_temp_8java_source.html#l00024">wrimsv2.wreslplus.elements.AliasTemp.units</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_compile_log_8java_source.html#l00057">doModel()</a>, and <a class="el" href="_compile_log_8java_source.html#l00088">doModels()</a>.</p>
+
+</div>
+</div>
+<a id="a38478f29aa87d5d7f8486e35fd4aab3c" name="a38478f29aa87d5d7f8486e35fd4aab3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38478f29aa87d5d7f8486e35fd4aab3c">&#9670;&#160;</a></span>doDv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.doDv </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a></td>          <td class="paramname"><span class="paramname"><em>mt</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00266">266</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_model_temp_8java_source.html#l00066">wrimsv2.wreslplus.elements.ModelTemp.dvList</a>, <a class="el" href="_model_temp_8java_source.html#l00067">wrimsv2.wreslplus.elements.ModelTemp.dvMap</a>, <a class="el" href="_dvar_temp_8java_source.html#l00022">wrimsv2.wreslplus.elements.DvarTemp.lowerBound</a>, and <a class="el" href="_dvar_temp_8java_source.html#l00023">wrimsv2.wreslplus.elements.DvarTemp.upperBound</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_compile_log_8java_source.html#l00057">doModel()</a>, and <a class="el" href="_compile_log_8java_source.html#l00088">doModels()</a>.</p>
+
+</div>
+</div>
+<a id="a7e3d69f69a546ef39959d35eb8623f42" name="a7e3d69f69a546ef39959d35eb8623f42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e3d69f69a546ef39959d35eb8623f42">&#9670;&#160;</a></span>doGoal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.doGoal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a></td>          <td class="paramname"><span class="paramname"><em>mt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>deps</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00204">204</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="wreslplus_2elements_2_tools_8java_source.html#l00116">wrimsv2.wreslplus.elements.Tools.allToLowerCase()</a>, <a class="el" href="_param_8java_source.html#l00035">wrimsv2.commondata.wresldata.Param.always</a>, <a class="el" href="_goal_temp_8java_source.html#l00046">wrimsv2.wreslplus.elements.GoalTemp.caseExpression</a>, <a class="el" href="_goal_temp_8java_source.html#l00044">wrimsv2.wreslplus.elements.GoalTemp.caseMap</a>, <a class="el" href="_goal_temp_8java_source.html#l00043">wrimsv2.wreslplus.elements.GoalTemp.caseName</a>, <a class="el" href="_goal_case_8java_source.html#l00022">wrimsv2.wreslplus.elements.GoalCase.condition</a>, <a class="el" href="_param_8java_source.html#l00036">wrimsv2.commondata.wresldata.Param.constrain</a>, <a class="el" href="_goal_temp_8java_source.html#l00028">wrimsv2.wreslplus.elements.GoalTemp.dependants</a>, <a class="el" href="_model_temp_8java_source.html#l00076">wrimsv2.wreslplus.elements.ModelTemp.glList</a>, <a class="el" href="_model_temp_8java_source.html#l00077">wrimsv2.wreslplus.elements.ModelTemp.glMap</a>, <a class="el" href="_goal_temp_8java_source.html#l00039">wrimsv2.wreslplus.elements.GoalTemp.hasCase</a>, <a class="el" href="_goal_temp_8java_source.html#l00040">wrimsv2.wreslplus.elements.GoalTemp.hasLhs</a>, <a class="el" href="_goal_temp_8java_source.html#l00026">wrimsv2.wreslplus.elements.GoalTemp.lhs</a>, <a class="el" href="_goal_case_8java_source.html#l00024">wrimsv2.wreslplus.elements.GoalCase.lhs_gt_rhs</a>, <a class="el" href="_goal_case_8java_source.html#l00025">wrimsv2.wreslplus.elements.GoalCase.lhs_lt_rhs</a>, <a class="el" href="_param_8java_source.html#l00077">wrimsv2.commondata.wresldata.Param.reservedSet</a>, and <a class="el" href="_goal_case_8java_source.html#l00023">wrimsv2.wreslplus.elements.GoalCase.rhs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_compile_log_8java_source.html#l00057">doModel()</a>, and <a class="el" href="_compile_log_8java_source.html#l00088">doModels()</a>.</p>
+
+</div>
+</div>
+<a id="aaaf28a286e4e8afe190e3d266e4a1398" name="aaaf28a286e4e8afe190e3d266e4a1398"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaf28a286e4e8afe190e3d266e4a1398">&#9670;&#160;</a></span>doIncModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.doIncModel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html">StudyTemp</a></td>          <td class="paramname"><span class="paramname"><em>st</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00281">281</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_study_temp_8java_source.html#l00034">wrimsv2.wreslplus.elements.StudyTemp.modelList</a>, and <a class="el" href="_study_temp_8java_source.html#l00035">wrimsv2.wreslplus.elements.StudyTemp.modelMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_compile_log_8java_source.html#l00020">createMainWreslLog()</a>.</p>
+
+</div>
+</div>
+<a id="a839b9885c04ee7e6e48cff32f4630fd2" name="a839b9885c04ee7e6e48cff32f4630fd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a839b9885c04ee7e6e48cff32f4630fd2">&#9670;&#160;</a></span>doModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.doModel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a></td>          <td class="paramname"><span class="paramname"><em>mt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>deps</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00057">57</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="wreslplus_2elements_2_tools_8java_source.html#l00116">wrimsv2.wreslplus.elements.Tools.allToLowerCase()</a>, <a class="el" href="_model_temp_8java_source.html#l00061">wrimsv2.wreslplus.elements.ModelTemp.asList</a>, <a class="el" href="_compile_log_8java_source.html#l00184">doAlias()</a>, <a class="el" href="_compile_log_8java_source.html#l00266">doDv()</a>, <a class="el" href="_compile_log_8java_source.html#l00204">doGoal()</a>, <a class="el" href="_compile_log_8java_source.html#l00120">doSvIncFileModel()</a>, <a class="el" href="_compile_log_8java_source.html#l00171">doTimeseries()</a>, <a class="el" href="_model_temp_8java_source.html#l00066">wrimsv2.wreslplus.elements.ModelTemp.dvList</a>, <a class="el" href="_model_temp_8java_source.html#l00064">wrimsv2.wreslplus.elements.ModelTemp.svList</a>, and <a class="el" href="_model_temp_8java_source.html#l00071">wrimsv2.wreslplus.elements.ModelTemp.tsList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_compile_log_8java_source.html#l00048">createWreslFileLog()</a>.</p>
+
+</div>
+</div>
+<a id="af807e8759c942889c8d8e3bc49723e1a" name="af807e8759c942889c8d8e3bc49723e1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af807e8759c942889c8d8e3bc49723e1a">&#9670;&#160;</a></span>doModels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.doModels </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html">StudyTemp</a></td>          <td class="paramname"><span class="paramname"><em>st</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; String, Integer &gt;</td>          <td class="paramname"><span class="paramname"><em>fileMap_reverse</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00088">88</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_compile_log_8java_source.html#l00184">doAlias()</a>, <a class="el" href="_compile_log_8java_source.html#l00266">doDv()</a>, <a class="el" href="_compile_log_8java_source.html#l00204">doGoal()</a>, <a class="el" href="_compile_log_8java_source.html#l00120">doSvIncFileModel()</a>, <a class="el" href="_compile_log_8java_source.html#l00171">doTimeseries()</a>, <a class="el" href="_study_temp_8java_source.html#l00034">wrimsv2.wreslplus.elements.StudyTemp.modelList</a>, and <a class="el" href="_study_temp_8java_source.html#l00035">wrimsv2.wreslplus.elements.StudyTemp.modelMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_compile_log_8java_source.html#l00020">createMainWreslLog()</a>.</p>
+
+</div>
+</div>
+<a id="a7980b7670aa7f455733a4cbce4656800" name="a7980b7670aa7f455733a4cbce4656800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7980b7670aa7f455733a4cbce4656800">&#9670;&#160;</a></span>doSequence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.doSequence </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html">StudyTemp</a></td>          <td class="paramname"><span class="paramname"><em>st</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00303">303</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_param_8java_source.html#l00035">wrimsv2.commondata.wresldata.Param.always</a>, <a class="el" href="_study_temp_8java_source.html#l00029">wrimsv2.wreslplus.elements.StudyTemp.seqList</a>, <a class="el" href="_study_temp_8java_source.html#l00031">wrimsv2.wreslplus.elements.StudyTemp.seqMap</a>, and <a class="el" href="_param_8java_source.html#l00033">wrimsv2.commondata.wresldata.Param.undefined</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_compile_log_8java_source.html#l00020">createMainWreslLog()</a>.</p>
+
+</div>
+</div>
+<a id="a5e7f089ed59a4b9774a0e4ad5950d89f" name="a5e7f089ed59a4b9774a0e4ad5950d89f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e7f089ed59a4b9774a0e4ad5950d89f">&#9670;&#160;</a></span>doSv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.doSv </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_svar_temp.html">SvarTemp</a></td>          <td class="paramname"><span class="paramname"><em>svT</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00251">251</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_param_8java_source.html#l00035">wrimsv2.commondata.wresldata.Param.always</a>, <a class="el" href="_svar_temp_8java_source.html#l00043">wrimsv2.wreslplus.elements.SvarTemp.caseCondition</a>, <a class="el" href="_svar_temp_8java_source.html#l00044">wrimsv2.wreslplus.elements.SvarTemp.caseExpression</a>, and <a class="el" href="_svar_temp_8java_source.html#l00042">wrimsv2.wreslplus.elements.SvarTemp.caseName</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_compile_log_8java_source.html#l00120">doSvIncFileModel()</a>.</p>
+
+</div>
+</div>
+<a id="a02df7677a14ddd118c0802aee1026891" name="a02df7677a14ddd118c0802aee1026891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02df7677a14ddd118c0802aee1026891">&#9670;&#160;</a></span>doSvIncFileModel() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.doSvIncFileModel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a></td>          <td class="paramname"><span class="paramname"><em>mt</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00120">120</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_compile_log_8java_source.html#l00251">doSv()</a>, <a class="el" href="_model_temp_8java_source.html#l00051">wrimsv2.wreslplus.elements.ModelTemp.incFileMap</a>, <a class="el" href="_param_8java_source.html#l00051">wrimsv2.commondata.wresldata.Param.incFileType</a>, <a class="el" href="_model_temp_8java_source.html#l00022">wrimsv2.wreslplus.elements.ModelTemp.itemList</a>, <a class="el" href="_model_temp_8java_source.html#l00023">wrimsv2.wreslplus.elements.ModelTemp.itemTypeList</a>, <a class="el" href="_model_temp_8java_source.html#l00065">wrimsv2.wreslplus.elements.ModelTemp.svMap</a>, and <a class="el" href="_param_8java_source.html#l00053">wrimsv2.commondata.wresldata.Param.svType</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_compile_log_8java_source.html#l00057">doModel()</a>, and <a class="el" href="_compile_log_8java_source.html#l00088">doModels()</a>.</p>
+
+</div>
+</div>
+<a id="a90a3f077c246102395eead5bbc66225b" name="a90a3f077c246102395eead5bbc66225b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90a3f077c246102395eead5bbc66225b">&#9670;&#160;</a></span>doSvIncFileModel() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.doSvIncFileModel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a></td>          <td class="paramname"><span class="paramname"><em>mt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; String, Integer &gt;</td>          <td class="paramname"><span class="paramname"><em>fileMap_reverse</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00143">143</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_model_temp_8java_source.html#l00051">wrimsv2.wreslplus.elements.ModelTemp.incFileMap</a>, <a class="el" href="_param_8java_source.html#l00051">wrimsv2.commondata.wresldata.Param.incFileType</a>, <a class="el" href="_param_8java_source.html#l00059">wrimsv2.commondata.wresldata.Param.incModelType</a>, <a class="el" href="_model_temp_8java_source.html#l00022">wrimsv2.wreslplus.elements.ModelTemp.itemList</a>, <a class="el" href="_model_temp_8java_source.html#l00023">wrimsv2.wreslplus.elements.ModelTemp.itemTypeList</a>, and <a class="el" href="_param_8java_source.html#l00053">wrimsv2.commondata.wresldata.Param.svType</a>.</p>
+
+</div>
+</div>
+<a id="a32d695217be2a3675ecb5e0b803e45da" name="a32d695217be2a3675ecb5e0b803e45da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32d695217be2a3675ecb5e0b803e45da">&#9670;&#160;</a></span>doTimeseries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.doTimeseries </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1wreslplus_1_1elements_1_1_model_temp.html">ModelTemp</a></td>          <td class="paramname"><span class="paramname"><em>mt</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00171">171</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_timeseries_temp_8java_source.html#l00017">wrimsv2.wreslplus.elements.TimeseriesTemp.dssBPart</a>, <a class="el" href="_timeseries_temp_8java_source.html#l00018">wrimsv2.wreslplus.elements.TimeseriesTemp.kind</a>, <a class="el" href="_model_temp_8java_source.html#l00071">wrimsv2.wreslplus.elements.ModelTemp.tsList</a>, <a class="el" href="_model_temp_8java_source.html#l00072">wrimsv2.wreslplus.elements.ModelTemp.tsMap</a>, <a class="el" href="_param_8java_source.html#l00033">wrimsv2.commondata.wresldata.Param.undefined</a>, and <a class="el" href="_timeseries_temp_8java_source.html#l00019">wrimsv2.wreslplus.elements.TimeseriesTemp.units</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_compile_log_8java_source.html#l00057">doModel()</a>, and <a class="el" href="_compile_log_8java_source.html#l00088">doModels()</a>.</p>
+
+</div>
+</div>
+<a id="a3d4888785496fa563b1ea014137ea34c" name="a3d4888785496fa563b1ea014137ea34c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d4888785496fa563b1ea014137ea34c">&#9670;&#160;</a></span>writeLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslplus.elements.CompileLog.writeLog </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>canonicalFilePath</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_compile_log_8java_source.html#l00030">30</a> of file <a class="el" href="_compile_log_8java_source.html">CompileLog.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_workflow_8java_source.html#l00266">wrimsv2.wreslplus.elements.Workflow.checkStudy_compileLog()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/wreslplus/elements/<b>CompileLog.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/wreslplus/elements/<a class="el" href="_compile_log_8java_source.html">CompileLog.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -117,7 +626,7 @@ static String&#160;</td><td class="memItemRight" valign="bottom"><b>createWreslF
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>wreslplus</b></li><li class="navelem"><b>elements</b></li><li class="navelem"><a href="classwrimsv2_1_1wreslplus_1_1elements_1_1_compile_log.html">CompileLog</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>wreslplus</b></li><li class="navelem"><a href="namespacewrimsv2_1_1wreslplus_1_1elements.html">elements</a></li><li class="navelem"><a href="classwrimsv2_1_1wreslplus_1_1elements_1_1_compile_log.html">CompileLog</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

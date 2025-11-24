@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['valueevaluation_0',['ValueEvaluation',['../classwrimsv2_1_1evaluator_1_1_value_evaluation.html',1,'wrimsv2::evaluator']]],
-  ['varcycleindex_1',['VarCycleIndex',['../classwrimsv2_1_1wreslplus_1_1elements_1_1_var_cycle_index.html',1,'wrimsv2::wreslplus::elements']]],
-  ['varcyclevaluemap_2',['varCycleValueMap',['../classwrimsv2_1_1wreslplus_1_1elements_1_1_study_temp.html#a5b340972ec968dacfe1c7fc147a7eafa',1,'wrimsv2::wreslplus::elements::StudyTemp']]],
-  ['variabletimestep_3',['VariableTimeStep',['../classwrimsv2_1_1components_1_1_variable_time_step.html',1,'wrimsv2::components']]],
-  ['varsgroup_4',['VarsGroup',['../classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html',1,'wrimsv2::tools::solutionRangeFinder']]]
+  ['xaintegert_0',['xaIntegerT',['../classwrimsv2_1_1components_1_1_control_data.html#a7a06506c48cd449911174482f900ba9e',1,'wrimsv2::components::ControlData']]],
+  ['xasolver_1',['XASolver',['../classwrimsv2_1_1solver_1_1_x_a_solver.html',1,'wrimsv2.solver.XASolver'],['../classwrimsv2_1_1solver_1_1_x_a_solver.html#a08ba6b77095e18ae066b16ccdff4d56b',1,'wrimsv2.solver.XASolver.XASolver()']]],
+  ['xasolver_2',['xasolver',['../classwrimsv2_1_1components_1_1_control_data.html#aafcdde65a6779e9f5fb7b6d03d7860c5',1,'wrimsv2::components::ControlData']]],
+  ['xasolver_2ejava_3',['XASolver.java',['../_x_a_solver_8java.html',1,'']]],
+  ['xasort_4',['xaSort',['../classwrimsv2_1_1components_1_1_control_data.html#a984be694b0e30d585769bfe6b71a2ac2',1,'wrimsv2::components::ControlData']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.wreslparser.elements.FileParser Class Reference</title>
+<title>Wrims-engine: wrimsv2.wreslparser.elements.FileParser Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -92,40 +92,455 @@ $(function(){initNavTree('classwrimsv2_1_1wreslparser_1_1elements_1_1_file_parse
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a29d4ac47453deb851a62cc2f82864356" id="r_a29d4ac47453deb851a62cc2f82864356"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29d4ac47453deb851a62cc2f82864356">FileParser</a> ()</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a02b7bda762b8b38ac1889ab4a6e05ee3" id="r_a02b7bda762b8b38ac1889ab4a6e05ee3"><td class="memItemLeft" align="right" valign="top"><a id="a02b7bda762b8b38ac1889ab4a6e05ee3" name="a02b7bda762b8b38ac1889ab4a6e05ee3"></a>
-static WreslTreeWalker&#160;</td><td class="memItemRight" valign="bottom"><b>parseFile</b> (String inputFilePath)  throws RecognitionException</td></tr>
-<tr class="memitem:a6bae51380c03e23710498f697d7c4ce0" id="r_a6bae51380c03e23710498f697d7c4ce0"><td class="memItemLeft" align="right" valign="top"><a id="a6bae51380c03e23710498f697d7c4ce0" name="a6bae51380c03e23710498f697d7c4ce0"></a>
-static WreslTreeWalker&#160;</td><td class="memItemRight" valign="bottom"><b>parseFile</b> (String inputFilePath, boolean showTree)  throws RecognitionException  </td></tr>
-<tr class="memitem:a5b817b0284cf09664ab4018bc64cc15a" id="r_a5b817b0284cf09664ab4018bc64cc15a"><td class="memItemLeft" align="right" valign="top"><a id="a5b817b0284cf09664ab4018bc64cc15a" name="a5b817b0284cf09664ab4018bc64cc15a"></a>
-static Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>processNestedFile</b> (String inputFilePath)  throws RecognitionException, IOException </td></tr>
-<tr class="memitem:a893bf21a8715892b4fd943508ed3d2a9" id="r_a893bf21a8715892b4fd943508ed3d2a9"><td class="memItemLeft" align="right" valign="top"><a id="a893bf21a8715892b4fd943508ed3d2a9" name="a893bf21a8715892b4fd943508ed3d2a9"></a>
-static Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>processNestedFileExceptFor</b> (String inputFilePath, Set&lt; String &gt; existingSet)  throws RecognitionException, IOException </td></tr>
-<tr class="memitem:aaed3b0b6cf799eff2febfc029b9749e0" id="r_aaed3b0b6cf799eff2febfc029b9749e0"><td class="memItemLeft" align="right" valign="top"><a id="aaed3b0b6cf799eff2febfc029b9749e0" name="aaed3b0b6cf799eff2febfc029b9749e0"></a>
-static <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a>&#160;</td><td class="memItemRight" valign="bottom"><b>processFileIntoSimulationDataSet</b> (String inputFilePath, String scope)  throws RecognitionException, IOException </td></tr>
-<tr class="memitem:a1e88f5755c627c2a0ef4a521076883ea" id="r_a1e88f5755c627c2a0ef4a521076883ea"><td class="memItemLeft" align="right" valign="top"><a id="a1e88f5755c627c2a0ef4a521076883ea" name="a1e88f5755c627c2a0ef4a521076883ea"></a>
-static Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>processNestedFileIntoSimulationDataSetMap</b> (String inputFilePath, String scope)  throws RecognitionException, IOException </td></tr>
-<tr class="memitem:a92688ed96250a44b080219bc1560e9cc" id="r_a92688ed96250a44b080219bc1560e9cc"><td class="memItemLeft" align="right" valign="top"><a id="a92688ed96250a44b080219bc1560e9cc" name="a92688ed96250a44b080219bc1560e9cc"></a>
-static WreslTreeWalker&#160;</td><td class="memItemRight" valign="bottom"><b>parseMainFile</b> (String inputFilePath)  throws RecognitionException</td></tr>
-<tr class="memitem:a2d478f2ce9a1923cd8c17119f3ce973a" id="r_a2d478f2ce9a1923cd8c17119f3ce973a"><td class="memItemLeft" align="right" valign="top"><a id="a2d478f2ce9a1923cd8c17119f3ce973a" name="a2d478f2ce9a1923cd8c17119f3ce973a"></a>
-static WreslTreeWalker&#160;</td><td class="memItemRight" valign="bottom"><b>parseMainFile</b> (String inputFilePath, boolean showTree)  throws RecognitionException  </td></tr>
-<tr class="memitem:a25d7ccb0c6bee8dc11042c282a9e273b" id="r_a25d7ccb0c6bee8dc11042c282a9e273b"><td class="memItemLeft" align="right" valign="top"><a id="a25d7ccb0c6bee8dc11042c282a9e273b" name="a25d7ccb0c6bee8dc11042c282a9e273b"></a>
-static WreslTreeWalker&#160;</td><td class="memItemRight" valign="bottom"><b>parseOneFileForDebug</b> (String inputFilePath)  throws RecognitionException  </td></tr>
+<tr class="memitem:a02b7bda762b8b38ac1889ab4a6e05ee3" id="r_a02b7bda762b8b38ac1889ab4a6e05ee3"><td class="memItemLeft" align="right" valign="top">static WreslTreeWalker&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02b7bda762b8b38ac1889ab4a6e05ee3">parseFile</a> (String inputFilePath)  throws RecognitionException</td></tr>
+<tr class="memitem:a6bae51380c03e23710498f697d7c4ce0" id="r_a6bae51380c03e23710498f697d7c4ce0"><td class="memItemLeft" align="right" valign="top">static WreslTreeWalker&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bae51380c03e23710498f697d7c4ce0">parseFile</a> (String inputFilePath, boolean showTree)  throws RecognitionException  </td></tr>
+<tr class="memitem:a92688ed96250a44b080219bc1560e9cc" id="r_a92688ed96250a44b080219bc1560e9cc"><td class="memItemLeft" align="right" valign="top">static WreslTreeWalker&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92688ed96250a44b080219bc1560e9cc">parseMainFile</a> (String inputFilePath)  throws RecognitionException</td></tr>
+<tr class="memitem:a2d478f2ce9a1923cd8c17119f3ce973a" id="r_a2d478f2ce9a1923cd8c17119f3ce973a"><td class="memItemLeft" align="right" valign="top">static WreslTreeWalker&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d478f2ce9a1923cd8c17119f3ce973a">parseMainFile</a> (String inputFilePath, boolean showTree)  throws RecognitionException  </td></tr>
+<tr class="memitem:a25d7ccb0c6bee8dc11042c282a9e273b" id="r_a25d7ccb0c6bee8dc11042c282a9e273b"><td class="memItemLeft" align="right" valign="top">static WreslTreeWalker&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25d7ccb0c6bee8dc11042c282a9e273b">parseOneFileForDebug</a> (String inputFilePath)  throws RecognitionException  </td></tr>
+<tr class="memitem:aaed3b0b6cf799eff2febfc029b9749e0" id="r_aaed3b0b6cf799eff2febfc029b9749e0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaed3b0b6cf799eff2febfc029b9749e0">processFileIntoSimulationDataSet</a> (String inputFilePath, String <a class="el" href="#accf52bc5d5bb07e613e97815f5435904">scope</a>)  throws RecognitionException, IOException </td></tr>
+<tr class="memitem:a5b817b0284cf09664ab4018bc64cc15a" id="r_a5b817b0284cf09664ab4018bc64cc15a"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b817b0284cf09664ab4018bc64cc15a">processNestedFile</a> (String inputFilePath)  throws RecognitionException, IOException </td></tr>
+<tr class="memitem:a893bf21a8715892b4fd943508ed3d2a9" id="r_a893bf21a8715892b4fd943508ed3d2a9"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a893bf21a8715892b4fd943508ed3d2a9">processNestedFileExceptFor</a> (String inputFilePath, Set&lt; String &gt; existingSet)  throws RecognitionException, IOException </td></tr>
+<tr class="memitem:a1e88f5755c627c2a0ef4a521076883ea" id="r_a1e88f5755c627c2a0ef4a521076883ea"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e88f5755c627c2a0ef4a521076883ea">processNestedFileIntoSimulationDataSetMap</a> (String inputFilePath, String <a class="el" href="#accf52bc5d5bb07e613e97815f5435904">scope</a>)  throws RecognitionException, IOException </td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:accf52bc5d5bb07e613e97815f5435904" id="r_accf52bc5d5bb07e613e97815f5435904"><td class="memItemLeft" align="right" valign="top"><a id="accf52bc5d5bb07e613e97815f5435904" name="accf52bc5d5bb07e613e97815f5435904"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>scope</b></td></tr>
-<tr class="memitem:a08280e02caa5748a0ebd4657692434d6" id="r_a08280e02caa5748a0ebd4657692434d6"><td class="memItemLeft" align="right" valign="top"><a id="a08280e02caa5748a0ebd4657692434d6" name="a08280e02caa5748a0ebd4657692434d6"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>kind</b></td></tr>
-<tr class="memitem:ac496d7b05d05ef95d7c26cf41655869f" id="r_ac496d7b05d05ef95d7c26cf41655869f"><td class="memItemLeft" align="right" valign="top"><a id="ac496d7b05d05ef95d7c26cf41655869f" name="ac496d7b05d05ef95d7c26cf41655869f"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>units</b></td></tr>
-<tr class="memitem:af4994cca9560d7731b6975a2f30ec8aa" id="r_af4994cca9560d7731b6975a2f30ec8aa"><td class="memItemLeft" align="right" valign="top"><a id="af4994cca9560d7731b6975a2f30ec8aa" name="af4994cca9560d7731b6975a2f30ec8aa"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>expression</b></td></tr>
+<tr class="memitem:af4994cca9560d7731b6975a2f30ec8aa" id="r_af4994cca9560d7731b6975a2f30ec8aa"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4994cca9560d7731b6975a2f30ec8aa">expression</a></td></tr>
+<tr class="memitem:a08280e02caa5748a0ebd4657692434d6" id="r_a08280e02caa5748a0ebd4657692434d6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08280e02caa5748a0ebd4657692434d6">kind</a></td></tr>
+<tr class="memitem:accf52bc5d5bb07e613e97815f5435904" id="r_accf52bc5d5bb07e613e97815f5435904"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accf52bc5d5bb07e613e97815f5435904">scope</a></td></tr>
+<tr class="memitem:ac496d7b05d05ef95d7c26cf41655869f" id="r_ac496d7b05d05ef95d7c26cf41655869f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac496d7b05d05ef95d7c26cf41655869f">units</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a05dbd16e57d344a972394a5bfc224975" id="r_a05dbd16e57d344a972394a5bfc224975"><td class="memItemLeft" align="right" valign="top">static CharStream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05dbd16e57d344a972394a5bfc224975">stream</a></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00026">26</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a29d4ac47453deb851a62cc2f82864356" name="a29d4ac47453deb851a62cc2f82864356"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29d4ac47453deb851a62cc2f82864356">&#9670;&#160;</a></span>FileParser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.wreslparser.elements.FileParser.FileParser </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00035">35</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_file_parser_8java_source.html#l00032">expression</a>, <a class="el" href="_file_parser_8java_source.html#l00030">kind</a>, <a class="el" href="_file_parser_8java_source.html#l00029">scope</a>, <a class="el" href="_param_8java_source.html#l00033">wrimsv2.commondata.wresldata.Param.undefined</a>, and <a class="el" href="_file_parser_8java_source.html#l00031">units</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a02b7bda762b8b38ac1889ab4a6e05ee3" name="a02b7bda762b8b38ac1889ab4a6e05ee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02b7bda762b8b38ac1889ab4a6e05ee3">&#9670;&#160;</a></span>parseFile() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WreslTreeWalker wrimsv2.wreslparser.elements.FileParser.parseFile </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>inputFilePath</em></span></td><td>)</td>
+          <td> throws RecognitionException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00044">44</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_file_parser_8java_source.html#l00044">parseFile()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_file_parser_8java_source.html#l00044">parseFile()</a>, <a class="el" href="_file_parser_8java_source.html#l00152">processFileIntoSimulationDataSet()</a>, <a class="el" href="_file_parser_8java_source.html#l00106">processNestedFile()</a>, and <a class="el" href="_file_parser_8java_source.html#l00127">processNestedFileExceptFor()</a>.</p>
+
+</div>
+</div>
+<a id="a6bae51380c03e23710498f697d7c4ce0" name="a6bae51380c03e23710498f697d7c4ce0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bae51380c03e23710498f697d7c4ce0">&#9670;&#160;</a></span>parseFile() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WreslTreeWalker wrimsv2.wreslparser.elements.FileParser.parseFile </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>inputFilePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>showTree</em></span>&#160;) throws RecognitionException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00048">48</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_log_utils_8java_source.html#l00021">wrimsv2.wreslparser.elements.LogUtils.closeLogFile()</a>, <a class="el" href="_log_utils_8java_source.html#l00298">wrimsv2.wreslparser.elements.LogUtils.errMsg()</a>, <a class="el" href="_log_utils_8java_source.html#l00221">wrimsv2.wreslparser.elements.LogUtils.importantMsg()</a>, and <a class="el" href="_file_parser_8java_source.html#l00028">stream</a>.</p>
+
+</div>
+</div>
+<a id="a92688ed96250a44b080219bc1560e9cc" name="a92688ed96250a44b080219bc1560e9cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92688ed96250a44b080219bc1560e9cc">&#9670;&#160;</a></span>parseMainFile() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WreslTreeWalker wrimsv2.wreslparser.elements.FileParser.parseMainFile </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>inputFilePath</em></span></td><td>)</td>
+          <td> throws RecognitionException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00199">199</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_file_parser_8java_source.html#l00199">parseMainFile()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_file_parser_8java_source.html#l00199">parseMainFile()</a>, and <a class="el" href="_study_parser_8java_source.html#l00171">wrimsv2.wreslparser.elements.StudyParser.processMainFileIntoStudyConfig()</a>.</p>
+
+</div>
+</div>
+<a id="a2d478f2ce9a1923cd8c17119f3ce973a" name="a2d478f2ce9a1923cd8c17119f3ce973a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d478f2ce9a1923cd8c17119f3ce973a">&#9670;&#160;</a></span>parseMainFile() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WreslTreeWalker wrimsv2.wreslparser.elements.FileParser.parseMainFile </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>inputFilePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>showTree</em></span>&#160;) throws RecognitionException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00204">204</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_log_utils_8java_source.html#l00021">wrimsv2.wreslparser.elements.LogUtils.closeLogFile()</a>, <a class="el" href="_log_utils_8java_source.html#l00298">wrimsv2.wreslparser.elements.LogUtils.errMsg()</a>, <a class="el" href="_log_utils_8java_source.html#l00221">wrimsv2.wreslparser.elements.LogUtils.importantMsg()</a>, and <a class="el" href="_file_parser_8java_source.html#l00028">stream</a>.</p>
+
+</div>
+</div>
+<a id="a25d7ccb0c6bee8dc11042c282a9e273b" name="a25d7ccb0c6bee8dc11042c282a9e273b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25d7ccb0c6bee8dc11042c282a9e273b">&#9670;&#160;</a></span>parseOneFileForDebug()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WreslTreeWalker wrimsv2.wreslparser.elements.FileParser.parseOneFileForDebug </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>inputFilePath</em></span></td><td>)</td>
+          <td> throws RecognitionException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00260">260</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_file_parser_8java_source.html#l00028">stream</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_debug_interface_8java_source.html#l01139">wrimsv2.components.DebugInterface.getGoalInOneFile()</a>, <a class="el" href="_debug_interface_8java_source.html#l00754">wrimsv2.components.DebugInterface.getVariableInOneFile()</a>, and <a class="el" href="_infeasibility_analysis_8java_source.html#l00090">wrimsv2.tools.InfeasibilityAnalysis.procIfsSelFiles()</a>.</p>
+
+</div>
+</div>
+<a id="aaed3b0b6cf799eff2febfc029b9749e0" name="aaed3b0b6cf799eff2febfc029b9749e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaed3b0b6cf799eff2febfc029b9749e0">&#9670;&#160;</a></span>processFileIntoSimulationDataSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> wrimsv2.wreslparser.elements.FileParser.processFileIntoSimulationDataSet </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>inputFilePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>scope</em></span>&#160;) throws RecognitionException, IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00152">152</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="wreslparser_2elements_2_tools_8java_source.html#l00221">wrimsv2.wreslparser.elements.Tools.convertSimulationDataSetToLocal()</a>, <a class="el" href="_log_utils_8java_source.html#l00298">wrimsv2.wreslparser.elements.LogUtils.errMsg()</a>, <a class="el" href="_file_parser_8java_source.html#l00044">parseFile()</a>, and <a class="el" href="_file_parser_8java_source.html#l00029">scope</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_file_parser_8java_source.html#l00169">processNestedFileIntoSimulationDataSetMap()</a>.</p>
+
+</div>
+</div>
+<a id="a5b817b0284cf09664ab4018bc64cc15a" name="a5b817b0284cf09664ab4018bc64cc15a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b817b0284cf09664ab4018bc64cc15a">&#9670;&#160;</a></span>processNestedFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt; wrimsv2.wreslparser.elements.FileParser.processNestedFile </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>inputFilePath</em></span></td><td>)</td>
+          <td> throws RecognitionException, IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00106">106</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_simulation_data_set_8java_source.html#l00044">wrimsv2.wreslparser.elements.SimulationDataSet.incFileList</a>, <a class="el" href="_file_parser_8java_source.html#l00044">parseFile()</a>, and <a class="el" href="_file_parser_8java_source.html#l00106">processNestedFile()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_file_parser_8java_source.html#l00106">processNestedFile()</a>, and <a class="el" href="_file_parser_8java_source.html#l00127">processNestedFileExceptFor()</a>.</p>
+
+</div>
+</div>
+<a id="a893bf21a8715892b4fd943508ed3d2a9" name="a893bf21a8715892b4fd943508ed3d2a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a893bf21a8715892b4fd943508ed3d2a9">&#9670;&#160;</a></span>processNestedFileExceptFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt; wrimsv2.wreslparser.elements.FileParser.processNestedFileExceptFor </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>inputFilePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>existingSet</em></span>&#160;) throws RecognitionException, IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00127">127</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_simulation_data_set_8java_source.html#l00041">wrimsv2.wreslparser.elements.SimulationDataSet.incFileSet</a>, <a class="el" href="_file_parser_8java_source.html#l00044">parseFile()</a>, and <a class="el" href="_file_parser_8java_source.html#l00106">processNestedFile()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_study_parser_8java_source.html#l00728">wrimsv2.wreslparser.elements.StudyParser.getNewDataSet()</a>.</p>
+
+</div>
+</div>
+<a id="a1e88f5755c627c2a0ef4a521076883ea" name="a1e88f5755c627c2a0ef4a521076883ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e88f5755c627c2a0ef4a521076883ea">&#9670;&#160;</a></span>processNestedFileIntoSimulationDataSetMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, <a class="el" href="classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html">SimulationDataSet</a> &gt; wrimsv2.wreslparser.elements.FileParser.processNestedFileIntoSimulationDataSetMap </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>inputFilePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>scope</em></span>&#160;) throws RecognitionException, IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00169">169</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_simulation_data_set_8java_source.html#l00044">wrimsv2.wreslparser.elements.SimulationDataSet.incFileList</a>, <a class="el" href="_simulation_data_set_8java_source.html#l00047">wrimsv2.wreslparser.elements.SimulationDataSet.incFileMap</a>, <a class="el" href="_file_parser_8java_source.html#l00152">processFileIntoSimulationDataSet()</a>, <a class="el" href="_file_parser_8java_source.html#l00169">processNestedFileIntoSimulationDataSetMap()</a>, and <a class="el" href="_file_parser_8java_source.html#l00029">scope</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_file_parser_8java_source.html#l00169">processNestedFileIntoSimulationDataSetMap()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="af4994cca9560d7731b6975a2f30ec8aa" name="af4994cca9560d7731b6975a2f30ec8aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4994cca9560d7731b6975a2f30ec8aa">&#9670;&#160;</a></span>expression</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslparser.elements.FileParser.expression</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00032">32</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_file_parser_8java_source.html#l00035">FileParser()</a>.</p>
+
+</div>
+</div>
+<a id="a08280e02caa5748a0ebd4657692434d6" name="a08280e02caa5748a0ebd4657692434d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08280e02caa5748a0ebd4657692434d6">&#9670;&#160;</a></span>kind</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslparser.elements.FileParser.kind</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00030">30</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_file_parser_8java_source.html#l00035">FileParser()</a>.</p>
+
+</div>
+</div>
+<a id="accf52bc5d5bb07e613e97815f5435904" name="accf52bc5d5bb07e613e97815f5435904"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accf52bc5d5bb07e613e97815f5435904">&#9670;&#160;</a></span>scope</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslparser.elements.FileParser.scope</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00029">29</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_file_parser_8java_source.html#l00035">FileParser()</a>, <a class="el" href="_file_parser_8java_source.html#l00152">processFileIntoSimulationDataSet()</a>, and <a class="el" href="_file_parser_8java_source.html#l00169">processNestedFileIntoSimulationDataSetMap()</a>.</p>
+
+</div>
+</div>
+<a id="a05dbd16e57d344a972394a5bfc224975" name="a05dbd16e57d344a972394a5bfc224975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05dbd16e57d344a972394a5bfc224975">&#9670;&#160;</a></span>stream</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CharStream wrimsv2.wreslparser.elements.FileParser.stream</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00028">28</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_file_parser_8java_source.html#l00048">parseFile()</a>, <a class="el" href="_file_parser_8java_source.html#l00204">parseMainFile()</a>, and <a class="el" href="_file_parser_8java_source.html#l00260">parseOneFileForDebug()</a>.</p>
+
+</div>
+</div>
+<a id="ac496d7b05d05ef95d7c26cf41655869f" name="ac496d7b05d05ef95d7c26cf41655869f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac496d7b05d05ef95d7c26cf41655869f">&#9670;&#160;</a></span>units</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.wreslparser.elements.FileParser.units</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_file_parser_8java_source.html#l00031">31</a> of file <a class="el" href="_file_parser_8java_source.html">FileParser.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_file_parser_8java_source.html#l00035">FileParser()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/wreslparser/elements/<b>FileParser.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/wreslparser/elements/<a class="el" href="_file_parser_8java_source.html">FileParser.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -140,7 +555,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>expression</b></td>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>wreslparser</b></li><li class="navelem"><b>elements</b></li><li class="navelem"><a href="classwrimsv2_1_1wreslparser_1_1elements_1_1_file_parser.html">FileParser</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>wreslparser</b></li><li class="navelem"><a href="namespacewrimsv2_1_1wreslparser_1_1elements.html">elements</a></li><li class="navelem"><a href="classwrimsv2_1_1wreslparser_1_1elements_1_1_file_parser.html">FileParser</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

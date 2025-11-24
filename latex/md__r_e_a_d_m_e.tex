@@ -1,0 +1,193 @@
+\chapter{\+:steam\+\_\+locomotive\+: WRIMS Engine }
+\hypertarget{md__r_e_a_d_m_e}{}\label{md__r_e_a_d_m_e}\index{:steam\_locomotive: WRIMS Engine@{:steam\_locomotive: WRIMS Engine}}
+\label{md__r_e_a_d_m_e_autotoc_md42}%
+\Hypertarget{md__r_e_a_d_m_e_autotoc_md42}%
+
+
+The compute engine for the \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+W\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}ater \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+R\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}esource \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+I\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}ntegrated \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+M\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}odeling System.
+
+\begin{DoxyWarning}{Warning}
+This is the development repository for a pre-\/release version of WRIMS {\bfseries{3}}. Is you are wanting to submit an issue, or feature request for WRIMS {\bfseries{2}} (which is the latest version of WRIMS), please do that through the \href{https://github.com/CentralValleyModeling/wrims}{\texttt{WRIMS 2 Repo}}.
+\end{DoxyWarning}
+\href{https://water.ca.gov/Library/Modeling-and-Analysis/Modeling-Platforms/Water-Resource-Integrated-Modeling-System}{\texttt{WRIMS}} is DWR\textquotesingle{}s generalized water resources modeling system for evaluating operational alternatives of large, complex river basins. WRIMS integrates a simulation language for flexible operational criteria specification, a linear programming solver for efficient water allocation decisions, and graphics capabilities for ease of use. These combined capabilities provide a comprehensive and powerful modeling tool for water resource systems simulation.
+
+\begin{DoxyNote}{Note}
+This is the development repository for the WRIMS 3 engine. The official distribution of WRIMS is available from the \href{https://water.ca.gov/Library/Modeling-and-Analysis/Modeling-Platforms/Water-Resource-Integrated-Modeling-System}{\texttt{DWR Library}} Additionally, the \href{https://github.com/CentralValleyModeling/wrims-gui}{\texttt{{\ttfamily wrims-\/gui}}} repository contains the code, tests, and documentation for the GUI Application that most users are familiar with. {\ttfamily wrims-\/gui} uses the Java modules in this repo.
+\end{DoxyNote}
+This repository contains the code, tests, and developer documentation for the Java module {\ttfamily wrims-\/core}. WRIMS-\/core is a Java module used to run WRESL+ based models. WRIMS-\/core can be run as a command-\/line application from a batch process or shell script.
+
+Prior to the present revison of the WRIMS build system, the equivalent of WRIMS-\/core was a jar file named {\ttfamily WRIMSv2.\+jar}.\hypertarget{md__r_e_a_d_m_e_autotoc_md43}{}\doxysection{\texorpdfstring{Getting Started}{Getting Started}}\label{md__r_e_a_d_m_e_autotoc_md43}
+
+\begin{DoxyEnumerate}
+\item {\bfseries{Clone the repository\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{git\ clone\ https://github.com/CentralValleyModeling/wrims-\/engine.git}
+
+\end{DoxyCode}
+
+\end{DoxyEnumerate}\hypertarget{md__r_e_a_d_m_e_autotoc_md44}{}\doxysection{\texorpdfstring{RUNNING HEADLESS WRIMS ENGINE COMPUTE}{RUNNING HEADLESS WRIMS ENGINE COMPUTE}}\label{md__r_e_a_d_m_e_autotoc_md44}
+The WRIMS engine can be run headless (without the GUI) using the {\ttfamily wrims-\/core} jar along with all dependency jars and libs. This is useful for running batch processes or automated tests.
+
+Here are the required steps to run a headless compute with the WRIMS engine jar directly\+:
+
+
+\begin{DoxyEnumerate}
+\item Build the wrims-\/core module. This will create a jar file in the {\ttfamily wrims-\/core/build/libs} directory and the copy the dependent jars into {\ttfamily wrims-\/core/build/tmp/libs}. 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{./gradlew\ :wrims-\/core:build}
+
+\end{DoxyCode}
+
+\item Run the "{}get\+Natives"{} task in the wrims-\/core module. This will download all the required dll files into the {\ttfamily wrims-\/core/build/tmp/x64} directory. 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{./gradlew\ :wrims-\/core:getNatives}
+
+\end{DoxyCode}
+
+\item Clone the run\+\_\+wrims\+\_\+study\+\_\+example.\+bat file in the root directory of the wrims-\/engine folder and update the project directory and config file paths. 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{@echo\ off}
+\DoxyCodeLine{REM\ PROJECT\ SETTINGS:\ PROJECT\_DIR,\ and\ CONFIG\_FILE\ variables\ as\ needed.}
+\DoxyCodeLine{set\ PROJECT\_DIR=J:\(\backslash\)wrims\(\backslash\)projects\(\backslash\)dcr2023}
+\DoxyCodeLine{set\ CONFIG\_FILE=study.config}
+\DoxyCodeLine{}
+\DoxyCodeLine{REM\ Set\ the\ JAVA\_HOME\ environment\ variable\ to\ the\ path\ of\ your\ java\ 21\ JDK}
+\DoxyCodeLine{set\ JAVA\_HOME="{}J:\(\backslash\)java\(\backslash\)jdk\(\backslash\)jdk\_21.0.8\_temurin"{}}
+\DoxyCodeLine{}
+\DoxyCodeLine{set\ temp\_wrims2="{}.\(\backslash\)foo"{}}
+\DoxyCodeLine{}
+\DoxyCodeLine{REM\ Add\ the\ required\ DLLs\ to\ the\ PATH.\ Do\ not\ change\ if\ this\ if\ run\ from\ the\ wrims-\/engine\ root\ directory.}
+\DoxyCodeLine{set\ PATH=\%PATH\%;wrims-\/core\(\backslash\)build\(\backslash\)tmp\(\backslash\)x64}
+\DoxyCodeLine{}
+\DoxyCodeLine{REM\ Add\ the\ external\ libraries\ to\ the\ PATH.\ Do\ not\ change.}
+\DoxyCodeLine{set\ PATH=\%PATH\%;\%PROJECT\_DIR\%\(\backslash\)Run\(\backslash\)External}
+\DoxyCodeLine{}
+\DoxyCodeLine{REM\ Set\ the\ main\ class\ to\ run.\ This\ is\ the\ entry\ point\ for\ the\ WRIMS\ application.\ Do\ not\ change\ when\ running\ from\ wrims-\/engine\ root.}
+\DoxyCodeLine{set\ MAIN\_CLASS=wrimsv2.components.ControllerBatch}
+\DoxyCodeLine{set\ WRIMS\_CORE\_JAR="{}wrims-\/core\(\backslash\)build\(\backslash\)libs\(\backslash\)*"{}}
+\DoxyCodeLine{set\ WRIMS\_CORE\_DEPENDENCIES="{}wrims-\/core\(\backslash\)build\(\backslash\)tmp\(\backslash\)libs\(\backslash\)*"{}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\%JAVA\_HOME\%\(\backslash\)bin\(\backslash\)java\ -\/Xmx4096m\ -\/Xss1024K\ -\/cp\ "{}\%WRIMS\_CORE\_JAR\%;\%WRIMS\_CORE\_DEPENDENCIES\%"{}\ \%MAIN\_CLASS\%\ -\/config=\%PROJECT\_DIR\%\(\backslash\)\%CONFIG\_FILE\%}
+\DoxyCodeLine{pause}
+
+\end{DoxyCode}
+
+\item Run the batch file from a terminal or double-\/click it to execute the bat file. 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{run\_project.bat}
+
+\end{DoxyCode}
+
+\end{DoxyEnumerate}\hypertarget{md__r_e_a_d_m_e_autotoc_md45}{}\doxysection{\texorpdfstring{Dependabot Configuration}{Dependabot Configuration}}\label{md__r_e_a_d_m_e_autotoc_md45}
+This repository uses Dependabot to keep dependencies up to date. The configuration file is located at {\ttfamily .github/dependabot.\+yml}.
+
+The current configuration checks for updates to dependencies weekly.
+
+Dependabot will automatically create pull requests for dependency updates, which can then be reviewed and merged by the specified reviewers. It is currently configured to check for updates to Gradle dependencies and Git\+Hub Actions workflows.
+
+The default reviewers for dependency update pull requests are configured in the {\ttfamily .github/\+CODEOWNERS} file.
+
+More information about configuring Dependabot can be found in the \href{https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates}{\texttt{Dependabot configuration documentation}}.\hypertarget{md__r_e_a_d_m_e_autotoc_md46}{}\doxysubsection{\texorpdfstring{Understanding Dependabot Scheduling and PR Timing}{Understanding Dependabot Scheduling and PR Timing}}\label{md__r_e_a_d_m_e_autotoc_md46}
+\DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md48}{}\doxysubsubsection{\texorpdfstring{1. Dependabot schedules are {\itshape best-\/effort}, not precise}{1. Dependabot schedules are {\itshape best-\/effort}, not precise}}\label{md__r_e_a_d_m_e_autotoc_md48}
+
+\begin{DoxyItemize}
+\item When you set {\ttfamily schedule.\+interval} and {\ttfamily schedule.\+time}, that’s treated as “run sometime around this time,” not a strict cron.
+\item Git\+Hub’s docs note that it may not start exactly at the scheduled time—there’s a job queue that can be earlier or later depending on load.
+\item Seeing 9\+:20, 10\+:20, etc. is pretty normal—it’s the system spreading out runs.
+\end{DoxyItemize}
+
+\DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md50}{}\doxysubsubsection{\texorpdfstring{2. Multiple runs at once}{2. Multiple runs at once}}\label{md__r_e_a_d_m_e_autotoc_md50}
+Dependabot sometimes makes multiple attempts in quick succession when\+:
+
+
+\begin{DoxyItemize}
+\item It detects multiple ecosystems (npm, gradle, docker, etc.) → one job per ecosystem.
+\item It encounters errors and retries.
+\item It had a backlog (maybe your repo was newly enabled) and caught up with several updates in bursts.
+\end{DoxyItemize}
+
+\DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md52}{}\doxysubsubsection{\texorpdfstring{3. PR creation is {\bfseries{delayed from the update check}}}{3. PR creation is {\bfseries{delayed from the update check}}}}\label{md__r_e_a_d_m_e_autotoc_md52}
+Dependabot does two phases\+:
+
+
+\begin{DoxyEnumerate}
+\item {\bfseries{Update check}} (scans for new versions, resolves manifests).
+\item {\bfseries{PR creation/update}} (opens or rebases PRs).
+\end{DoxyEnumerate}
+
+The scan might happen in the morning, but PR creation often lags until later (sometimes hours). Git\+Hub queues PR creation separately, and sometimes updates don’t get turned into visible PRs until the following day (especially for large dependency graphs).
+
+\DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md54}{}\doxysubsubsection{\texorpdfstring{4. Midnight PRs}{4. Midnight PRs}}\label{md__r_e_a_d_m_e_autotoc_md54}
+That lines up with Git\+Hub’s backend batching → Dependabot may only generate or finalize PRs after internal processing finishes. You’ll often see the “\+Dependabot created a PR” timestamp not match when the update job ran.
+
+\DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md56}{}\doxysection{\texorpdfstring{Sonar\+Qube in-\/\+IDE Plugin Setup}{Sonar\+Qube in-\/\+IDE Plugin Setup}}\label{md__r_e_a_d_m_e_autotoc_md56}
+To set up Sonar\+Qube analysis in your IDE, follow these steps\+:
+\begin{DoxyEnumerate}
+\item {\bfseries{Install Sonar\+Lint Plugin\+:}}
+\begin{DoxyItemize}
+\item For IntelliJ IDEA\+: Go to {\ttfamily File \texorpdfstring{$>$}{>} Settings \texorpdfstring{$>$}{>} Plugins}, search for "{}\+Sonar\+Qube for IDE"{}, and install it.
+\item For Eclipse\+: Go to {\ttfamily Help \texorpdfstring{$>$}{>} Eclipse Marketplace}, search for "{}\+Sonar\+Qube for IDE"{}, and install it.
+\end{DoxyItemize}
+\item {\bfseries{Configure Sonar\+Qube Connection\+:}}
+\begin{DoxyItemize}
+\item Open the Sonar\+Qube for IDE plugin settings in your IDE.
+\begin{DoxyItemize}
+\item For IntelliJ IDEA\+: {\ttfamily File \texorpdfstring{$>$}{>} Settings \texorpdfstring{$>$}{>} Tools \texorpdfstring{$>$}{>} Sonar\+Qube for IDE}.
+\item For Eclipse\+: {\ttfamily Window \texorpdfstring{$>$}{>} Show View \texorpdfstring{$>$}{>} Other \texorpdfstring{$>$}{>} Sonar\+Qube \texorpdfstring{$>$}{>} Sonar\+Qube Bindings}.
+\end{DoxyItemize}
+\item Create a token for the DWR-\/\+CVM organization.
+\begin{DoxyItemize}
+\item Add Connection to Sonar\+Qube organization.
+\begin{DoxyItemize}
+\item For IntelliJ IDEA\+: Go to {\ttfamily File \texorpdfstring{$>$}{>} Settings \texorpdfstring{$>$}{>} Tools \texorpdfstring{$>$}{>} Sonar\+Qube for IDE} and press the {\ttfamily +} button in the {\ttfamily Connections to Sonar\+Qube} section.
+\item For Eclipse\+: Use the Sonar\+Qube Bindings panel to add a new connection by right-\/clicking in the view and selecting "{}\+New Connection..."{}.
+\end{DoxyItemize}
+\item Select "{}\+Sonar\+Qube Cloud"{} on the left, and name the connection whatever you want to (recommended\+: {\ttfamily dwr-\/cvm}). Click "{}\+Next"{}
+\item Click "{}\+Create Token"{} ("{}\+Generate token"{} in Eclipse). This sends you to Sonar\+Qube, and if you have an account, will automatically create an authentication token for you if you allow the connection. Log in with your Git\+Hub credentials if prompted.
+\begin{DoxyItemize}
+\item If using Eclipse, click "{}\+Next"{}.
+\end{DoxyItemize}
+\item Connect to the {\ttfamily dwr-\/cvm} organization.
+\begin{DoxyItemize}
+\item For IntelliJ IDEA\+: Click "{}\+Select another organization"{} if it doesn\textquotesingle{}t already show up. Type in {\ttfamily dwr-\/cvm} into the window that appears. That should add it to the list of "{}\+Your Organizations"{}. Click "{}\+Next"{}.
+\item For Eclipse\+: The organization name will already be populated. Click "{}\+Next"{}. Name the connection whatever you want to (recommended\+: {\ttfamily dwr-\/cvm}) and click "{}\+Next"{}.
+\end{DoxyItemize}
+\item Choose whether you want to receive the Sonar\+Qube Cloud notifications. It is recommended to do so. Click "{}\+Next"{}.
+\item Finally,
+\begin{DoxyItemize}
+\item For IntelliJ IDEA\+: Click "{}\+Create"{}.
+\item For Eclipse\+: Click "{}\+Finish"{}.
+\end{DoxyItemize}
+\end{DoxyItemize}
+\end{DoxyItemize}
+\item {\bfseries{Bind the Project\+:}}
+\begin{DoxyItemize}
+\item After configuring the connection, bind your local project to the Sonar\+Qube project.
+\begin{DoxyItemize}
+\item For IntelliJ IDEA\+: To do so, open the Sonar\+Qube for IDE plugin settings in your IDE.
+\begin{DoxyItemize}
+\item {\ttfamily File \texorpdfstring{$>$}{>} Settings \texorpdfstring{$>$}{>} Tools \texorpdfstring{$>$}{>} Sonar\+Qube for IDE \texorpdfstring{$>$}{>} Project Settings}. The "{}\+Project Settings"{} option may be hidden by a dropdown arrow next to the "{}\+Sonar\+Qube for IDE"{} option.
+\item Then select the "{}\+Bind Project to Sonar\+Cloud"{} option.
+\item Choose the connection you created in the previous steps in the "{}\+Connection"{} dropdown.
+\item Next, select the "{}\+Search in list..."{} option to choose the project. If you don\textquotesingle{}t see the WRIMS-\/\+Engine project, you can enter the project key manually in the "{}\+Project key"{} entry box. The project key for WRIMS-\/\+Engine is {\ttfamily Central\+Valley\+Modeling\+\_\+wrims-\/engine}.
+\item Click "{}\+Apply"{}, then "{}\+OK"{} to close the settings window.
+\end{DoxyItemize}
+\item For Eclipse\+: The binding menu is presented immediately after configuring the connection to the organization.
+\begin{DoxyItemize}
+\item Click "{}\+Add..."{} and select the project you want to bind. Then, click "{}\+Next"{}.
+\item Choose the Sonar\+Qube project to bind to. This should be the project key for WRIMS-\/\+Engine, which is {\ttfamily Central\+Valley\+Modeling\+\_\+wrims-\/engine}. Click "{}\+Finish"{}.
+\end{DoxyItemize}
+\end{DoxyItemize}
+\item This will enable Sonar\+Qube analysis for your project in the IDE.
+\end{DoxyItemize}
+\item {\bfseries{Run Analysis\+:}}
+\begin{DoxyItemize}
+\item You can now run Sonar\+Qube analysis directly from your IDE.
+\item The plugin will provide real-\/time feedback on code quality and potential issues as you write code. 
+\end{DoxyItemize}
+\end{DoxyEnumerate}

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.solver.ClpSolver Class Reference</title>
+<title>Wrims-engine: wrimsv2.solver.ClpSolver Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,35 +94,775 @@ $(function(){initNavTree('classwrimsv2_1_1solver_1_1_clp_solver.html','','classw
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac42e25405c71ac00095ce365eabe2e17" id="r_ac42e25405c71ac00095ce365eabe2e17"><td class="memItemLeft" align="right" valign="top"><a id="ac42e25405c71ac00095ce365eabe2e17" name="ac42e25405c71ac00095ce365eabe2e17"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setDefaultOption</b> ()</td></tr>
+<tr class="memitem:ac42e25405c71ac00095ce365eabe2e17" id="r_ac42e25405c71ac00095ce365eabe2e17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac42e25405c71ac00095ce365eabe2e17">setDefaultOption</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a93a1da919a53b184abad5f4e2f836b90" id="r_a93a1da919a53b184abad5f4e2f836b90"><td class="memItemLeft" align="right" valign="top"><a id="a93a1da919a53b184abad5f4e2f836b90" name="a93a1da919a53b184abad5f4e2f836b90"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> (boolean useLpFile)</td></tr>
-<tr class="memitem:a0783f49cca566478d72a907c1215b692" id="r_a0783f49cca566478d72a907c1215b692"><td class="memItemLeft" align="right" valign="top"><a id="a0783f49cca566478d72a907c1215b692" name="a0783f49cca566478d72a907c1215b692"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>close</b> ()</td></tr>
-<tr class="memitem:afab37e1d12c931bff21e9bb27c109471" id="r_afab37e1d12c931bff21e9bb27c109471"><td class="memItemLeft" align="right" valign="top"><a id="afab37e1d12c931bff21e9bb27c109471" name="afab37e1d12c931bff21e9bb27c109471"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>newProblem</b> (String modelName, boolean useLpFile)</td></tr>
-<tr class="memitem:acd3a37a4b344a9e34021ae7f7b76ac9a" id="r_acd3a37a4b344a9e34021ae7f7b76ac9a"><td class="memItemLeft" align="right" valign="top"><a id="acd3a37a4b344a9e34021ae7f7b76ac9a" name="acd3a37a4b344a9e34021ae7f7b76ac9a"></a>
-static double&#160;</td><td class="memItemRight" valign="bottom"><b>getObjValue</b> ()</td></tr>
-<tr class="memitem:a0fa33663abf27d4a341e15572ef6de58" id="r_a0fa33663abf27d4a341e15572ef6de58"><td class="memItemLeft" align="right" valign="top"><a id="a0fa33663abf27d4a341e15572ef6de58" name="a0fa33663abf27d4a341e15572ef6de58"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>solve</b> (double tolerance, boolean useLpFile)</td></tr>
-<tr class="memitem:a3a68437aee0b710d66c44988d3511061" id="r_a3a68437aee0b710d66c44988d3511061"><td class="memItemLeft" align="right" valign="top"><a id="a3a68437aee0b710d66c44988d3511061" name="a3a68437aee0b710d66c44988d3511061"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>addConditionalSlackSurplusToDvarMap</b> (Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt; dvarMap, String multName)</td></tr>
-<tr class="memitem:aefcf092cf952a67263d20ff2aa560b2d" id="r_aefcf092cf952a67263d20ff2aa560b2d"><td class="memItemLeft" align="right" valign="top"><a id="aefcf092cf952a67263d20ff2aa560b2d" name="aefcf092cf952a67263d20ff2aa560b2d"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (String argv[])</td></tr>
+<tr class="memitem:a3a68437aee0b710d66c44988d3511061" id="r_a3a68437aee0b710d66c44988d3511061"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a68437aee0b710d66c44988d3511061">addConditionalSlackSurplusToDvarMap</a> (Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt; <a class="el" href="#a73113622ff53d1729dd69afa33173c86">dvarMap</a>, String multName)</td></tr>
+<tr class="memitem:a0783f49cca566478d72a907c1215b692" id="r_a0783f49cca566478d72a907c1215b692"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0783f49cca566478d72a907c1215b692">close</a> ()</td></tr>
+<tr class="memitem:acd3a37a4b344a9e34021ae7f7b76ac9a" id="r_acd3a37a4b344a9e34021ae7f7b76ac9a"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd3a37a4b344a9e34021ae7f7b76ac9a">getObjValue</a> ()</td></tr>
+<tr class="memitem:a93a1da919a53b184abad5f4e2f836b90" id="r_a93a1da919a53b184abad5f4e2f836b90"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93a1da919a53b184abad5f4e2f836b90">init</a> (boolean useLpFile)</td></tr>
+<tr class="memitem:aefcf092cf952a67263d20ff2aa560b2d" id="r_aefcf092cf952a67263d20ff2aa560b2d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefcf092cf952a67263d20ff2aa560b2d">main</a> (String argv[])</td></tr>
+<tr class="memitem:afab37e1d12c931bff21e9bb27c109471" id="r_afab37e1d12c931bff21e9bb27c109471"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afab37e1d12c931bff21e9bb27c109471">newProblem</a> (String modelName, boolean useLpFile)</td></tr>
+<tr class="memitem:a0fa33663abf27d4a341e15572ef6de58" id="r_a0fa33663abf27d4a341e15572ef6de58"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fa33663abf27d4a341e15572ef6de58">solve</a> (double tolerance, boolean useLpFile)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a9f0f82528eec43cb948094a530c9dd59" id="r_a9f0f82528eec43cb948094a530c9dd59"><td class="memItemLeft" align="right" valign="top"><a id="a9f0f82528eec43cb948094a530c9dd59" name="a9f0f82528eec43cb948094a530c9dd59"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>errorCode</b> = 99</td></tr>
-<tr class="memitem:a50ca1c4089165e766c689936630bcf39" id="r_a50ca1c4089165e766c689936630bcf39"><td class="memItemLeft" align="right" valign="top"><a id="a50ca1c4089165e766c689936630bcf39" name="a50ca1c4089165e766c689936630bcf39"></a>
-static Map&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>varDoubleMap</b></td></tr>
+<tr class="memitem:a9f0f82528eec43cb948094a530c9dd59" id="r_a9f0f82528eec43cb948094a530c9dd59"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f0f82528eec43cb948094a530c9dd59">errorCode</a> = 99</td></tr>
+<tr class="memitem:a50ca1c4089165e766c689936630bcf39" id="r_a50ca1c4089165e766c689936630bcf39"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50ca1c4089165e766c689936630bcf39">varDoubleMap</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a902df2dfc5426e528639c64072bd9b68" id="r_a902df2dfc5426e528639c64072bd9b68"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a902df2dfc5426e528639c64072bd9b68">ClpSolver</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a7bc6a901bf06fe2c4dd52e10a68ef5da" id="r_a7bc6a901bf06fe2c4dd52e10a68ef5da"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bc6a901bf06fe2c4dd52e10a68ef5da">assignDvar</a> ()</td></tr>
+<tr class="memitem:a6fbcff569680dde3862c33449e0f79f6" id="r_a6fbcff569680dde3862c33449e0f79f6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fbcff569680dde3862c33449e0f79f6">collectDvar</a> ()</td></tr>
+<tr class="memitem:a6cf04f7ed1af93ac717db4413fe5eaa0" id="r_a6cf04f7ed1af93ac717db4413fe5eaa0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cf04f7ed1af93ac717db4413fe5eaa0">getSolverInformation</a> (int modelStatus)</td></tr>
+<tr class="memitem:afcf5dc8d889f3a5f6d3d25d5ed44eb76" id="r_afcf5dc8d889f3a5f6d3d25d5ed44eb76"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcf5dc8d889f3a5f6d3d25d5ed44eb76">resetModel</a> (boolean useLpFile)</td></tr>
+<tr class="memitem:a12cb46d3038c0ddc59f7866daa4b98ad" id="r_a12cb46d3038c0ddc59f7866daa4b98ad"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12cb46d3038c0ddc59f7866daa4b98ad">setConstraints</a> ()</td></tr>
+<tr class="memitem:aaa56ad81ffc318ea7b52f89f7b6cc341" id="r_aaa56ad81ffc318ea7b52f89f7b6cc341"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa56ad81ffc318ea7b52f89f7b6cc341">setDVars</a> ()</td></tr>
+<tr class="memitem:a114353862afaff07ae695f3ee2410537" id="r_a114353862afaff07ae695f3ee2410537"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a114353862afaff07ae695f3ee2410537">setWeights</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a6cc5918efbd4b8a3a0f1bf70fc4c3487" id="r_a6cc5918efbd4b8a3a0f1bf70fc4c3487"><td class="memItemLeft" align="right" valign="top">static SWIGTYPE_p_CoinBuild&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cc5918efbd4b8a3a0f1bf70fc4c3487">buildObject</a></td></tr>
+<tr class="memitem:a73113622ff53d1729dd69afa33173c86" id="r_a73113622ff53d1729dd69afa33173c86"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73113622ff53d1729dd69afa33173c86">dvarMap</a></td></tr>
+<tr class="memitem:a05d11aa4fc123ff83dbc1ac9bea7caaa" id="r_a05d11aa4fc123ff83dbc1ac9bea7caaa"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05d11aa4fc123ff83dbc1ac9bea7caaa">dvKeys</a></td></tr>
+<tr class="memitem:a14bf17ad4c598ac8e432ca005363b360" id="r_a14bf17ad4c598ac8e432ca005363b360"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14bf17ad4c598ac8e432ca005363b360">maxValue</a> = 1.0e23</td></tr>
+<tr class="memitem:ac050fcf800872c876647efac68b75590" id="r_ac050fcf800872c876647efac68b75590"><td class="memItemLeft" align="right" valign="top">static SWIGTYPE_p_ClpSimplex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac050fcf800872c876647efac68b75590">model</a></td></tr>
+<tr class="memitem:a94854b2d9d5fda41daa9f195905c4c66" id="r_a94854b2d9d5fda41daa9f195905c4c66"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; SWIGTYPE_p_int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94854b2d9d5fda41daa9f195905c4c66">rowIndex_array</a></td></tr>
+<tr class="memitem:a90d1dc20cff24b1c9a0216d7d78cb821" id="r_a90d1dc20cff24b1c9a0216d7d78cb821"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; SWIGTYPE_p_double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90d1dc20cff24b1c9a0216d7d78cb821">rowValue_array</a></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00027">27</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a902df2dfc5426e528639c64072bd9b68" name="a902df2dfc5426e528639c64072bd9b68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a902df2dfc5426e528639c64072bd9b68">&#9670;&#160;</a></span>ClpSolver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.solver.ClpSolver.ClpSolver </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00040">40</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a3a68437aee0b710d66c44988d3511061" name="a3a68437aee0b710d66c44988d3511061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a68437aee0b710d66c44988d3511061">&#9670;&#160;</a></span>addConditionalSlackSurplusToDvarMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.addConditionalSlackSurplusToDvarMap </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>dvarMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>multName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00433">433</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_clp_solver_8java_source.html#l00034">dvarMap</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00028">wrimsv2.commondata.wresldata.Dvar.lowerBoundValue</a>, and <a class="el" href="wresldata_2_dvar_8java_source.html#l00027">wrimsv2.commondata.wresldata.Dvar.upperBoundValue</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00154">setConstraints()</a>.</p>
+
+</div>
+</div>
+<a id="a7bc6a901bf06fe2c4dd52e10a68ef5da" name="a7bc6a901bf06fe2c4dd52e10a68ef5da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bc6a901bf06fe2c4dd52e10a68ef5da">&#9670;&#160;</a></span>assignDvar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.assignDvar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00362">362</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00214">wrimsv2.components.Error.addSolvingError()</a>, <a class="el" href="_control_data_8java_source.html#l00093">wrimsv2.components.ControlData.clp_cbc_objective</a>, <a class="el" href="_control_data_8java_source.html#l00051">wrimsv2.components.ControlData.currCycleName</a>, <a class="el" href="_control_data_8java_source.html#l00037">wrimsv2.components.ControlData.currModelDataSet</a>, <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00031">wrimsv2.commondata.wresldata.Dvar.data</a>, <a class="el" href="_clp_solver_8java_source.html#l00034">dvarMap</a>, <a class="el" href="_model_data_set_8java_source.html#l00112">wrimsv2.commondata.wresldata.ModelDataSet.dvarTimeArrayUsedByLaterCycle</a>, <a class="el" href="_model_data_set_8java_source.html#l00111">wrimsv2.commondata.wresldata.ModelDataSet.dvarUsedByLaterCycle</a>, <a class="el" href="_dss_operation_8java_source.html#l00490">wrimsv2.evaluator.DssOperation.entryNameTS()</a>, <a class="el" href="_clp_solver_8java_source.html#l00029">errorCode</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00169">wrimsv2.commondata.wresldata.StudyDataSet.getDvarTimeArrayCycleIndexList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00158">wrimsv2.commondata.wresldata.StudyDataSet.getVarCycleIndexList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00141">wrimsv2.commondata.wresldata.StudyDataSet.getVarCycleIndexValueMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00129">wrimsv2.commondata.wresldata.StudyDataSet.getVarCycleValueMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00137">wrimsv2.commondata.wresldata.StudyDataSet.getVarTimeArrayCycleValueMap()</a>, <a class="el" href="_clp_solver_8java_source.html#l00031">model</a>, <a class="el" href="_data_time_series_8java_source.html#l00019">wrimsv2.evaluator.DataTimeSeries.saveDataToTimeSeries()</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00060">wrimsv2.commondata.wresldata.Dvar.setData()</a>, <a class="el" href="_control_data_8java_source.html#l00100">wrimsv2.components.ControlData.showRunTimeMessage</a>, <a class="el" href="_model_data_set_8java_source.html#l00083">wrimsv2.commondata.wresldata.ModelDataSet.timeArrayDvList</a>, <a class="el" href="_control_data_8java_source.html#l00059">wrimsv2.components.ControlData.timeStep</a>, and <a class="el" href="_clp_solver_8java_source.html#l00030">varDoubleMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>.</p>
+
+</div>
+</div>
+<a id="a0783f49cca566478d72a907c1215b692" name="a0783f49cca566478d72a907c1215b692"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0783f49cca566478d72a907c1215b692">&#9670;&#160;</a></span>close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.close </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00050">50</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_controller_batch_8java_source.html#l01342">wrimsv2.components.ControllerBatch.runModelClp()</a>, and <a class="el" href="_controller_batch_8java_source.html#l00516">wrimsv2.components.ControllerBatch.runModelILP()</a>.</p>
+
+</div>
+</div>
+<a id="a6fbcff569680dde3862c33449e0f79f6" name="a6fbcff569680dde3862c33449e0f79f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fbcff569680dde3862c33449e0f79f6">&#9670;&#160;</a></span>collectDvar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.collectDvar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00335">335</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_clp_solver_8java_source.html#l00031">model</a>, and <a class="el" href="_clp_solver_8java_source.html#l00030">varDoubleMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>.</p>
+
+</div>
+</div>
+<a id="acd3a37a4b344a9e34021ae7f7b76ac9a" name="acd3a37a4b344a9e34021ae7f7b76ac9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd3a37a4b344a9e34021ae7f7b76ac9a">&#9670;&#160;</a></span>getObjValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double wrimsv2.solver.ClpSolver.getObjValue </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00119">119</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_clp_solver_8java_source.html#l00031">model</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>.</p>
+
+</div>
+</div>
+<a id="a6cf04f7ed1af93ac717db4413fe5eaa0" name="a6cf04f7ed1af93ac717db4413fe5eaa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cf04f7ed1af93ac717db4413fe5eaa0">&#9670;&#160;</a></span>getSolverInformation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.getSolverInformation </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modelStatus</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00141">141</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00214">wrimsv2.components.Error.addSolvingError()</a>, and <a class="el" href="_clp_solver_8java_source.html#l00029">errorCode</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>.</p>
+
+</div>
+</div>
+<a id="a93a1da919a53b184abad5f4e2f836b90" name="a93a1da919a53b184abad5f4e2f836b90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93a1da919a53b184abad5f4e2f836b90">&#9670;&#160;</a></span>init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.init </td>
+          <td>(</td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>useLpFile</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00042">42</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_clp_solver_8java_source.html#l00031">model</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_controller_batch_8java_source.html#l01342">wrimsv2.components.ControllerBatch.runModelClp()</a>, and <a class="el" href="_controller_batch_8java_source.html#l00516">wrimsv2.components.ControllerBatch.runModelILP()</a>.</p>
+
+</div>
+</div>
+<a id="aefcf092cf952a67263d20ff2aa560b2d" name="aefcf092cf952a67263d20ff2aa560b2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefcf092cf952a67263d20ff2aa560b2d">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.main </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>argv</em></span>[]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00442">442</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+</div>
+</div>
+<a id="afab37e1d12c931bff21e9bb27c109471" name="afab37e1d12c931bff21e9bb27c109471"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab37e1d12c931bff21e9bb27c109471">&#9670;&#160;</a></span>newProblem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.newProblem </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>modelName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>useLpFile</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00055">55</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_clp_solver_8java_source.html#l00362">assignDvar()</a>, <a class="el" href="_clp_solver_8java_source.html#l00032">buildObject</a>, <a class="el" href="_control_data_8java_source.html#l00093">wrimsv2.components.ControlData.clp_cbc_objective</a>, <a class="el" href="_clp_solver_8java_source.html#l00335">collectDvar()</a>, <a class="el" href="_control_data_8java_source.html#l00037">wrimsv2.components.ControlData.currModelDataSet</a>, <a class="el" href="_clp_solver_8java_source.html#l00034">dvarMap</a>, <a class="el" href="_clp_solver_8java_source.html#l00033">dvKeys</a>, <a class="el" href="_model_data_set_8java_source.html#l00079">wrimsv2.commondata.wresldata.ModelDataSet.dvList</a>, <a class="el" href="_model_data_set_8java_source.html#l00082">wrimsv2.commondata.wresldata.ModelDataSet.dvTimeArrayList</a>, <a class="el" href="_error_8java_source.html#l00024">wrimsv2.components.Error.error_solving</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_clp_solver_8java_source.html#l00119">getObjValue()</a>, <a class="el" href="_clp_solver_8java_source.html#l00141">getSolverInformation()</a>, <a class="el" href="_clp_solver_8java_source.html#l00031">model</a>, <a class="el" href="_clp_solver_8java_source.html#l00123">resetModel()</a>, <a class="el" href="_clp_solver_8java_source.html#l00036">rowIndex_array</a>, <a class="el" href="_clp_solver_8java_source.html#l00037">rowValue_array</a>, <a class="el" href="_clp_solver_8java_source.html#l00154">setConstraints()</a>, <a class="el" href="_clp_solver_8java_source.html#l00274">setDVars()</a>, <a class="el" href="_clp_solver_8java_source.html#l00244">setWeights()</a>, and <a class="el" href="_clp_solver_8java_source.html#l00287">solve()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_controller_batch_8java_source.html#l01342">wrimsv2.components.ControllerBatch.runModelClp()</a>, and <a class="el" href="_controller_batch_8java_source.html#l00516">wrimsv2.components.ControllerBatch.runModelILP()</a>.</p>
+
+</div>
+</div>
+<a id="afcf5dc8d889f3a5f6d3d25d5ed44eb76" name="afcf5dc8d889f3a5f6d3d25d5ed44eb76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcf5dc8d889f3a5f6d3d25d5ed44eb76">&#9670;&#160;</a></span>resetModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.resetModel </td>
+          <td>(</td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>useLpFile</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00123">123</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_clp_solver_8java_source.html#l00032">buildObject</a>, <a class="el" href="_clp_solver_8java_source.html#l00031">model</a>, <a class="el" href="_clp_solver_8java_source.html#l00036">rowIndex_array</a>, and <a class="el" href="_clp_solver_8java_source.html#l00037">rowValue_array</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>.</p>
+
+</div>
+</div>
+<a id="a12cb46d3038c0ddc59f7866daa4b98ad" name="a12cb46d3038c0ddc59f7866daa4b98ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12cb46d3038c0ddc59f7866daa4b98ad">&#9670;&#160;</a></span>setConstraints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.setConstraints </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00154">154</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_clp_solver_8java_source.html#l00433">addConditionalSlackSurplusToDvarMap()</a>, <a class="el" href="_clp_solver_8java_source.html#l00032">buildObject</a>, <a class="el" href="_control_data_8java_source.html#l00037">wrimsv2.components.ControlData.currModelDataSet</a>, <a class="el" href="_clp_solver_8java_source.html#l00034">dvarMap</a>, <a class="el" href="_clp_solver_8java_source.html#l00033">dvKeys</a>, <a class="el" href="_solver_data_8java_source.html#l00043">wrimsv2.commondata.solverdata.SolverData.getConstraintDataMap()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00015">wrimsv2.evaluator.EvalConstraint.getEvalExpression()</a>, <a class="el" href="_eval_expression_8java_source.html#l00032">wrimsv2.evaluator.EvalExpression.getMultiplier()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00019">wrimsv2.evaluator.EvalConstraint.getSign()</a>, <a class="el" href="_eval_expression_8java_source.html#l00024">wrimsv2.evaluator.EvalExpression.getValue()</a>, <a class="el" href="_model_data_set_8java_source.html#l00099">wrimsv2.commondata.wresldata.ModelDataSet.gList</a>, <a class="el" href="_model_data_set_8java_source.html#l00100">wrimsv2.commondata.wresldata.ModelDataSet.gTimeArrayList</a>, <a class="el" href="_clp_solver_8java_source.html#l00038">maxValue</a>, <a class="el" href="_clp_solver_8java_source.html#l00031">model</a>, <a class="el" href="_clp_solver_8java_source.html#l00036">rowIndex_array</a>, and <a class="el" href="_clp_solver_8java_source.html#l00037">rowValue_array</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>.</p>
+
+</div>
+</div>
+<a id="ac42e25405c71ac00095ce365eabe2e17" name="ac42e25405c71ac00095ce365eabe2e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac42e25405c71ac00095ce365eabe2e17">&#9670;&#160;</a></span>setDefaultOption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.setDefaultOption </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00357">357</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+</div>
+</div>
+<a id="aaa56ad81ffc318ea7b52f89f7b6cc341" name="aaa56ad81ffc318ea7b52f89f7b6cc341"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa56ad81ffc318ea7b52f89f7b6cc341">&#9670;&#160;</a></span>setDVars()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.setDVars </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00274">274</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_clp_solver_8java_source.html#l00034">dvarMap</a>, <a class="el" href="_clp_solver_8java_source.html#l00033">dvKeys</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00028">wrimsv2.commondata.wresldata.Dvar.lowerBoundValue</a>, <a class="el" href="_clp_solver_8java_source.html#l00031">model</a>, and <a class="el" href="wresldata_2_dvar_8java_source.html#l00027">wrimsv2.commondata.wresldata.Dvar.upperBoundValue</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>.</p>
+
+</div>
+</div>
+<a id="a114353862afaff07ae695f3ee2410537" name="a114353862afaff07ae695f3ee2410537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a114353862afaff07ae695f3ee2410537">&#9670;&#160;</a></span>setWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.ClpSolver.setWeights </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00244">244</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00037">wrimsv2.components.ControlData.currModelDataSet</a>, <a class="el" href="_clp_solver_8java_source.html#l00033">dvKeys</a>, <a class="el" href="_solver_data_8java_source.html#l00019">wrimsv2.commondata.solverdata.SolverData.getWeightMap()</a>, <a class="el" href="_solver_data_8java_source.html#l00027">wrimsv2.commondata.solverdata.SolverData.getWeightSlackSurplusMap()</a>, <a class="el" href="_clp_solver_8java_source.html#l00031">model</a>, <a class="el" href="_model_data_set_8java_source.html#l00043">wrimsv2.commondata.wresldata.ModelDataSet.usedWtSlackSurplusList</a>, <a class="el" href="_model_data_set_8java_source.html#l00040">wrimsv2.commondata.wresldata.ModelDataSet.wtList</a>, and <a class="el" href="_model_data_set_8java_source.html#l00041">wrimsv2.commondata.wresldata.ModelDataSet.wtTimeArrayList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>.</p>
+
+</div>
+</div>
+<a id="a0fa33663abf27d4a341e15572ef6de58" name="a0fa33663abf27d4a341e15572ef6de58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fa33663abf27d4a341e15572ef6de58">&#9670;&#160;</a></span>solve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.solver.ClpSolver.solve </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tolerance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>useLpFile</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00287">287</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_clp_solver_8java_source.html#l00031">model</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a6cc5918efbd4b8a3a0f1bf70fc4c3487" name="a6cc5918efbd4b8a3a0f1bf70fc4c3487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cc5918efbd4b8a3a0f1bf70fc4c3487">&#9670;&#160;</a></span>buildObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SWIGTYPE_p_CoinBuild wrimsv2.solver.ClpSolver.buildObject</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00032">32</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>, <a class="el" href="_clp_solver_8java_source.html#l00123">resetModel()</a>, and <a class="el" href="_clp_solver_8java_source.html#l00154">setConstraints()</a>.</p>
+
+</div>
+</div>
+<a id="a73113622ff53d1729dd69afa33173c86" name="a73113622ff53d1729dd69afa33173c86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73113622ff53d1729dd69afa33173c86">&#9670;&#160;</a></span>dvarMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a>&gt; wrimsv2.solver.ClpSolver.dvarMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00034">34</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00433">addConditionalSlackSurplusToDvarMap()</a>, <a class="el" href="_clp_solver_8java_source.html#l00362">assignDvar()</a>, <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>, <a class="el" href="_clp_solver_8java_source.html#l00154">setConstraints()</a>, and <a class="el" href="_clp_solver_8java_source.html#l00274">setDVars()</a>.</p>
+
+</div>
+</div>
+<a id="a05d11aa4fc123ff83dbc1ac9bea7caaa" name="a05d11aa4fc123ff83dbc1ac9bea7caaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05d11aa4fc123ff83dbc1ac9bea7caaa">&#9670;&#160;</a></span>dvKeys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.solver.ClpSolver.dvKeys</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00033">33</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>, <a class="el" href="_clp_solver_8java_source.html#l00154">setConstraints()</a>, <a class="el" href="_clp_solver_8java_source.html#l00274">setDVars()</a>, and <a class="el" href="_clp_solver_8java_source.html#l00244">setWeights()</a>.</p>
+
+</div>
+</div>
+<a id="a9f0f82528eec43cb948094a530c9dd59" name="a9f0f82528eec43cb948094a530c9dd59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f0f82528eec43cb948094a530c9dd59">&#9670;&#160;</a></span>errorCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.solver.ClpSolver.errorCode = 99</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00029">29</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00362">assignDvar()</a>, and <a class="el" href="_clp_solver_8java_source.html#l00141">getSolverInformation()</a>.</p>
+
+</div>
+</div>
+<a id="a14bf17ad4c598ac8e432ca005363b360" name="a14bf17ad4c598ac8e432ca005363b360"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14bf17ad4c598ac8e432ca005363b360">&#9670;&#160;</a></span>maxValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double wrimsv2.solver.ClpSolver.maxValue = 1.0e23</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00038">38</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00154">setConstraints()</a>.</p>
+
+</div>
+</div>
+<a id="ac050fcf800872c876647efac68b75590" name="ac050fcf800872c876647efac68b75590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac050fcf800872c876647efac68b75590">&#9670;&#160;</a></span>model</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SWIGTYPE_p_ClpSimplex wrimsv2.solver.ClpSolver.model</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00031">31</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00362">assignDvar()</a>, <a class="el" href="_clp_solver_8java_source.html#l00335">collectDvar()</a>, <a class="el" href="_clp_solver_8java_source.html#l00119">getObjValue()</a>, <a class="el" href="_clp_solver_8java_source.html#l00042">init()</a>, <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>, <a class="el" href="_clp_solver_8java_source.html#l00123">resetModel()</a>, <a class="el" href="_clp_solver_8java_source.html#l00154">setConstraints()</a>, <a class="el" href="_clp_solver_8java_source.html#l00274">setDVars()</a>, <a class="el" href="_clp_solver_8java_source.html#l00244">setWeights()</a>, and <a class="el" href="_clp_solver_8java_source.html#l00287">solve()</a>.</p>
+
+</div>
+</div>
+<a id="a94854b2d9d5fda41daa9f195905c4c66" name="a94854b2d9d5fda41daa9f195905c4c66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94854b2d9d5fda41daa9f195905c4c66">&#9670;&#160;</a></span>rowIndex_array</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;SWIGTYPE_p_int&gt; wrimsv2.solver.ClpSolver.rowIndex_array</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00036">36</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>, <a class="el" href="_clp_solver_8java_source.html#l00123">resetModel()</a>, and <a class="el" href="_clp_solver_8java_source.html#l00154">setConstraints()</a>.</p>
+
+</div>
+</div>
+<a id="a90d1dc20cff24b1c9a0216d7d78cb821" name="a90d1dc20cff24b1c9a0216d7d78cb821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90d1dc20cff24b1c9a0216d7d78cb821">&#9670;&#160;</a></span>rowValue_array</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;SWIGTYPE_p_double&gt; wrimsv2.solver.ClpSolver.rowValue_array</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00037">37</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00055">newProblem()</a>, <a class="el" href="_clp_solver_8java_source.html#l00123">resetModel()</a>, and <a class="el" href="_clp_solver_8java_source.html#l00154">setConstraints()</a>.</p>
+
+</div>
+</div>
+<a id="a50ca1c4089165e766c689936630bcf39" name="a50ca1c4089165e766c689936630bcf39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50ca1c4089165e766c689936630bcf39">&#9670;&#160;</a></span>varDoubleMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, Double&gt; wrimsv2.solver.ClpSolver.varDoubleMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_clp_solver_8java_source.html#l00030">30</a> of file <a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_clp_solver_8java_source.html#l00362">assignDvar()</a>, <a class="el" href="_clp_solver_8java_source.html#l00335">collectDvar()</a>, and <a class="el" href="_controller_batch_8java_source.html#l00516">wrimsv2.components.ControllerBatch.runModelILP()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/solver/<b>ClpSolver.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/solver/<a class="el" href="_clp_solver_8java_source.html">ClpSolver.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -137,7 +877,7 @@ static Map&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bo
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>solver</b></li><li class="navelem"><a href="classwrimsv2_1_1solver_1_1_clp_solver.html">ClpSolver</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1solver.html">solver</a></li><li class="navelem"><a href="classwrimsv2_1_1solver_1_1_clp_solver.html">ClpSolver</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

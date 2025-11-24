@@ -1,0 +1,25 @@
+var classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group =
+[
+    [ "VarsGroup", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a24325805bb9d5aa5bf45e165a9e5efd5", null ],
+    [ "filterVarsPool", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a73aea3141143f5387a29cc2419c85726", null ],
+    [ "findLowerVertaxVars", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#aa280f0881089cbb2c940b1b21cea2bf4", null ],
+    [ "findNotLowerVertaxVars", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a6cf7a2c4c8ce14b48435aff6ffeff0b2", null ],
+    [ "findNotUpperVertaxVars", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#ad1b5061e21becbc951e44754d9c7f368", null ],
+    [ "findVarsAtVertex", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a1e4a2a63ffbf8a8320e999882b880fd8", null ],
+    [ "setExcludeStrings", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a962b51113d3d0d809bcc1e7387f15889", null ],
+    [ "setIncludeStrings", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a1b845b737e8dbefbd99d1cbdc4711e52", null ],
+    [ "setVarsPool", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#ae0cfa95f5fa6cb1550ca8ce8b39195cd", null ],
+    [ "baseModel", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a3906e3086ea657225747e4b9a5b4b501", null ],
+    [ "excludeStrings", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a20bc9ac0e9dd4540a25194b7cbc993a3", null ],
+    [ "includeStrings", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a411285a0c83691694347637187385d3d", null ],
+    [ "lowerVertexVars_integer", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#afb3a8df948bb35dc35fc5e207e6e8251", null ],
+    [ "lowerVertexVars_number", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#acf3a06019c34953b4ce18e980b1202ed", null ],
+    [ "notLowerVertexVars_integer", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a75d16f72a817e551d98fb2a18c591e26", null ],
+    [ "notLowerVertexVars_number", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#af2c3796c2cb1010e167174d3d83503fd", null ],
+    [ "notUpperVertexVars_integer", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a31b4a3ff4c053e15acaa0857cec99f08", null ],
+    [ "notUpperVertexVars_number", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a2066ee7a0b37eb481fc5504665168104", null ],
+    [ "varsPool", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#aa95f48384cbe33df87bb5eb2066be77a", null ],
+    [ "varsPool_integer", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a93272f639613675060c128bb838a2280", null ],
+    [ "varsPool_number", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#ad3aba9620013095bc33eb4b44bd53c54", null ],
+    [ "vertax_tolerance", "classwrimsv2_1_1tools_1_1solution_range_finder_1_1_vars_group.html#a704ccb070578036341cf34c2d87da32c", null ]
+];

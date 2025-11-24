@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.commondata.solverdata.SolverData Class Reference</title>
+<title>Wrims-engine: wrimsv2.commondata.solverdata.SolverData Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,25 +94,381 @@ $(function(){initNavTree('classwrimsv2_1_1commondata_1_1solverdata_1_1_solver_da
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a10f1ef1e76b847034f60acd8881ac89b" id="r_a10f1ef1e76b847034f60acd8881ac89b"><td class="memItemLeft" align="right" valign="top"><a id="a10f1ef1e76b847034f60acd8881ac89b" name="a10f1ef1e76b847034f60acd8881ac89b"></a>
-static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getWeightMap</b> ()</td></tr>
-<tr class="memitem:a60270800a8e2c7f591794d9873f7af9f" id="r_a60270800a8e2c7f591794d9873f7af9f"><td class="memItemLeft" align="right" valign="top"><a id="a60270800a8e2c7f591794d9873f7af9f" name="a60270800a8e2c7f591794d9873f7af9f"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>clearWeightMap</b> ()</td></tr>
-<tr class="memitem:a080c292841790cc23bce3d1662444343" id="r_a080c292841790cc23bce3d1662444343"><td class="memItemLeft" align="right" valign="top"><a id="a080c292841790cc23bce3d1662444343" name="a080c292841790cc23bce3d1662444343"></a>
-static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getWeightSlackSurplusMap</b> ()</td></tr>
-<tr class="memitem:af55d4aeb880640c1dc6c337bcb668d38" id="r_af55d4aeb880640c1dc6c337bcb668d38"><td class="memItemLeft" align="right" valign="top"><a id="af55d4aeb880640c1dc6c337bcb668d38" name="af55d4aeb880640c1dc6c337bcb668d38"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>clearWeightSlackSurplusMap</b> ()</td></tr>
-<tr class="memitem:a3c00723d9e0e611f2ff52eef88edbf8d" id="r_a3c00723d9e0e611f2ff52eef88edbf8d"><td class="memItemLeft" align="right" valign="top"><a id="a3c00723d9e0e611f2ff52eef88edbf8d" name="a3c00723d9e0e611f2ff52eef88edbf8d"></a>
-static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getDvarMap</b> ()</td></tr>
-<tr class="memitem:acb9fc1d058d3d8e40902fb9763d2ce66" id="r_acb9fc1d058d3d8e40902fb9763d2ce66"><td class="memItemLeft" align="right" valign="top"><a id="acb9fc1d058d3d8e40902fb9763d2ce66" name="acb9fc1d058d3d8e40902fb9763d2ce66"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>clearDvarMap</b> ()</td></tr>
-<tr class="memitem:a494d17b0347fa05e260a026ae765e991" id="r_a494d17b0347fa05e260a026ae765e991"><td class="memItemLeft" align="right" valign="top"><a id="a494d17b0347fa05e260a026ae765e991" name="a494d17b0347fa05e260a026ae765e991"></a>
-static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getConstraintDataMap</b> ()</td></tr>
-<tr class="memitem:a0e76364c9ead41c661a26c3ef6610803" id="r_a0e76364c9ead41c661a26c3ef6610803"><td class="memItemLeft" align="right" valign="top"><a id="a0e76364c9ead41c661a26c3ef6610803" name="a0e76364c9ead41c661a26c3ef6610803"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>clearConstraintDataMap</b> ()</td></tr>
+<tr class="memitem:a0e76364c9ead41c661a26c3ef6610803" id="r_a0e76364c9ead41c661a26c3ef6610803"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e76364c9ead41c661a26c3ef6610803">clearConstraintDataMap</a> ()</td></tr>
+<tr class="memitem:acb9fc1d058d3d8e40902fb9763d2ce66" id="r_acb9fc1d058d3d8e40902fb9763d2ce66"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb9fc1d058d3d8e40902fb9763d2ce66">clearDvarMap</a> ()</td></tr>
+<tr class="memitem:a60270800a8e2c7f591794d9873f7af9f" id="r_a60270800a8e2c7f591794d9873f7af9f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60270800a8e2c7f591794d9873f7af9f">clearWeightMap</a> ()</td></tr>
+<tr class="memitem:af55d4aeb880640c1dc6c337bcb668d38" id="r_af55d4aeb880640c1dc6c337bcb668d38"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af55d4aeb880640c1dc6c337bcb668d38">clearWeightSlackSurplusMap</a> ()</td></tr>
+<tr class="memitem:a494d17b0347fa05e260a026ae765e991" id="r_a494d17b0347fa05e260a026ae765e991"><td class="memItemLeft" align="right" valign="top">static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a494d17b0347fa05e260a026ae765e991">getConstraintDataMap</a> ()</td></tr>
+<tr class="memitem:a3c00723d9e0e611f2ff52eef88edbf8d" id="r_a3c00723d9e0e611f2ff52eef88edbf8d"><td class="memItemLeft" align="right" valign="top">static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c00723d9e0e611f2ff52eef88edbf8d">getDvarMap</a> ()</td></tr>
+<tr class="memitem:a10f1ef1e76b847034f60acd8881ac89b" id="r_a10f1ef1e76b847034f60acd8881ac89b"><td class="memItemLeft" align="right" valign="top">static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10f1ef1e76b847034f60acd8881ac89b">getWeightMap</a> ()</td></tr>
+<tr class="memitem:a080c292841790cc23bce3d1662444343" id="r_a080c292841790cc23bce3d1662444343"><td class="memItemLeft" align="right" valign="top">static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080c292841790cc23bce3d1662444343">getWeightSlackSurplusMap</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a0c00200ed520080b77bd151df7b41f78" id="r_a0c00200ed520080b77bd151df7b41f78"><td class="memItemLeft" align="right" valign="top">static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c00200ed520080b77bd151df7b41f78">constraintDataMap</a> =new ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a>&gt;()</td></tr>
+<tr class="memitem:aa833d99484793d20a060da45b6e13ac1" id="r_aa833d99484793d20a060da45b6e13ac1"><td class="memItemLeft" align="right" valign="top">static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa833d99484793d20a060da45b6e13ac1">dvarMap</a> = new ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a>&gt;()</td></tr>
+<tr class="memitem:aff1deaa162545806a89ce847b364bdcc" id="r_aff1deaa162545806a89ce847b364bdcc"><td class="memItemLeft" align="right" valign="top">static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff1deaa162545806a89ce847b364bdcc">weightMap</a> = new ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt;()</td></tr>
+<tr class="memitem:a51457f75041b10ccfb3038c187f28723" id="r_a51457f75041b10ccfb3038c187f28723"><td class="memItemLeft" align="right" valign="top">static ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51457f75041b10ccfb3038c187f28723">weightSlackSurplusMap</a> = new ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt;()</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00013">13</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a0e76364c9ead41c661a26c3ef6610803" name="a0e76364c9ead41c661a26c3ef6610803"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e76364c9ead41c661a26c3ef6610803">&#9670;&#160;</a></span>clearConstraintDataMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.commondata.solverdata.SolverData.clearConstraintDataMap </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00047">47</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_solver_data_8java_source.html#l00014">constraintDataMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_model_data_set_8java_source.html#l00365">wrimsv2.commondata.wresldata.ModelDataSet.processGoal()</a>.</p>
+
+</div>
+</div>
+<a id="acb9fc1d058d3d8e40902fb9763d2ce66" name="acb9fc1d058d3d8e40902fb9763d2ce66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb9fc1d058d3d8e40902fb9763d2ce66">&#9670;&#160;</a></span>clearDvarMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.commondata.solverdata.SolverData.clearDvarMap </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00039">39</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_solver_data_8java_source.html#l00015">dvarMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_model_data_set_8java_source.html#l00346">wrimsv2.commondata.wresldata.ModelDataSet.processDvar()</a>.</p>
+
+</div>
+</div>
+<a id="a60270800a8e2c7f591794d9873f7af9f" name="a60270800a8e2c7f591794d9873f7af9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60270800a8e2c7f591794d9873f7af9f">&#9670;&#160;</a></span>clearWeightMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.commondata.solverdata.SolverData.clearWeightMap </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00023">23</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_solver_data_8java_source.html#l00016">weightMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_model_data_set_8java_source.html#l00149">wrimsv2.commondata.wresldata.ModelDataSet.processWeight()</a>.</p>
+
+</div>
+</div>
+<a id="af55d4aeb880640c1dc6c337bcb668d38" name="af55d4aeb880640c1dc6c337bcb668d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af55d4aeb880640c1dc6c337bcb668d38">&#9670;&#160;</a></span>clearWeightSlackSurplusMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.commondata.solverdata.SolverData.clearWeightSlackSurplusMap </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00031">31</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_solver_data_8java_source.html#l00017">weightSlackSurplusMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_model_data_set_8java_source.html#l00162">wrimsv2.commondata.wresldata.ModelDataSet.processWeightSlackSurplus()</a>.</p>
+
+</div>
+</div>
+<a id="a494d17b0347fa05e260a026ae765e991" name="a494d17b0347fa05e260a026ae765e991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a494d17b0347fa05e260a026ae765e991">&#9670;&#160;</a></span>getConstraintDataMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a> &gt; wrimsv2.commondata.solverdata.SolverData.getConstraintDataMap </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00043">43</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_solver_data_8java_source.html#l00014">constraintDataMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_check_weight_slack_surplus_8java_source.html#l00017">wrimsv2.tools.CheckWeightSlackSurplus.CheckWeightSlackSurplus()</a>, <a class="el" href="_multi_step_analyzer_8java_source.html#l00027">wrimsv2.tools.MultiStepAnalyzer.MultiStepAnalyzer()</a>, <a class="el" href="_r_c_c_comparison_8java_source.html#l00040">wrimsv2.tools.RCCComparison.RCCComparison()</a>, <a class="el" href="_r_c_c_comparison_8java_source.html#l00194">wrimsv2.tools.RCCComparison.compareConstraint()</a>, <a class="el" href="_i_l_p_8java_source.html#l00686">wrimsv2.ilp.ILP.findDvarInConstraint()</a>, <a class="el" href="_debug_interface_8java_source.html#l02091">wrimsv2.components.DebugInterface.getAllControlGoalName()</a>, <a class="el" href="_debug_interface_8java_source.html#l01882">wrimsv2.components.DebugInterface.getAllGoalFile()</a>, <a class="el" href="_debug_interface_8java_source.html#l01824">wrimsv2.components.DebugInterface.getAllGoalString()</a>, <a class="el" href="_debug_interface_8java_source.html#l01355">wrimsv2.components.DebugInterface.getFilterGoal()</a>, <a class="el" href="_debug_interface_8java_source.html#l01139">wrimsv2.components.DebugInterface.getGoalInOneFile()</a>, <a class="el" href="_debug_interface_8java_source.html#l01226">wrimsv2.components.DebugInterface.getGoalInOneFileWP()</a>, <a class="el" href="_debug_interface_8java_source.html#l01953">wrimsv2.components.DebugInterface.getWatch()</a>, <a class="el" href="_model_data_set_8java_source.html#l00365">wrimsv2.commondata.wresldata.ModelDataSet.processGoal()</a>, <a class="el" href="_cbc_solver_8java_source.html#l00713">wrimsv2.solver.CbcSolver.setConstraints()</a>, <a class="el" href="_clp_solver_8java_source.html#l00154">wrimsv2.solver.ClpSolver.setConstraints()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00216">wrimsv2.solver.Gurobi.GurobiSolver.setConstraints()</a>, <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00029">wrimsv2.solver.ortools.Misc.setConstraints()</a>, <a class="el" href="_x_a_solver_8java_source.html#l00139">wrimsv2.solver.XASolver.setConstraints()</a>, <a class="el" href="_cbc_solver_8java_source.html#l00889">wrimsv2.solver.CbcSolver.setConstraintsIIS()</a>, <a class="el" href="_cbc_solver_8java_source.html#l00807">wrimsv2.solver.CbcSolver.setConstraintsSkip()</a>, <a class="el" href="_ampl_writer_8java_source.html#l00144">wrimsv2.ilp.AmplWriter.writeConstraint()</a>, <a class="el" href="_cplex_lp_writer_8java_source.html#l00069">wrimsv2.ilp.CplexLpWriter.writeConstraint()</a>, <a class="el" href="_lp_solve_writer_8java_source.html#l00089">wrimsv2.ilp.LpSolveWriter.writeConstraint()</a>, and <a class="el" href="_cplex_export_8java_source.html#l00069">wrimsv2.solver.mpmodel.export.CplexExport.writeConstraint()</a>.</p>
+
+</div>
+</div>
+<a id="a3c00723d9e0e611f2ff52eef88edbf8d" name="a3c00723d9e0e611f2ff52eef88edbf8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c00723d9e0e611f2ff52eef88edbf8d">&#9670;&#160;</a></span>getDvarMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt; wrimsv2.commondata.solverdata.SolverData.getDvarMap </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00035">35</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_solver_data_8java_source.html#l00015">dvarMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_r_c_c_comparison_8java_source.html#l00040">wrimsv2.tools.RCCComparison.RCCComparison()</a>, <a class="el" href="_cbc0_solver_8java_source.html#l00191">wrimsv2.solver.Cbc0Solver.assignDvar()</a>, <a class="el" href="_cbc_solver_8java_source.html#l01772">wrimsv2.solver.CbcSolver.assignDvar()</a>, <a class="el" href="_clp0_solver_8java_source.html#l00152">wrimsv2.solver.Clp0Solver.assignDvar()</a>, <a class="el" href="_clp_solver_8java_source.html#l00362">wrimsv2.solver.ClpSolver.assignDvar()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00250">wrimsv2.solver.Gurobi.GurobiSolver.assignDvar()</a>, <a class="el" href="_l_p_solve_solver_8java_source.html#l00175">wrimsv2.solver.LPSolveSolver.assignDvar()</a>, <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00101">wrimsv2.solver.ortools.Misc.assignDvar()</a>, <a class="el" href="_x_a_solver_8java_source.html#l00181">wrimsv2.solver.XASolver.assignDvar()</a>, <a class="el" href="_value_evaluation_8java_source.html#l00655">wrimsv2.evaluator.ValueEvaluation.dvarAliasCycleTimeSeries()</a>, <a class="el" href="_value_evaluation_8java_source.html#l00580">wrimsv2.evaluator.ValueEvaluation.dvarAliasTimeSeries()</a>, <a class="el" href="_debug_interface_8java_source.html#l02091">wrimsv2.components.DebugInterface.getAllControlGoalName()</a>, <a class="el" href="_debug_interface_8java_source.html#l01644">wrimsv2.components.DebugInterface.getAllVariableFiles()</a>, <a class="el" href="_debug_interface_8java_source.html#l01484">wrimsv2.components.DebugInterface.getAllVariableString()</a>, <a class="el" href="_debug_interface_8java_source.html#l01355">wrimsv2.components.DebugInterface.getFilterGoal()</a>, <a class="el" href="_debug_interface_8java_source.html#l02180">wrimsv2.components.DebugInterface.getFutureValueDetail()</a>, <a class="el" href="_debug_interface_8java_source.html#l01139">wrimsv2.components.DebugInterface.getGoalInOneFile()</a>, <a class="el" href="_debug_interface_8java_source.html#l01226">wrimsv2.components.DebugInterface.getGoalInOneFileWP()</a>, <a class="el" href="_evaluation_8java_source.html#l00647">wrimsv2.evaluator.Evaluation.getTimeSeries()</a>, <a class="el" href="_debug_interface_8java_source.html#l00754">wrimsv2.components.DebugInterface.getVariableInOneFile()</a>, <a class="el" href="_debug_interface_8java_source.html#l00862">wrimsv2.components.DebugInterface.getVariableInOneFileWP()</a>, <a class="el" href="_debug_interface_8java_source.html#l01953">wrimsv2.components.DebugInterface.getWatch()</a>, <a class="el" href="_cbc_solver_8java_source.html#l00626">wrimsv2.solver.CbcSolver.loadProblemIIS()</a>, <a class="el" href="_cbc_solver_8java_source.html#l00219">wrimsv2.solver.CbcSolver.newProblem()</a>, <a class="el" href="_clp_solver_8java_source.html#l00055">wrimsv2.solver.ClpSolver.newProblem()</a>, <a class="el" href="_i_l_p_8java_source.html#l00826">wrimsv2.ilp.ILP.prepareDvarToWrite()</a>, <a class="el" href="_model_data_set_8java_source.html#l00346">wrimsv2.commondata.wresldata.ModelDataSet.processDvar()</a>, <a class="el" href="_cbc_solver_8java_source.html#l00555">wrimsv2.solver.CbcSolver.reloadProblem()</a>, <a class="el" href="_cbc_solver_8java_source.html#l00594">wrimsv2.solver.CbcSolver.reloadProblemConfirm()</a>, <a class="el" href="_controller_batch_8java_source.html#l01536">wrimsv2.components.ControllerBatch.runModelCbc()</a>, <a class="el" href="_controller_s_g_8java_source.html#l00339">wrimsv2.components.ControllerSG.runModelCbc()</a>, <a class="el" href="_controller_debug_8java_source.html#l00223">wrimsv2.components.ControllerDebug.runModelSolvers()</a>, <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00029">wrimsv2.solver.ortools.Misc.setConstraints()</a>, <a class="el" href="_x_a_solver_8java_source.html#l00139">wrimsv2.solver.XASolver.setConstraints()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00184">wrimsv2.solver.Gurobi.GurobiSolver.setDVars()</a>, <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00159">wrimsv2.solver.ortools.Misc.setDVars()</a>, <a class="el" href="_x_a_solver_8java_source.html#l00083">wrimsv2.solver.XASolver.setDVars()</a>, <a class="el" href="_cbc_solver_8java_source.html#l01096">wrimsv2.solver.CbcSolver.solve()</a>, <a class="el" href="_cbc_solver_8java_source.html#l02225">wrimsv2.solver.CbcSolver.violationCheck()</a>, <a class="el" href="_ampl_writer_8java_source.html#l00329">wrimsv2.ilp.AmplWriter.writeDvar()</a>, <a class="el" href="_ampl_writer_8java_source.html#l00217">wrimsv2.ilp.AmplWriter.writeDvar()</a>, <a class="el" href="_cplex_lp_writer_8java_source.html#l00139">wrimsv2.ilp.CplexLpWriter.writeDvar()</a>, <a class="el" href="_lp_solve_writer_8java_source.html#l00265">wrimsv2.ilp.LpSolveWriter.writeDvar()</a>, <a class="el" href="_lp_solve_writer_8java_source.html#l00153">wrimsv2.ilp.LpSolveWriter.writeDvar()</a>, <a class="el" href="_cplex_export_8java_source.html#l00138">wrimsv2.solver.mpmodel.export.CplexExport.writeDvar()</a>, and <a class="el" href="_ampl_writer_8java_source.html#l00045">wrimsv2.ilp.AmplWriter.writeDvarValue()</a>.</p>
+
+</div>
+</div>
+<a id="a10f1ef1e76b847034f60acd8881ac89b" name="a10f1ef1e76b847034f60acd8881ac89b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f1ef1e76b847034f60acd8881ac89b">&#9670;&#160;</a></span>getWeightMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt; wrimsv2.commondata.solverdata.SolverData.getWeightMap </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00019">19</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_solver_data_8java_source.html#l00016">weightMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_r_c_c_comparison_8java_source.html#l00040">wrimsv2.tools.RCCComparison.RCCComparison()</a>, <a class="el" href="_i_l_p_8java_source.html#l00713">wrimsv2.ilp.ILP.findActiveWeightMap()</a>, <a class="el" href="_i_l_p_8java_source.html#l00676">wrimsv2.ilp.ILP.findWeightedDvar()</a>, <a class="el" href="_debug_interface_8java_source.html#l01644">wrimsv2.components.DebugInterface.getAllVariableFiles()</a>, <a class="el" href="_debug_interface_8java_source.html#l01484">wrimsv2.components.DebugInterface.getAllVariableString()</a>, <a class="el" href="_cbc_solver_8java_source.html#l00219">wrimsv2.solver.CbcSolver.newProblem()</a>, <a class="el" href="_i_l_p_8java_source.html#l00826">wrimsv2.ilp.ILP.prepareDvarToWrite()</a>, <a class="el" href="_model_data_set_8java_source.html#l00149">wrimsv2.commondata.wresldata.ModelDataSet.processWeight()</a>, <a class="el" href="_cbc_solver_8java_source.html#l01009">wrimsv2.solver.CbcSolver.setDVars()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00184">wrimsv2.solver.Gurobi.GurobiSolver.setDVars()</a>, <a class="el" href="_cbc_solver_8java_source.html#l01037">wrimsv2.solver.CbcSolver.setDVars2021()</a>, <a class="el" href="_clp_solver_8java_source.html#l00244">wrimsv2.solver.ClpSolver.setWeights()</a>, <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00185">wrimsv2.solver.ortools.Misc.setWeights()</a>, <a class="el" href="_x_a_solver_8java_source.html#l00111">wrimsv2.solver.XASolver.setWeights()</a>, <a class="el" href="_ampl_writer_8java_source.html#l00045">wrimsv2.ilp.AmplWriter.writeDvarValue()</a>, and <a class="el" href="_ampl_writer_8java_source.html#l00103">wrimsv2.ilp.AmplWriter.writeObj()</a>.</p>
+
+</div>
+</div>
+<a id="a080c292841790cc23bce3d1662444343" name="a080c292841790cc23bce3d1662444343"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a080c292841790cc23bce3d1662444343">&#9670;&#160;</a></span>getWeightSlackSurplusMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a> &gt; wrimsv2.commondata.solverdata.SolverData.getWeightSlackSurplusMap </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00027">27</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_solver_data_8java_source.html#l00017">weightSlackSurplusMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_check_weight_slack_surplus_8java_source.html#l00017">wrimsv2.tools.CheckWeightSlackSurplus.CheckWeightSlackSurplus()</a>, <a class="el" href="_i_l_p_8java_source.html#l00713">wrimsv2.ilp.ILP.findActiveWeightMap()</a>, <a class="el" href="_debug_interface_8java_source.html#l01644">wrimsv2.components.DebugInterface.getAllVariableFiles()</a>, <a class="el" href="_debug_interface_8java_source.html#l01484">wrimsv2.components.DebugInterface.getAllVariableString()</a>, <a class="el" href="_cbc_solver_8java_source.html#l00219">wrimsv2.solver.CbcSolver.newProblem()</a>, <a class="el" href="_model_data_set_8java_source.html#l00162">wrimsv2.commondata.wresldata.ModelDataSet.processWeightSlackSurplus()</a>, <a class="el" href="_clp_solver_8java_source.html#l00244">wrimsv2.solver.ClpSolver.setWeights()</a>, <a class="el" href="solver_2ortools_2_misc_8java_source.html#l00185">wrimsv2.solver.ortools.Misc.setWeights()</a>, and <a class="el" href="_x_a_solver_8java_source.html#l00111">wrimsv2.solver.XASolver.setWeights()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a0c00200ed520080b77bd151df7b41f78" name="a0c00200ed520080b77bd151df7b41f78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c00200ed520080b77bd151df7b41f78">&#9670;&#160;</a></span>constraintDataMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a>&gt; wrimsv2.commondata.solverdata.SolverData.constraintDataMap =new ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00014">14</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_solver_data_8java_source.html#l00047">clearConstraintDataMap()</a>, and <a class="el" href="_solver_data_8java_source.html#l00043">getConstraintDataMap()</a>.</p>
+
+</div>
+</div>
+<a id="aa833d99484793d20a060da45b6e13ac1" name="aa833d99484793d20a060da45b6e13ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa833d99484793d20a060da45b6e13ac1">&#9670;&#160;</a></span>dvarMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a>&gt; wrimsv2.commondata.solverdata.SolverData.dvarMap = new ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00015">15</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_solver_data_8java_source.html#l00039">clearDvarMap()</a>, and <a class="el" href="_solver_data_8java_source.html#l00035">getDvarMap()</a>.</p>
+
+</div>
+</div>
+<a id="aff1deaa162545806a89ce847b364bdcc" name="aff1deaa162545806a89ce847b364bdcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff1deaa162545806a89ce847b364bdcc">&#9670;&#160;</a></span>weightMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt; wrimsv2.commondata.solverdata.SolverData.weightMap = new ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00016">16</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_solver_data_8java_source.html#l00023">clearWeightMap()</a>, and <a class="el" href="_solver_data_8java_source.html#l00019">getWeightMap()</a>.</p>
+
+</div>
+</div>
+<a id="a51457f75041b10ccfb3038c187f28723" name="a51457f75041b10ccfb3038c187f28723"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51457f75041b10ccfb3038c187f28723">&#9670;&#160;</a></span>weightSlackSurplusMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt; wrimsv2.commondata.solverdata.SolverData.weightSlackSurplusMap = new ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_weight_element.html">WeightElement</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_solver_data_8java_source.html#l00017">17</a> of file <a class="el" href="_solver_data_8java_source.html">SolverData.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_solver_data_8java_source.html#l00031">clearWeightSlackSurplusMap()</a>, and <a class="el" href="_solver_data_8java_source.html#l00027">getWeightSlackSurplusMap()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/commondata/solverdata/<b>SolverData.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/commondata/solverdata/<a class="el" href="_solver_data_8java_source.html">SolverData.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -127,7 +483,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>clearConstrain
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>commondata</b></li><li class="navelem"><b>solverdata</b></li><li class="navelem"><a href="classwrimsv2_1_1commondata_1_1solverdata_1_1_solver_data.html">SolverData</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>commondata</b></li><li class="navelem"><a href="namespacewrimsv2_1_1commondata_1_1solverdata.html">solverdata</a></li><li class="navelem"><a href="classwrimsv2_1_1commondata_1_1solverdata_1_1_solver_data.html">SolverData</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

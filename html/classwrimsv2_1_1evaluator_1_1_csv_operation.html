@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.evaluator.CsvOperation Class Reference</title>
+<title>Wrims-engine: wrimsv2.evaluator.CsvOperation Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,27 +94,339 @@ $(function(){initNavTree('classwrimsv2_1_1evaluator_1_1_csv_operation.html','','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af925cdcfd9641e3a7d29a1def2d59fd6" id="r_af925cdcfd9641e3a7d29a1def2d59fd6"><td class="memItemLeft" align="right" valign="top"><a id="af925cdcfd9641e3a7d29a1def2d59fd6" name="af925cdcfd9641e3a7d29a1def2d59fd6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ouputCSV</b> (String csvLocalPath, int scenarioIndex)</td></tr>
-<tr class="memitem:a6fd508250b1e844bf9831f21d996dd22" id="r_a6fd508250b1e844bf9831f21d996dd22"><td class="memItemLeft" align="right" valign="top"><a id="a6fd508250b1e844bf9831f21d996dd22" name="a6fd508250b1e844bf9831f21d996dd22"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>procOVFile</b> ()</td></tr>
-<tr class="memitem:aa7706b12bcac1a62a2227b640b4de433" id="r_aa7706b12bcac1a62a2227b640b4de433"><td class="memItemLeft" align="right" valign="top"><a id="aa7706b12bcac1a62a2227b640b4de433" name="aa7706b12bcac1a62a2227b640b4de433"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>convertValue</b> (double value, String units, String convertToUnits, Date date, String timestep)</td></tr>
-<tr class="memitem:acf68dca49abb282dbfbf8d62c6f03f7a" id="r_acf68dca49abb282dbfbf8d62c6f03f7a"><td class="memItemLeft" align="right" valign="top"><a id="acf68dca49abb282dbfbf8d62c6f03f7a" name="acf68dca49abb282dbfbf8d62c6f03f7a"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>factorTafToCfs</b> (Date date, String timestep)</td></tr>
-<tr class="memitem:aca4c7aaa9ba8db3462b5df296f5c3026" id="r_aca4c7aaa9ba8db3462b5df296f5c3026"><td class="memItemLeft" align="right" valign="top"><a id="aca4c7aaa9ba8db3462b5df296f5c3026" name="aca4c7aaa9ba8db3462b5df296f5c3026"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>factorCfsToTaf</b> (Date date, String timestep)</td></tr>
-<tr class="memitem:afc632ff759758ce03560e905e1cbaf26" id="r_afc632ff759758ce03560e905e1cbaf26"><td class="memItemLeft" align="right" valign="top"><a id="afc632ff759758ce03560e905e1cbaf26" name="afc632ff759758ce03560e905e1cbaf26"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>formUnitsName</b> (String units)</td></tr>
-<tr class="memitem:ad62e6db14a80d6a77241d4ea79431584" id="r_ad62e6db14a80d6a77241d4ea79431584"><td class="memItemLeft" align="right" valign="top"><a id="ad62e6db14a80d6a77241d4ea79431584" name="ad62e6db14a80d6a77241d4ea79431584"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>formVariableName</b> (String name)</td></tr>
-<tr class="memitem:a01a475acfb1fd1ee7497c38931276621" id="r_a01a475acfb1fd1ee7497c38931276621"><td class="memItemLeft" align="right" valign="top"><a id="a01a475acfb1fd1ee7497c38931276621" name="a01a475acfb1fd1ee7497c38931276621"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>formKindName</b> (String name)</td></tr>
-<tr class="memitem:a992ec25cd7350b61515bf945dd9768ac" id="r_a992ec25cd7350b61515bf945dd9768ac"><td class="memItemLeft" align="right" valign="top"><a id="a992ec25cd7350b61515bf945dd9768ac" name="a992ec25cd7350b61515bf945dd9768ac"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>formDateData</b> (Date date)</td></tr>
+<tr class="memitem:aa7706b12bcac1a62a2227b640b4de433" id="r_aa7706b12bcac1a62a2227b640b4de433"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7706b12bcac1a62a2227b640b4de433">convertValue</a> (double value, String units, String convertToUnits, Date date, String timestep)</td></tr>
+<tr class="memitem:aca4c7aaa9ba8db3462b5df296f5c3026" id="r_aca4c7aaa9ba8db3462b5df296f5c3026"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca4c7aaa9ba8db3462b5df296f5c3026">factorCfsToTaf</a> (Date date, String timestep)</td></tr>
+<tr class="memitem:acf68dca49abb282dbfbf8d62c6f03f7a" id="r_acf68dca49abb282dbfbf8d62c6f03f7a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf68dca49abb282dbfbf8d62c6f03f7a">factorTafToCfs</a> (Date date, String timestep)</td></tr>
+<tr class="memitem:a992ec25cd7350b61515bf945dd9768ac" id="r_a992ec25cd7350b61515bf945dd9768ac"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a992ec25cd7350b61515bf945dd9768ac">formDateData</a> (Date date)</td></tr>
+<tr class="memitem:a01a475acfb1fd1ee7497c38931276621" id="r_a01a475acfb1fd1ee7497c38931276621"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01a475acfb1fd1ee7497c38931276621">formKindName</a> (String name)</td></tr>
+<tr class="memitem:afc632ff759758ce03560e905e1cbaf26" id="r_afc632ff759758ce03560e905e1cbaf26"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc632ff759758ce03560e905e1cbaf26">formUnitsName</a> (String units)</td></tr>
+<tr class="memitem:ad62e6db14a80d6a77241d4ea79431584" id="r_ad62e6db14a80d6a77241d4ea79431584"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad62e6db14a80d6a77241d4ea79431584">formVariableName</a> (String name)</td></tr>
+<tr class="memitem:af925cdcfd9641e3a7d29a1def2d59fd6" id="r_af925cdcfd9641e3a7d29a1def2d59fd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af925cdcfd9641e3a7d29a1def2d59fd6">ouputCSV</a> (String csvLocalPath, int scenarioIndex)</td></tr>
+<tr class="memitem:a6fd508250b1e844bf9831f21d996dd22" id="r_a6fd508250b1e844bf9831f21d996dd22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fd508250b1e844bf9831f21d996dd22">procOVFile</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:add70c7f7b71b2f86727889fa269d20bc" id="r_add70c7f7b71b2f86727889fa269d20bc"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add70c7f7b71b2f86727889fa269d20bc">ovPartBC</a> =new HashMap&lt;String, String&gt;()</td></tr>
+<tr class="memitem:aea2f4e7d454bf88992320bfb4add0b36" id="r_aea2f4e7d454bf88992320bfb4add0b36"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea2f4e7d454bf88992320bfb4add0b36">slackPrefix</a> =&quot;slack__&quot;</td></tr>
+<tr class="memitem:a377906d9e3d350a73a9f94cf893ecc30" id="r_a377906d9e3d350a73a9f94cf893ecc30"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a377906d9e3d350a73a9f94cf893ecc30">surplusPrefix</a> =&quot;surplus__&quot;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00020">20</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aa7706b12bcac1a62a2227b640b4de433" name="aa7706b12bcac1a62a2227b640b4de433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7706b12bcac1a62a2227b640b4de433">&#9670;&#160;</a></span>convertValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double wrimsv2.evaluator.CsvOperation.convertValue </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>units</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>convertToUnits</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Date</td>          <td class="paramname"><span class="paramname"><em>date</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>timestep</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00295">295</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_csv_operation_8java_source.html#l00316">factorCfsToTaf()</a>, and <a class="el" href="_csv_operation_8java_source.html#l00305">factorTafToCfs()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_csv_operation_8java_source.html#l00026">ouputCSV()</a>.</p>
+
+</div>
+</div>
+<a id="aca4c7aaa9ba8db3462b5df296f5c3026" name="aca4c7aaa9ba8db3462b5df296f5c3026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca4c7aaa9ba8db3462b5df296f5c3026">&#9670;&#160;</a></span>factorCfsToTaf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double wrimsv2.evaluator.CsvOperation.factorCfsToTaf </td>
+          <td>(</td>
+          <td class="paramtype">Date</td>          <td class="paramname"><span class="paramname"><em>date</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>timestep</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00316">316</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_time_operation_8java_source.html#l00433">wrimsv2.evaluator.TimeOperation.isMonthlyInterval()</a>, and <a class="el" href="_time_operation_8java_source.html#l00247">wrimsv2.evaluator.TimeOperation.numberOfDays()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_csv_operation_8java_source.html#l00295">convertValue()</a>.</p>
+
+</div>
+</div>
+<a id="acf68dca49abb282dbfbf8d62c6f03f7a" name="acf68dca49abb282dbfbf8d62c6f03f7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf68dca49abb282dbfbf8d62c6f03f7a">&#9670;&#160;</a></span>factorTafToCfs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double wrimsv2.evaluator.CsvOperation.factorTafToCfs </td>
+          <td>(</td>
+          <td class="paramtype">Date</td>          <td class="paramname"><span class="paramname"><em>date</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>timestep</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00305">305</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_time_operation_8java_source.html#l00433">wrimsv2.evaluator.TimeOperation.isMonthlyInterval()</a>, and <a class="el" href="_time_operation_8java_source.html#l00247">wrimsv2.evaluator.TimeOperation.numberOfDays()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_csv_operation_8java_source.html#l00295">convertValue()</a>.</p>
+
+</div>
+</div>
+<a id="a992ec25cd7350b61515bf945dd9768ac" name="a992ec25cd7350b61515bf945dd9768ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a992ec25cd7350b61515bf945dd9768ac">&#9670;&#160;</a></span>formDateData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.evaluator.CsvOperation.formDateData </td>
+          <td>(</td>
+          <td class="paramtype">Date</td>          <td class="paramname"><span class="paramname"><em>date</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00342">342</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_time_operation_8java_source.html#l00028">wrimsv2.evaluator.TimeOperation.dayName()</a>, and <a class="el" href="_time_operation_8java_source.html#l00136">wrimsv2.evaluator.TimeOperation.monthNameNumeric()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_csv_operation_8java_source.html#l00026">ouputCSV()</a>.</p>
+
+</div>
+</div>
+<a id="a01a475acfb1fd1ee7497c38931276621" name="a01a475acfb1fd1ee7497c38931276621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01a475acfb1fd1ee7497c38931276621">&#9670;&#160;</a></span>formKindName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.evaluator.CsvOperation.formKindName </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00337">337</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_csv_operation_8java_source.html#l00026">ouputCSV()</a>.</p>
+
+</div>
+</div>
+<a id="afc632ff759758ce03560e905e1cbaf26" name="afc632ff759758ce03560e905e1cbaf26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc632ff759758ce03560e905e1cbaf26">&#9670;&#160;</a></span>formUnitsName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.evaluator.CsvOperation.formUnitsName </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>units</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00327">327</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_csv_operation_8java_source.html#l00026">ouputCSV()</a>.</p>
+
+</div>
+</div>
+<a id="ad62e6db14a80d6a77241d4ea79431584" name="ad62e6db14a80d6a77241d4ea79431584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad62e6db14a80d6a77241d4ea79431584">&#9670;&#160;</a></span>formVariableName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.evaluator.CsvOperation.formVariableName </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00332">332</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_csv_operation_8java_source.html#l00026">ouputCSV()</a>.</p>
+
+</div>
+</div>
+<a id="af925cdcfd9641e3a7d29a1def2d59fd6" name="af925cdcfd9641e3a7d29a1def2d59fd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af925cdcfd9641e3a7d29a1def2d59fd6">&#9670;&#160;</a></span>ouputCSV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.CsvOperation.ouputCSV </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>csvLocalPath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>scenarioIndex</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00026">26</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_time_operation_8java_source.html#l00299">wrimsv2.evaluator.TimeOperation.addOneDay()</a>, <a class="el" href="_time_operation_8java_source.html#l00287">wrimsv2.evaluator.TimeOperation.addOneMonth()</a>, <a class="el" href="_time_operation_8java_source.html#l00319">wrimsv2.evaluator.TimeOperation.backOneDay()</a>, <a class="el" href="_time_operation_8java_source.html#l00307">wrimsv2.evaluator.TimeOperation.backOneMonth()</a>, <a class="el" href="_csv_operation_8java_source.html#l00295">convertValue()</a>, <a class="el" href="_data_time_series_8java_source.html#l00015">wrimsv2.evaluator.DataTimeSeries.dvAliasInit</a>, <a class="el" href="_data_time_series_8java_source.html#l00012">wrimsv2.evaluator.DataTimeSeries.dvAliasTS</a>, <a class="el" href="_csv_operation_8java_source.html#l00342">formDateData()</a>, <a class="el" href="_csv_operation_8java_source.html#l00337">formKindName()</a>, <a class="el" href="_csv_operation_8java_source.html#l00327">formUnitsName()</a>, <a class="el" href="_csv_operation_8java_source.html#l00332">formVariableName()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00062">wrimsv2.evaluator.DssDataSet.getConvertToUnits()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00030">wrimsv2.evaluator.DssDataSet.getData()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00029">wrimsv2.evaluator.DssDataSetFixLength.getData()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00078">wrimsv2.evaluator.DssDataSet.getKind()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00069">wrimsv2.evaluator.DssDataSetFixLength.getKind()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00042">wrimsv2.evaluator.DssDataSet.getStartTime()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00041">wrimsv2.evaluator.DssDataSetFixLength.getStartTime()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00046">wrimsv2.evaluator.DssDataSet.getTimeStep()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00045">wrimsv2.evaluator.DssDataSetFixLength.getTimeStep()</a>, <a class="el" href="_dss_operation_8java_source.html#l00494">wrimsv2.evaluator.DssOperation.getTSName()</a>, <a class="el" href="_dss_data_set_8java_source.html#l00070">wrimsv2.evaluator.DssDataSet.getUnits()</a>, <a class="el" href="_dss_data_set_fix_length_8java_source.html#l00061">wrimsv2.evaluator.DssDataSetFixLength.getUnits()</a>, <a class="el" href="_control_data_8java_source.html#l00161">wrimsv2.components.ControlData.isSimOutput</a>, <a class="el" href="_control_data_8java_source.html#l00158">wrimsv2.components.ControlData.ovOption</a>, <a class="el" href="_csv_operation_8java_source.html#l00024">ovPartBC</a>, <a class="el" href="_control_data_8java_source.html#l00078">wrimsv2.components.ControlData.partA</a>, <a class="el" href="_csv_operation_8java_source.html#l00259">procOVFile()</a>, <a class="el" href="_csv_operation_8java_source.html#l00022">slackPrefix</a>, <a class="el" href="_csv_operation_8java_source.html#l00023">surplusPrefix</a>, <a class="el" href="_control_data_8java_source.html#l00079">wrimsv2.components.ControlData.svDvPartF</a>, <a class="el" href="_data_time_series_8java_source.html#l00014">wrimsv2.evaluator.DataTimeSeries.svInit</a>, <a class="el" href="_data_time_series_8java_source.html#l00011">wrimsv2.evaluator.DataTimeSeries.svTS</a>, and <a class="el" href="_control_data_8java_source.html#l00102">wrimsv2.components.ControlData.writeInitToDVOutput</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_dss_to_s_q_l_database_8java_source.html#l00066">wrimsv2.sql.DssToSQLDatabase.convertData()</a>, <a class="el" href="_my_s_q_l_r_writer_8java_source.html#l00197">wrimsv2.sql.MySQLRWriter.createCSV()</a>, <a class="el" href="_s_q_l_server_r_writer_8java_source.html#l00193">wrimsv2.sql.SQLServerRWriter.createCSV()</a>, <a class="el" href="_controller_batch_8java_source.html#l01536">wrimsv2.components.ControllerBatch.runModelCbc()</a>, <a class="el" href="_controller_batch_8java_source.html#l01342">wrimsv2.components.ControllerBatch.runModelClp()</a>, <a class="el" href="_controller_batch_8java_source.html#l00903">wrimsv2.components.ControllerBatch.runModelGurobi()</a>, <a class="el" href="_controller_batch_8java_source.html#l00516">wrimsv2.components.ControllerBatch.runModelILP()</a>, <a class="el" href="_controller_batch_8java_source.html#l01170">wrimsv2.components.ControllerBatch.runModelOrTools()</a>, <a class="el" href="_controller_debug_8java_source.html#l00223">wrimsv2.components.ControllerDebug.runModelSolvers()</a>, and <a class="el" href="_controller_batch_8java_source.html#l00296">wrimsv2.components.ControllerBatch.runModelXA()</a>.</p>
+
+</div>
+</div>
+<a id="a6fd508250b1e844bf9831f21d996dd22" name="a6fd508250b1e844bf9831f21d996dd22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fd508250b1e844bf9831f21d996dd22">&#9670;&#160;</a></span>procOVFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.evaluator.CsvOperation.procOVFile </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00259">259</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00159">wrimsv2.components.ControlData.ovFile</a>, <a class="el" href="_control_data_8java_source.html#l00158">wrimsv2.components.ControlData.ovOption</a>, and <a class="el" href="_csv_operation_8java_source.html#l00024">ovPartBC</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_csv_operation_8java_source.html#l00026">ouputCSV()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="add70c7f7b71b2f86727889fa269d20bc" name="add70c7f7b71b2f86727889fa269d20bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add70c7f7b71b2f86727889fa269d20bc">&#9670;&#160;</a></span>ovPartBC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, String&gt; wrimsv2.evaluator.CsvOperation.ovPartBC =new HashMap&lt;String, String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00024">24</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_csv_operation_8java_source.html#l00026">ouputCSV()</a>, and <a class="el" href="_csv_operation_8java_source.html#l00259">procOVFile()</a>.</p>
+
+</div>
+</div>
+<a id="aea2f4e7d454bf88992320bfb4add0b36" name="aea2f4e7d454bf88992320bfb4add0b36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea2f4e7d454bf88992320bfb4add0b36">&#9670;&#160;</a></span>slackPrefix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.evaluator.CsvOperation.slackPrefix =&quot;slack__&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00022">22</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_csv_operation_8java_source.html#l00026">ouputCSV()</a>.</p>
+
+</div>
+</div>
+<a id="a377906d9e3d350a73a9f94cf893ecc30" name="a377906d9e3d350a73a9f94cf893ecc30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a377906d9e3d350a73a9f94cf893ecc30">&#9670;&#160;</a></span>surplusPrefix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.evaluator.CsvOperation.surplusPrefix =&quot;surplus__&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_csv_operation_8java_source.html#l00023">23</a> of file <a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_csv_operation_8java_source.html#l00026">ouputCSV()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/evaluator/<b>CsvOperation.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/evaluator/<a class="el" href="_csv_operation_8java_source.html">CsvOperation.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -129,7 +441,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>formDateData</b> (D
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>evaluator</b></li><li class="navelem"><a href="classwrimsv2_1_1evaluator_1_1_csv_operation.html">CsvOperation</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1evaluator.html">evaluator</a></li><li class="navelem"><a href="classwrimsv2_1_1evaluator_1_1_csv_operation.html">CsvOperation</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

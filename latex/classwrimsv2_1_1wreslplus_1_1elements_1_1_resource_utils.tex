@@ -1,0 +1,46 @@
+\doxysection{wrimsv2.\+wreslplus.\+elements.\+Resource\+Utils Class Reference}
+\hypertarget{classwrimsv2_1_1wreslplus_1_1elements_1_1_resource_utils}{}\label{classwrimsv2_1_1wreslplus_1_1elements_1_1_resource_utils}\index{wrimsv2.wreslplus.elements.ResourceUtils@{wrimsv2.wreslplus.elements.ResourceUtils}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Path\+Resolution\+Exception}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classwrimsv2_1_1wreslplus_1_1elements_1_1_resource_utils_acbf0a2cb54fdda84d40e0b1cfba8cead}{get\+Relative\+Path}} (String target\+Path, String base\+Path, String path\+Separator)
+\begin{DoxyCompactList}\small\item\em Get the relative path from one file to another, specifying the directory separator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{classwrimsv2_1_1wreslplus_1_1elements_1_1_resource_utils_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classwrimsv2_1_1wreslplus_1_1elements_1_1_resource_utils_acbf0a2cb54fdda84d40e0b1cfba8cead}\index{wrimsv2.wreslplus.elements.ResourceUtils@{wrimsv2.wreslplus.elements.ResourceUtils}!getRelativePath@{getRelativePath}}
+\index{getRelativePath@{getRelativePath}!wrimsv2.wreslplus.elements.ResourceUtils@{wrimsv2.wreslplus.elements.ResourceUtils}}
+\doxysubsubsection{\texorpdfstring{getRelativePath()}{getRelativePath()}}
+{\footnotesize\ttfamily \label{classwrimsv2_1_1wreslplus_1_1elements_1_1_resource_utils_acbf0a2cb54fdda84d40e0b1cfba8cead} 
+String wrimsv2.\+wreslplus.\+elements.\+Resource\+Utils.\+get\+Relative\+Path (\begin{DoxyParamCaption}\item[{String}]{target\+Path}{, }\item[{String}]{base\+Path}{, }\item[{String}]{path\+Separator}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Get the relative path from one file to another, specifying the directory separator. 
+
+If one of the provided resources does not exist, it is assumed to be a file unless it ends with \textquotesingle{}/\textquotesingle{} or \textquotesingle{}\textbackslash{}\textquotesingle{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em target\+Path} & target\+Path is calculated to this file \\
+\hline
+{\em base\+Path} & base\+Path is calculated from this file \\
+\hline
+{\em path\+Separator} & directory separator. The platform default is not assumed so that we can test Unix behaviour when running on Windows (for example) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+wrims-\/core/src/main/java/wrimsv2/wreslplus/elements/Resource\+Utils.\+java\end{DoxyCompactItemize}

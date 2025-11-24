@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.tools.MultiStepAnalyzer Class Reference</title>
+<title>Wrims-engine: wrimsv2.tools.MultiStepAnalyzer Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -91,8 +91,281 @@ $(function(){initNavTree('classwrimsv2_1_1tools_1_1_multi_step_analyzer.html',''
   <div class="headertitle"><div class="title">wrimsv2.tools.MultiStepAnalyzer Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a45733f9d891d3a255eae531bbd37f8e6" id="r_a45733f9d891d3a255eae531bbd37f8e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45733f9d891d3a255eae531bbd37f8e6">MultiStepAnalyzer</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a8f3f1742ab7fcb8d2658aea982c9d953" id="r_a8f3f1742ab7fcb8d2658aea982c9d953"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f3f1742ab7fcb8d2658aea982c9d953">analyzeConstraints</a> ()</td></tr>
+<tr class="memitem:a1c8f9acc3a8f4db7dd9595cd156517db" id="r_a1c8f9acc3a8f4db7dd9595cd156517db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c8f9acc3a8f4db7dd9595cd156517db">analyzeOneConstraint</a> (String constraintKey, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a> ec)</td></tr>
+<tr class="memitem:a2ebc60e155f58047b2413d6ffbc8c264" id="r_a2ebc60e155f58047b2413d6ffbc8c264"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ebc60e155f58047b2413d6ffbc8c264">processVariable</a> (String variable)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad1bac048bee7d37ba214508fa39f43bb" id="r_ad1bac048bee7d37ba214508fa39f43bb"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1bac048bee7d37ba214508fa39f43bb">constraintMap</a></td></tr>
+<tr class="memitem:ae388b69275ae57801c1e833fe9abbe4b" id="r_ae388b69275ae57801c1e833fe9abbe4b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae388b69275ae57801c1e833fe9abbe4b">fammonths</a> =4</td></tr>
+<tr class="memitem:aa6454866e55d7b06669ae0bf970978d2" id="r_aa6454866e55d7b06669ae0bf970978d2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6454866e55d7b06669ae0bf970978d2">ifut</a></td></tr>
+<tr class="memitem:a5166edd93a12d23d7faaad2651ed4f3b" id="r_a5166edd93a12d23d7faaad2651ed4f3b"><td class="memItemLeft" align="right" valign="top">BufferedWriter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5166edd93a12d23d7faaad2651ed4f3b">out</a></td></tr>
+<tr class="memitem:a751f85f0aae0504848621b4ca63a2fd4" id="r_a751f85f0aae0504848621b4ca63a2fd4"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a751f85f0aae0504848621b4ca63a2fd4">sortedConstraintKeys</a></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_multi_step_analyzer_8java_source.html#l00020">20</a> of file <a class="el" href="_multi_step_analyzer_8java_source.html">MultiStepAnalyzer.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a45733f9d891d3a255eae531bbd37f8e6" name="a45733f9d891d3a255eae531bbd37f8e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45733f9d891d3a255eae531bbd37f8e6">&#9670;&#160;</a></span>MultiStepAnalyzer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.tools.MultiStepAnalyzer.MultiStepAnalyzer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_multi_step_analyzer_8java_source.html#l00027">27</a> of file <a class="el" href="_multi_step_analyzer_8java_source.html">MultiStepAnalyzer.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_multi_step_analyzer_8java_source.html#l00051">analyzeConstraints()</a>, <a class="el" href="_multi_step_analyzer_8java_source.html#l00021">constraintMap</a>, <a class="el" href="_control_data_8java_source.html#l00052">wrimsv2.components.ControlData.currCycleIndex</a>, <a class="el" href="_control_data_8java_source.html#l00056">wrimsv2.components.ControlData.currMonth</a>, <a class="el" href="_control_data_8java_source.html#l00057">wrimsv2.components.ControlData.currYear</a>, <a class="el" href="_multi_step_analyzer_8java_source.html#l00022">fammonths</a>, <a class="el" href="_solver_data_8java_source.html#l00043">wrimsv2.commondata.solverdata.SolverData.getConstraintDataMap()</a>, <a class="el" href="_multi_step_analyzer_8java_source.html#l00025">ifut</a>, <a class="el" href="_file_paths_8java_source.html#l00009">wrimsv2.components.FilePaths.mainDirectory</a>, <a class="el" href="_multi_step_analyzer_8java_source.html#l00023">out</a>, and <a class="el" href="_multi_step_analyzer_8java_source.html#l00024">sortedConstraintKeys</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a8f3f1742ab7fcb8d2658aea982c9d953" name="a8f3f1742ab7fcb8d2658aea982c9d953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f3f1742ab7fcb8d2658aea982c9d953">&#9670;&#160;</a></span>analyzeConstraints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.tools.MultiStepAnalyzer.analyzeConstraints </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_multi_step_analyzer_8java_source.html#l00051">51</a> of file <a class="el" href="_multi_step_analyzer_8java_source.html">MultiStepAnalyzer.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_multi_step_analyzer_8java_source.html#l00068">analyzeOneConstraint()</a>, <a class="el" href="_multi_step_analyzer_8java_source.html#l00021">constraintMap</a>, <a class="el" href="_multi_step_analyzer_8java_source.html#l00025">ifut</a>, and <a class="el" href="_multi_step_analyzer_8java_source.html#l00024">sortedConstraintKeys</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_multi_step_analyzer_8java_source.html#l00027">MultiStepAnalyzer()</a>.</p>
+
+</div>
+</div>
+<a id="a1c8f9acc3a8f4db7dd9595cd156517db" name="a1c8f9acc3a8f4db7dd9595cd156517db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c8f9acc3a8f4db7dd9595cd156517db">&#9670;&#160;</a></span>analyzeOneConstraint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.tools.MultiStepAnalyzer.analyzeOneConstraint </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>constraintKey</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a></td>          <td class="paramname"><span class="paramname"><em>ec</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_multi_step_analyzer_8java_source.html#l00068">68</a> of file <a class="el" href="_multi_step_analyzer_8java_source.html">MultiStepAnalyzer.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_eval_constraint_8java_source.html#l00015">wrimsv2.evaluator.EvalConstraint.getEvalExpression()</a>, <a class="el" href="_eval_expression_8java_source.html#l00032">wrimsv2.evaluator.EvalExpression.getMultiplier()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00019">wrimsv2.evaluator.EvalConstraint.getSign()</a>, <a class="el" href="_eval_expression_8java_source.html#l00024">wrimsv2.evaluator.EvalExpression.getValue()</a>, <a class="el" href="_multi_step_analyzer_8java_source.html#l00023">out</a>, and <a class="el" href="_multi_step_analyzer_8java_source.html#l00095">processVariable()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_multi_step_analyzer_8java_source.html#l00051">analyzeConstraints()</a>.</p>
+
+</div>
+</div>
+<a id="a2ebc60e155f58047b2413d6ffbc8c264" name="a2ebc60e155f58047b2413d6ffbc8c264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ebc60e155f58047b2413d6ffbc8c264">&#9670;&#160;</a></span>processVariable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.tools.MultiStepAnalyzer.processVariable </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>variable</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_multi_step_analyzer_8java_source.html#l00095">95</a> of file <a class="el" href="_multi_step_analyzer_8java_source.html">MultiStepAnalyzer.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_multi_step_analyzer_8java_source.html#l00025">ifut</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_multi_step_analyzer_8java_source.html#l00068">analyzeOneConstraint()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ad1bac048bee7d37ba214508fa39f43bb" name="ad1bac048bee7d37ba214508fa39f43bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1bac048bee7d37ba214508fa39f43bb">&#9670;&#160;</a></span>constraintMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a>&gt; wrimsv2.tools.MultiStepAnalyzer.constraintMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_multi_step_analyzer_8java_source.html#l00021">21</a> of file <a class="el" href="_multi_step_analyzer_8java_source.html">MultiStepAnalyzer.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_multi_step_analyzer_8java_source.html#l00027">MultiStepAnalyzer()</a>, and <a class="el" href="_multi_step_analyzer_8java_source.html#l00051">analyzeConstraints()</a>.</p>
+
+</div>
+</div>
+<a id="ae388b69275ae57801c1e833fe9abbe4b" name="ae388b69275ae57801c1e833fe9abbe4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae388b69275ae57801c1e833fe9abbe4b">&#9670;&#160;</a></span>fammonths</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.tools.MultiStepAnalyzer.fammonths =4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_multi_step_analyzer_8java_source.html#l00022">22</a> of file <a class="el" href="_multi_step_analyzer_8java_source.html">MultiStepAnalyzer.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_multi_step_analyzer_8java_source.html#l00027">MultiStepAnalyzer()</a>.</p>
+
+</div>
+</div>
+<a id="aa6454866e55d7b06669ae0bf970978d2" name="aa6454866e55d7b06669ae0bf970978d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6454866e55d7b06669ae0bf970978d2">&#9670;&#160;</a></span>ifut</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.tools.MultiStepAnalyzer.ifut</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_multi_step_analyzer_8java_source.html#l00025">25</a> of file <a class="el" href="_multi_step_analyzer_8java_source.html">MultiStepAnalyzer.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_multi_step_analyzer_8java_source.html#l00027">MultiStepAnalyzer()</a>, <a class="el" href="_multi_step_analyzer_8java_source.html#l00051">analyzeConstraints()</a>, and <a class="el" href="_multi_step_analyzer_8java_source.html#l00095">processVariable()</a>.</p>
+
+</div>
+</div>
+<a id="a5166edd93a12d23d7faaad2651ed4f3b" name="a5166edd93a12d23d7faaad2651ed4f3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5166edd93a12d23d7faaad2651ed4f3b">&#9670;&#160;</a></span>out</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BufferedWriter wrimsv2.tools.MultiStepAnalyzer.out</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_multi_step_analyzer_8java_source.html#l00023">23</a> of file <a class="el" href="_multi_step_analyzer_8java_source.html">MultiStepAnalyzer.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_multi_step_analyzer_8java_source.html#l00027">MultiStepAnalyzer()</a>, and <a class="el" href="_multi_step_analyzer_8java_source.html#l00068">analyzeOneConstraint()</a>.</p>
+
+</div>
+</div>
+<a id="a751f85f0aae0504848621b4ca63a2fd4" name="a751f85f0aae0504848621b4ca63a2fd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a751f85f0aae0504848621b4ca63a2fd4">&#9670;&#160;</a></span>sortedConstraintKeys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.tools.MultiStepAnalyzer.sortedConstraintKeys</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_multi_step_analyzer_8java_source.html#l00024">24</a> of file <a class="el" href="_multi_step_analyzer_8java_source.html">MultiStepAnalyzer.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_multi_step_analyzer_8java_source.html#l00027">MultiStepAnalyzer()</a>, and <a class="el" href="_multi_step_analyzer_8java_source.html#l00051">analyzeConstraints()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/tools/<b>MultiStepAnalyzer.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/tools/<a class="el" href="_multi_step_analyzer_8java_source.html">MultiStepAnalyzer.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -107,7 +380,7 @@ $(function(){initNavTree('classwrimsv2_1_1tools_1_1_multi_step_analyzer.html',''
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>tools</b></li><li class="navelem"><a href="classwrimsv2_1_1tools_1_1_multi_step_analyzer.html">MultiStepAnalyzer</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1tools.html">tools</a></li><li class="navelem"><a href="classwrimsv2_1_1tools_1_1_multi_step_analyzer.html">MultiStepAnalyzer</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

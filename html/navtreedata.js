@@ -24,91 +24,66 @@
 */
 var NAVTREE =
 [
-  [ "WRIMS3", "index.html", [
-    [ "Continuous Integration / Continuous Deployment (CI/CD) Workflow", "md__c_i-_c_d___w_o_r_k_f_l_o_w.html", [
-      [ "Planning", "md__c_i-_c_d___w_o_r_k_f_l_o_w.html#autotoc_md2", null ],
-      [ "Development", "md__c_i-_c_d___w_o_r_k_f_l_o_w.html#autotoc_md3", null ],
-      [ "Code Review", "md__c_i-_c_d___w_o_r_k_f_l_o_w.html#autotoc_md4", null ],
-      [ "Quality Assurance", "md__c_i-_c_d___w_o_r_k_f_l_o_w.html#autotoc_md5", null ],
-      [ "Release", "md__c_i-_c_d___w_o_r_k_f_l_o_w.html#autotoc_md6", null ]
-    ] ],
-    [ "Contributing Guidelines", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
-      [ "Developer IDE configuration", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ],
-      [ "Developer Workflow Overview", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md9", null ],
-      [ "Coding Standards and Style Guides", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10", [
-        [ "General Principles (All Languages)", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11", null ],
-        [ "Fortran", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md12", [
-          [ "Style", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md13", null ]
-        ] ],
-        [ "Java", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md14", [
-          [ "Style", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md15", null ]
-        ] ],
-        [ "Python", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md16", [
-          [ "Scripts", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md17", null ],
-          [ "Modules &amp; Packages", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md18", null ]
-        ] ]
-      ] ],
-      [ "Branching Strategies", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md19", [
-        [ "<span class=\"tt\">main</span> Branch", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md20", null ]
-      ] ],
-      [ "Git Operations and Pull Requests Guidelines", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md21", [
-        [ "Branching", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md22", null ],
-        [ "Commits", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md23", [
-          [ "Use the Force?", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md24", null ]
-        ] ],
-        [ "Pull Requests", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md25", [
-          [ "Task List Checker", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md26", null ],
-          [ "Pull Request Title/Summary", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md27", null ],
-          [ "Pull Request Description", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md28", null ],
-          [ "Start of work", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md29", null ],
-          [ "During work", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md30", null ],
-          [ "End of Work", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md31", null ],
-          [ "On pull request merge", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md32", null ]
-        ] ]
+  [ "Wrims-engine", "index.html", [
+    [ "Packages", "namespaces.html", [
+      [ "Package List", "namespaces.html", "namespaces_dup" ],
+      [ "Package Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Variables", "namespacemembers_vars.html", null ]
       ] ]
-    ] ],
-    [ "Building WRIMS-ENGINE from Eclipse IDE", "md__e_c_l_i_p_s_e-_c_o_n_f_i_g.html", [
-      [ "WRIMS-ENGINE Developer Build Setup - Using Gradle:", "md__e_c_l_i_p_s_e-_c_o_n_f_i_g.html#autotoc_md34", [
-        [ "1. Pull Source from GitHub &amp; build the project", "md__e_c_l_i_p_s_e-_c_o_n_f_i_g.html#autotoc_md35", [
-          [ "Example using Command Prompt or PowerShell on Windows", "md__e_c_l_i_p_s_e-_c_o_n_f_i_g.html#autotoc_md36", null ],
-          [ "Common Build Errors", "md__e_c_l_i_p_s_e-_c_o_n_f_i_g.html#autotoc_md37", null ],
-          [ "HANDLING BUILD ERRORS FROM CMD or POWERSHELL:", "md__e_c_l_i_p_s_e-_c_o_n_f_i_g.html#autotoc_md38", null ]
-        ] ],
-        [ "2. Open Eclipse with a new/clean workspace", "md__e_c_l_i_p_s_e-_c_o_n_f_i_g.html#autotoc_md39", null ],
-        [ "3. Import the wrims-engine project into Eclipse", "md__e_c_l_i_p_s_e-_c_o_n_f_i_g.html#autotoc_md40", null ],
-        [ "4. Build wrims-engine with Gradle task", "md__e_c_l_i_p_s_e-_c_o_n_f_i_g.html#autotoc_md41", null ]
-      ] ]
-    ] ],
-    [ ":steam_locomotive: WRIMS Engine", "md__r_e_a_d_m_e.html", [
-      [ "Getting Started", "md__r_e_a_d_m_e.html#autotoc_md43", null ],
-      [ "RUNNING HEADLESS WRIMS ENGINE COMPUTE", "md__r_e_a_d_m_e.html#autotoc_md44", null ],
-      [ "Dependabot Configuration", "md__r_e_a_d_m_e.html#autotoc_md45", [
-        [ "Understanding Dependabot Scheduling and PR Timing", "md__r_e_a_d_m_e.html#autotoc_md46", [
-          [ "1. Dependabot schedules are <em>best-effort</em>, not precise", "md__r_e_a_d_m_e.html#autotoc_md48", null ],
-          [ "2. Multiple runs at once", "md__r_e_a_d_m_e.html#autotoc_md50", null ],
-          [ "3. PR creation is <b>delayed from the update check</b>", "md__r_e_a_d_m_e.html#autotoc_md52", null ],
-          [ "4. Midnight PRs", "md__r_e_a_d_m_e.html#autotoc_md54", null ]
-        ] ]
-      ] ],
-      [ "SonarQube in-IDE Plugin Setup", "md__r_e_a_d_m_e.html#autotoc_md56", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", "functions_vars" ]
       ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"classwrimsv2_1_1wreslplus_1_1elements_1_1procedures_1_1_proc_main_file.html"
+"_alias_temp_8java.html",
+"_include_file_8java.html",
+"classgraalpy_1_1_my_custom_class.html#a856df5c651dd62f39762e5dc0d10b70e",
+"classwrimsv2_1_1commondata_1_1tabledata_1_1_svar.html",
+"classwrimsv2_1_1commondata_1_1wresldata_1_1_model_data_set.html#a8142da2d26a00894a080eddfd60be15b",
+"classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html#ad57d44c15f14acb0bf5515458a2cde45",
+"classwrimsv2_1_1components_1_1_control_data.html#a3522706edef6a4db686677b5cee44159",
+"classwrimsv2_1_1components_1_1_control_data.html#af4387e251283d329222b15bd1082ab62",
+"classwrimsv2_1_1components_1_1_debug_interface.html#a9544628608a6e19eaec743653d5b9741",
+"classwrimsv2_1_1components_1_1_pre_run_model.html#a894c313e792a35946f866ae0a5497bf5",
+"classwrimsv2_1_1evaluator_1_1_dss_data_set.html#ab843447f413786e7d7e6dcf2a629cd4a",
+"classwrimsv2_1_1evaluator_1_1_evaluation.html#a83c2fd6c95317bf70208b5efe86eca42",
+"classwrimsv2_1_1evaluator_1_1_time_operation.html#aa545350f2562d1c823d21e9bf86b9054",
+"classwrimsv2_1_1external_1_1_functionadvancegwstate.html#a9b898e8995ac0919dbabd52f3edf9dba",
+"classwrimsv2_1_1external_1_1_functiongetndo__x2__curmonndosplit.html#a3b56ce5f35cf913c6dd51990e735059f",
+"classwrimsv2_1_1external_1_1_functiontablegen1.html#a73cd67320154fdc0b592042228ea1451",
+"classwrimsv2_1_1hdf5_1_1_h_d_f5_reader.html#a1400383a20885fd09f42dc77af9675d5",
+"classwrimsv2_1_1hdf5_1_1_h_d_f5_writer.html#aaa67f4dd12f44a781887b6bfd166a28e",
+"classwrimsv2_1_1ilp_1_1_i_l_p.html#ab4f82c1928c8a589cd7debd07801b225",
+"classwrimsv2_1_1launch_1_1_launch_configuration.html#af720c8f7d7949de17e06833d388c81de",
+"classwrimsv2_1_1solver_1_1_cbc_solver.html#a38263648d7fd9af483bc131cb0181a96",
+"classwrimsv2_1_1solver_1_1_clp0_solver.html#aec2b3cb8dd2b83314dd5be7bdcdb990a",
+"classwrimsv2_1_1solver_1_1mpmodel_1_1_m_p_model.html#a4b659828ffef0004dff5021a19856ea7",
+"classwrimsv2_1_1sql_1_1_my_s_q_l_r_writer.html#abe53db4b3529d329ebe139defc26bf38",
+"classwrimsv2_1_1sql_1_1socket_1_1_s_q_l_server.html#a7518765fc3a3c03fe6d81c1314625098",
+"classwrimsv2_1_1tools_1_1solution_range_finder_1_1_misc.html",
+"classwrimsv2_1_1wreslparser_1_1elements_1_1_simulation_data_set.html#a36c460916d7045e3af69ecf62fb8af09",
+"classwrimsv2_1_1wreslparser_1_1elements_1_1_struct_tree.html#a7f1a0596c876ca4ce205bb59e52c6da4",
+"classwrimsv2_1_1wreslparser_1_1elements_1_1_write_c_s_v.html",
+"classwrimsv2_1_1wreslplus_1_1elements_1_1_goal_temp.html#a36e8b510159196ea8572b88c7a630d5e",
+"classwrimsv2_1_1wreslplus_1_1elements_1_1_param_temp.html#a0c9a9083924b8a86124e8c885434bf40",
+"classwrimsv2_1_1wreslplus_1_1elements_1_1_svar_temp.html#a59cc49e62a4fdc60b596d77888870cf8",
+"classwrimsv2_1_1wreslplus_1_1elements_1_1procedures_1_1_error_check.html#a3326208264d5d8892370516c6bfc837b",
+"classwrimsv2_1_1wreslplus_1_1elements_1_1procedures_1_1_to_wresl_data.html#af299c6290f469da0160771a044e5b61a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

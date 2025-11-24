@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.components.LoadParameter Class Reference</title>
+<title>Wrims-engine: wrimsv2.components.LoadParameter Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,11 +94,212 @@ $(function(){initNavTree('classwrimsv2_1_1components_1_1_load_parameter.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a266e13f8a36d33a0072259300e30ec04" id="r_a266e13f8a36d33a0072259300e30ec04"><td class="memItemLeft" align="right" valign="top"><a id="a266e13f8a36d33a0072259300e30ec04" name="a266e13f8a36d33a0072259300e30ec04"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>process</b> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sds)</td></tr>
+<tr class="memitem:a266e13f8a36d33a0072259300e30ec04" id="r_a266e13f8a36d33a0072259300e30ec04"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a266e13f8a36d33a0072259300e30ec04">process</a> (<a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a> sds)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a95c1c461c12c02e0eef14db6adafe4b2" id="r_a95c1c461c12c02e0eef14db6adafe4b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95c1c461c12c02e0eef14db6adafe4b2">LoadParameter</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a864872826093fb7b490e6e55a6703d74" id="r_a864872826093fb7b490e6e55a6703d74"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a864872826093fb7b490e6e55a6703d74">callBooleanEvaluator</a> (String evalString)</td></tr>
+<tr class="memitem:a6f2ee3aa96ed153ad6ba56f0a1020110" id="r_a6f2ee3aa96ed153ad6ba56f0a1020110"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classwrimsv2_1_1components_1_1_int_double.html">IntDouble</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f2ee3aa96ed153ad6ba56f0a1020110">callNumberEvaluator</a> (String evalString)</td></tr>
+<tr class="memitem:a438a955ea7e13eac204b93328aed6687" id="r_a438a955ea7e13eac204b93328aed6687"><td class="memItemLeft" align="right" valign="top">static LinkedHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a438a955ea7e13eac204b93328aed6687">convertParamMapToSvarMap</a> (Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a> &gt; simpleMap)</td></tr>
+<tr class="memitem:a47ee05aeb3ec00aed9339ed436f3adf4" id="r_a47ee05aeb3ec00aed9339ed436f3adf4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47ee05aeb3ec00aed9339ed436f3adf4">evaluateAllParams</a> (ArrayList&lt; String &gt; keyList, Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a> &gt; map)</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_load_parameter_8java_source.html#l00025">25</a> of file <a class="el" href="_load_parameter_8java_source.html">LoadParameter.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a95c1c461c12c02e0eef14db6adafe4b2" name="a95c1c461c12c02e0eef14db6adafe4b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95c1c461c12c02e0eef14db6adafe4b2">&#9670;&#160;</a></span>LoadParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.components.LoadParameter.LoadParameter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_load_parameter_8java_source.html#l00027">27</a> of file <a class="el" href="_load_parameter_8java_source.html">LoadParameter.java</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a864872826093fb7b490e6e55a6703d74" name="a864872826093fb7b490e6e55a6703d74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a864872826093fb7b490e6e55a6703d74">&#9670;&#160;</a></span>callBooleanEvaluator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean wrimsv2.components.LoadParameter.callBooleanEvaluator </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>evalString</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_load_parameter_8java_source.html#l00067">67</a> of file <a class="el" href="_load_parameter_8java_source.html">LoadParameter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00248">wrimsv2.components.Error.getTotalError()</a>, and <a class="el" href="_error_8java_source.html#l00110">wrimsv2.components.Error.writeErrorLog()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_load_parameter_8java_source.html#l00040">evaluateAllParams()</a>.</p>
+
+</div>
+</div>
+<a id="a6f2ee3aa96ed153ad6ba56f0a1020110" name="a6f2ee3aa96ed153ad6ba56f0a1020110"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f2ee3aa96ed153ad6ba56f0a1020110">&#9670;&#160;</a></span>callNumberEvaluator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwrimsv2_1_1components_1_1_int_double.html">IntDouble</a> wrimsv2.components.LoadParameter.callNumberEvaluator </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>evalString</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_load_parameter_8java_source.html#l00096">96</a> of file <a class="el" href="_load_parameter_8java_source.html">LoadParameter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00248">wrimsv2.components.Error.getTotalError()</a>, and <a class="el" href="_error_8java_source.html#l00110">wrimsv2.components.Error.writeErrorLog()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_load_parameter_8java_source.html#l00040">evaluateAllParams()</a>.</p>
+
+</div>
+</div>
+<a id="a438a955ea7e13eac204b93328aed6687" name="a438a955ea7e13eac204b93328aed6687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a438a955ea7e13eac204b93328aed6687">&#9670;&#160;</a></span>convertParamMapToSvarMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a> &gt; wrimsv2.components.LoadParameter.convertParamMapToSvarMap </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>simpleMap</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_load_parameter_8java_source.html#l00127">127</a> of file <a class="el" href="_load_parameter_8java_source.html">LoadParameter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="wresldata_2_svar_8java_source.html#l00047">wrimsv2.commondata.wresldata.Svar.caseCondition</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00050">wrimsv2.commondata.wresldata.Svar.caseExpression</a>, and <a class="el" href="wresldata_2_svar_8java_source.html#l00046">wrimsv2.commondata.wresldata.Svar.caseName</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_load_parameter_8java_source.html#l00030">process()</a>.</p>
+
+</div>
+</div>
+<a id="a47ee05aeb3ec00aed9339ed436f3adf4" name="a47ee05aeb3ec00aed9339ed436f3adf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ee05aeb3ec00aed9339ed436f3adf4">&#9670;&#160;</a></span>evaluateAllParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.components.LoadParameter.evaluateAllParams </td>
+          <td>(</td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>keyList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_svar.html">Svar</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_load_parameter_8java_source.html#l00040">40</a> of file <a class="el" href="_load_parameter_8java_source.html">LoadParameter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_load_parameter_8java_source.html#l00067">callBooleanEvaluator()</a>, <a class="el" href="_load_parameter_8java_source.html#l00096">callNumberEvaluator()</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00047">wrimsv2.commondata.wresldata.Svar.caseCondition</a>, <a class="el" href="wresldata_2_svar_8java_source.html#l00050">wrimsv2.commondata.wresldata.Svar.caseExpression</a>, <a class="el" href="_control_data_8java_source.html#l00054">wrimsv2.components.ControlData.currEvalName</a>, <a class="el" href="_control_data_8java_source.html#l00053">wrimsv2.components.ControlData.currEvalTypeIndex</a>, and <a class="el" href="wresldata_2_svar_8java_source.html#l00098">wrimsv2.commondata.wresldata.Svar.setData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_load_parameter_8java_source.html#l00030">process()</a>.</p>
+
+</div>
+</div>
+<a id="a266e13f8a36d33a0072259300e30ec04" name="a266e13f8a36d33a0072259300e30ec04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a266e13f8a36d33a0072259300e30ec04">&#9670;&#160;</a></span>process()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.components.LoadParameter.process </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_study_data_set.html">StudyDataSet</a></td>          <td class="paramname"><span class="paramname"><em>sds</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_load_parameter_8java_source.html#l00030">30</a> of file <a class="el" href="_load_parameter_8java_source.html">LoadParameter.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_study_data_set_8java_source.html#l00024">wrimsv2.commondata.wresldata.StudyDataSet.controlDataParameterMap</a>, <a class="el" href="_load_parameter_8java_source.html#l00127">convertParamMapToSvarMap()</a>, <a class="el" href="_load_parameter_8java_source.html#l00040">evaluateAllParams()</a>, <a class="el" href="_study_data_set_8java_source.html#l00049">wrimsv2.commondata.wresldata.StudyDataSet.getParameterList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00057">wrimsv2.commondata.wresldata.StudyDataSet.getParameterMap()</a>, and <a class="el" href="_control_data_8java_source.html#l00038">wrimsv2.components.ControlData.parameterMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_controller_batch_8java_source.html#l00228">wrimsv2.components.ControllerBatch.parse()</a>, and <a class="el" href="_controller_debug_8java_source.html#l00194">wrimsv2.components.ControllerDebug.parse()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/components/<b>LoadParameter.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/components/<a class="el" href="_load_parameter_8java_source.html">LoadParameter.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -113,7 +314,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>process</b> (<
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>components</b></li><li class="navelem"><a href="classwrimsv2_1_1components_1_1_load_parameter.html">LoadParameter</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1components.html">components</a></li><li class="navelem"><a href="classwrimsv2_1_1components_1_1_load_parameter.html">LoadParameter</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

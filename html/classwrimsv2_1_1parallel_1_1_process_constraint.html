@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.parallel.ProcessConstraint Class Reference</title>
+<title>Wrims-engine: wrimsv2.parallel.ProcessConstraint Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -100,18 +100,409 @@ Inheritance diagram for wrimsv2.parallel.ProcessConstraint:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a814d667536914fce9b6f6dcd3b7bda4f" id="r_a814d667536914fce9b6f6dcd3b7bda4f"><td class="memItemLeft" align="right" valign="top"><a id="a814d667536914fce9b6f6dcd3b7bda4f" name="a814d667536914fce9b6f6dcd3b7bda4f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessConstraint</b> (ArrayList&lt; String &gt; gList, Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_goal.html">Goal</a> &gt; gMap, ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a> &gt; solverGMap, ArrayList&lt; String &gt; gTimeArrayList, CopyOnWriteArrayList&lt; String &gt; usedWtSlackSurplusList, CopyOnWriteArrayList&lt; String &gt; usedWtSlackSurplusDvList, int start, int end)</td></tr>
+<tr class="memitem:a814d667536914fce9b6f6dcd3b7bda4f" id="r_a814d667536914fce9b6f6dcd3b7bda4f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a814d667536914fce9b6f6dcd3b7bda4f">ProcessConstraint</a> (ArrayList&lt; String &gt; <a class="el" href="#aa929b8d57caf4c9b6235c6a33125cfc3">gList</a>, Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_goal.html">Goal</a> &gt; <a class="el" href="#a98996c228f68ffe84448dc717be3e3e5">gMap</a>, ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a> &gt; <a class="el" href="#a10357e13eb0d8e5e74f5301750e98a88">solverGMap</a>, ArrayList&lt; String &gt; <a class="el" href="#ab178c402e3162e4c66be25d6bfb7e138">gTimeArrayList</a>, CopyOnWriteArrayList&lt; String &gt; <a class="el" href="#a8750eb3011915573196f7dd35ffc2f46">usedWtSlackSurplusList</a>, CopyOnWriteArrayList&lt; String &gt; <a class="el" href="#a0a92c31dddf1e6e37293f6d9d7403089">usedWtSlackSurplusDvList</a>, int <a class="el" href="#a7440e5ee70f7bb0806df273356a41790">start</a>, int <a class="el" href="#a185dba36c194a2dbf08310e440a04fa1">end</a>)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a0048a495887e7114ece622d557a3c488" id="r_a0048a495887e7114ece622d557a3c488"><td class="memItemLeft" align="right" valign="top"><a id="a0048a495887e7114ece622d557a3c488" name="a0048a495887e7114ece622d557a3c488"></a>
-Integer&#160;</td><td class="memItemRight" valign="bottom"><b>compute</b> ()</td></tr>
-<tr class="memitem:ad15d4d6ca0a47789744b53a0a4cd7ab4" id="r_ad15d4d6ca0a47789744b53a0a4cd7ab4"><td class="memItemLeft" align="right" valign="top"><a id="ad15d4d6ca0a47789744b53a0a4cd7ab4" name="ad15d4d6ca0a47789744b53a0a4cd7ab4"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>computeDirectly</b> ()</td></tr>
+<tr class="memitem:a0048a495887e7114ece622d557a3c488" id="r_a0048a495887e7114ece622d557a3c488"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0048a495887e7114ece622d557a3c488">compute</a> ()</td></tr>
+<tr class="memitem:ad15d4d6ca0a47789744b53a0a4cd7ab4" id="r_ad15d4d6ca0a47789744b53a0a4cd7ab4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad15d4d6ca0a47789744b53a0a4cd7ab4">computeDirectly</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a185dba36c194a2dbf08310e440a04fa1" id="r_a185dba36c194a2dbf08310e440a04fa1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a185dba36c194a2dbf08310e440a04fa1">end</a></td></tr>
+<tr class="memitem:aa929b8d57caf4c9b6235c6a33125cfc3" id="r_aa929b8d57caf4c9b6235c6a33125cfc3"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa929b8d57caf4c9b6235c6a33125cfc3">gList</a></td></tr>
+<tr class="memitem:a98996c228f68ffe84448dc717be3e3e5" id="r_a98996c228f68ffe84448dc717be3e3e5"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_goal.html">Goal</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98996c228f68ffe84448dc717be3e3e5">gMap</a></td></tr>
+<tr class="memitem:ab178c402e3162e4c66be25d6bfb7e138" id="r_ab178c402e3162e4c66be25d6bfb7e138"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab178c402e3162e4c66be25d6bfb7e138">gTimeArrayList</a></td></tr>
+<tr class="memitem:a10357e13eb0d8e5e74f5301750e98a88" id="r_a10357e13eb0d8e5e74f5301750e98a88"><td class="memItemLeft" align="right" valign="top">ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10357e13eb0d8e5e74f5301750e98a88">solverGMap</a></td></tr>
+<tr class="memitem:a7440e5ee70f7bb0806df273356a41790" id="r_a7440e5ee70f7bb0806df273356a41790"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7440e5ee70f7bb0806df273356a41790">start</a></td></tr>
+<tr class="memitem:ab6681b30064d5a7acd634c0c3199a17a" id="r_ab6681b30064d5a7acd634c0c3199a17a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6681b30064d5a7acd634c0c3199a17a">threshold</a></td></tr>
+<tr class="memitem:acbfd3ec28784a275c10a8409c76c82cf" id="r_acbfd3ec28784a275c10a8409c76c82cf"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbfd3ec28784a275c10a8409c76c82cf">timeArrayDvList</a></td></tr>
+<tr class="memitem:a0a92c31dddf1e6e37293f6d9d7403089" id="r_a0a92c31dddf1e6e37293f6d9d7403089"><td class="memItemLeft" align="right" valign="top">CopyOnWriteArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a92c31dddf1e6e37293f6d9d7403089">usedWtSlackSurplusDvList</a> = new CopyOnWriteArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:a8750eb3011915573196f7dd35ffc2f46" id="r_a8750eb3011915573196f7dd35ffc2f46"><td class="memItemLeft" align="right" valign="top">CopyOnWriteArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8750eb3011915573196f7dd35ffc2f46">usedWtSlackSurplusList</a> = new CopyOnWriteArrayList&lt;String&gt;()</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00030">30</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a814d667536914fce9b6f6dcd3b7bda4f" name="a814d667536914fce9b6f6dcd3b7bda4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a814d667536914fce9b6f6dcd3b7bda4f">&#9670;&#160;</a></span>ProcessConstraint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.parallel.ProcessConstraint.ProcessConstraint </td>
+          <td>(</td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>gList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_goal.html">Goal</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>gMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ConcurrentHashMap&lt; String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>solverGMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>gTimeArrayList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CopyOnWriteArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>usedWtSlackSurplusList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CopyOnWriteArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>usedWtSlackSurplusDvList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00043">43</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_process_constraint_8java_source.html#l00034">end</a>, <a class="el" href="_process_constraint_8java_source.html#l00035">gList</a>, <a class="el" href="_process_constraint_8java_source.html#l00036">gMap</a>, <a class="el" href="_process_constraint_8java_source.html#l00039">gTimeArrayList</a>, <a class="el" href="_control_data_8java_source.html#l00187">wrimsv2.components.ControlData.nThreads</a>, <a class="el" href="_process_constraint_8java_source.html#l00037">solverGMap</a>, <a class="el" href="_process_constraint_8java_source.html#l00033">start</a>, <a class="el" href="_process_constraint_8java_source.html#l00032">threshold</a>, <a class="el" href="_process_constraint_8java_source.html#l00041">usedWtSlackSurplusDvList</a>, and <a class="el" href="_process_constraint_8java_source.html#l00040">usedWtSlackSurplusList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_constraint_8java_source.html#l00056">compute()</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a0048a495887e7114ece622d557a3c488" name="a0048a495887e7114ece622d557a3c488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0048a495887e7114ece622d557a3c488">&#9670;&#160;</a></span>compute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer wrimsv2.parallel.ProcessConstraint.compute </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00056">56</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_process_constraint_8java_source.html#l00043">ProcessConstraint()</a>, <a class="el" href="_process_constraint_8java_source.html#l00088">computeDirectly()</a>, <a class="el" href="_process_constraint_8java_source.html#l00034">end</a>, <a class="el" href="_process_constraint_8java_source.html#l00035">gList</a>, <a class="el" href="_process_constraint_8java_source.html#l00036">gMap</a>, <a class="el" href="_process_constraint_8java_source.html#l00039">gTimeArrayList</a>, <a class="el" href="_control_data_8java_source.html#l00187">wrimsv2.components.ControlData.nThreads</a>, <a class="el" href="_process_constraint_8java_source.html#l00037">solverGMap</a>, <a class="el" href="_process_constraint_8java_source.html#l00033">start</a>, <a class="el" href="_process_constraint_8java_source.html#l00032">threshold</a>, <a class="el" href="_process_constraint_8java_source.html#l00041">usedWtSlackSurplusDvList</a>, and <a class="el" href="_process_constraint_8java_source.html#l00040">usedWtSlackSurplusList</a>.</p>
+
+</div>
+</div>
+<a id="ad15d4d6ca0a47789744b53a0a4cd7ab4" name="ad15d4d6ca0a47789744b53a0a4cd7ab4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad15d4d6ca0a47789744b53a0a4cd7ab4">&#9670;&#160;</a></span>computeDirectly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessConstraint.computeDirectly </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00088">88</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00149">wrimsv2.components.Error.addEvaluationError()</a>, <a class="el" href="_goal_8java_source.html#l00026">wrimsv2.commondata.wresldata.Goal.caseConditionParsers</a>, <a class="el" href="_goal_8java_source.html#l00029">wrimsv2.commondata.wresldata.Goal.caseExpressionParsers</a>, <a class="el" href="_control_data_8java_source.html#l00054">wrimsv2.components.ControlData.currEvalName</a>, <a class="el" href="_goal_8java_source.html#l00022">wrimsv2.commondata.wresldata.Goal.dvarSlackSurplusList</a>, <a class="el" href="_goal_8java_source.html#l00021">wrimsv2.commondata.wresldata.Goal.dvarWeightMapList</a>, <a class="el" href="_process_constraint_8java_source.html#l00034">end</a>, <a class="el" href="_time_array_8java_source.html#l00010">wrimsv2.commondata.wresldata.TimeArray.getTimeArraySize()</a>, <a class="el" href="_process_constraint_8java_source.html#l00035">gList</a>, <a class="el" href="_process_constraint_8java_source.html#l00036">gMap</a>, <a class="el" href="_process_constraint_8java_source.html#l00039">gTimeArrayList</a>, <a class="el" href="_control_data_8java_source.html#l00100">wrimsv2.components.ControlData.showRunTimeMessage</a>, <a class="el" href="_process_constraint_8java_source.html#l00037">solverGMap</a>, <a class="el" href="_process_constraint_8java_source.html#l00033">start</a>, <a class="el" href="_parallel_vars_8java_source.html#l00007">wrimsv2.parallel.ParallelVars.timeArrayIndex</a>, <a class="el" href="_goal_8java_source.html#l00037">wrimsv2.commondata.wresldata.Goal.timeArraySizeParser</a>, <a class="el" href="_process_constraint_8java_source.html#l00041">usedWtSlackSurplusDvList</a>, and <a class="el" href="_process_constraint_8java_source.html#l00040">usedWtSlackSurplusList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_constraint_8java_source.html#l00056">compute()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a185dba36c194a2dbf08310e440a04fa1" name="a185dba36c194a2dbf08310e440a04fa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a185dba36c194a2dbf08310e440a04fa1">&#9670;&#160;</a></span>end</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessConstraint.end</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00034">34</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_constraint_8java_source.html#l00043">ProcessConstraint()</a>, <a class="el" href="_process_constraint_8java_source.html#l00056">compute()</a>, and <a class="el" href="_process_constraint_8java_source.html#l00088">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="aa929b8d57caf4c9b6235c6a33125cfc3" name="aa929b8d57caf4c9b6235c6a33125cfc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa929b8d57caf4c9b6235c6a33125cfc3">&#9670;&#160;</a></span>gList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.parallel.ProcessConstraint.gList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00035">35</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_constraint_8java_source.html#l00043">ProcessConstraint()</a>, <a class="el" href="_process_constraint_8java_source.html#l00056">compute()</a>, and <a class="el" href="_process_constraint_8java_source.html#l00088">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a98996c228f68ffe84448dc717be3e3e5" name="a98996c228f68ffe84448dc717be3e3e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98996c228f68ffe84448dc717be3e3e5">&#9670;&#160;</a></span>gMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_goal.html">Goal</a>&gt; wrimsv2.parallel.ProcessConstraint.gMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00036">36</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_constraint_8java_source.html#l00043">ProcessConstraint()</a>, <a class="el" href="_process_constraint_8java_source.html#l00056">compute()</a>, and <a class="el" href="_process_constraint_8java_source.html#l00088">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="ab178c402e3162e4c66be25d6bfb7e138" name="ab178c402e3162e4c66be25d6bfb7e138"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab178c402e3162e4c66be25d6bfb7e138">&#9670;&#160;</a></span>gTimeArrayList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.parallel.ProcessConstraint.gTimeArrayList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00039">39</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_constraint_8java_source.html#l00043">ProcessConstraint()</a>, <a class="el" href="_process_constraint_8java_source.html#l00056">compute()</a>, and <a class="el" href="_process_constraint_8java_source.html#l00088">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a10357e13eb0d8e5e74f5301750e98a88" name="a10357e13eb0d8e5e74f5301750e98a88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10357e13eb0d8e5e74f5301750e98a88">&#9670;&#160;</a></span>solverGMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConcurrentHashMap&lt;String, <a class="el" href="classwrimsv2_1_1evaluator_1_1_eval_constraint.html">EvalConstraint</a>&gt; wrimsv2.parallel.ProcessConstraint.solverGMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00037">37</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_constraint_8java_source.html#l00043">ProcessConstraint()</a>, <a class="el" href="_process_constraint_8java_source.html#l00056">compute()</a>, and <a class="el" href="_process_constraint_8java_source.html#l00088">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a7440e5ee70f7bb0806df273356a41790" name="a7440e5ee70f7bb0806df273356a41790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7440e5ee70f7bb0806df273356a41790">&#9670;&#160;</a></span>start</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessConstraint.start</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00033">33</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_constraint_8java_source.html#l00043">ProcessConstraint()</a>, <a class="el" href="_process_constraint_8java_source.html#l00056">compute()</a>, and <a class="el" href="_process_constraint_8java_source.html#l00088">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="ab6681b30064d5a7acd634c0c3199a17a" name="ab6681b30064d5a7acd634c0c3199a17a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6681b30064d5a7acd634c0c3199a17a">&#9670;&#160;</a></span>threshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.parallel.ProcessConstraint.threshold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00032">32</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_constraint_8java_source.html#l00043">ProcessConstraint()</a>, and <a class="el" href="_process_constraint_8java_source.html#l00056">compute()</a>.</p>
+
+</div>
+</div>
+<a id="acbfd3ec28784a275c10a8409c76c82cf" name="acbfd3ec28784a275c10a8409c76c82cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbfd3ec28784a275c10a8409c76c82cf">&#9670;&#160;</a></span>timeArrayDvList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.parallel.ProcessConstraint.timeArrayDvList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00038">38</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+</div>
+</div>
+<a id="a0a92c31dddf1e6e37293f6d9d7403089" name="a0a92c31dddf1e6e37293f6d9d7403089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a92c31dddf1e6e37293f6d9d7403089">&#9670;&#160;</a></span>usedWtSlackSurplusDvList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CopyOnWriteArrayList&lt;String&gt; wrimsv2.parallel.ProcessConstraint.usedWtSlackSurplusDvList = new CopyOnWriteArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00041">41</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_constraint_8java_source.html#l00043">ProcessConstraint()</a>, <a class="el" href="_process_constraint_8java_source.html#l00056">compute()</a>, and <a class="el" href="_process_constraint_8java_source.html#l00088">computeDirectly()</a>.</p>
+
+</div>
+</div>
+<a id="a8750eb3011915573196f7dd35ffc2f46" name="a8750eb3011915573196f7dd35ffc2f46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8750eb3011915573196f7dd35ffc2f46">&#9670;&#160;</a></span>usedWtSlackSurplusList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CopyOnWriteArrayList&lt;String&gt; wrimsv2.parallel.ProcessConstraint.usedWtSlackSurplusList = new CopyOnWriteArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_process_constraint_8java_source.html#l00040">40</a> of file <a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_process_constraint_8java_source.html#l00043">ProcessConstraint()</a>, <a class="el" href="_process_constraint_8java_source.html#l00056">compute()</a>, and <a class="el" href="_process_constraint_8java_source.html#l00088">computeDirectly()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/parallel/<b>ProcessConstraint.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/parallel/<a class="el" href="_process_constraint_8java_source.html">ProcessConstraint.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -126,7 +517,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>computeDirectly</b> ()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>parallel</b></li><li class="navelem"><a href="classwrimsv2_1_1parallel_1_1_process_constraint.html">ProcessConstraint</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1parallel.html">parallel</a></li><li class="navelem"><a href="classwrimsv2_1_1parallel_1_1_process_constraint.html">ProcessConstraint</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

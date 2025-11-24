@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.tools.solutionRangeFinder.Misc Class Reference</title>
+<title>Wrims-engine: wrimsv2.tools.solutionRangeFinder.Misc Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,21 +94,252 @@ $(function(){initNavTree('classwrimsv2_1_1tools_1_1solution_range_finder_1_1_mis
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-methods" class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:a221b9e1dc3d2eb9ee2fdce0c09f54cce" id="r_a221b9e1dc3d2eb9ee2fdce0c09f54cce"><td class="memItemLeft" align="right" valign="top"><a id="a221b9e1dc3d2eb9ee2fdce0c09f54cce" name="a221b9e1dc3d2eb9ee2fdce0c09f54cce"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>writeReport</b> (LinkedHashMap&lt; String, double[]&gt; varRange, PrintWriter reportFile)</td></tr>
-<tr class="memitem:a8a0d81b4da981bbb12ed5bb6f5dbd4ed" id="r_a8a0d81b4da981bbb12ed5bb6f5dbd4ed"><td class="memItemLeft" align="right" valign="top"><a id="a8a0d81b4da981bbb12ed5bb6f5dbd4ed" name="a8a0d81b4da981bbb12ed5bb6f5dbd4ed"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>writeReport</b> (LinkedHashMap&lt; String, double[]&gt; varRange, String dir, String fileName)</td></tr>
-<tr class="memitem:a6d60d488df3d85a5ba2a4161295682e2" id="r_a6d60d488df3d85a5ba2a4161295682e2"><td class="memItemLeft" align="right" valign="top"><a id="a6d60d488df3d85a5ba2a4161295682e2" name="a6d60d488df3d85a5ba2a4161295682e2"></a>
-static LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>filterVarsRange</b> (LinkedHashMap&lt; String, double[]&gt; varsRange, double min_abs_diff, double min_ratio_diff)</td></tr>
-<tr class="memitem:a0173b5d6d0a8ee78c795c326ed92b86d" id="r_a0173b5d6d0a8ee78c795c326ed92b86d"><td class="memItemLeft" align="right" valign="top"><a id="a0173b5d6d0a8ee78c795c326ed92b86d" name="a0173b5d6d0a8ee78c795c326ed92b86d"></a>
-static LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>findVarsRange</b> (ArrayList&lt; LinkedHashMap&lt; String, Double &gt; &gt; allSearchSolutions)</td></tr>
-<tr class="memitem:af6b00029a6b7cf79170f23c48f1755b8" id="r_af6b00029a6b7cf79170f23c48f1755b8"><td class="memItemLeft" align="right" valign="top"><a id="af6b00029a6b7cf79170f23c48f1755b8" name="af6b00029a6b7cf79170f23c48f1755b8"></a>
-static LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>updateVarsRange</b> (List&lt; LinkedHashMap&lt; String, double[]&gt; &gt; varsRangeList)</td></tr>
-<tr class="memitem:a90916c7090247892d246a530219df6ab" id="r_a90916c7090247892d246a530219df6ab"><td class="memItemLeft" align="right" valign="top"><a id="a90916c7090247892d246a530219df6ab" name="a90916c7090247892d246a530219df6ab"></a>
-static LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>updateVarsRange</b> (LinkedHashMap&lt; String, double[]&gt; varsRange1, LinkedHashMap&lt; String, double[]&gt; varsRange2)</td></tr>
+<tr class="memitem:a6d60d488df3d85a5ba2a4161295682e2" id="r_a6d60d488df3d85a5ba2a4161295682e2"><td class="memItemLeft" align="right" valign="top">static LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d60d488df3d85a5ba2a4161295682e2">filterVarsRange</a> (LinkedHashMap&lt; String, double[]&gt; varsRange, double min_abs_diff, double min_ratio_diff)</td></tr>
+<tr class="memitem:a0173b5d6d0a8ee78c795c326ed92b86d" id="r_a0173b5d6d0a8ee78c795c326ed92b86d"><td class="memItemLeft" align="right" valign="top">static LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0173b5d6d0a8ee78c795c326ed92b86d">findVarsRange</a> (ArrayList&lt; LinkedHashMap&lt; String, Double &gt; &gt; allSearchSolutions)</td></tr>
+<tr class="memitem:a90916c7090247892d246a530219df6ab" id="r_a90916c7090247892d246a530219df6ab"><td class="memItemLeft" align="right" valign="top">static LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90916c7090247892d246a530219df6ab">updateVarsRange</a> (LinkedHashMap&lt; String, double[]&gt; varsRange1, LinkedHashMap&lt; String, double[]&gt; varsRange2)</td></tr>
+<tr class="memitem:af6b00029a6b7cf79170f23c48f1755b8" id="r_af6b00029a6b7cf79170f23c48f1755b8"><td class="memItemLeft" align="right" valign="top">static LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6b00029a6b7cf79170f23c48f1755b8">updateVarsRange</a> (List&lt; LinkedHashMap&lt; String, double[]&gt; &gt; varsRangeList)</td></tr>
+<tr class="memitem:a221b9e1dc3d2eb9ee2fdce0c09f54cce" id="r_a221b9e1dc3d2eb9ee2fdce0c09f54cce"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a221b9e1dc3d2eb9ee2fdce0c09f54cce">writeReport</a> (LinkedHashMap&lt; String, double[]&gt; varRange, PrintWriter reportFile)</td></tr>
+<tr class="memitem:a8a0d81b4da981bbb12ed5bb6f5dbd4ed" id="r_a8a0d81b4da981bbb12ed5bb6f5dbd4ed"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a0d81b4da981bbb12ed5bb6f5dbd4ed">writeReport</a> (LinkedHashMap&lt; String, double[]&gt; varRange, String dir, String fileName)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pac-static-methods" class="groupheader"><a id="pac-static-methods" name="pac-static-methods"></a>
+Static Package Functions</h2></td></tr>
+<tr class="memitem:af7f873df0b643cc9465b0651c8e987a0" id="r_af7f873df0b643cc9465b0651c8e987a0"><td class="memItemLeft" align="right" valign="top">static PrintWriter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7f873df0b643cc9465b0651c8e987a0">openReportFile</a> (String filePath)</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html#l00016">16</a> of file <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html">Misc.java</a>.</p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a6d60d488df3d85a5ba2a4161295682e2" name="a6d60d488df3d85a5ba2a4161295682e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d60d488df3d85a5ba2a4161295682e2">&#9670;&#160;</a></span>filterVarsRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt; String, double[]&gt; wrimsv2.tools.solutionRangeFinder.Misc.filterVarsRange </td>
+          <td>(</td>
+          <td class="paramtype">LinkedHashMap&lt; String, double[]&gt;</td>          <td class="paramname"><span class="paramname"><em>varsRange</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>min_abs_diff</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>min_ratio_diff</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html#l00101">101</a> of file <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html">Misc.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_workflow_8java_source.html#l00146">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.findAltSolutions()</a>.</p>
+
+</div>
+</div>
+<a id="a0173b5d6d0a8ee78c795c326ed92b86d" name="a0173b5d6d0a8ee78c795c326ed92b86d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0173b5d6d0a8ee78c795c326ed92b86d">&#9670;&#160;</a></span>findVarsRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt; String, double[]&gt; wrimsv2.tools.solutionRangeFinder.Misc.findVarsRange </td>
+          <td>(</td>
+          <td class="paramtype">ArrayList&lt; LinkedHashMap&lt; String, Double &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>allSearchSolutions</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html#l00130">130</a> of file <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html">Misc.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_workflow_8java_source.html#l00146">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.findAltSolutions()</a>.</p>
+
+</div>
+</div>
+<a id="af7f873df0b643cc9465b0651c8e987a0" name="af7f873df0b643cc9465b0651c8e987a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7f873df0b643cc9465b0651c8e987a0">&#9670;&#160;</a></span>openReportFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PrintWriter wrimsv2.tools.solutionRangeFinder.Misc.openReportFile </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html#l00018">18</a> of file <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html">Misc.java</a>.</p>
+
+<p class="reference">References <a class="el" href="wreslplus_2elements_2_tools_8java_source.html#l00353">wrimsv2.wreslplus.elements.Tools.openFile()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_8java_source.html#l00017">wrimsv2.tools.solutionRangeFinder.Detector.main()</a>, and <a class="el" href="_main_8java_source.html#l00017">wrimsv2.tools.solutionRangeFinder.Main.main()</a>.</p>
+
+</div>
+</div>
+<a id="a90916c7090247892d246a530219df6ab" name="a90916c7090247892d246a530219df6ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90916c7090247892d246a530219df6ab">&#9670;&#160;</a></span>updateVarsRange() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt; String, double[]&gt; wrimsv2.tools.solutionRangeFinder.Misc.updateVarsRange </td>
+          <td>(</td>
+          <td class="paramtype">LinkedHashMap&lt; String, double[]&gt;</td>          <td class="paramname"><span class="paramname"><em>varsRange1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; String, double[]&gt;</td>          <td class="paramname"><span class="paramname"><em>varsRange2</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html#l00188">188</a> of file <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html">Misc.java</a>.</p>
+
+</div>
+</div>
+<a id="af6b00029a6b7cf79170f23c48f1755b8" name="af6b00029a6b7cf79170f23c48f1755b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6b00029a6b7cf79170f23c48f1755b8">&#9670;&#160;</a></span>updateVarsRange() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt; String, double[]&gt; wrimsv2.tools.solutionRangeFinder.Misc.updateVarsRange </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; LinkedHashMap&lt; String, double[]&gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>varsRangeList</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html#l00163">163</a> of file <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html">Misc.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_workflow_8java_source.html#l00146">wrimsv2.tools.solutionRangeFinder.DetectorWorkflow.findAltSolutions()</a>.</p>
+
+</div>
+</div>
+<a id="a221b9e1dc3d2eb9ee2fdce0c09f54cce" name="a221b9e1dc3d2eb9ee2fdce0c09f54cce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a221b9e1dc3d2eb9ee2fdce0c09f54cce">&#9670;&#160;</a></span>writeReport() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.tools.solutionRangeFinder.Misc.writeReport </td>
+          <td>(</td>
+          <td class="paramtype">LinkedHashMap&lt; String, double[]&gt;</td>          <td class="paramname"><span class="paramname"><em>varRange</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PrintWriter</td>          <td class="paramname"><span class="paramname"><em>reportFile</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html#l00051">51</a> of file <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html">Misc.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_detector_8java_source.html#l00017">wrimsv2.tools.solutionRangeFinder.Detector.main()</a>, and <a class="el" href="_main_8java_source.html#l00017">wrimsv2.tools.solutionRangeFinder.Main.main()</a>.</p>
+
+</div>
+</div>
+<a id="a8a0d81b4da981bbb12ed5bb6f5dbd4ed" name="a8a0d81b4da981bbb12ed5bb6f5dbd4ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a0d81b4da981bbb12ed5bb6f5dbd4ed">&#9670;&#160;</a></span>writeReport() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.tools.solutionRangeFinder.Misc.writeReport </td>
+          <td>(</td>
+          <td class="paramtype">LinkedHashMap&lt; String, double[]&gt;</td>          <td class="paramname"><span class="paramname"><em>varRange</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html#l00073">73</a> of file <a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html">Misc.java</a>.</p>
+
+<p class="reference">References <a class="el" href="wreslplus_2elements_2_tools_8java_source.html#l00353">wrimsv2.wreslplus.elements.Tools.openFile()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/tools/solutionRangeFinder/<b>Misc.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/tools/solutionRangeFinder/<a class="el" href="tools_2solution_range_finder_2_misc_8java_source.html">Misc.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -123,7 +354,7 @@ static LinkedHashMap&lt; String, double[]&gt;&#160;</td><td class="memItemRight"
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>tools</b></li><li class="navelem"><b>solutionRangeFinder</b></li><li class="navelem"><a href="classwrimsv2_1_1tools_1_1solution_range_finder_1_1_misc.html">Misc</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1tools.html">tools</a></li><li class="navelem"><a href="namespacewrimsv2_1_1tools_1_1solution_range_finder.html">solutionRangeFinder</a></li><li class="navelem"><a href="classwrimsv2_1_1tools_1_1solution_range_finder_1_1_misc.html">Misc</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

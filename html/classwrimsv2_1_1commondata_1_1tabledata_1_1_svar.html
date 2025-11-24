@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.commondata.tabledata.Svar Class Reference</title>
+<title>Wrims-engine: wrimsv2.commondata.tabledata.Svar Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,29 +94,395 @@ $(function(){initNavTree('classwrimsv2_1_1commondata_1_1tabledata_1_1_svar.html'
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afe2849361383be9ecb12b586ce68adda" id="r_afe2849361383be9ecb12b586ce68adda"><td class="memItemLeft" align="right" valign="top"><a id="afe2849361383be9ecb12b586ce68adda" name="afe2849361383be9ecb12b586ce68adda"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setType</b> (String type)</td></tr>
-<tr class="memitem:a93b54661e8ec99524374d0bdd240298d" id="r_a93b54661e8ec99524374d0bdd240298d"><td class="memItemLeft" align="right" valign="top"><a id="a93b54661e8ec99524374d0bdd240298d" name="a93b54661e8ec99524374d0bdd240298d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setUnits</b> (String units)</td></tr>
-<tr class="memitem:aade621a3df05dc7fe290e1de4bd8a74a" id="r_aade621a3df05dc7fe290e1de4bd8a74a"><td class="memItemLeft" align="right" valign="top"><a id="aade621a3df05dc7fe290e1de4bd8a74a" name="aade621a3df05dc7fe290e1de4bd8a74a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setConvertUnits</b> (String convertUnits)</td></tr>
-<tr class="memitem:a8d277cb2e59ffa0406644f6fe721ff6d" id="r_a8d277cb2e59ffa0406644f6fe721ff6d"><td class="memItemLeft" align="right" valign="top"><a id="a8d277cb2e59ffa0406644f6fe721ff6d" name="a8d277cb2e59ffa0406644f6fe721ff6d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setCaseCondition</b> (ArrayList&lt; String &gt; caseCondition)</td></tr>
-<tr class="memitem:aaf38e1ca5b8ed0006be9292f813f6aaa" id="r_aaf38e1ca5b8ed0006be9292f813f6aaa"><td class="memItemLeft" align="right" valign="top"><a id="aaf38e1ca5b8ed0006be9292f813f6aaa" name="aaf38e1ca5b8ed0006be9292f813f6aaa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setCaseExpression</b> (ArrayList&lt; ArrayList&lt; String &gt; &gt; caseExpression)</td></tr>
-<tr class="memitem:ada83fd9a53b65cfa49e81a166a4fa42b" id="r_ada83fd9a53b65cfa49e81a166a4fa42b"><td class="memItemLeft" align="right" valign="top"><a id="ada83fd9a53b65cfa49e81a166a4fa42b" name="ada83fd9a53b65cfa49e81a166a4fa42b"></a>
-ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getCaseCondition</b> ()</td></tr>
-<tr class="memitem:a034ea41a0d0e1d55df3f1e8e99cabb6f" id="r_a034ea41a0d0e1d55df3f1e8e99cabb6f"><td class="memItemLeft" align="right" valign="top"><a id="a034ea41a0d0e1d55df3f1e8e99cabb6f" name="a034ea41a0d0e1d55df3f1e8e99cabb6f"></a>
-ArrayList&lt; ArrayList&lt; String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getCaseExpression</b> ()</td></tr>
-<tr class="memitem:aa021c4ef8b642bb6ea7024b0bfde1c43" id="r_aa021c4ef8b642bb6ea7024b0bfde1c43"><td class="memItemLeft" align="right" valign="top"><a id="aa021c4ef8b642bb6ea7024b0bfde1c43" name="aa021c4ef8b642bb6ea7024b0bfde1c43"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getType</b> ()</td></tr>
-<tr class="memitem:a8e09a41e3ae819e73b272114f5e6ed1d" id="r_a8e09a41e3ae819e73b272114f5e6ed1d"><td class="memItemLeft" align="right" valign="top"><a id="a8e09a41e3ae819e73b272114f5e6ed1d" name="a8e09a41e3ae819e73b272114f5e6ed1d"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getUnits</b> ()</td></tr>
-<tr class="memitem:a6dcacb5f8c9bcdba35941b6d56148d03" id="r_a6dcacb5f8c9bcdba35941b6d56148d03"><td class="memItemLeft" align="right" valign="top"><a id="a6dcacb5f8c9bcdba35941b6d56148d03" name="a6dcacb5f8c9bcdba35941b6d56148d03"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getConvertUnits</b> ()</td></tr>
+<tr class="memitem:ad0c3627bd5b02faa9299e126420ff5ac" id="r_ad0c3627bd5b02faa9299e126420ff5ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0c3627bd5b02faa9299e126420ff5ac">Svar</a> ()</td></tr>
+<tr class="memitem:ada83fd9a53b65cfa49e81a166a4fa42b" id="r_ada83fd9a53b65cfa49e81a166a4fa42b"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada83fd9a53b65cfa49e81a166a4fa42b">getCaseCondition</a> ()</td></tr>
+<tr class="memitem:a034ea41a0d0e1d55df3f1e8e99cabb6f" id="r_a034ea41a0d0e1d55df3f1e8e99cabb6f"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; ArrayList&lt; String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a034ea41a0d0e1d55df3f1e8e99cabb6f">getCaseExpression</a> ()</td></tr>
+<tr class="memitem:a6dcacb5f8c9bcdba35941b6d56148d03" id="r_a6dcacb5f8c9bcdba35941b6d56148d03"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dcacb5f8c9bcdba35941b6d56148d03">getConvertUnits</a> ()</td></tr>
+<tr class="memitem:aa021c4ef8b642bb6ea7024b0bfde1c43" id="r_aa021c4ef8b642bb6ea7024b0bfde1c43"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa021c4ef8b642bb6ea7024b0bfde1c43">getType</a> ()</td></tr>
+<tr class="memitem:a8e09a41e3ae819e73b272114f5e6ed1d" id="r_a8e09a41e3ae819e73b272114f5e6ed1d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e09a41e3ae819e73b272114f5e6ed1d">getUnits</a> ()</td></tr>
+<tr class="memitem:a8d277cb2e59ffa0406644f6fe721ff6d" id="r_a8d277cb2e59ffa0406644f6fe721ff6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d277cb2e59ffa0406644f6fe721ff6d">setCaseCondition</a> (ArrayList&lt; String &gt; <a class="el" href="#aa3f2d177c8f468d322e586ab99275969">caseCondition</a>)</td></tr>
+<tr class="memitem:aaf38e1ca5b8ed0006be9292f813f6aaa" id="r_aaf38e1ca5b8ed0006be9292f813f6aaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf38e1ca5b8ed0006be9292f813f6aaa">setCaseExpression</a> (ArrayList&lt; ArrayList&lt; String &gt; &gt; <a class="el" href="#af9ba12380e9546985a7da50366ae97dd">caseExpression</a>)</td></tr>
+<tr class="memitem:aade621a3df05dc7fe290e1de4bd8a74a" id="r_aade621a3df05dc7fe290e1de4bd8a74a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aade621a3df05dc7fe290e1de4bd8a74a">setConvertUnits</a> (String <a class="el" href="#ae9999979c95eb77378487836e9c81f10">convertUnits</a>)</td></tr>
+<tr class="memitem:afe2849361383be9ecb12b586ce68adda" id="r_afe2849361383be9ecb12b586ce68adda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe2849361383be9ecb12b586ce68adda">setType</a> (String <a class="el" href="#a4c135aa6dc897862fe3d0089e47d7da4">type</a>)</td></tr>
+<tr class="memitem:a93b54661e8ec99524374d0bdd240298d" id="r_a93b54661e8ec99524374d0bdd240298d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93b54661e8ec99524374d0bdd240298d">setUnits</a> (String <a class="el" href="#a956a4a3d9be15308976e20d66d7210fe">units</a>)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa3f2d177c8f468d322e586ab99275969" id="r_aa3f2d177c8f468d322e586ab99275969"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3f2d177c8f468d322e586ab99275969">caseCondition</a></td></tr>
+<tr class="memitem:af9ba12380e9546985a7da50366ae97dd" id="r_af9ba12380e9546985a7da50366ae97dd"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; ArrayList&lt; String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9ba12380e9546985a7da50366ae97dd">caseExpression</a></td></tr>
+<tr class="memitem:ae9999979c95eb77378487836e9c81f10" id="r_ae9999979c95eb77378487836e9c81f10"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9999979c95eb77378487836e9c81f10">convertUnits</a></td></tr>
+<tr class="memitem:a4c135aa6dc897862fe3d0089e47d7da4" id="r_a4c135aa6dc897862fe3d0089e47d7da4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c135aa6dc897862fe3d0089e47d7da4">type</a></td></tr>
+<tr class="memitem:a956a4a3d9be15308976e20d66d7210fe" id="r_a956a4a3d9be15308976e20d66d7210fe"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a956a4a3d9be15308976e20d66d7210fe">units</a></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00005">5</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad0c3627bd5b02faa9299e126420ff5ac" name="ad0c3627bd5b02faa9299e126420ff5ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0c3627bd5b02faa9299e126420ff5ac">&#9670;&#160;</a></span>Svar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.commondata.tabledata.Svar.Svar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00013">13</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="tabledata_2_svar_8java_source.html#l00010">caseCondition</a>, <a class="el" href="tabledata_2_svar_8java_source.html#l00011">caseExpression</a>, <a class="el" href="tabledata_2_svar_8java_source.html#l00007">type</a>, and <a class="el" href="tabledata_2_svar_8java_source.html#l00008">units</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ada83fd9a53b65cfa49e81a166a4fa42b" name="ada83fd9a53b65cfa49e81a166a4fa42b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada83fd9a53b65cfa49e81a166a4fa42b">&#9670;&#160;</a></span>getCaseCondition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt; String &gt; wrimsv2.commondata.tabledata.Svar.getCaseCondition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00040">40</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="tabledata_2_svar_8java_source.html#l00010">caseCondition</a>.</p>
+
+</div>
+</div>
+<a id="a034ea41a0d0e1d55df3f1e8e99cabb6f" name="a034ea41a0d0e1d55df3f1e8e99cabb6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a034ea41a0d0e1d55df3f1e8e99cabb6f">&#9670;&#160;</a></span>getCaseExpression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt; ArrayList&lt; String &gt; &gt; wrimsv2.commondata.tabledata.Svar.getCaseExpression </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00044">44</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="tabledata_2_svar_8java_source.html#l00011">caseExpression</a>.</p>
+
+</div>
+</div>
+<a id="a6dcacb5f8c9bcdba35941b6d56148d03" name="a6dcacb5f8c9bcdba35941b6d56148d03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dcacb5f8c9bcdba35941b6d56148d03">&#9670;&#160;</a></span>getConvertUnits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.commondata.tabledata.Svar.getConvertUnits </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00056">56</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="tabledata_2_svar_8java_source.html#l00009">convertUnits</a>.</p>
+
+</div>
+</div>
+<a id="aa021c4ef8b642bb6ea7024b0bfde1c43" name="aa021c4ef8b642bb6ea7024b0bfde1c43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa021c4ef8b642bb6ea7024b0bfde1c43">&#9670;&#160;</a></span>getType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.commondata.tabledata.Svar.getType </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00048">48</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="tabledata_2_svar_8java_source.html#l00007">type</a>.</p>
+
+</div>
+</div>
+<a id="a8e09a41e3ae819e73b272114f5e6ed1d" name="a8e09a41e3ae819e73b272114f5e6ed1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e09a41e3ae819e73b272114f5e6ed1d">&#9670;&#160;</a></span>getUnits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.commondata.tabledata.Svar.getUnits </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00052">52</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="tabledata_2_svar_8java_source.html#l00008">units</a>.</p>
+
+</div>
+</div>
+<a id="a8d277cb2e59ffa0406644f6fe721ff6d" name="a8d277cb2e59ffa0406644f6fe721ff6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d277cb2e59ffa0406644f6fe721ff6d">&#9670;&#160;</a></span>setCaseCondition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.commondata.tabledata.Svar.setCaseCondition </td>
+          <td>(</td>
+          <td class="paramtype">ArrayList&lt; String &gt;</td>          <td class="paramname"><span class="paramname"><em>caseCondition</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00032">32</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="tabledata_2_svar_8java_source.html#l00010">caseCondition</a>.</p>
+
+</div>
+</div>
+<a id="aaf38e1ca5b8ed0006be9292f813f6aaa" name="aaf38e1ca5b8ed0006be9292f813f6aaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf38e1ca5b8ed0006be9292f813f6aaa">&#9670;&#160;</a></span>setCaseExpression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.commondata.tabledata.Svar.setCaseExpression </td>
+          <td>(</td>
+          <td class="paramtype">ArrayList&lt; ArrayList&lt; String &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>caseExpression</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00036">36</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="tabledata_2_svar_8java_source.html#l00011">caseExpression</a>.</p>
+
+</div>
+</div>
+<a id="aade621a3df05dc7fe290e1de4bd8a74a" name="aade621a3df05dc7fe290e1de4bd8a74a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aade621a3df05dc7fe290e1de4bd8a74a">&#9670;&#160;</a></span>setConvertUnits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.commondata.tabledata.Svar.setConvertUnits </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>convertUnits</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00028">28</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="tabledata_2_svar_8java_source.html#l00009">convertUnits</a>.</p>
+
+</div>
+</div>
+<a id="afe2849361383be9ecb12b586ce68adda" name="afe2849361383be9ecb12b586ce68adda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe2849361383be9ecb12b586ce68adda">&#9670;&#160;</a></span>setType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.commondata.tabledata.Svar.setType </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00020">20</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="tabledata_2_svar_8java_source.html#l00007">type</a>.</p>
+
+</div>
+</div>
+<a id="a93b54661e8ec99524374d0bdd240298d" name="a93b54661e8ec99524374d0bdd240298d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93b54661e8ec99524374d0bdd240298d">&#9670;&#160;</a></span>setUnits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.commondata.tabledata.Svar.setUnits </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>units</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00024">24</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">References <a class="el" href="tabledata_2_svar_8java_source.html#l00008">units</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="aa3f2d177c8f468d322e586ab99275969" name="aa3f2d177c8f468d322e586ab99275969"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3f2d177c8f468d322e586ab99275969">&#9670;&#160;</a></span>caseCondition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; wrimsv2.commondata.tabledata.Svar.caseCondition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00010">10</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="tabledata_2_svar_8java_source.html#l00013">Svar()</a>, <a class="el" href="tabledata_2_svar_8java_source.html#l00040">getCaseCondition()</a>, and <a class="el" href="tabledata_2_svar_8java_source.html#l00032">setCaseCondition()</a>.</p>
+
+</div>
+</div>
+<a id="af9ba12380e9546985a7da50366ae97dd" name="af9ba12380e9546985a7da50366ae97dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9ba12380e9546985a7da50366ae97dd">&#9670;&#160;</a></span>caseExpression</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;ArrayList&lt;String&gt; &gt; wrimsv2.commondata.tabledata.Svar.caseExpression</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00011">11</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="tabledata_2_svar_8java_source.html#l00013">Svar()</a>, <a class="el" href="tabledata_2_svar_8java_source.html#l00044">getCaseExpression()</a>, and <a class="el" href="tabledata_2_svar_8java_source.html#l00036">setCaseExpression()</a>.</p>
+
+</div>
+</div>
+<a id="ae9999979c95eb77378487836e9c81f10" name="ae9999979c95eb77378487836e9c81f10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9999979c95eb77378487836e9c81f10">&#9670;&#160;</a></span>convertUnits</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.commondata.tabledata.Svar.convertUnits</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00009">9</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="tabledata_2_svar_8java_source.html#l00056">getConvertUnits()</a>, and <a class="el" href="tabledata_2_svar_8java_source.html#l00028">setConvertUnits()</a>.</p>
+
+</div>
+</div>
+<a id="a4c135aa6dc897862fe3d0089e47d7da4" name="a4c135aa6dc897862fe3d0089e47d7da4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c135aa6dc897862fe3d0089e47d7da4">&#9670;&#160;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.commondata.tabledata.Svar.type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00007">7</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="tabledata_2_svar_8java_source.html#l00013">Svar()</a>, <a class="el" href="tabledata_2_svar_8java_source.html#l00048">getType()</a>, and <a class="el" href="tabledata_2_svar_8java_source.html#l00020">setType()</a>.</p>
+
+</div>
+</div>
+<a id="a956a4a3d9be15308976e20d66d7210fe" name="a956a4a3d9be15308976e20d66d7210fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a956a4a3d9be15308976e20d66d7210fe">&#9670;&#160;</a></span>units</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String wrimsv2.commondata.tabledata.Svar.units</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tabledata_2_svar_8java_source.html#l00008">8</a> of file <a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="tabledata_2_svar_8java_source.html#l00013">Svar()</a>, <a class="el" href="tabledata_2_svar_8java_source.html#l00052">getUnits()</a>, and <a class="el" href="tabledata_2_svar_8java_source.html#l00024">setUnits()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/commondata/tabledata/<b>Svar.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/commondata/tabledata/<a class="el" href="tabledata_2_svar_8java_source.html">Svar.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -131,7 +497,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>getConvertUnits</b>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>commondata</b></li><li class="navelem"><b>tabledata</b></li><li class="navelem"><a href="classwrimsv2_1_1commondata_1_1tabledata_1_1_svar.html">Svar</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>commondata</b></li><li class="navelem"><a href="namespacewrimsv2_1_1commondata_1_1tabledata.html">tabledata</a></li><li class="navelem"><a href="classwrimsv2_1_1commondata_1_1tabledata_1_1_svar.html">Svar</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

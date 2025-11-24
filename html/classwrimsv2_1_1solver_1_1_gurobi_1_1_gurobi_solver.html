@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WRIMS3: wrimsv2.solver.Gurobi.GurobiSolver Class Reference</title>
+<title>Wrims-engine: wrimsv2.solver.Gurobi.GurobiSolver Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">WRIMS3
+   <div id="projectname">Wrims-engine
    </div>
   </td>
  </tr>
@@ -94,31 +94,532 @@ $(function(){initNavTree('classwrimsv2_1_1solver_1_1_gurobi_1_1_gurobi_solver.ht
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af38b37f539b51f8ee0d9420c1936b3f3" id="r_af38b37f539b51f8ee0d9420c1936b3f3"><td class="memItemLeft" align="right" valign="top"><a id="af38b37f539b51f8ee0d9420c1936b3f3" name="af38b37f539b51f8ee0d9420c1936b3f3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setDVars</b> ()  throws GRBException</td></tr>
+<tr class="memitem:a296cb1a40348b89bc476de60809a6d0c" id="r_a296cb1a40348b89bc476de60809a6d0c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a296cb1a40348b89bc476de60809a6d0c">GurobiSolver</a> ()  throws GRBException</td></tr>
+<tr class="memitem:af38b37f539b51f8ee0d9420c1936b3f3" id="r_af38b37f539b51f8ee0d9420c1936b3f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af38b37f539b51f8ee0d9420c1936b3f3">setDVars</a> ()  throws GRBException</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ac1b0b1066828d45e4c3191639ede3b75" id="r_ac1b0b1066828d45e4c3191639ede3b75"><td class="memItemLeft" align="right" valign="top"><a id="ac1b0b1066828d45e4c3191639ede3b75" name="ac1b0b1066828d45e4c3191639ede3b75"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>initialize</b> ()</td></tr>
-<tr class="memitem:a842f18f479167003ab732e5dc10849de" id="r_a842f18f479167003ab732e5dc10849de"><td class="memItemLeft" align="right" valign="top"><a id="a842f18f479167003ab732e5dc10849de" name="a842f18f479167003ab732e5dc10849de"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>setLp</b> (String CplexLpFilePath)</td></tr>
-<tr class="memitem:a1a149b574a7294c9853b4a29a417c8b6" id="r_a1a149b574a7294c9853b4a29a417c8b6"><td class="memItemLeft" align="right" valign="top"><a id="a1a149b574a7294c9853b4a29a417c8b6" name="a1a149b574a7294c9853b4a29a417c8b6"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>dispose</b> ()</td></tr>
-<tr class="memitem:a09f740cc48f11dd7a13200066f91e0dc" id="r_a09f740cc48f11dd7a13200066f91e0dc"><td class="memItemLeft" align="right" valign="top"><a id="a09f740cc48f11dd7a13200066f91e0dc" name="a09f740cc48f11dd7a13200066f91e0dc"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>solve</b> ()</td></tr>
-<tr class="memitem:aa5008f6d752e4417d4704304c3f1d90b" id="r_aa5008f6d752e4417d4704304c3f1d90b"><td class="memItemLeft" align="right" valign="top"><a id="aa5008f6d752e4417d4704304c3f1d90b" name="aa5008f6d752e4417d4704304c3f1d90b"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>assignDvar</b> ()</td></tr>
-<tr class="memitem:a0a6b44a383a9e263d4747f6d361f2429" id="r_a0a6b44a383a9e263d4747f6d361f2429"><td class="memItemLeft" align="right" valign="top"><a id="a0a6b44a383a9e263d4747f6d361f2429" name="a0a6b44a383a9e263d4747f6d361f2429"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>addConditionalSlackSurplusToDvarMap</b> (Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt; dvarMap, String multName)</td></tr>
+<tr class="memitem:a0a6b44a383a9e263d4747f6d361f2429" id="r_a0a6b44a383a9e263d4747f6d361f2429"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a6b44a383a9e263d4747f6d361f2429">addConditionalSlackSurplusToDvarMap</a> (Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt; dvarMap, String multName)</td></tr>
+<tr class="memitem:aa5008f6d752e4417d4704304c3f1d90b" id="r_aa5008f6d752e4417d4704304c3f1d90b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5008f6d752e4417d4704304c3f1d90b">assignDvar</a> ()</td></tr>
+<tr class="memitem:a1a149b574a7294c9853b4a29a417c8b6" id="r_a1a149b574a7294c9853b4a29a417c8b6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a149b574a7294c9853b4a29a417c8b6">dispose</a> ()</td></tr>
+<tr class="memitem:ac1b0b1066828d45e4c3191639ede3b75" id="r_ac1b0b1066828d45e4c3191639ede3b75"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1b0b1066828d45e4c3191639ede3b75">initialize</a> ()</td></tr>
+<tr class="memitem:a842f18f479167003ab732e5dc10849de" id="r_a842f18f479167003ab732e5dc10849de"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a842f18f479167003ab732e5dc10849de">setLp</a> (String CplexLpFilePath)</td></tr>
+<tr class="memitem:a09f740cc48f11dd7a13200066f91e0dc" id="r_a09f740cc48f11dd7a13200066f91e0dc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09f740cc48f11dd7a13200066f91e0dc">solve</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a67747c26d9bbdcd1ac43295808c1954d" id="r_a67747c26d9bbdcd1ac43295808c1954d"><td class="memItemLeft" align="right" valign="top"><a id="a67747c26d9bbdcd1ac43295808c1954d" name="a67747c26d9bbdcd1ac43295808c1954d"></a>
-static Map&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>varDoubleMap</b></td></tr>
+<tr class="memitem:a67747c26d9bbdcd1ac43295808c1954d" id="r_a67747c26d9bbdcd1ac43295808c1954d"><td class="memItemLeft" align="right" valign="top">static Map&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67747c26d9bbdcd1ac43295808c1954d">varDoubleMap</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pac-attribs" class="groupheader"><a id="pac-attribs" name="pac-attribs"></a>
+Package Attributes</h2></td></tr>
+<tr class="memitem:a78bbc55ce9b7e6309af7ec09aa9caa70" id="r_a78bbc55ce9b7e6309af7ec09aa9caa70"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78bbc55ce9b7e6309af7ec09aa9caa70">modelStatus</a></td></tr>
+<tr class="memitem:a2859d2da0aa444b331aa2a2086ee7704" id="r_a2859d2da0aa444b331aa2a2086ee7704"><td class="memItemLeft" align="right" valign="top">Map&lt; String, GRBVar &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2859d2da0aa444b331aa2a2086ee7704">varMap</a> = new HashMap &lt;String, GRBVar&gt; ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pac-static-attribs" class="groupheader"><a id="pac-static-attribs" name="pac-static-attribs"></a>
+Static Package Attributes</h2></td></tr>
+<tr class="memitem:a0e058152d35506e2da68ff967742f30c" id="r_a0e058152d35506e2da68ff967742f30c"><td class="memItemLeft" align="right" valign="top">static GRBEnv&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e058152d35506e2da68ff967742f30c">env</a></td></tr>
+<tr class="memitem:abf6cfc935703bb23333444c6acef96b9" id="r_abf6cfc935703bb23333444c6acef96b9"><td class="memItemLeft" align="right" valign="top">static GRBModel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf6cfc935703bb23333444c6acef96b9">model</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ad5c603c5f6d95ca2aab664eb72327a01" id="r_ad5c603c5f6d95ca2aab664eb72327a01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5c603c5f6d95ca2aab664eb72327a01">checkStatus</a> ()  throws GRBException </td></tr>
+<tr class="memitem:a496c239ef51d26d1aab4261318a58986" id="r_a496c239ef51d26d1aab4261318a58986"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a496c239ef51d26d1aab4261318a58986">Output</a> ()  throws GRBException </td></tr>
+<tr class="memitem:a123941e722d3d20a23b26d366add9a2c" id="r_a123941e722d3d20a23b26d366add9a2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a123941e722d3d20a23b26d366add9a2c">setConstraints</a> ()  throws GRBException </td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a431d3594355814fb23abffcca097aeb0" id="r_a431d3594355814fb23abffcca097aeb0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a431d3594355814fb23abffcca097aeb0">collectDvar</a> (<a class="el" href="classwrimsv2_1_1solver_1_1_gurobi_1_1_lp_result.html">LpResult</a> lpResult)</td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00055">55</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a296cb1a40348b89bc476de60809a6d0c" name="a296cb1a40348b89bc476de60809a6d0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a296cb1a40348b89bc476de60809a6d0c">&#9670;&#160;</a></span>GurobiSolver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wrimsv2.solver.Gurobi.GurobiSolver.GurobiSolver </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> throws GRBException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00107">107</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_gurobi_solver_8java_source.html#l00250">assignDvar()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00059">model</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00403">Output()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00216">setConstraints()</a>, and <a class="el" href="_gurobi_solver_8java_source.html#l00184">setDVars()</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a0a6b44a383a9e263d4747f6d361f2429" name="a0a6b44a383a9e263d4747f6d361f2429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a6b44a383a9e263d4747f6d361f2429">&#9670;&#160;</a></span>addConditionalSlackSurplusToDvarMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.Gurobi.GurobiSolver.addConditionalSlackSurplusToDvarMap </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, <a class="el" href="classwrimsv2_1_1commondata_1_1wresldata_1_1_dvar.html">Dvar</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>dvarMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>multName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00416">416</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="wresldata_2_dvar_8java_source.html#l00028">wrimsv2.commondata.wresldata.Dvar.lowerBoundValue</a>, and <a class="el" href="wresldata_2_dvar_8java_source.html#l00027">wrimsv2.commondata.wresldata.Dvar.upperBoundValue</a>.</p>
+
+</div>
+</div>
+<a id="aa5008f6d752e4417d4704304c3f1d90b" name="aa5008f6d752e4417d4704304c3f1d90b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5008f6d752e4417d4704304c3f1d90b">&#9670;&#160;</a></span>assignDvar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.Gurobi.GurobiSolver.assignDvar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00250">250</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00051">wrimsv2.components.ControlData.currCycleName</a>, <a class="el" href="_control_data_8java_source.html#l00037">wrimsv2.components.ControlData.currModelDataSet</a>, <a class="el" href="_control_data_8java_source.html#l00036">wrimsv2.components.ControlData.currStudyDataSet</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00031">wrimsv2.commondata.wresldata.Dvar.data</a>, <a class="el" href="_model_data_set_8java_source.html#l00112">wrimsv2.commondata.wresldata.ModelDataSet.dvarTimeArrayUsedByLaterCycle</a>, <a class="el" href="_model_data_set_8java_source.html#l00111">wrimsv2.commondata.wresldata.ModelDataSet.dvarUsedByLaterCycle</a>, <a class="el" href="_dss_operation_8java_source.html#l00490">wrimsv2.evaluator.DssOperation.entryNameTS()</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00064">wrimsv2.commondata.wresldata.Dvar.getData()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00169">wrimsv2.commondata.wresldata.StudyDataSet.getDvarTimeArrayCycleIndexList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00158">wrimsv2.commondata.wresldata.StudyDataSet.getVarCycleIndexList()</a>, <a class="el" href="_study_data_set_8java_source.html#l00141">wrimsv2.commondata.wresldata.StudyDataSet.getVarCycleIndexValueMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00129">wrimsv2.commondata.wresldata.StudyDataSet.getVarCycleValueMap()</a>, <a class="el" href="_study_data_set_8java_source.html#l00137">wrimsv2.commondata.wresldata.StudyDataSet.getVarTimeArrayCycleValueMap()</a>, <a class="el" href="_control_data_8java_source.html#l00095">wrimsv2.components.ControlData.lpsolve_objective</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00059">model</a>, <a class="el" href="_data_time_series_8java_source.html#l00019">wrimsv2.evaluator.DataTimeSeries.saveDataToTimeSeries()</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00060">wrimsv2.commondata.wresldata.Dvar.setData()</a>, <a class="el" href="_control_data_8java_source.html#l00100">wrimsv2.components.ControlData.showRunTimeMessage</a>, <a class="el" href="_model_data_set_8java_source.html#l00083">wrimsv2.commondata.wresldata.ModelDataSet.timeArrayDvList</a>, <a class="el" href="_control_data_8java_source.html#l00059">wrimsv2.components.ControlData.timeStep</a>, and <a class="el" href="_gurobi_solver_8java_source.html#l00060">varDoubleMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_gurobi_solver_8java_source.html#l00107">GurobiSolver()</a>, and <a class="el" href="_gurobi_solver_8java_source.html#l00117">solve()</a>.</p>
+
+</div>
+</div>
+<a id="ad5c603c5f6d95ca2aab664eb72327a01" name="ad5c603c5f6d95ca2aab664eb72327a01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5c603c5f6d95ca2aab664eb72327a01">&#9670;&#160;</a></span>checkStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.Gurobi.GurobiSolver.checkStatus </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> throws GRBException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00339">339</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_gurobi_solver_8java_source.html#l00059">model</a>.</p>
+
+</div>
+</div>
+<a id="a431d3594355814fb23abffcca097aeb0" name="a431d3594355814fb23abffcca097aeb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a431d3594355814fb23abffcca097aeb0">&#9670;&#160;</a></span>collectDvar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.Gurobi.GurobiSolver.collectDvar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwrimsv2_1_1solver_1_1_gurobi_1_1_lp_result.html">LpResult</a></td>          <td class="paramname"><span class="paramname"><em>lpResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00321">321</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_gurobi_solver_8java_source.html#l00060">varDoubleMap</a>, <a class="el" href="_lp_result_8java_source.html#l00007">wrimsv2.solver.Gurobi.LpResult.varNames</a>, and <a class="el" href="_lp_result_8java_source.html#l00008">wrimsv2.solver.Gurobi.LpResult.varValues</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_gurobi_solver_8java_source.html#l00117">solve()</a>.</p>
+
+</div>
+</div>
+<a id="a1a149b574a7294c9853b4a29a417c8b6" name="a1a149b574a7294c9853b4a29a417c8b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a149b574a7294c9853b4a29a417c8b6">&#9670;&#160;</a></span>dispose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.Gurobi.GurobiSolver.dispose </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00093">93</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_gurobi_solver_8java_source.html#l00058">env</a>, and <a class="el" href="_gurobi_solver_8java_source.html#l00059">model</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_close_current_solver_8java_source.html#l00007">wrimsv2.solver.CloseCurrentSolver.CloseCurrentSolver()</a>, <a class="el" href="_controller_8java_source.html#l00314">wrimsv2.components.Controller.runModelGurobi()</a>, <a class="el" href="_controller_batch_8java_source.html#l00903">wrimsv2.components.ControllerBatch.runModelGurobi()</a>, and <a class="el" href="_controller_batch_8java_source.html#l01118">wrimsv2.components.ControllerBatch.runModelGurobiTest()</a>.</p>
+
+</div>
+</div>
+<a id="ac1b0b1066828d45e4c3191639ede3b75" name="ac1b0b1066828d45e4c3191639ede3b75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1b0b1066828d45e4c3191639ede3b75">&#9670;&#160;</a></span>initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.Gurobi.GurobiSolver.initialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00064">64</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_gurobi_solver_8java_source.html#l00058">env</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_controller_8java_source.html#l00314">wrimsv2.components.Controller.runModelGurobi()</a>, <a class="el" href="_controller_batch_8java_source.html#l00903">wrimsv2.components.ControllerBatch.runModelGurobi()</a>, <a class="el" href="_controller_batch_8java_source.html#l01118">wrimsv2.components.ControllerBatch.runModelGurobiTest()</a>, <a class="el" href="_controller_debug_8java_source.html#l00223">wrimsv2.components.ControllerDebug.runModelSolvers()</a>, and <a class="el" href="_debug_interface_8java_source.html#l02393">wrimsv2.components.DebugInterface.setSolverOptions()</a>.</p>
+
+</div>
+</div>
+<a id="a496c239ef51d26d1aab4261318a58986" name="a496c239ef51d26d1aab4261318a58986"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a496c239ef51d26d1aab4261318a58986">&#9670;&#160;</a></span>Output()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.Gurobi.GurobiSolver.Output </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> throws GRBException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00403">403</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_control_data_8java_source.html#l00042">wrimsv2.components.ControlData.currDvMap</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00064">wrimsv2.commondata.wresldata.Dvar.getData()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, and <a class="el" href="_gurobi_solver_8java_source.html#l00059">model</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_gurobi_solver_8java_source.html#l00107">GurobiSolver()</a>.</p>
+
+</div>
+</div>
+<a id="a123941e722d3d20a23b26d366add9a2c" name="a123941e722d3d20a23b26d366add9a2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a123941e722d3d20a23b26d366add9a2c">&#9670;&#160;</a></span>setConstraints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.Gurobi.GurobiSolver.setConstraints </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> throws GRBException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00216">216</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_solver_data_8java_source.html#l00043">wrimsv2.commondata.solverdata.SolverData.getConstraintDataMap()</a>, <a class="el" href="_int_double_8java_source.html#l00027">wrimsv2.components.IntDouble.getData()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00015">wrimsv2.evaluator.EvalConstraint.getEvalExpression()</a>, <a class="el" href="_eval_expression_8java_source.html#l00032">wrimsv2.evaluator.EvalExpression.getMultiplier()</a>, <a class="el" href="_eval_constraint_8java_source.html#l00019">wrimsv2.evaluator.EvalConstraint.getSign()</a>, <a class="el" href="_eval_expression_8java_source.html#l00024">wrimsv2.evaluator.EvalExpression.getValue()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00059">model</a>, and <a class="el" href="_gurobi_solver_8java_source.html#l00062">varMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_gurobi_solver_8java_source.html#l00107">GurobiSolver()</a>.</p>
+
+</div>
+</div>
+<a id="af38b37f539b51f8ee0d9420c1936b3f3" name="af38b37f539b51f8ee0d9420c1936b3f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af38b37f539b51f8ee0d9420c1936b3f3">&#9670;&#160;</a></span>setDVars()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.Gurobi.GurobiSolver.setDVars </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> throws GRBException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00184">184</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_solver_data_8java_source.html#l00035">wrimsv2.commondata.solverdata.SolverData.getDvarMap()</a>, <a class="el" href="_solver_data_8java_source.html#l00019">wrimsv2.commondata.solverdata.SolverData.getWeightMap()</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00028">wrimsv2.commondata.wresldata.Dvar.lowerBoundValue</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00059">model</a>, <a class="el" href="wresldata_2_dvar_8java_source.html#l00027">wrimsv2.commondata.wresldata.Dvar.upperBoundValue</a>, and <a class="el" href="_gurobi_solver_8java_source.html#l00062">varMap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_gurobi_solver_8java_source.html#l00107">GurobiSolver()</a>.</p>
+
+</div>
+</div>
+<a id="a842f18f479167003ab732e5dc10849de" name="a842f18f479167003ab732e5dc10849de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a842f18f479167003ab732e5dc10849de">&#9670;&#160;</a></span>setLp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.Gurobi.GurobiSolver.setLp </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>CplexLpFilePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00078">78</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00214">wrimsv2.components.Error.addSolvingError()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00058">env</a>, and <a class="el" href="_gurobi_solver_8java_source.html#l00059">model</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_controller_8java_source.html#l00314">wrimsv2.components.Controller.runModelGurobi()</a>, <a class="el" href="_controller_batch_8java_source.html#l00903">wrimsv2.components.ControllerBatch.runModelGurobi()</a>, <a class="el" href="_controller_batch_8java_source.html#l01118">wrimsv2.components.ControllerBatch.runModelGurobiTest()</a>, and <a class="el" href="_controller_debug_8java_source.html#l00223">wrimsv2.components.ControllerDebug.runModelSolvers()</a>.</p>
+
+</div>
+</div>
+<a id="a09f740cc48f11dd7a13200066f91e0dc" name="a09f740cc48f11dd7a13200066f91e0dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09f740cc48f11dd7a13200066f91e0dc">&#9670;&#160;</a></span>solve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wrimsv2.solver.Gurobi.GurobiSolver.solve </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00117">117</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">References <a class="el" href="_error_8java_source.html#l00214">wrimsv2.components.Error.addSolvingError()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00250">assignDvar()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00321">collectDvar()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00058">env</a>, <a class="el" href="_control_data_8java_source.html#l00096">wrimsv2.components.ControlData.gurobi_objective</a>, <a class="el" href="_file_paths_8java_source.html#l00009">wrimsv2.components.FilePaths.mainDirectory</a>, and <a class="el" href="_gurobi_solver_8java_source.html#l00059">model</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_controller_8java_source.html#l00314">wrimsv2.components.Controller.runModelGurobi()</a>, <a class="el" href="_controller_batch_8java_source.html#l00903">wrimsv2.components.ControllerBatch.runModelGurobi()</a>, <a class="el" href="_controller_batch_8java_source.html#l01118">wrimsv2.components.ControllerBatch.runModelGurobiTest()</a>, and <a class="el" href="_controller_debug_8java_source.html#l00223">wrimsv2.components.ControllerDebug.runModelSolvers()</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a0e058152d35506e2da68ff967742f30c" name="a0e058152d35506e2da68ff967742f30c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e058152d35506e2da68ff967742f30c">&#9670;&#160;</a></span>env</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GRBEnv wrimsv2.solver.Gurobi.GurobiSolver.env</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00058">58</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_gurobi_solver_8java_source.html#l00093">dispose()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00064">initialize()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00078">setLp()</a>, and <a class="el" href="_gurobi_solver_8java_source.html#l00117">solve()</a>.</p>
+
+</div>
+</div>
+<a id="abf6cfc935703bb23333444c6acef96b9" name="abf6cfc935703bb23333444c6acef96b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf6cfc935703bb23333444c6acef96b9">&#9670;&#160;</a></span>model</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GRBModel wrimsv2.solver.Gurobi.GurobiSolver.model</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00059">59</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_gurobi_solver_8java_source.html#l00107">GurobiSolver()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00250">assignDvar()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00339">checkStatus()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00093">dispose()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00403">Output()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00216">setConstraints()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00184">setDVars()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00078">setLp()</a>, and <a class="el" href="_gurobi_solver_8java_source.html#l00117">solve()</a>.</p>
+
+</div>
+</div>
+<a id="a78bbc55ce9b7e6309af7ec09aa9caa70" name="a78bbc55ce9b7e6309af7ec09aa9caa70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78bbc55ce9b7e6309af7ec09aa9caa70">&#9670;&#160;</a></span>modelStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wrimsv2.solver.Gurobi.GurobiSolver.modelStatus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00057">57</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+</div>
+</div>
+<a id="a67747c26d9bbdcd1ac43295808c1954d" name="a67747c26d9bbdcd1ac43295808c1954d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67747c26d9bbdcd1ac43295808c1954d">&#9670;&#160;</a></span>varDoubleMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, Double&gt; wrimsv2.solver.Gurobi.GurobiSolver.varDoubleMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00060">60</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_gurobi_solver_8java_source.html#l00250">assignDvar()</a>, <a class="el" href="_gurobi_solver_8java_source.html#l00321">collectDvar()</a>, and <a class="el" href="_i_l_p_8java_source.html#l00992">wrimsv2.ilp.ILP.writeDvarValue_Gurobi()</a>.</p>
+
+</div>
+</div>
+<a id="a2859d2da0aa444b331aa2a2086ee7704" name="a2859d2da0aa444b331aa2a2086ee7704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2859d2da0aa444b331aa2a2086ee7704">&#9670;&#160;</a></span>varMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, GRBVar&gt; wrimsv2.solver.Gurobi.GurobiSolver.varMap = new HashMap &lt;String, GRBVar&gt; ()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_gurobi_solver_8java_source.html#l00062">62</a> of file <a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_gurobi_solver_8java_source.html#l00216">setConstraints()</a>, and <a class="el" href="_gurobi_solver_8java_source.html#l00184">setDVars()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>wrims-core/src/main/java/wrimsv2/solver/Gurobi/<b>GurobiSolver.java</b></li>
+<li>wrims-core/src/main/java/wrimsv2/solver/Gurobi/<a class="el" href="_gurobi_solver_8java_source.html">GurobiSolver.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -133,7 +634,7 @@ static Map&lt; String, Double &gt;&#160;</td><td class="memItemRight" valign="bo
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><b>solver</b></li><li class="navelem"><b>Gurobi</b></li><li class="navelem"><a href="classwrimsv2_1_1solver_1_1_gurobi_1_1_gurobi_solver.html">GurobiSolver</a></li>
+    <li class="navelem"><b>wrimsv2</b></li><li class="navelem"><a href="namespacewrimsv2_1_1solver.html">solver</a></li><li class="navelem"><a href="namespacewrimsv2_1_1solver_1_1_gurobi.html">Gurobi</a></li><li class="navelem"><a href="classwrimsv2_1_1solver_1_1_gurobi_1_1_gurobi_solver.html">GurobiSolver</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>
